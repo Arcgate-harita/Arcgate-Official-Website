@@ -1,0 +1,132 @@
+.clients-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.clients-container article {
+display: block;
+}
+
+.clients-section1{
+    background-image: url(../images/arcgate-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 74px 0;
+}
+
+
+.clients-content1 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.clients-content1 h1{
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    width: 70%;
+    margin-bottom: 38px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.clients-content1 p {
+    width: 80%;
+    font-size: 22px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    margin-bottom: 24px;
+    line-height: 1.18em;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.clients-section2{
+    background: #fff;
+    padding: 80px 0;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.clients-content2{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.clients-content2 h2{
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    text-align: center;
+    color: black;
+}
+
+.clients-content2 h3{
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.clients-div1{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-div1 .clients-body1{
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.clients-div1 .clients-body1 img{
+    margin-right: 20px;
+    width: 20px;
+}
+
+.clients-div1 .clients-body1 h6{
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.clients-div1 .clients-body2{
+    margin: 0 30px;
+    width: 150px;
+}
+
+.clients-div1 .clients-body2 img{
+    width: 100%;
+}
+
+.clients-div1 .clients-body3 {
+    border: 0 solid red;
+    max-width: 550px;
+    width: 100%;
+}
+
+.clients-div1 .clients-body3 p{
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: .02em;
+}
+
+.clients-div1 .clients-body3 p span{
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #f15e3a !important;
+}

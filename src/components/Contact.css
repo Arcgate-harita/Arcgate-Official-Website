@@ -1,0 +1,159 @@
+.contact-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.contact-section1{
+    background-image: url(../images//arcgate-bg.jpg);
+    padding: 40px 0;
+    background-size: cover;
+    color: #333;
+}
+
+.contact-content1{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.contact-content1 h1{
+    width: 53%;
+    margin-bottom: 34px;
+    font-size: 36px;
+    text-align: center;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+
+.contact-content1 p{
+    width: 80%;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-size: 22px;
+    margin-bottom: 24px;
+    line-height: 1.18em;
+}
+
+.contact-section2{
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.contact-content2{
+    position: relative;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.contact-div1 {
+    text-align: left;
+    margin: 0;
+    width: 50%;
+    position: relative;
+}
+
+.contact-div1 .contact-body1{
+
+}
+
+.contact-div1 .contact-body1 .relative{
+    position: relative;
+}
+
+.contact-div1 .contact-body1 img{
+    position: absolute;
+    top: -2px;
+    left: 3px;
+}
+
+.contact-div1 .contact-body1 input[type=text]{
+    width: 100%;
+    background-position: 2px 6px;
+    /* padding-left: 35px; */
+    max-width: 500px;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+    color: #e85631;
+    font-size: 16px;
+    padding: 39px;
+    /* margin: 20px 0; */
+    -webkit-appearance: none;
+    font-family: proximanovasemibold_0,Arial,Helvetica,sans-serif;
+}
+
+
+.contact-div1 .contact-body1 textarea {
+    width: 100%;
+    max-width: 500px;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+    color: #e85631;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-family: proximanovasemibold_0,Arial,Helvetica,sans-serif;
+    resize: none;
+    background-image: url(../images//textarea.png);
+    background-position: 2px 9px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-color: transparent;
+    height: 40px;
+}
+
+.submit-btn {
+    position: absolute;
+    z-index: 999;
+    background: #000000a8;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 20px;
+    bottom: 14px;
+}
+
+.contact-button-link {
+    display: none;
+}
+
+input[type=submit] {
+   width: 100%;
+    max-width: 200px;
+    border: 2px solid #e85631;
+    background: #e85631;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 15px 0;
+    font-family: proximanovasemibold_0,Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.contact-section2 .address {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+}
+
+.contact-section2 .address h4 {
+    font-size: 24px;
+    text-align: left;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: 35px;
+    color: #000;
+    font-weight: 400;
+    margin: 0 auto;
+}

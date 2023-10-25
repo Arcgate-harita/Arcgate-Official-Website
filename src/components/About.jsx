@@ -1,0 +1,526 @@
+import React from "react";
+import arcgateImage from "../images/arcgate-image.png";
+import "../components/About.css";
+import imagePaths from "../imagePath";
+
+const About = () => {
+  return (
+    <div className="about-container">
+      <article>
+        <section className="about-section1">
+          <div className="about-content">
+            <img src={arcgateImage}  alt=""></img>
+            <p></p>
+            <div className="about-div">
+              <h2>Hello</h2>
+              <p></p>
+              <p>We are Arcgate.</p>
+              <p>Dun & Bradstreet ranked us as the Best Small & Medium Enterprise in the IT & ITES sector in India.</p>
+              <p>We are a fast growing team of 2000+ highly skilled full-time analysts who have exclusively worked on multi-year engagements for a variety of market leading US customers.</p>
+              <p>We work from a highly secure, state-of-the-art 150,000 square feet delivery center with 24×7 operations.</p>
+              <p>We help some of the most innovative startups in the world with AI data preparation, data enrichment, search relevance, content moderation, application development and quality engineering. We believe that humans can augment machines to deliver smarter solutions.</p>
+              <p>We have worked with leading startups funded by investors like Andreessen Horowitz, Sequoia Capital, SoftBank, Founders Fund, Accel Partners, Battery Ventures and Khosla Ventures.</p>
+              <p></p>
+            </div>
+            <p></p>
+          </div>
+        </section>
+
+        <section className="about-section2">
+          <div className="about-list">
+            <div className="about-list1-item">
+              <ul>
+                <li>
+                  <h1>25</h1>
+                  <h6>Average age of our amazing Arcgatians</h6>
+                </li>
+                <li>
+                  <h1>75</h1>
+                  <h6>Startups accelerated</h6>
+                </li>
+                <li>
+                  <h1>2005</h1>
+                  <h6>Year when we were born</h6>
+                </li>
+                <li>
+                  <h1>6</h1>
+                  <h6>Unicorn clients</h6>
+                </li>
+              </ul>
+            </div>
+            <div className="about-list2-item">
+              <ul>
+                <li>
+                  <h1>24</h1>
+                  <h6>Arcgatians who have completed 10+ years</h6>
+                </li>
+                <li>
+                  <h1>450</h1>
+                  <h6>Women Arcgatians</h6>
+                </li>
+                <li>
+                  <h1>2000</h1>
+                  <h6>Arcgatians aboard so far</h6>
+                </li>
+              </ul>
+            </div>
+            <p></p>
+          </div>
+        </section>
+
+        <section className="about-section3">
+          <div className="about-content1">
+            <h1>Arcgate Delivery Center</h1>
+            <p></p>
+            <center>
+              <p></p>
+              <p>State-of-the-art, highly secure 150,000 square feet dedicated delivery center with 2000+ full-time employees. Take a peek into how we work, our people and our diverse culture. </p>
+              <p></p>
+            </center>
+            <p></p>
+            <div className="video-bloglist">
+              <div className="video-bloglist-content">
+                <div className="photos">
+                  <a href="">
+                    <img src={imagePaths.arcgateImage1}  alt="" />
+                  </a>
+                </div>
+                <p></p>
+              </div>
+              <div className="video-bloglist-content">
+                <div className="photos">
+                  <a href="">
+                    <img src={imagePaths.arcgateImage2}  alt="" />
+                  </a>
+                </div>
+                <p></p>
+              </div>
+              <div className="video-bloglist-content">
+                <div className="photos">
+                  <a href="">
+                    <img src={imagePaths.arcgateImage3}  alt="" />
+                  </a>
+                </div>
+                <p></p>
+              </div>
+              <p></p>
+            </div>
+            <div className="button-div">
+              <div className="btn-link">
+                <a href="">VEIW ALL</a>
+              </div>
+              <p></p>
+            </div>
+            <p></p>
+          </div>
+        </section>
+
+        <section className='about-section4'>
+                    <div className='arcgate-content'>
+                        <div className='video-content'>
+                            <h1>
+                                Get an inside peek into Arcgate
+                            </h1>
+                            <div className='video-list'>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
+                                            <div className='video-image'>
+                                            <img src={imagePaths.imageVideo3} />
+                                                <span className='btn-video'>
+                                                <img src={imagePaths.image18} />
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>CNBC-TV18 highlights the story of Arcgate in “The Leap Takers” show</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
+                                            <div className='video-image'>
+                                            <img src={imagePaths.imageVideo2} />
+                                                <span className='btn-video'>
+                                                <img src={imagePaths.image18} />
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>ET Now business News channel covers Arcgate in the “Emerging SME” series</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
+                                            <div className='video-image'>
+                                            <img src={imagePaths.imageVideo01} />
+                                                <span className='btn-video'>
+                                                <img src={imagePaths.image18} />
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>Hear our startup story from our founder</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section className="about-section5">
+          <div className="about-content3">
+            <h2>Awards & Recognitions</h2>
+            <div className="awards-container">
+              <div className="awards-content">
+                <div className="awards-body-row">
+                  <div className="heading1">2021</div>
+                  <h4>"UDAAN - DARE TO DREAM" Award</h4>
+                  <p>Kunal Bagla, Founder of Arcgate was honored by Zee Media for his contribution to the IT sector.</p>
+                </div>
+              </div>
+
+              <div className="awards-content">
+                <div className="awards-body-row leftnode">
+                  <div className="heading2">2019</div>
+                  <h4>SME Business Excellence Award</h4>
+                  <p>Dun & Bradstreet & RBL Bank Ltd. recognized Arcgate for growth in the IT & ITeS sector.</p>
+                </div>
+              </div>
+
+              <div className="awards-content">
+                <div className="awards-body-row">
+                  <div className="heading1">2018</div>
+                  <h4>Mewar Entrepreneur Award</h4>
+                  <p>Kunal Bagla, Founder of Arcgate was honored with the Mewar Entrepreneur Award by the Udaipur Chamber of Commerce & Industry (UCCI) and DCB Bank, for outstanding work in the field of Information Technology.</p>
+                </div>
+              </div>
+
+              <div className="awards-content">
+                <div className="awards-body-row leftnode">
+                  <div className="heading2">2017</div>
+                  <h4>Best Services Exporter (Small) in India</h4>
+                  <p>Arcgate won the ECGC Indian Exporters’ Excellence Award. ECGC is a premier export credit agency of the Government of India.</p>
+                </div>
+              </div>
+
+
+              <div className="awards-content">
+                <div className="awards-body-row leftnode">
+                  <h4>Diversified Staffing Achievement Award</h4>
+                  <p>ICICI Rural Self Employment Training Institute under the support of Ministry of Rural Development, Government of India awarded Arcgate.</p>
+                </div>
+              </div>
+
+
+              <div className="awards-content">
+                <div className="awards-body-row">
+                  <div className="heading1">2016</div>
+                  <h4>Most Promising Brands of Udaipur Award</h4>
+                  <p>Economic Times recognized Arcgate for outstanding growth, innovation and entrepreneurship.</p>
+                </div>
+              </div>
+
+              <div className="awards-content">
+                <div className="awards-body-row leftnode">
+                  <div className="heading2">2015</div>
+                  <h4>Best IT & ITES SME, India</h4>
+                  <p>Dun & Bradstreet and Karur Vysya Bank rated Arcgate as the best SME in the IT & ITES sector in India.</p>
+                </div>
+              </div>
+
+              <div className="awards-content">
+                <div className="awards-body-row">
+                  <div className="heading1">2014</div>
+                  <h4>Best Emerging SME in India</h4>
+                  <p>Dun & Bradstreet (D&B), Times Group and Federal Bank rated Arcgate as the best Emerging SME.</p>
+                  <div className="timeline-image">
+                  <img src={imagePaths.timelineImage1} />
+                  </div>
+                  <p></p>
+                </div>
+                <p></p>
+              </div>
+
+              <div className="awards-content-1">
+                <div className="awards-body-row leftnode">
+                  <div className="heading2">2013</div>
+                  <h4>Best Regional SME, North India</h4>
+                  <p>Dun & Bradstreet (D&B), the world’s leading provider of business information, knowledge and insight, rated Arcgate as the best Regional SME.</p>
+                </div>
+              </div>
+
+              <div className="awards-content-2">
+                <div className="awards-body-row leftnode">
+                  <h4>Best Young Entrepreneur in India</h4>
+                  <p>Dun & Bradstreet (D&B) rated Kunal Bagla, Founder of Arcgate, as the Best Young Entrepreneur.</p>
+                </div>
+              </div>
+
+              <div className="awards-content-3">
+                <div className="awards-body-row leftnode">
+                  <h4>Most Promising Young Entrepreneur</h4>
+                  <p>The Vigyan Samiti Udaipur honored Kunal Bagla for contribution to the growth of technology in the local region.</p>
+                  <div className="timeline-image">
+                  <img src={imagePaths.timelineImage2}  alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="awards-content-4">
+                <div className="awards-body-row">
+                  <div className="heading1">2012</div>
+                  <h4>Top 20 finalist for fastest growing SME’s</h4>
+                  <p>Vodafone ET Now Award</p>
+                  <div className="timeline-image">
+                  <img src={imagePaths.timelineImage3}  alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="awards-content-5">
+                <div className="awards-body-row leftnode">
+                  <div className="heading2">2011</div>
+                  <h4>Best performance in the IT & ITES</h4>
+                  <p>Dainik Bhaskar MSME Award Rajasthan sector</p>
+                </div>
+              </div>
+
+              <div className="awards-content-6">
+                <div className="awards-body-row leftnode">
+                  <h4>Best IT & ITES Micro Enterprise, India</h4>
+                  <p>Axis Bank</p>
+                </div>
+              </div>
+
+              <div className="awards-content-7">
+                <div className="awards-body-row leftnode">
+                  <h4>Top 20 finalist
+                  </h4>
+                  <p>IndiaMart Leaders of Tomorrow Awards</p>
+                </div>
+              </div>
+
+
+              <div className="awards-content-8">
+                <div className="awards-body-row">
+                  <h4>Member of the University of Texas</h4>
+                  <p>Information Systems Steering Committee.</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="start-year">2010</div>
+            <p></p>
+          </div>
+        </section>
+
+        <section className="about-section6">
+          <div className="about-content4" >
+            <h2>Experienced Leadership</h2>
+            <p></p>
+            <center>
+              <p></p>
+              <p>The Arcgate founding team believes in relentless execution, and has taken companies public, along with management experience at consulting firms like Deloitte.</p>
+              <p></p>
+            </center>
+            <p></p>
+            <div className="founder-container">
+              <div className="founder-content">
+              <img src={imagePaths.ceoImage}  alt="" />
+              </div>
+              <div className="founder-body">
+                <h5>Kunal Bagla</h5>
+                <h5 className="head-text">CEO</h5>
+                <ul>
+                  <li>Dun & Bradstreet (D&B) rated Kunal as <span>Best Young Entrepreneur in India.</span>
+                  </li>
+                  <li>Part of the management team at Deloitte Consulting, Houston prior to founding Arcgate.</li>
+                  <li>Member of The University of Texas MIS Steering Committee.</li>
+                  <li>Executive Council Member of Seva Mandir, one of India’s leading development nonprofit organizations.</li>
+                  <li>Confederation of Indian Industry (CII) Rajasthan State Council Member.</li>
+                  <li>BBA degree in Management Information Systems and Business Honors from The University of Texas at Austin.</li>
+                </ul>
+              </div>
+              <p></p>
+            </div>
+            <div className="founder-container" >
+              <div className="founder-content">
+              <img src={imagePaths.chairmenImage}  alt="" />
+              </div>
+              <div className="founder-body">
+                <h5>Dilip Bagla</h5>
+                <h5 className="head-text">Chairman</h5>
+                <ul>
+                  <li>
+                    <span>40+ years experience </span> leading publicly traded companies.
+                  </li>
+                  <li>Heads the offshore delivery center in India</li>
+                  <li>Track record of innovation and creating scalable, profitable companies.</li>
+                  <li>Experience taking companies from startup to <span>successful IPO.</span>
+                  </li>
+                </ul>
+              </div>
+              <p></p>
+            </div>
+            <p></p>
+          </div>
+        </section>
+
+        <section className="about-section7">
+          <div className="about-content5">
+            <h1>Why Arcgate</h1>
+            <p></p>
+            <center>
+              <p></p>
+              <p>Since 2005 we have helped accelerate more than 75 startups. That deep experience helps us understand the needs of high growth companies better than most outsourcing vendors.</p>
+              <p></p>
+            </center>
+            <p></p>
+            <div className="list-items">
+              <p>Trusted by industry leaders since 
+                <span>2005</span>
+              </p>
+
+              <p>ISO 9001:2015
+                <span>certified.</span>Stringent quality controls.
+              </p>
+              <p>
+                <span>SOC2 </span>security compliant. Fanatical data protection.
+              </p>
+              <p>
+                <span className="list-content">
+                <img src={imagePaths.image9}   alt=""/>
+                </span>
+                <span>Speed</span>
+                <br></br>
+                Realize measurable benefits in less than 30 days. Move faster by having a large dedicated outsourced team on your project.
+              </p>
+              <p>
+                <span className="list-content">
+                <img src={imagePaths.image10}  alt="" />
+                </span>
+                <span>Management</span>
+                <br></br>
+                Leverage Arcgate’s proven systems, technologies & methodologies to ensure a successful outsourcing engagement.
+              </p>
+              <p>
+                <span className="list-content">
+                <img src={imagePaths.image11}  alt="" />
+                </span>
+                <span>Cost</span>
+                <br></br>
+                We offer highly customized cost-effective solutions. Eliminate the costs associated with managing your own temporary workforce.
+              </p>
+              <p>
+                <span className="list-content">
+                <img src={imagePaths.image12}  alt="" />
+                </span>
+                <span>Infrastructure</span>
+                <br></br>
+                State-of-the-art, highly secure 150,000 square feet delivery center with 2000+ full-time employees; 24×7 operations.
+              </p>
+              <p>
+                <span className="list-content">
+                <img src={imagePaths.image13}  alt="" />
+                </span>
+                <span>Flexibility</span>
+                <br></br>
+                Work with a highly skilled dedicated team delivering customized solutions. Scale up and down as your needs change.
+              </p>
+              <p>
+                <span className="list-content">
+                <img src={imagePaths.image14}  alt=""/>
+                </span>
+                <span>Quality</span>
+                <br></br>
+                ISO9001:2015 certified firm with high emphasis on quality delivery. If the result is not acceptable, simply let us know and pay nothing.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="about-section8">
+          <div className="about-content6">
+            <div className="table-row">
+              <div className="table-cell">
+              <img src={imagePaths.foundationLogo} alt="" />
+              </div>
+              <div className="table-cell-info">
+                <h1>Arcgate Foundation</h1>
+                <p>The mission of the Arcgate Foundation is to help improve the local community by creating opportunities through programs in the areas of education, healthcare and rural development. A not-for-profit initiative aimed at improving the future, the Arcgate Foundation will work to support the less privileged sections of the society through various initiatives.</p>
+                <div className="table-button">
+                  <div className="table-button-link">
+                    <a href="">Our Work</a>
+                  </div>
+                </div>
+                <p></p>
+              </div>
+              <p></p>
+            </div>
+            <p></p>
+          </div>
+        </section>
+
+      </article>
+
+      <footer>
+                <section>
+                    <aside>
+                        <div className='footer-logo'>
+                            <a href=''></a>
+                        </div>
+                        <nav>
+                            <ul className='menu'>
+                                <li><a href='about'>ABOUT</a></li>
+                                <li><a href='bpo'>SERVICES</a></li>
+                                <li><a href='technology'>TECHNOLOGY</a></li>
+                                <li><a href='industries'>INDUSTRIES</a></li>
+                            </ul>
+
+                            <ul className='second-menu'>
+                                <li><a href='clients'>CLIENTS</a></li>
+                                <li><a href='careers'>CAREERS</a></li>
+                                <li><a href='contact'>CONTACT</a></li>
+                                <li><a href='blog'>BLOG</a></li>
+                            </ul>
+
+                            <ul className='second-menu'>
+                                <li><a href='terms-of-use'>TERMS OF USE</a></li>
+                                <li><a href='privacy-policy'>PRIVACY POLICY</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+
+                    <div className='footer-social hidden'>
+                        <a href='' target='_blank' className='fb-icon'></a>
+                        <a href='' target='_blank' className='twitter-icon'></a>
+                        <a href='' target='_blank' className='linkedin-icon'></a>
+                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
+                    </div>
+                    <div className='footer-social-links'>
+                        <ul>
+                            <li><a href='' target='_blank' className='fb-icon' ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href='' target='_blank' className='twitter-icon' ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li> <a href=''className='linkedin-icon'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href='' target='_blank' className='youtube-icon'><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href='' target='_blank' className='cloud-icon'><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
+                            <li><a href='' target='_blank' className='insta-icon'><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
+                    </div>
+                </section>
+            </footer>
+
+    </div>
+  );
+};
+
+export default About; 
