@@ -1,13 +1,14 @@
 import React from 'react'
 import "../src/body_container.css";
 import imagePaths from './imagePath';
+import { Link } from "react-router-dom";
+
 
 function BodyContainer() {
     return (
         <div className='body-container'>
             <article className='body-content'>
                 <section className='body-section'>
-                    {/* <img src={image}></img> */}
                     <div className='body-div'>
                         <h2>
                             We are a fast growing team of 2000+ people passionate about data and technology.
@@ -25,7 +26,7 @@ function BodyContainer() {
                                 Dun & Bradstreet rated Arcgate as the Best Mid-Sized Enterprise in the IT & ITES sector in India.
                             </p>
                             <p className='logo-image'>
-                            <img src={imagePaths.logoImage} />
+                                <img src={imagePaths.logoImage} alt='' />
                             </p>
                         </center>
                     </div>
@@ -47,70 +48,70 @@ function BodyContainer() {
                                 <h2>BPO</h2>
                                 <div className='row1'>
                                     <div className='data-process-type1'>
-                                        <a href='accounting_outsourcing'>
+                                        <Link to="/accounting_outsourcing">
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.bpoImage} />
+                                                <img src={imagePaths.bpoImage} alt='' />
                                             </span>
                                             <span className='data-process-text'>
                                                 Accounting Outsourcing
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
 
                                     <div className='data-process-type1'>
-                                        <a href='accounting_outsourcing'>
+                                        <Link to='/ai-data-preparation'>
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.image1} />
+                                                <img src={imagePaths.image1} alt='' />
                                             </span>
                                             <span className='data-process-text'>
                                                 AI Data Preparation
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
 
                                     <div className='data-process-type1'>
-                                        <a href='accounting_outsourcing'>
+                                        <Link to='/data-solution'>
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.image2} />
+                                                <img src={imagePaths.image2} alt='' />
                                             </span>
                                             <span className='data-process-text'>
                                                 Data Solutions
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className='row2'>
                                     <div className='data-process-type1'>
-                                        <a href='accounting_outsourcing'>
+                                        <a href='/customer-onboarding-support'>
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.image3} />
+                                                <img src={imagePaths.image3} alt='' />
                                             </span>
                                             <span className='data-process-text'>
-                                                Coustomer Onboarding & support
+                                                customer Onboarding & support
                                             </span>
                                         </a>
                                     </div>
 
                                     <div className='data-process-type1'>
-                                        <a href='accounting_outsourcing'>
+                                        <Link to='/order-management'>
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.image4} />
+                                                <img src={imagePaths.image4} alt='' />
                                             </span>
                                             <span className='data-process-text'>
                                                 Order Management
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
 
                                     <div className='data-process-type1'>
-                                        <a href='accounting_outsourcing'>
+                                        <Link to='/transcription'>
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.image5} />
+                                                <img src={imagePaths.image5} alt='' />
                                             </span>
                                             <span className='data-process-text'>
                                                 Transcription
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -122,36 +123,36 @@ function BodyContainer() {
                                 <h2>Technology</h2>
                                 <div className='row1'>
                                     <div className='data-process-type2'>
-                                        <a href='accounting_outsourcing'>
+                                        <Link to='application-development'>
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.image6} />
+                                                <img src={imagePaths.image6} alt='' />
                                             </span>
                                             <span className='data-process-text'>
                                                 Application Development
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
 
                                     <div className='data-process-type2'>
-                                        <a href='accounting_outsourcing'>
+                                        <Link to='quality-assurance-testing'>
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.image7} />
+                                                <img src={imagePaths.image7} alt='' />
                                             </span>
                                             <span className='data-process-text'>
                                                 Quality Assurance & Testing
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
 
                                     <div className='data-process-type2'>
-                                        <a href='accounting_outsourcing'>
+                                        <Link to='team-augmentation'>
                                             <span className='data-process-image'>
-                                            <img src={imagePaths.image8} />
+                                                <img src={imagePaths.image8} alt='' />
                                             </span>
                                             <span className='data-process-text'>
                                                 Team Augmentation
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -172,9 +173,9 @@ function BodyContainer() {
                                     <div className='video-body'>
                                         <a href=''>
                                             <div className='video-image'>
-                                            <img src={imagePaths.imageVideo1} />
+                                                <img src={imagePaths.imageVideo1} alt='' />
                                                 <span className='btn-video'>
-                                                <img src={imagePaths.image18} />
+                                                    <img src={imagePaths.image18} alt='' />
                                                 </span>
                                             </div>
                                         </a>
@@ -187,9 +188,9 @@ function BodyContainer() {
                                     <div className='video-body'>
                                         <a href=''>
                                             <div className='video-image'>
-                                            <img src={imagePaths.imageVideo2} />
+                                                <img src={imagePaths.imageVideo2} alt='' />
                                                 <span className='btn-video'>
-                                                <img src={imagePaths.image18} />
+                                                    <img src={imagePaths.image18} alt='' />
                                                 </span>
                                             </div>
                                         </a>
@@ -202,9 +203,9 @@ function BodyContainer() {
                                     <div className='video-body'>
                                         <a href=''>
                                             <div className='video-image'>
-                                            <img src={imagePaths.imageVideo3} />
+                                                <img src={imagePaths.imageVideo3} alt='' />
                                                 <span className='btn-video'>
-                                                <img src={imagePaths.image18} />
+                                                    <img src={imagePaths.image18} alt='' />
                                                 </span>
                                             </div>
                                         </a>
@@ -231,37 +232,37 @@ function BodyContainer() {
                         </center>
                         <div className='why-arcgate'>
                             <p>
-                            <img src={imagePaths.image9} />
+                                <img src={imagePaths.image9} alt='' />
                                 <br></br>
                                 <span>Speed</span>
                             </p>
 
                             <p>
-                            <img src={imagePaths.image10} />
+                                <img src={imagePaths.image10} alt='' />
                                 <br></br>
                                 <span>Management</span>
                             </p>
 
                             <p>
-                            <img src={imagePaths.image11} />
+                                <img src={imagePaths.image11} alt='' />
                                 <br></br>
                                 <span>Cost</span>
                             </p>
 
                             <p>
-                            <img src={imagePaths.image12} />
+                                <img src={imagePaths.image12} alt='' />
                                 <br></br>
                                 <span>Infrastructure</span>
                             </p>
 
                             <p>
-                            <img src={imagePaths.image13} />
+                                <img src={imagePaths.image13} alt='' />
                                 <br></br>
                                 <span>Fexibility</span>
                             </p>
 
                             <p>
-                            <img src={imagePaths.image14} />
+                                <img src={imagePaths.image14} alt='' />
                                 <br></br>
                                 <span>Quality</span>
                             </p>
@@ -290,9 +291,9 @@ function BodyContainer() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                    <img src={imagePaths.image15} />
+                                                        <img src={imagePaths.image15} alt='' />
                                                         <span className='btn-play'>
-                                                        <img src={imagePaths.image18} />
+                                                            <img src={imagePaths.image18} alt='' />
                                                         </span>
                                                     </div>
                                                 </a>
@@ -302,9 +303,9 @@ function BodyContainer() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                    <img src={imagePaths.image16} />
+                                                        <img src={imagePaths.image16} alt='' />
                                                         <span className='btn-play'>
-                                                        <img src={imagePaths.image18} />
+                                                            <img src={imagePaths.image18} alt='' />
                                                         </span>
                                                     </div>
                                                 </a>
@@ -314,9 +315,9 @@ function BodyContainer() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                    <img src={imagePaths.image17} />
+                                                        <img src={imagePaths.image17} alt='' />
                                                         <span className='btn-play'>
-                                                        <img src={imagePaths.image18} />
+                                                            <img src={imagePaths.image18} alt='' />
                                                         </span>
                                                     </div>
                                                 </a>
@@ -346,7 +347,7 @@ function BodyContainer() {
                                 <div className='blog-content'>
                                     <a href=''>
                                         <div className='blog-div'>
-                                        <img src={imagePaths.imageBlog1} />
+                                            <img src={imagePaths.imageBlog1} alt='' />
                                         </div>
                                         <div className='thumb-blog'>
                                             <p>Retail in India and Future Trends</p>
@@ -358,7 +359,7 @@ function BodyContainer() {
                                 <div className='blog-content'>
                                     <a href=''>
                                         <div className='blog-div'>
-                                        <img src={imagePaths.imageBlog2} />
+                                            <img src={imagePaths.imageBlog2} alt='' />
                                         </div>
                                         <div className='thumb-blog'>
                                             <p>
@@ -371,7 +372,7 @@ function BodyContainer() {
                                 <div className='blog-content'>
                                     <a href=''>
                                         <div className='blog-div'>
-                                        <img src={imagePaths.imageBlog3} />
+                                            <img src={imagePaths.imageBlog3} alt='' />
                                         </div>
                                         <div className='thumb-blog'>
                                             <p>
@@ -449,53 +450,6 @@ function BodyContainer() {
             </article>
 
 
-            <footer>
-                <section>
-                    <aside>
-                        <div className='footer-logo'>
-                            <a href=''></a>
-                        </div>
-                        <nav>
-                            <ul className='menu'>
-                                <li><a href='about'>ABOUT</a></li>
-                                <li><a href='bpo'>SERVICES</a></li>
-                                <li><a href='technology'>TECHNOLOGY</a></li>
-                                <li><a href='industries'>INDUSTRIES</a></li>
-                            </ul>
-
-                            <ul className='second-menu'>
-                                <li><a href='clients'>CLIENTS</a></li>
-                                <li><a href='careers'>CAREERS</a></li>
-                                <li><a href='contact'>CONTACT</a></li>
-                                <li><a href='blog'>BLOG</a></li>
-                            </ul>
-
-                            <ul className='second-menu'>
-                                <li><a href='terms-of-use'>TERMS OF USE</a></li>
-                                <li><a href='privacy-policy'>PRIVACY POLICY</a></li>
-                            </ul>
-                        </nav>
-                    </aside>
-
-                    <div className='footer-social hidden'>
-                        <a href='' target='_blank' className='fb-icon'></a>
-                        <a href='' target='_blank' className='twitter-icon'></a>
-                        <a href='' target='_blank' className='linkedin-icon'></a>
-                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
-                    </div>
-                    <div className='footer-social-links'>
-                        <ul>
-                            <li><a href='' target='_blank' className='fb-icon' ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='twitter-icon' ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li> <a href=''className='linkedin-icon'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='youtube-icon'><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='cloud-icon'><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='insta-icon'><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
-                    </div>
-                </section>
-            </footer>
 
         </div>
     )

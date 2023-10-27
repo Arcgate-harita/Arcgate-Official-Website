@@ -130,7 +130,6 @@
   margin-bottom: 45px;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   line-height: 1.08em;
-  /* margin: 0 auto; */
   text-align: center;
   font-weight: 400;
 }
@@ -189,8 +188,6 @@
   text-align: center;
   max-width: 1000px;
   width: 100%;
-  /* display: flex;
-    margin-top: 20px; */
 }
 
 .data-process1 h2 {
@@ -198,7 +195,6 @@
   margin-bottom: 45px;
   line-height: 1.08em;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-  /* margin: 0 auto; */
   text-align: center;
   font-weight: 400;
 }
@@ -264,7 +260,7 @@
   max-width: 1050px;
 }
 
-.video-content h1{
+.video-content h1 {
   text-align: center;
   font-size: 36px;
   font-weight: 400;
@@ -283,7 +279,7 @@
   max-width: 340px;
 }
 
-.video-list .video-div .video-body{
+.video-list .video-div .video-body {
   position: relative;
   overflow: hidden;
   max-height: 100%;
@@ -307,14 +303,14 @@
 }
 
 .video-div .video-image .btn-video img {
-    width: 24px;
-    height: 22px;
-    position: absolute;
-    top: 31%;
-    left: 43%;
-    background-color: rgba(249, 99, 50, .9);
-    border-radius: 33px;
-    padding: 12px;
+  width: 24px;
+  height: 22px;
+  position: absolute;
+  top: 31%;
+  left: 43%;
+  background-color: rgba(249, 99, 50, .9);
+  border-radius: 33px;
+  padding: 12px;
 }
 
 .video-text {
@@ -672,7 +668,7 @@
   margin: 0 auto;
 }
 
-.body-section9-div{
+.body-section9-div {
   text-align: center;
   margin-bottom: 34px;
   margin-right: -15px;
@@ -702,17 +698,15 @@
 
 .podcast {
   /* margin-top: 136px; */
-    display: flex;
-    gap: 35px;
+  display: flex;
+  gap: 35px;
 }
 
 .frame-content .frame-div {
-max-height: initial;
-/* box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .35); */
-width: 100%;
-/* overflow: hidden; */
-background: #fff;
-margin: 20px 0 0;
+  max-height: initial;
+  width: 100%;
+  background: #fff;
+  margin: 20px 0 0;
 }
 
 .frame-body {
@@ -720,26 +714,26 @@ margin: 20px 0 0;
   position: relative;
   min-height: 85px;
   width: 100%;
-    height: 14%;
-    margin: 0 0% 0;
-    bottom: 0;
-    left: 0;
-    content: '';
-    transition: height .4s;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  height: 14%;
+  margin: 0 0% 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  transition: height .4s;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .frame-body:hover {
-color: black;
-background-color: white;
+  color: black;
+  background-color: white;
 }
 
-.frame-body a{
+.frame-body a {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -749,16 +743,16 @@ background-color: white;
   outline: none;
 }
 
-.frame-body p{
+.frame-body p {
   text-align: left;
   padding: 10px;
   color: #333;
   font-size: 15px;
-    line-height: 18px;
-    clear: both;
-    display: inline-block;
-    font-weight: 400;
-    margin: 0;
+  line-height: 18px;
+  clear: both;
+  display: inline-block;
+  font-weight: 400;
+  margin: 0;
 }
 
 .body-section10 {
@@ -767,19 +761,19 @@ background-color: white;
   display: block;
 }
 
-.body-section10-div{
+.body-section10-div {
   width: 100%;
   max-width: 1050px;
   margin: 0 auto;
 }
 
-.body-section10-div h2{
+.body-section10-div h2 {
   padding-bottom: 20px;
   font-size: 36px;
   color: #373435;
   text-align: center;
-    font-weight: 400;
-    margin: 0 auto;
+  font-weight: 400;
+  margin: 0 auto;
 }
 
 .tweet-content {
@@ -787,35 +781,32 @@ background-color: white;
   margin-bottom: 34px;
 }
 
-.tweet-content .tweet-div{
+.tweet-content .tweet-div {
   display: none;
   min-height: 280px;
-}
-
-.tweet-div img{
-
 }
 
 .tweet-body {
   text-align: center;
 }
 
-.tweet-text{
+.tweet-text {
   color: #e85631;
   display: inline-block;
 }
 
 .tweet-text:hover {
-color: white;
-background-color: #3953a4;
-border-radius: 10px;
+  color: white;
+  background-color: #3953a4;
+  border-radius: 10px;
 }
 
 .tweet-text a:hover {
   color: white;
   border-radius: 10px;
 }
-.tweet-text a{
+
+.tweet-text a {
   border-color: #3953a4;
   color: #3953a4;
   font-size: 24px;
@@ -825,334 +816,4 @@ border-radius: 10px;
   min-width: 170px;
   border-radius: 10px;
   border: 3px solid #3953a4;
-}
-
-footer {
-    background-color: #e85631;
-    position: relative;
-    z-index: 1;
-    display: block;
-}
-
-footer section{
-  width: 100%;
-  max-width: 1150px;
-  padding: 40px 10px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
-
-footer section aside {
-float: left;
-display: block;
-}
-
-.footer-logo {
-  width: 155px;
-  height: 28px;
-  background-image: url(./images/arcgate-footer.svg);
-  background-size: 100% auto;
-  top: 0;
-  margin-right: 50px;
-}
-
-.footer-logo a{
-  display: inherit;
-  width: inherit;
-  height: inherit;
-}
-
-footer section nav {
-  float: left;
-}
-
-footer section nav ul{
-  list-style: none;
-  display: grid;
-  position: relative;
-  top: -56px;
-  float: left;
-  left: 119px;
-}
-
-footer section nav ul li {
-  padding-bottom: 4px;
-}
-
-footer section nav ul li a {
-  font-size: 14px;
-  color: #fff;
-}
-
-footer section nav ul .second-menu {
-  margin-left: 80px;
-}
-
-footer section nav ul .second-menu li {
-  padding-bottom: 4px;
-}
-
-footer section nav ul .second-menu li a {
-  font-size: 14px;
-  color: #fff;
-}
-
-.footer-social{
-  position: absolute;
-  top: 10px;
-  height: 136px;
-  right: 0;
-  width: 290px;
-}
-
-.hidden {
-  display: none;
-}
-
-.footer-social a {
-
-}
-
-/* .footer-social a .fb-icon{
-  background-image: url(./images//footer-social.png);
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: 275px 50px;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  position: absolute;
-  top: 29px;
-  left: 0;
-  transition: .25s linear;
-}
-
-
-.footer-social a .twitter-icon{
-  background-position: -75px 0;
-  left: 72px;
-
-  background-image: url(./images//footer-social.png);
-  background-repeat: no-repeat;
-  background-size: 275px 50px;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  position: absolute;
-  top: 29px;
-  transition: .25s linear;
-}
-
-
-
-.footer-social a .linkedin-icon{
-  background-position: -150px 0;
-  left: 142px;
-  background-image: url(./images//footer-social.png);
-  background-repeat: no-repeat;
-  background-size: 275px 50px;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  position: absolute;
-  top: 29px;
-  transition: .25s linear;
-} */
-
-.footer-social p{
-  font-size: 14px;
-  color: #fff;
-  position: relative;
-  left: 0;
-}
-
-.footer-social p a{
-  color: #fff;
-}
-
-.footer-social p .copyright{
-  top: 95px;
-}
-
-
-.footer-social-links {
-  position: absolute;
-  top: 30px;
-  height: 136px;
-  right: 0;
-  width: 360px;
-}
-
-.footer-social-links li {
-  display: inline-block;
-  margin-bottom: 10px;
-  width: 45px;
-}
-
-.footer-social-links li a {
-
-}
-
-.footer-social-links li .fb-icon {
- 
-  /* background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: 293px 38px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  left: 0;
-  transition: .25s linear;
-  margin-right: auto; */
-}
-
-.footer-social-links li .fb-icon .fa {
-  border-radius: 37px;
-  background: white;
-  padding: 12px;
-  color: orangered;
-}
-
-.footer-social-links li .twitter-icon .fa {
-  border-radius: 37px;
-  background: white;
-  padding: 12px;
-  color: orangered;
-}
-
-.footer-social-links li .cloud-icon .fa {
-  border-radius: 37px;
-  background: white;
-  padding: 12px;
-  color: orangered;
-}
-
-.footer-social-links li .insta-icon .fa {
-  border-radius: 37px;
-  background: white;
-  padding: 12px;
-  color: orangered;
-}
-
-.footer-social-links li .youtube-icon .fa {
-  border-radius: 37px;
-  background: white;
-  padding: 12px;
-  color: orangered;
-}
-
-.footer-social-links li .linkedin-icon .fa {
-  border-radius: 37px;
-  background: white;
-  padding: 12px;
-  color: orangered;
-}
-
-.footer-social-links li .twitter-icon .fa {
-  border-radius: 37px;
-  background: white;
-  padding: 12px;
-  color: orangered;
-}
-/* .footer-social-links li .twitter-icon {
-  
-  background-repeat: no-repeat;
-  background-size: 293px 38px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  left: 0;
-  transition: .25s linear;
-  margin-right: auto;
-}
-
-.footer-social-links li  .linkedin-icon {
-
-  background-repeat: no-repeat;
-  background-size: 293px 38px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  left: 0;
-  transition: .25s linear;
-  margin-right: auto;
-}
-
-.footer-social-links li .youtube-icon {
-
-  background-repeat: no-repeat;
-  background-size: 293px 38px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  left: 0;
-  transition: .25s linear;
-  margin-right: auto;
-}
-
-.footer-social-links li  .insta-icon {
-
-  background-repeat: no-repeat;
-  background-size: 293px 38px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  left: 0;
-  transition: .25s linear;
-  margin-right: auto;
-}
-
-.footer-social-links li .cloud-icon {
- 
-  background-repeat: no-repeat;
-  background-size: 293px 38px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  left: 0;
-  transition: .25s linear;
-  margin-right: auto;
-} */
-
-.footer-social-links li p .copyright {
-  background-image: url(./images/footer-social.png);
-  /* background-position: 0 0; */
-  background-repeat: no-repeat;
-  background-size: 293px 38px;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  position: relative;
-  top: 5px;
-  left: 0;
-  transition: .25s linear;
-  margin-right: auto;
-}
-
-.footer-social-links p {
-  font-size: 14px;
-  color: #fff;
-  position: relative;
-  left: 0;
-}
-
-.footer-social-links p .copyright {
-  top: 25px;
-}
-
-.footer-social-links p a {
-  color: #fff;
 }

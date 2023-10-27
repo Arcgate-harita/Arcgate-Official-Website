@@ -1,0 +1,192 @@
+footer {
+  background-color: #e85631;
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+footer section {
+  width: 100%;
+  max-width: 1150px;
+  padding: 40px 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+footer section aside {
+  float: left;
+  display: block;
+}
+
+.footer-logo {
+  width: 155px;
+  height: 28px;
+  background-image: url(./images/arcgate-footer.svg);
+  background-size: 100% auto;
+  top: 0;
+  margin-right: 50px;
+}
+
+.footer-logo a {
+  display: inherit;
+  width: inherit;
+  height: inherit;
+}
+
+footer section nav {
+  float: left;
+}
+
+footer section nav ul {
+  list-style: none;
+  display: grid;
+  position: relative;
+  top: -56px;
+  float: left;
+  left: 119px;
+}
+
+footer section nav ul li {
+  padding-bottom: 4px;
+}
+
+footer section nav ul li a {
+  font-size: 14px;
+  color: #fff;
+}
+
+footer section nav ul .second-menu {
+  margin-left: 80px;
+}
+
+footer section nav ul .second-menu li {
+  padding-bottom: 4px;
+}
+
+footer section nav ul .second-menu li a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-social {
+  position: absolute;
+  top: 10px;
+  height: 136px;
+  right: 0;
+  width: 290px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.footer-social p {
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  left: 0;
+}
+
+.footer-social p a {
+  color: #fff;
+}
+
+.footer-social p .copyright {
+  top: 95px;
+}
+
+
+.footer-social-links {
+  position: absolute;
+  top: 30px;
+  height: 136px;
+  right: 0;
+  width: 360px;
+}
+
+.footer-social-links li {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 45px;
+}
+
+.footer-social-links li .fb-icon .fa {
+  border-radius: 37px;
+  background: white;
+  padding: 12px;
+  color: orangered;
+}
+
+.footer-social-links li .twitter-icon .fa {
+  border-radius: 37px;
+  background: white;
+  padding: 12px;
+  color: orangered;
+}
+
+.footer-social-links li .cloud-icon .fa {
+  border-radius: 37px;
+  background: white;
+  padding: 12px;
+  color: orangered;
+}
+
+.footer-social-links li .insta-icon .fa {
+  border-radius: 37px;
+  background: white;
+  padding: 12px;
+  color: orangered;
+}
+
+.footer-social-links li .youtube-icon .fa {
+  border-radius: 37px;
+  background: white;
+  padding: 12px;
+  color: orangered;
+}
+
+.footer-social-links li .linkedin-icon .fa {
+  border-radius: 37px;
+  background: white;
+  padding: 12px;
+  color: orangered;
+}
+
+.footer-social-links li .twitter-icon .fa {
+  border-radius: 37px;
+  background: white;
+  padding: 12px;
+  color: orangered;
+}
+
+
+.footer-social-links li p .copyright {
+  background-image: url(./images/footer-social.png);
+  background-repeat: no-repeat;
+  background-size: 293px 38px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 0;
+  transition: .25s linear;
+  margin-right: auto;
+}
+
+.footer-social-links p {
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  left: 0;
+}
+
+.footer-social-links p .copyright {
+  top: 25px;
+}
+
+.footer-social-links p a {
+  color: #fff;
+}

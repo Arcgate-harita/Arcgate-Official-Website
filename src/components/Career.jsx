@@ -52,11 +52,11 @@ function Career() {
                             <div className='video-list'>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href=''>
+                                        <a href="#">
                                             <div className='video-image'>
-                                                <img src={imagePaths.imageVideo2} />
+                                                <img src={imagePaths.imageVideo2} alt='' />
                                                 <span className='btn-video'>
-                                                    <img src={imagePaths.image18} />
+                                                    <img src={imagePaths.image18} alt='' />
                                                 </span>
                                             </div>
                                         </a>
@@ -67,11 +67,11 @@ function Career() {
                                 </div>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href=''>
+                                        <a href='#'>
                                             <div className='video-image'>
-                                                <img src={imagePaths.imageVideo3} />
+                                                <img src={imagePaths.imageVideo3} alt='' />
                                                 <span className='btn-video'>
-                                                    <img src={imagePaths.image18} />
+                                                    <img src={imagePaths.image18} alt='' />
                                                 </span>
                                             </div>
                                         </a>
@@ -82,11 +82,11 @@ function Career() {
                                 </div>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href=''>
+                                        <a href='#'>
                                             <div className='video-image'>
-                                                <img src={imagePaths.imageVideo01} />
+                                                <img src={imagePaths.imageVideo01} alt='' />
                                                 <span className='btn-video'>
-                                                    <img src={imagePaths.image18} />
+                                                    <img src={imagePaths.image18} alt='' />
                                                 </span>
                                             </div>
                                         </a>
@@ -119,9 +119,9 @@ function Career() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                        <img src={imagePaths.videoImage1} />
+                                                        <img src={imagePaths.videoImage1} alt='' />
                                                         <span className='btn-play'>
-                                                            <img src={imagePaths.image18} />
+                                                            <img src={imagePaths.image18} alt='' />
                                                         </span>
                                                     </div>
                                                 </a>
@@ -131,9 +131,9 @@ function Career() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                        <img src={imagePaths.videoImage2} />
+                                                        <img src={imagePaths.videoImage2} alt='' />
                                                         <span className='btn-play'>
-                                                            <img src={imagePaths.image18} />
+                                                            <img src={imagePaths.image18} alt='' />
                                                         </span>
                                                     </div>
                                                 </a>
@@ -143,9 +143,9 @@ function Career() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                        <img src={imagePaths.videoImage3} />
+                                                        <img src={imagePaths.videoImage3} alt='' />
                                                         <span className='btn-play'>
-                                                            <img src={imagePaths.image18} />
+                                                            <img src={imagePaths.image18} alt='' />
                                                         </span>
                                                     </div>
                                                 </a>
@@ -167,113 +167,65 @@ function Career() {
                 <section className='career-section5'>
                     <div className='career-content5'>
                         <div className='career-div4'>
-                         <h1>Current Job Openings</h1>
-                         <div className='job-info'>
-                            <div className='vacancy-container'>
-                                <div className='career-body4'>
-                                    <h4>BPO</h4>
-                                    <ul>
-                                        <li>
-                                            <a href='career/research-analyst'>Research Analyst</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/quality-analyst'>Quality Analyst</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/accounts-executive'>Accounts Executive</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/senior-accounts-executive'>Senior Accounts Executive</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/non-voice-customer-support'>N0n-Voice Customer Support</a>
-                                        </li>
-                                    </ul>
+                            <h1>Current Job Openings</h1>
+                            <div className='job-info'>
+                                <div className='vacancy-container'>
+                                    <div className='career-body4'>
+                                        <h4>BPO</h4>
+                                        <ul>
+                                            <li>
+                                                <a href='career/research-analyst'>Research Analyst</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/quality-analyst'>Quality Analyst</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/accounts-executive'>Accounts Executive</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/senior-accounts-executive'>Senior Accounts Executive</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/non-voice-customer-support'>N0n-Voice Customer Support</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className='career-body5'>
+                                        <h4>Technology</h4>
+                                        <ul>
+                                            <li>
+                                                <a href='career/python-database'>Python with Database</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/java-database'>Java Database</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/dotnet-developers'>.Net Developer</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/software-testing-automation'>Software QA Testing - Automation</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/devops-engineer'>DevOps Engineer</a>
+                                            </li>
+                                            <li>
+                                                <a href='career/power-bi-engineer'>Power BI Engineer</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p></p>
                                 </div>
-                                <div className='career-body5'>
-                                    <h4>Technology</h4>
-                                    <ul>
-                                        <li>
-                                            <a href='career/python-database'>Python with Database</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/java-database'>Java Database</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/dotnet-developers'>.Net Developer</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/software-testing-automation'>Software QA Testing - Automation</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/devops-engineer'>DevOps Engineer</a>
-                                        </li>
-                                        <li>
-                                            <a href='career/power-bi-engineer'>Power BI Engineer</a>
-                                        </li>
-                                    </ul>
+                                <div className='career-button-div'>
+                                    <div className='career-button-link'>
+                                        <a href='join'>APPLY</a>
+                                    </div>
                                 </div>
-                                <p></p>
                             </div>
-                            <div className='career-button-div'>
-                                <div className='career-button-link'>
-                                    <a href='join'>APPLY</a>    
-                                        </div>
-                            </div>
-                         </div>
                         </div>
                     </div>
                 </section>
 
             </article>
-            <footer>
-                <section>
-                    <aside>
-                        <div className='footer-logo'>
-                            <a href=''></a>
-                        </div>
-                        <nav>
-                            <ul className='menu'>
-                                <li><a href='about'>ABOUT</a></li>
-                                <li><a href='bpo'>SERVICES</a></li>
-                                <li><a href='technology'>TECHNOLOGY</a></li>
-                                <li><a href='industries'>INDUSTRIES</a></li>
-                            </ul>
-
-                            <ul className='second-menu'>
-                                <li><a href='clients'>CLIENTS</a></li>
-                                <li><a href='careers'>CAREERS</a></li>
-                                <li><a href='contact'>CONTACT</a></li>
-                                <li><a href='blog'>BLOG</a></li>
-                            </ul>
-
-                            <ul className='second-menu'>
-                                <li><a href='terms-of-use'>TERMS OF USE</a></li>
-                                <li><a href='privacy-policy'>PRIVACY POLICY</a></li>
-                            </ul>
-                        </nav>
-                    </aside>
-
-                    <div className='footer-social hidden'>
-                        <a href='' target='_blank' className='fb-icon'></a>
-                        <a href='' target='_blank' className='twitter-icon'></a>
-                        <a href='' target='_blank' className='linkedin-icon'></a>
-
-                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
-                    </div>
-                    <div className='footer-social-links'>
-                        <ul>
-                            <li><a href='' target='_blank' className='fb-icon' ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='twitter-icon' ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li> <a href='' className='linkedin-icon'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='youtube-icon'><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='cloud-icon'><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='insta-icon'><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
-                    </div>
-                </section>
-            </footer>
         </div>
     )
 }

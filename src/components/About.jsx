@@ -9,7 +9,7 @@ const About = () => {
       <article>
         <section className="about-section1">
           <div className="about-content">
-            <img src={arcgateImage}  alt=""></img>
+            <img src={arcgateImage} alt=""></img>
             <p></p>
             <div className="about-div">
               <h2>Hello</h2>
@@ -82,7 +82,7 @@ const About = () => {
               <div className="video-bloglist-content">
                 <div className="photos">
                   <a href="">
-                    <img src={imagePaths.arcgateImage1}  alt="" />
+                    <img src={imagePaths.arcgateImage1} alt="" />
                   </a>
                 </div>
                 <p></p>
@@ -90,7 +90,7 @@ const About = () => {
               <div className="video-bloglist-content">
                 <div className="photos">
                   <a href="">
-                    <img src={imagePaths.arcgateImage2}  alt="" />
+                    <img src={imagePaths.arcgateImage2} alt="" />
                   </a>
                 </div>
                 <p></p>
@@ -98,7 +98,7 @@ const About = () => {
               <div className="video-bloglist-content">
                 <div className="photos">
                   <a href="">
-                    <img src={imagePaths.arcgateImage3}  alt="" />
+                    <img src={imagePaths.arcgateImage3} alt="" />
                   </a>
                 </div>
                 <p></p>
@@ -116,63 +116,63 @@ const About = () => {
         </section>
 
         <section className='about-section4'>
-                    <div className='arcgate-content'>
-                        <div className='video-content'>
-                            <h1>
-                                Get an inside peek into Arcgate
-                            </h1>
-                            <div className='video-list'>
-                                <div className='video-div'>
-                                    <div className='video-body'>
-                                        <a href=''>
-                                            <div className='video-image'>
-                                            <img src={imagePaths.imageVideo3} />
-                                                <span className='btn-video'>
-                                                <img src={imagePaths.image18} />
-                                                </span>
-                                            </div>
-                                        </a>
-                                        <div className='video-text'>
-                                            <p>CNBC-TV18 highlights the story of Arcgate in “The Leap Takers” show</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='video-div'>
-                                    <div className='video-body'>
-                                        <a href=''>
-                                            <div className='video-image'>
-                                            <img src={imagePaths.imageVideo2} />
-                                                <span className='btn-video'>
-                                                <img src={imagePaths.image18} />
-                                                </span>
-                                            </div>
-                                        </a>
-                                        <div className='video-text'>
-                                            <p>ET Now business News channel covers Arcgate in the “Emerging SME” series</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='video-div'>
-                                    <div className='video-body'>
-                                        <a href=''>
-                                            <div className='video-image'>
-                                            <img src={imagePaths.imageVideo01} />
-                                                <span className='btn-video'>
-                                                <img src={imagePaths.image18} />
-                                                </span>
-                                            </div>
-                                        </a>
-                                        <div className='video-text'>
-                                            <p>Hear our startup story from our founder</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-
-                            </div>
-                        </div>
+          <div className='arcgate-content'>
+            <div className='video-content'>
+              <h1>
+                Get an inside peek into Arcgate
+              </h1>
+              <div className='video-list'>
+                <div className='video-div'>
+                  <div className='video-body'>
+                    <a href=''>
+                      <div className='video-image'>
+                        <img src={imagePaths.imageVideo3} alt='' />
+                        <span className='btn-video'>
+                          <img src={imagePaths.image18} alt='' />
+                        </span>
+                      </div>
+                    </a>
+                    <div className='video-text'>
+                      <p>CNBC-TV18 highlights the story of Arcgate in “The Leap Takers” show</p>
                     </div>
+                  </div>
+                </div>
+                <div className='video-div'>
+                  <div className='video-body'>
+                    <a href=''>
+                      <div className='video-image'>
+                        <img src={imagePaths.imageVideo2} alt='' />
+                        <span className='btn-video'>
+                          <img src={imagePaths.image18} alt='' />
+                        </span>
+                      </div>
+                    </a>
+                    <div className='video-text'>
+                      <p>ET Now business News channel covers Arcgate in the “Emerging SME” series</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='video-div'>
+                  <div className='video-body'>
+                    <a href=''>
+                      <div className='video-image'>
+                        <img src={imagePaths.imageVideo01} alt='' />
+                        <span className='btn-video'>
+                          <img src={imagePaths.image18} alt='' />
+                        </span>
+                      </div>
+                    </a>
+                    <div className='video-text'>
+                      <p>Hear our startup story from our founder</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+
+              </div>
+            </div>
+          </div>
         </section>
 
         <section className="about-section5">
@@ -242,7 +242,7 @@ const About = () => {
                   <h4>Best Emerging SME in India</h4>
                   <p>Dun & Bradstreet (D&B), Times Group and Federal Bank rated Arcgate as the best Emerging SME.</p>
                   <div className="timeline-image">
-                  <img src={imagePaths.timelineImage1} />
+                    <img src={imagePaths.timelineImage1} alt='' />
                   </div>
                   <p></p>
                 </div>
@@ -269,7 +269,7 @@ const About = () => {
                   <h4>Most Promising Young Entrepreneur</h4>
                   <p>The Vigyan Samiti Udaipur honored Kunal Bagla for contribution to the growth of technology in the local region.</p>
                   <div className="timeline-image">
-                  <img src={imagePaths.timelineImage2}  alt="" />
+                    <img src={imagePaths.timelineImage2} alt="" />
                   </div>
                 </div>
               </div>
@@ -280,7 +280,7 @@ const About = () => {
                   <h4>Top 20 finalist for fastest growing SME’s</h4>
                   <p>Vodafone ET Now Award</p>
                   <div className="timeline-image">
-                  <img src={imagePaths.timelineImage3}  alt="" />
+                    <img src={imagePaths.timelineImage3} alt="" />
                   </div>
                 </div>
               </div>
@@ -334,7 +334,7 @@ const About = () => {
             <p></p>
             <div className="founder-container">
               <div className="founder-content">
-              <img src={imagePaths.ceoImage}  alt="" />
+                <img src={imagePaths.ceoImage} alt="" />
               </div>
               <div className="founder-body">
                 <h5>Kunal Bagla</h5>
@@ -353,7 +353,7 @@ const About = () => {
             </div>
             <div className="founder-container" >
               <div className="founder-content">
-              <img src={imagePaths.chairmenImage}  alt="" />
+                <img src={imagePaths.chairmenImage} alt="" />
               </div>
               <div className="founder-body">
                 <h5>Dilip Bagla</h5>
@@ -385,7 +385,7 @@ const About = () => {
             </center>
             <p></p>
             <div className="list-items">
-              <p>Trusted by industry leaders since 
+              <p>Trusted by industry leaders since
                 <span>2005</span>
               </p>
 
@@ -397,7 +397,7 @@ const About = () => {
               </p>
               <p>
                 <span className="list-content">
-                <img src={imagePaths.image9}   alt=""/>
+                  <img src={imagePaths.image9} alt="" />
                 </span>
                 <span>Speed</span>
                 <br></br>
@@ -405,7 +405,7 @@ const About = () => {
               </p>
               <p>
                 <span className="list-content">
-                <img src={imagePaths.image10}  alt="" />
+                  <img src={imagePaths.image10} alt="" />
                 </span>
                 <span>Management</span>
                 <br></br>
@@ -413,7 +413,7 @@ const About = () => {
               </p>
               <p>
                 <span className="list-content">
-                <img src={imagePaths.image11}  alt="" />
+                  <img src={imagePaths.image11} alt="" />
                 </span>
                 <span>Cost</span>
                 <br></br>
@@ -421,7 +421,7 @@ const About = () => {
               </p>
               <p>
                 <span className="list-content">
-                <img src={imagePaths.image12}  alt="" />
+                  <img src={imagePaths.image12} alt="" />
                 </span>
                 <span>Infrastructure</span>
                 <br></br>
@@ -429,7 +429,7 @@ const About = () => {
               </p>
               <p>
                 <span className="list-content">
-                <img src={imagePaths.image13}  alt="" />
+                  <img src={imagePaths.image13} alt="" />
                 </span>
                 <span>Flexibility</span>
                 <br></br>
@@ -437,7 +437,7 @@ const About = () => {
               </p>
               <p>
                 <span className="list-content">
-                <img src={imagePaths.image14}  alt=""/>
+                  <img src={imagePaths.image14} alt="" />
                 </span>
                 <span>Quality</span>
                 <br></br>
@@ -451,7 +451,7 @@ const About = () => {
           <div className="about-content6">
             <div className="table-row">
               <div className="table-cell">
-              <img src={imagePaths.foundationLogo} alt="" />
+                <img src={imagePaths.foundationLogo} alt="" />
               </div>
               <div className="table-cell-info">
                 <h1>Arcgate Foundation</h1>
@@ -471,56 +471,10 @@ const About = () => {
 
       </article>
 
-      <footer>
-                <section>
-                    <aside>
-                        <div className='footer-logo'>
-                            <a href=''></a>
-                        </div>
-                        <nav>
-                            <ul className='menu'>
-                                <li><a href='about'>ABOUT</a></li>
-                                <li><a href='bpo'>SERVICES</a></li>
-                                <li><a href='technology'>TECHNOLOGY</a></li>
-                                <li><a href='industries'>INDUSTRIES</a></li>
-                            </ul>
-
-                            <ul className='second-menu'>
-                                <li><a href='clients'>CLIENTS</a></li>
-                                <li><a href='careers'>CAREERS</a></li>
-                                <li><a href='contact'>CONTACT</a></li>
-                                <li><a href='blog'>BLOG</a></li>
-                            </ul>
-
-                            <ul className='second-menu'>
-                                <li><a href='terms-of-use'>TERMS OF USE</a></li>
-                                <li><a href='privacy-policy'>PRIVACY POLICY</a></li>
-                            </ul>
-                        </nav>
-                    </aside>
-
-                    <div className='footer-social hidden'>
-                        <a href='' target='_blank' className='fb-icon'></a>
-                        <a href='' target='_blank' className='twitter-icon'></a>
-                        <a href='' target='_blank' className='linkedin-icon'></a>
-                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
-                    </div>
-                    <div className='footer-social-links'>
-                        <ul>
-                            <li><a href='' target='_blank' className='fb-icon' ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='twitter-icon' ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li> <a href=''className='linkedin-icon'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='youtube-icon'><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='cloud-icon'><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='insta-icon'><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
-                    </div>
-                </section>
-            </footer>
 
     </div>
   );
 };
 
-export default About; 
+export default About;
+ 

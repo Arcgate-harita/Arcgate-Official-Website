@@ -1,12 +1,24 @@
 import "./App.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Technology from "./components/Technology";
-import Clients from "./components/Clients";
-import Career from "./components/Career";
-import Contact from "./components/Contact";
+import {
+  Home,
+  About,
+  Technology,
+  Clients,
+  Career,
+  Contact,
+} from "../src/components";
+
+import {
+  AccountingOutsourcing,
+  AiData,
+  CustomerSupport,
+  DataSolution,
+  OrderManagement,
+  TranScription,
+} from "../src/bpo_pages";
 
 function App() {
   return (
@@ -19,7 +31,14 @@ function App() {
         <Route path="/clients" element={<Clients />} />
         <Route path="/career" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/accounting_outsourcing" element={<AccountingOutsourcing />} />
+        <Route path="/ai-data-preparation" element={<AiData />} />
+        <Route path="/customer-onboarding-support" element={<CustomerSupport />} />
+        <Route path="/data-solution" element={<DataSolution />} />
+        <Route path="/order-management" element={<OrderManagement />} />
+        <Route path="/transcription" element={<TranScription />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

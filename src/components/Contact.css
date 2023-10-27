@@ -5,20 +5,20 @@
     padding: 0;
 }
 
-.contact-section1{
+.contact-section1 {
     background-image: url(../images//arcgate-bg.jpg);
     padding: 40px 0;
     background-size: cover;
     color: #333;
 }
 
-.contact-content1{
+.contact-content1 {
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
 }
 
-.contact-content1 h1{
+.contact-content1 h1 {
     width: 53%;
     margin-bottom: 34px;
     font-size: 36px;
@@ -29,7 +29,7 @@
 }
 
 
-.contact-content1 p{
+.contact-content1 p {
     width: 80%;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     font-size: 22px;
@@ -37,12 +37,12 @@
     line-height: 1.18em;
 }
 
-.contact-section2{
+.contact-section2 {
     padding: 30px 0;
     background-color: #fff;
 }
 
-.contact-content2{
+.contact-content2 {
     position: relative;
     width: 100%;
     max-width: 1050px;
@@ -56,33 +56,27 @@
     position: relative;
 }
 
-.contact-div1 .contact-body1{
-
-}
-
-.contact-div1 .contact-body1 .relative{
+.contact-div1 .contact-body1 .relative {
     position: relative;
 }
 
-.contact-div1 .contact-body1 img{
+.contact-div1 .contact-body1 img {
     position: absolute;
     top: -2px;
     left: 3px;
 }
 
-.contact-div1 .contact-body1 input[type=text]{
+.contact-div1 .contact-body1 input[type=text] {
     width: 100%;
     background-position: 2px 6px;
-    /* padding-left: 35px; */
     max-width: 500px;
     border: solid #ccc;
     border-width: 0 0 1px;
     color: #e85631;
     font-size: 16px;
     padding: 39px;
-    /* margin: 20px 0; */
     -webkit-appearance: none;
-    font-family: proximanovasemibold_0,Arial,Helvetica,sans-serif;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
 }
 
 
@@ -97,7 +91,7 @@
     margin: 20px 0;
     -moz-appearance: none;
     -webkit-appearance: none;
-    font-family: proximanovasemibold_0,Arial,Helvetica,sans-serif;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     resize: none;
     background-image: url(../images//textarea.png);
     background-position: 2px 9px;
@@ -125,7 +119,7 @@
 }
 
 input[type=submit] {
-   width: 100%;
+    width: 100%;
     max-width: 200px;
     border: 2px solid #e85631;
     background: #e85631;
@@ -134,7 +128,7 @@ input[type=submit] {
     font-size: 18px;
     padding: 10px;
     margin: 15px 0;
-    font-family: proximanovasemibold_0,Arial,Helvetica,sans-serif;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     text-transform: uppercase;
     cursor: pointer;
     display: inline-block;

@@ -65,6 +65,31 @@ import number from "./images/tel.png";
 import email from "./images/email.png";
 import message from "./images/textarea.png";
 import loader from "./images/load.gif";
+import account1 from "./images/account1.svg";
+import account2 from "./images/account2.svg";
+import account3 from "./images/account3.svg";
+import account4 from "./images/account4.svg";
+import account5 from "./images/account5.svg";
+import account6 from "./images/account6.svg";
+import account7 from "./images/account7.svg";
+import agFront from "./images/ag-front.jpg";
+import data1 from "./images/data1.svg";
+import data2 from "./images/data2.svg";
+import data3 from "./images/data3.svg";
+import data4 from "./images/data4.svg";
+import data5 from "./images/data5.svg";
+import data6 from "./images/data6.svg";
+import data7 from "./images/data7.svg";
+import icon1 from "./images/icn-12.png";
+import icon2 from "./images/icn-13.png";
+import icon3 from "./images/icn-14.png";
+import icon4 from "./images/icn-15.png";
+import icon5 from "./images/icn-16.png";
+import icon6 from "./images/icn-17.png";
+import icon7 from "./images/icn-18.png";
+import icon8 from "./images/icn-11.png";
+import customer1 from "./images/cust-onboard.svg";
+import customer2 from "./images/cust-support.svg";
 
 const imagePath = {
     logoImage,
@@ -134,6 +159,32 @@ const imagePath = {
     number,
     message,
     loader,
+    account1,
+    account2,
+    account3,
+    account4,
+    account5,
+    account6,
+    account7,
+    agFront,
+
+    data1,
+    data2,
+    data3,
+    data4,
+    data5,
+    data6,
+    data7,
+    icon1,
+    icon2,
+    icon3,
+    icon4,
+    icon5,
+    icon6,
+    icon7,
+    icon8,
+    customer1,
+    customer2,
 }
 
 export default imagePath;

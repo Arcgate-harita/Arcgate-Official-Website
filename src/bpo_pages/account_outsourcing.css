@@ -1,0 +1,79 @@
+.account-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.account-section1 {
+    background-color: #ebedd9;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 19px 0;
+}
+
+.account-content1 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.account-content1 h1 {
+    text-align: center;
+    font-weight: 400;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #1a171b !important;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.account-section2 {
+    background-color: #fff;
+    padding: 64px 0 65px;
+    text-align: center;
+}
+
+.account-content2 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.account-content2 .account-div {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.account-content2 .account-div .account-body {
+    display: inline-block;
+    max-width: 262px;
+    margin: 0 45px 45px;
+    vertical-align: top;
+}
+
+.account-body .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+
+}
+
+
+.account-body .span-image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 133px;
+}
+
+.account-body .span-text {
+    max-width: 190px;
+    width: 190px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: normal;
+    font-size: 19px;
+    font-weight: 700;
+}

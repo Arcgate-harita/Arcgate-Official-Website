@@ -33,35 +33,35 @@ function Navbar() {
             </li>
 
             <li>
-              <Link to="/bpo">BPO</Link>
+              <a href="#">BPO</a>
               <span className="down-arrow"></span>
             </li>
-              
-              <li>
-                <Link to="/technology">TECHNOLOGY</Link>
-              </li>
-              <li>
-                <a href="#">INDUSTRIES</a>
-                <span className="down-arrow"></span>
-              </li>
-              <li>
-                <Link to="/clients">CLIENTS</Link>
-              </li>
-              <li>
-              <Link to="/career">CAREERS</Link>
-              </li>
-              <li>
-              <Link to="/contact">CONTACT</Link>
-              </li>
-              <li>
-                <a href="#">INSIGHTS</a>
-                <span className="down-arrow"></span>
-              </li>
-            </ul>
-          </nav>
-        </section>
 
-      </header>
+            <li>
+              <Link to="/technology">TECHNOLOGY</Link>
+            </li>
+            <li>
+              <a href="#">INDUSTRIES</a>
+              <span className="down-arrow"></span>
+            </li>
+            <li>
+              <Link to="/clients">CLIENTS</Link>
+            </li>
+            <li>
+              <Link to="/career">CAREERS</Link>
+            </li>
+            <li>
+              <Link to="/contact">CONTACT</Link>
+            </li>
+            <li>
+              <a href="#">INSIGHTS</a>
+              <span className="down-arrow"></span>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+    </header>
   );
 }
 

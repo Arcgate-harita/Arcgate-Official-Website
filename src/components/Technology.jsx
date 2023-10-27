@@ -36,7 +36,7 @@ function Technology() {
                                 <div className='data-process-type1'>
                                     <a href='Application-Developement'>
                                         <span className='data-process-image'>
-                                            <img src={imagePaths.image6} />
+                                            <img src={imagePaths.image6} alt='' />
                                         </span>
                                         <span className='data-process-text'>
                                             Application Developement
@@ -46,7 +46,7 @@ function Technology() {
                                 <div className='data-process-type1'>
                                     <a href='Quality Assurance & Testing'>
                                         <span className='data-process-image'>
-                                            <img src={imagePaths.image7} />
+                                            <img src={imagePaths.image7} alt='' />
                                         </span>
                                         <span className='data-process-text'>
                                             Quality Assurance & Testing
@@ -56,7 +56,7 @@ function Technology() {
                                 <div className='data-process-type1'>
                                     <a href='Team Augmentation'>
                                         <span className='data-process-image'>
-                                            <img src={imagePaths.image8} />
+                                            <img src={imagePaths.image8} alt='' />
                                         </span>
                                         <span className='data-process-text'>
                                             Team Augmentation
@@ -66,7 +66,7 @@ function Technology() {
                                 <div className='data-process-type1'>
                                     <a href=' DevOps Solutions'>
                                         <span className='data-process-image'>
-                                            <img src={imagePaths.devops} />
+                                            <img src={imagePaths.devops} alt='' />
                                         </span>
                                         <span className='data-process-text'>
                                             DevOps Solutions
@@ -78,7 +78,7 @@ function Technology() {
                                 <div className='data-process-type1'>
                                     <a href=' Zendesk Admin Support'>
                                         <span className='data-process-image'>
-                                            <img src={imagePaths.arcgatelab4} />
+                                            <img src={imagePaths.arcgatelab4} alt='' />
                                         </span>
                                         <span className='data-process-text'>
                                             Zendesk Admin Support
@@ -88,7 +88,7 @@ function Technology() {
                                 <div className='data-process-type1'>
                                     <a href=' Salesforce Admin Support'>
                                         <span className='data-process-image'>
-                                            <img src={imagePaths.arcgatelab3} />
+                                            <img src={imagePaths.arcgatelab3} alt='' />
                                         </span>
                                         <span className='data-process-text'>
                                             Salesforce Admin Support
@@ -98,7 +98,7 @@ function Technology() {
                                 <div className='data-process-type1'>
                                     <a href='NetSulte Admin Support'>
                                         <span className='data-process-image'>
-                                            <img src={imagePaths.arcgatelab2} />
+                                            <img src={imagePaths.arcgatelab2} alt='' />
                                         </span>
                                         <span className='data-process-text'>
                                             NetSulte Admin Support
@@ -108,7 +108,7 @@ function Technology() {
                                 <div className='data-process-type1'>
                                     <a href='Data Visulatization'>
                                         <span className='data-process-image'>
-                                            <img src={imagePaths.arcgatelab1} />
+                                            <img src={imagePaths.arcgatelab1} alt='' />
                                         </span>
                                         <span className='data-process-text'>
                                             Data Visulatization
@@ -133,84 +133,84 @@ function Technology() {
                         <p></p>
                         <div className='technology-div3'>
                             <div className='technology-body'>
-                               <div className='rounded-box1'>
-                                <p>
-                                    We
-                                    <br></br>
-                                    dream and
-                                    <br></br>
-                                    discuss the
-                                    <br></br>
-                                    next big
-                                    <br></br>
-                                    thing.
-                                </p>
+                                <div className='rounded-box1'>
+                                    <p>
+                                        We
+                                        <br></br>
+                                        dream and
+                                        <br></br>
+                                        discuss the
+                                        <br></br>
+                                        next big
+                                        <br></br>
+                                        thing.
+                                    </p>
+                                    <p></p>
+                                </div>
+                                <p>Ideation</p>
                                 <p></p>
-                               </div>
-                               <p>Ideation</p>
-                               <p></p>
                             </div>
                             <div className='technology-body'>
-                               <div className='rounded-box2'>
-                                <p>
-                                    We
-                                    <br></br>
-                                    provide the
-                                    <br></br>
-                                    funding,
-                                    <br></br>
-                                    infrastructure
-                                    <br></br>
-                                    and resources
-                                    <br></br>
-                                    to make it.
-                                    <br></br>
-                                    happen.
-                                </p>
+                                <div className='rounded-box2'>
+                                    <p>
+                                        We
+                                        <br></br>
+                                        provide the
+                                        <br></br>
+                                        funding,
+                                        <br></br>
+                                        infrastructure
+                                        <br></br>
+                                        and resources
+                                        <br></br>
+                                        to make it.
+                                        <br></br>
+                                        happen.
+                                    </p>
+                                    <p></p>
+                                </div>
+                                <p>Resources</p>
                                 <p></p>
-                               </div>
-                               <p>Resources</p>
-                               <p></p>
                             </div>
                             <div className='technology-body'>
-                               <div className='rounded-box3'>
-                                <p>
-                                    We
-                                    <br></br>
-                                    put together
-                                    <br></br>
-                                    the best cross-
-                                    <br></br>
-                                    functional
-                                    <br></br>
-                                    team to make
-                                    <br></br>
-                                    the idea come
-                                    <br></br>
-                                    alive.
-                                </p>
+                                <div className='rounded-box3'>
+                                    <p>
+                                        We
+                                        <br></br>
+                                        put together
+                                        <br></br>
+                                        the best cross-
+                                        <br></br>
+                                        functional
+                                        <br></br>
+                                        team to make
+                                        <br></br>
+                                        the idea come
+                                        <br></br>
+                                        alive.
+                                    </p>
+                                    <p></p>
+                                </div>
+                                <p>Build</p>
                                 <p></p>
-                               </div>
-                               <p>Build</p>
-                               <p></p>
                             </div>
                             <div className='technology-body'>
-                               <div className='rounded-box4'>
-                                <p>
-                                    We
-                                    <br></br>
-                                    invest to
-                                    <br></br>
-                                    scale and
-                                    <br></br>
-                                    move as fast
-                                    <br></br>
-                                    as we can.                                   
-                                </p>
+                                <div className='rounded-box4'>
+                                    <p>
+                                        We
+                                        <br></br>
+                                        invest to
+                                        <br></br>
+                                        scale and
+                                        <br></br>
+                                        move as fast
+                                        <br></br>
+                                        as we can.
+                                    </p>
+                                    <p></p>
+                                </div>
+                                <p>Grow</p>
                                 <p></p>
-                               </div>
-                               <p>Grow</p>
-                               <p></p>
                             </div>
                         </div>
                         <p></p>
@@ -224,53 +224,7 @@ function Technology() {
                 </section>
 
             </article>
-            <footer>
-                <section>
-                    <aside>
-                        <div className='footer-logo'>
-                            <a href=''></a>
-                        </div>
-                        <nav>
-                            <ul className='menu'>
-                                <li><a href='about'>ABOUT</a></li>
-                                <li><a href='bpo'>SERVICES</a></li>
-                                <li><a href='technology'>TECHNOLOGY</a></li>
-                                <li><a href='industries'>INDUSTRIES</a></li>
-                            </ul>
 
-                            <ul className='second-menu'>
-                                <li><a href='clients'>CLIENTS</a></li>
-                                <li><a href='careers'>CAREERS</a></li>
-                                <li><a href='contact'>CONTACT</a></li>
-                                <li><a href='blog'>BLOG</a></li>
-                            </ul>
-
-                            <ul className='second-menu'>
-                                <li><a href='terms-of-use'>TERMS OF USE</a></li>
-                                <li><a href='privacy-policy'>PRIVACY POLICY</a></li>
-                            </ul>
-                        </nav>
-                    </aside>
-
-                    <div className='footer-social hidden'>
-                        <a href='' target='_blank' className='fb-icon'></a>
-                        <a href='' target='_blank' className='twitter-icon'></a>
-                        <a href='' target='_blank' className='linkedin-icon'></a>
-                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
-                    </div>
-                    <div className='footer-social-links'>
-                        <ul>
-                            <li><a href='' target='_blank' className='fb-icon' ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='twitter-icon' ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li> <a href='' className='linkedin-icon'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='youtube-icon'><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='cloud-icon'><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
-                            <li><a href='' target='_blank' className='insta-icon'><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
-                    </div>
-                </section>
-            </footer>
         </div>
     )
 }

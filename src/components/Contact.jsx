@@ -25,51 +25,49 @@ function Contact() {
                                 <form name='contact-form'>
                                     <p>
                                         <span className='relative'>
-                                        <img src={imagePaths.name} />
+                                            <img src={imagePaths.name} alt='' />
                                             <input type='text' name='name' placeholder='Name'></input>
                                         </span>
                                         <br></br>
                                         <span className='relative'>
-                                        <img src={imagePaths.number} />
+                                            <img src={imagePaths.number} alt='' />
                                             <input type='text' name='number' placeholder='Phone'></input>
                                         </span>
                                         <br></br>
                                         <span className='relative'>
-                                        <img src={imagePaths.email} />
+                                            <img src={imagePaths.email} alt='' />
                                             <input type='text' name='email' placeholder='Email'></input>
                                         </span>
                                         <br></br>
                                         <span className='relative'>
-                                        {/* <img src={imagePaths.message} /> */}
                                             <textarea type='text' name='message' placeholder='Message'></textarea>
                                         </span>
                                     </p>
                                     <div className='contact-button'>
                                         <div className='contact-button-link'>
-                                        <div className='submit-btn'>
-                                        {/* <img src={imagePaths.loader} /> */}
+                                            <div className='submit-btn'>
+                                            </div>
                                         </div>
-                                        </div>
-                                         <input type='submit' value="Submit" />
+                                        <input type='submit' value="Submit" />
                                     </div>
                                 </form>
+                            </div>
                         </div>
-                    </div>
-                    <div className='address'>
-                        <h4>
-                            Arcgate Technologies LLP
-                            <br></br>
-                            G1-11, I.T. Park, M.T.A. (Extn.)
-                            <br></br>
-                            Udaipur - 313003
-                            <br></br>
-                            Rjasthan, India
-                            <br></br>
-                            +91 77420 92382
-                        </h4>
+                        <div className='address'>
+                            <h4>
+                                Arcgate Technologies LLP
+                                <br></br>
+                                G1-11, I.T. Park, M.T.A. (Extn.)
+                                <br></br>
+                                Udaipur - 313003
+                                <br></br>
+                                Rjasthan, India
+                                <br></br>
+                                +91 77420 92382
+                            </h4>
+                            <p></p>
+                        </div>
                         <p></p>
-                    </div>
-                    <p></p>
                     </div>
                 </section>
             </article>

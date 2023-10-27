@@ -1,0 +1,35 @@
+.customer-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.customer-section1 {
+    background-color: #FFFBD7;
+    padding: 40px 0;
+}
+
+.customer-content1 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.customer-content1 h1 {
+    margin: 0 0 40px;
+    font-size: 30px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    text-align: center;
+    font-weight: 400;
+}
+
+.customer-content1 h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-left: 44px;
+    text-align: center;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: 1.04em;
+    width: 88%;
+}
