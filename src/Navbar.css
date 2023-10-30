@@ -1,0 +1,159 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    background-color: #fff;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 1px 5px -3px rgba(0, 0, 0, .24);
+}
+
+.container {
+    display: block;
+}
+
+.header-content {
+    border: 0px solid #f00;
+    padding: 5px;
+    font-size: 16px;
+    text-align: left;
+    background: rgb(22, 76, 162);
+    background: -moz-radial-gradient(circle, rgba(22, 76, 162, 1) 0%, rgba(10, 25, 49, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(22, 76, 162, 1) 0%, rgba(10, 25, 49, 1) 100%);
+    background: radial-gradient(circle, rgba(22, 76, 162, 1) 0%, rgba(10, 25, 49, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#164ca2", endColorstr="#0a1931", GradientType=1);
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content span {
+    padding: 2px;
+    font-family: 'proxima-nova', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.strong-word {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.header-content a {
+    color: #ffffff;
+    padding: 8px 12px;
+    border: 3px solid #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-content a:hover {
+    color: rgb(3, 3, 73);
+    background-color: white;
+}
+
+.header-content p {
+    padding: 2px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1144px;
+    padding: 0 10px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.navbar-content {
+    display: block;
+}
+
+.nav li {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 41px;
+    position: relative;
+}
+
+.arcgate-logo {
+    float: left;
+    width: 146px;
+    height: 27px;
+    background-image: url(./arcgate-orange.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+
+.arcgate-logo a {
+    display: inherit;
+    width: inherit;
+    height: inherit;
+}
+
+section nav ul li a {
+    font-size: 14px;
+    color: #868572;
+    text-align: left;
+    text-decoration-line: none;
+}
+
+section nav ul li a:hover {
+    color: orangered;
+}
+
+section nav ul li {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 41px;
+    position: relative;
+}
+
+section nav ul {
+    list-style: none;
+}
+
+section nav {
+    float: right;
+    position: relative;
+    top: 8px;
+}
+
+header>section {
+    width: 100%;
+    max-width: 1144px;
+    padding: 0 10px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.down-arrow {
+    background-image: url(../src//images/angle-arrow-down.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 12px;
+    display: inline-block;
+    background-position: center center;
+    top: 1px;
+    left: 3px;
+    position: relative;
+    transition: all .8s;
+    cursor: pointer;
+}

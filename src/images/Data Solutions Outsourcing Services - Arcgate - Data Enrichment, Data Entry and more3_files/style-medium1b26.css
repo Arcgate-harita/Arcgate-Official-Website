@@ -1,0 +1,991 @@
+body {}
+
+header {
+    position: absolute;
+    max-height: 75px;
+    height: 75px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    overflow: hidden
+}
+
+header.open {
+    overflow-y: auto;
+    max-height: 100vh;
+    height: 100vh;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    transition: max-height 1s;
+    padding-bottom: 90px
+}
+
+#menu-icon {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    -webkit-transition: background-color 1.5s ease;
+    -moz-transition: background-color 1.5s ease;
+    -ms-transition: background-color 1.5s ease;
+    transition: background-color 1.5s ease;
+    margin-bottom: 10px
+}
+
+.open #menu-icon {
+    background-image: url(../images/menu-icon-close.svg);
+    -webkit-transition: background-color 1.5s ease;
+    -moz-transition: background-color 1.5s ease;
+    -ms-transition: background-color 1.5s ease;
+    transition: background-color 1.5s ease;
+    background-position: center center;
+    background-color: #333
+}
+
+header>section {
+    min-height: 75px;
+    height: auto
+}
+
+.arcgate-logo,
+.arcgate-techNews-logo {
+    top: 25px;
+    z-index: 2;
+    margin-left: 10px
+}
+
+.arcgate-blog-logo {
+    top: 25px;
+    z-index: 2;
+    width: 85px;
+    height: 27px;
+    margin-left: 10px
+}
+
+header>section>nav {
+    top: -8px;
+    width: 100%
+}
+
+header>section.blog-header>nav {
+    width: 100%
+}
+
+header>section>nav ul,
+header>section>nav:active ul {
+    position: relative;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    z-index: -1
+}
+
+header>section>nav>ul>li,
+header>section>nav>ul>li:last-child {
+    text-align: right;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+header>section>nav>ul>li>a,
+header>section>nav>ul>li>a:hover,
+header>section>nav>ul>li>a:visited {
+    display: block;
+    padding: 12px 6px 12px 0
+}
+
+header>section>nav.open ul {
+    display: table;
+    width: 100%
+}
+
+footer>section>aside>.arcgate-logo {
+    margin-right: 0;
+    margin-bottom: 25px;
+    top: -20px
+}
+
+footer>section>aside>nav {
+    clear: both
+}
+
+.cd-top {
+    text-indent: initial
+}
+
+.ourteam {
+    padding: 90px 0
+}
+
+.data-process-type {
+    margin: 0 10px 45px
+}
+
+.data-process-type>a>.data-processing-caption {
+    font-size: 16px
+}
+
+.whyarcgate center {
+    margin-bottom: 30px
+}
+
+.whyarcgate * center>p {
+    width: 100%
+}
+
+.whyarcgate-factors>p {
+    margin: 20px 10px auto
+}
+
+.animation-element.joinarcgate.in-view>.parallax-bg.bg1 {
+    background-position: -5% 70%;
+    background-size: 30% auto
+}
+
+.animation-element.joinarcgate.in-view>.parallax-bg.bg1>.parallax-bg.bg2 {
+    background-position: 105% 30%;
+    background-size: 30% auto
+}
+
+.ourentrepreneurs * .right-wrapper {
+    float: none;
+    margin: 0 auto
+}
+
+.ourentrepreneurs .right-wrapper>p {
+    width: 100%
+}
+
+.timeline-path {
+    background-position: 18px 0;
+    height: auto
+}
+
+.timelinetable-row:nth-child(2),
+.timelinetable-row:nth-child(3),
+.timelinetable-row:nth-child(4),
+.timelinetable-row:nth-child(5),
+.timelinetable-row:nth-child(6),
+.timelinetable-row:nth-child(7),
+.timelinetable-row:nth-child(8),
+.timelinetable-row:nth-child(9),
+.timelinetable-row:nth-child(10) {
+    top: 0
+}
+
+/* .timelinetable-row:nth-child(9) * .timeline-db {
+    display: none
+} */
+
+/* .timelinetable-row:nth-child(10) * .timeline-axis {
+    display: none
+} */
+
+.timelinetable-row:nth-child(11) * .timeline-db {
+    /* display: block */
+    display: none;
+}
+
+.timelinetable-row:nth-child(12) * .timeline-axis {
+    display: none;
+}
+.timelinetable-row:nth-child(13) * .timeline-db{
+    display: block;
+}
+.timelinetable-row:nth-child(14) * .timeline-axis{
+    display: block;
+    overflow: hidden;
+    max-height: 100px;
+    margin-bottom: 60px;
+    margin-top: 0
+}
+
+.timelinetable-row:nth-child(10) * .timeline-db {
+    display: block
+}
+
+.timelinetable-row:nth-child(11) {
+    top: 0
+}
+
+.timelinetable-row:nth-child(12) {
+    top: 0
+}
+
+.timelinetable-row:nth-child(13) {
+    /* top: -50px */
+    top: 0;
+}
+
+.timelinetable-row:nth-child(14) {
+    /* top: -40px */
+    top: 0;
+}
+
+.timelinetable-row:nth-child(15) {
+    /* top: -1090px */
+    top: -30px;
+}
+.timelinetable-row:nth-child(16) {
+    /* top: -1090px */
+    top: -30px;
+}
+
+.timelinetable-row:nth-child(15) * .timeline-texas {
+    display: block
+}
+
+.animation-element.slide-left.timelinetable-row {
+    opacity: 0;
+    -moz-transition: opacity 1.5s, -moz-transform .8s ease;
+    -webkit-transition: opacity 1.5s, -webkit-transform .8s ease;
+    -o-transition: opacity 1.5s, -webkit-transform .8s ease;
+    transition: opacity 1.5s, transform .8s ease
+}
+
+.animation-element.slide-left.timelinetable-row {
+    -ms-transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px)
+}
+
+.animation-element.slide-left.timelinetable-row.in-view {
+    opacity: 1;
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.timeline-row {
+    margin-left: 0
+}
+
+.timeline-row {
+    width: 100%;
+    max-width: 100%
+}
+
+.start-year {
+    text-align: left
+}
+
+.leftnode {
+    text-align: left;
+    float: left;
+    background-image: url(../images/timeline-rightnode.png);
+    background-position: 0 2%;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    padding-right: 0;
+    margin-left: 0
+}
+
+.timeline-db {
+    float: left
+}
+
+.foundation_icon>img {
+    width: 30%
+}
+
+.serviceweoffer h2 {
+    width: 100%
+}
+
+.serviceweoffer * .table-row {
+    width: 100%;
+    padding: 0 10px
+}
+
+.serviceweoffer>.wrapper>.table-row>.table-cell,
+.serviceweoffer>.wrapper>.table-row>.table-cell.challenge_solution {
+    display: table;
+    width: 100%;
+    padding-right: 0
+}
+
+.whovare_icon,
+.whovare_info {
+    width: auto
+}
+
+.whovare_icon>.data_icon {
+    margin: 0 20px
+}
+
+.whovare_icon>.data_icon>img {
+    max-width: 160px
+}
+
+.client_logo {
+    display: inline-block;
+    width: 110px;
+    margin: 10px
+}
+
+.client_info>p>.client_logo {
+    width: 150px
+}
+
+.welcometoarcgate h1 {
+    text-align: left;
+    font-size: 42px;
+    line-height: 1.04em;
+    margin-bottom: 22px;
+    width: 100%;
+    float: left;
+    margin-left: 0
+}
+
+.animation_wrapper {
+    position: relative;
+    min-height: 560px;
+    clear: both
+}
+
+.animation_wrapper>p {
+    font-size: 22px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: left
+}
+
+.animation_wrapper>p.orange,
+.animation_wrapper>p.lightblue,
+.animation_wrapper>p.lightgreen,
+.animation_wrapper>p.red,
+.animation_wrapper>p.magenta,
+.animation_wrapper>p.darkgreen,
+.animation_wrapper>p.darkblue {
+    top: inherit;
+    left: inherit;
+    max-width: inherit
+}
+
+.welcometoarcgate h1,
+.animation_wrapper>p {
+    padding: 0
+}
+
+.whoyouare .table-row {
+    width: 100%;
+    padding: 0 10px
+}
+
+.whoyouare_icon,
+.whoyouare_info {
+    width: 100%;
+    display: table
+}
+
+.whoyouare h1 {
+    width: 100%;
+    padding: 0
+}
+
+.whoyouare p {
+    width: 100%
+}
+
+.jobs_info {
+    margin: 0 auto 0 30px
+}
+
+.contact h1 {
+    font-size: 34px
+}
+
+.contact_info {
+    min-width: 300px
+}
+
+.welcomearclab .right-wrapper>p {
+    width: 100%
+}
+
+.table-row.capability {
+    width: 100%
+}
+
+.app_development {
+    border-left: none;
+    border-right: none
+}
+
+.table-row.capability>.table-cell {
+    display: table-row
+}
+
+.app_development>.capabilities_type {
+    max-width: inherit;
+    margin: 30px
+}
+
+.capabilities_area {
+    margin-bottom: 5px
+}
+
+.innovation-factors {
+    margin: 0 20px 50px
+}
+
+.rounded_box {
+    width: 250px;
+    height: 250px
+}
+
+.rounded_box>p {
+    font-size: 150%
+}
+
+.workmob h2 {
+    width: 90%
+}
+
+.arcgateblogarticle .arcBlog .arcClient-block .client-block {
+    width: 31.33%
+}
+
+.arcgateblogarticle .arcBlog .arcMedia img,
+.arcgateblogarticle .arcBlog .advertPhoto img {
+    width: 100%
+}
+
+.arcgateblogarticle .arcBlog .arc-opp .cardBox {
+    width: 45%
+}
+
+.resources-tabs {
+    position: relative
+}
+
+.arcgateresourcelist {
+    padding-top: 0
+}
+
+footer>section>aside>nav>ul.second-menu {
+    margin-left: 10px
+}
+
+.submenu {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    visibility: visible;
+    position: initial;
+    transform: translate(0, 0px);
+    border-width: 1px 0;
+    border-radius: 0
+}
+
+.submenu ul {
+    box-shadow: none;
+    background: 0 0
+}
+
+.bpos .submenu,
+.indstrz .submenu,
+.submenu,
+.DDblogs .submenu,
+.DDpodcast .submenu,
+.DDresource .submenu {
+    width: 100%;
+    left: 0
+}
+
+.icn-div {
+    display: none
+}
+
+header>section>nav.open ul {
+    opacity: 1;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    z-index: 1
+}
+
+.submenu ul li,
+.bpos .submenu ul li,
+.indstrz .submenu ul li {
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start
+}
+
+.submenu:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border: 6px solid transparent;
+    border-bottom: 6px solid #ccc;
+    top: -13px;
+    left: 10px;
+    display: none
+}
+
+.submenu.show {
+    padding: 0
+}
+
+body.open {
+    overflow: hidden;
+    position: fixed
+}
+
+.bpo-services h1 {
+    margin: 40px 0
+}
+
+.bpo-services .data-process-type {
+    margin: 0 10px 20px
+}
+
+.bpo-services .data-process-type>a>.data-processing-icons {
+    min-height: 105px
+}
+
+.container {
+    margin-top: 75px
+}
+
+.bpo-services:nth-child(2) h2 {
+    font-size: 16px
+}
+
+.arcgateDelivery * center>p {
+    font-size: 16px
+}
+
+.table-row {
+    display: block
+}
+
+.arcgate-resources-logo {
+    width: 200px;
+    height: 27px;
+    top: 25px;
+    margin-left: 10px
+}
+
+.arcgate-podcasts-logo {
+    width: 170px;
+    height: 27px;
+    top: 25px
+}
+
+header>section.podcasts-header>nav>ul>li {
+    margin: 0
+}
+
+.leader_icon>img {
+    margin-left: 0;
+    margin-top: 0
+}
+
+.leader_icon,
+.leader_info {
+    display: table;
+    width: 100%;
+    padding: 10px 0
+}
+
+.leader_icon {
+    text-align: center
+}
+
+.casestudies_icon {
+    width: 100%
+}
+
+.table-cell.casestudies_icon.number {
+    display: none
+}
+
+.arcgatefoundation .table-cell {
+    display: initial
+}
+
+.casestudies_icon-inner {
+    margin: 0 auto
+}
+
+.casestudies_info>p:last-child {
+    margin-bottom: 5px
+}
+
+.casestudies_info>p {
+    text-align: center
+}
+
+.mobile-only {
+    display: block
+}
+
+.desktop-only {
+    display: none !important
+}
+
+.bpo-services .order-management .data-process-type {
+    margin: 0 10px 10px
+}
+
+.bpo-services .ind-adtech .data-process-type {
+    margin: 0 10px 10px
+}
+
+.bpo-services .ind-real-estate-tech .data-process-type {
+    margin: 0 10px 10px
+}
+
+.footer-social1 {
+    width: 230px;
+    top: 10px
+}
+
+.contact-ag {
+    background-size: 60%;
+    background-position: -50% -10%
+}
+
+.contact {
+    padding: 77px 0 10px;
+    min-height: initial
+}
+
+.ourentrepreneurs.contact img.arcgate_bg2 {
+    opacity: .5
+}
+
+.pdcst-pg-head {
+    padding: 60px 0
+}
+
+.pdcst-pg-head h2 {
+    font-size: 26px
+}
+
+.cs-main {
+    margin: 20px 0
+}
+
+.div-left {
+    width: 100%;
+    float: initial;
+    margin-bottom: 20px
+}
+
+.div-right {
+    width: 100%;
+    float: initial;
+    margin-bottom: 0
+}
+
+.div-left img {
+    width: 100%
+}
+
+.ai-page h1,
+.ai-page h1 span {
+    text-align: center;
+    font-size: 24px;
+    line-height: normal
+}
+
+.ai-page h2,
+.ai-page h2 span {
+    font-size: 20px;
+    line-height: 26px
+}
+
+.market-today {
+    display: initial;
+    padding: 0
+}
+
+.ai-page section {
+    padding: 20px 0
+}
+
+.the-solution p {
+    margin: 20px 0
+}
+
+.market-today h3 {
+    margin: 20px 0
+}
+
+.help-data {
+    margin: 0 auto;
+    width: 100%
+}
+
+.we-help-bg {
+    background: 0 0;
+    display: initial
+}
+
+.we-help h1 {
+    margin-bottom: 20px
+}
+
+#masonry-container .photodetail {
+    margin-left: 1px
+}
+
+header>section>nav .submenu ul li a {
+    text-align: left;
+    display: flex;
+    align-items: center
+}
+
+.bpos .submenu ul li,
+.indstrz .submenu ul li {
+    width: 100%
+}
+
+.teamleader h5 {
+    text-align: center
+}
+
+.arcgatefoundation h1 {
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: 700
+}
+
+.arcgatefoundation p {
+    font-size: 22px
+}
+
+.arcgatefoundation {
+    padding: 50px 0
+}
+
+.footer-social1 ul {
+    text-align: center
+}
+
+.ourentrepreneurs img.arcgate_bg2,
+.welcomearclab img.arcgate_bg2 {
+    opacity: .5
+}
+
+.ourentrepreneurs.contact {
+    min-height: initial
+}
+
+.DDblogs .submenu ul li {
+    border-right: 0
+}
+
+.submenu ul li {
+    padding: 5px 0
+}
+
+.bpo-services .ind-adtech .data-process-type>a>.data-processing-caption {
+    max-width: 160px
+}
+
+.cs-main h6 {
+    font-size: 16px
+}
+
+.cs-three p {
+    font-size: 18px
+}
+
+.cs-one img {
+    margin-right: 10px;
+    width: 15px
+}
+
+.cs-one {
+    width: 140px
+}
+
+.cs-two {
+    margin: 0 20px 0 0
+}
+
+.casestudies {
+    padding-top: 10px
+}
+
+.post-tabs {
+    width: 100%;
+    overflow-y: hidden;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.post-tabs li a:hover {
+    background: 0 0;
+    border-bottom: 0
+}
+
+.bpo-services .ind-adtech .data-process-type>a>.data-processing-icons,
+.bpo-services .ind-adtech .data-process-type>a>.data-processing-caption {
+    max-width: 160px;
+    min-width: 150px
+}
+
+.bpo-services .marketEcomm .data-process-type>a>.data-processing-icons,
+.bpo-services .marketEcomm .data-process-type>a>.data-processing-caption {
+    max-width: 160px;
+    min-width: 150px
+}
+
+.down-arrow {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: center center;
+    top: 9px;
+    right: 17px;
+    left: initial;
+    position: absolute;
+    background-color: #e8e8e8;
+    border-radius: 50%
+}
+
+.bpos,
+.indstrz,
+.DDblogs,
+.DDresource,
+.DDpodcast {
+    background: #f5f5f5
+}
+
+.submenu {
+    display: none;
+    opacity: 1
+}
+
+header>section {
+    padding: 0
+}
+
+header>section>nav>ul>li>a,
+header>section>nav>ul>li>a:hover,
+header>section>nav>ul>li>a:visited {
+    margin-left: 10px
+}
+
+.icn-div {
+    display: inline-flex;
+    height: 38px;
+    width: 38px;
+    margin: 0 10px 0 0
+}
+
+.width-30 .icn-div img,
+.icn-div img {
+    width: 20px
+}
+
+.down-arrow.rotate {
+    transform: rotate(-180deg);
+    transition: all .8s
+}
+
+header>section.resources-header>nav>ul>li,
+header>section.blog-header>nav>ul>li {
+    margin: 0
+}
+
+.ag-blog-img iframe {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 800px;
+    height: 100%
+}
+
+.becomeagian-left {
+    width: 100%;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 0 20px;
+    padding-top: 90px
+}
+
+.becom-in h1 {
+    font-size: 22px;
+    margin: 0
+}
+
+.becom-in h2 {
+    font-size: 18px;
+    margin: 15px 0 0;
+    line-height: normal
+}
+
+.becom-in h3 {
+    font-size: 20px
+}
+
+.pop .bottom-btn {
+    width: 100%
+}
+
+.pop .join-right {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding-top: 0
+}
+
+.join-right h1 {
+    font-size: 20px;
+    margin: 20px 0 0
+}
+
+.join-page .address {
+    float: none;
+    position: initial;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+.jobs_info .vacancy-caontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-between
+}
+
+.jobs_info .vacancy-caontainer .vcBoxLeft {
+    width: 100%
+}
+
+.jobs_info .vacancy-caontainer .vcBoxRight {
+    width: 100%
+}
+
+.content.join-page div.wpcf7-validation-errors,
+.content.join-page div.wpcf7-acceptance-missing,
+.content.join-page div.wpcf7-mail-sent-ok,
+.content.join-page div.wpcf7-spam-blocked {
+    font-size: 14px;
+    top: -50px
+}
+
+.skills h1,
+.skills h1 span.orng {
+    font-size: 20px;
+    line-height: 30px
+}
+.devOps-service .divLeft, .devOps-service .divRight{
+	width: 80%;
+}

@@ -1,0 +1,458 @@
+import React from 'react'
+import "../src/body_container.css";
+import imagePaths from './imagePath';
+import { Link } from "react-router-dom";
+
+
+function BodyContainer() {
+    return (
+        <div className='body-container'>
+            <article className='body-content'>
+                <section className='body-section'>
+                    <div className='body-div'>
+                        <h2>
+                            We are a fast growing team of 2000+ people passionate about data and technology.
+                            <br></br>
+                            <br></br>
+                            "We help some of the most innovative startups in the world with AI data preparation, data enrichment, search relevance, content moderation, application development and quality engineering."
+                        </h2>
+                    </div>
+                </section>
+
+                <section className='body-section2'>
+                    <div className='body-div2'>
+                        <center>
+                            <p>
+                                Dun & Bradstreet rated Arcgate as the Best Mid-Sized Enterprise in the IT & ITES sector in India.
+                            </p>
+                            <p className='logo-image'>
+                                <img src={imagePaths.logoImage} alt='' />
+                            </p>
+                        </center>
+                    </div>
+                </section>
+
+                <section className='body-section3'>
+                    <div className='body-div3'>
+                        <h2>Trusted by the most disruptive companies</h2>
+                        <p>We work with incredibly exciting startups and high growth companies who dream big and move fast. Our relationship with our clients is a partnership – we bring our experience, best practices and tools to apply to our customer’s unique requirements.</p>
+                        <p>Our customers include the top leaders in Real Estate Tech, Food Tech, Sharing Economy, Ecommerce, Fintech and Consumer Internet. We value their trust deeply and take the responsibility very seriously.</p>
+                    </div>
+                </section>
+
+                <section className='body-section4'>
+                    <h1>We provide critical outsourcing services to help our clients accelerate in the AI-first world.</h1>
+                    <div className='bpo1'>
+                        <div className='right-border'>
+                            <div className='data-process'>
+                                <h2>BPO</h2>
+                                <div className='row1'>
+                                    <div className='data-process-type1'>
+                                        <Link to="/accounting_outsourcing">
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.bpoImage} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                Accounting Outsourcing
+                                            </span>
+                                        </Link>
+                                    </div>
+
+                                    <div className='data-process-type1'>
+                                        <Link to='/ai-data-preparation'>
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.image1} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                AI Data Preparation
+                                            </span>
+                                        </Link>
+                                    </div>
+
+                                    <div className='data-process-type1'>
+                                        <Link to='/data-solution'>
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.image2} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                Data Solutions
+                                            </span>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className='row2'>
+                                    <div className='data-process-type1'>
+                                        <a href='/customer-onboarding-support'>
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.image3} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                customer Onboarding & support
+                                            </span>
+                                        </a>
+                                    </div>
+
+                                    <div className='data-process-type1'>
+                                        <Link to='/order-management'>
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.image4} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                Order Management
+                                            </span>
+                                        </Link>
+                                    </div>
+
+                                    <div className='data-process-type1'>
+                                        <Link to='/transcription'>
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.image5} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                Transcription
+                                            </span>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <div className='data-process1'>
+                                <h2>Technology</h2>
+                                <div className='row1'>
+                                    <div className='data-process-type2'>
+                                        <Link to='application-development'>
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.image6} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                Application Development
+                                            </span>
+                                        </Link>
+                                    </div>
+
+                                    <div className='data-process-type2'>
+                                        <Link to='quality-assurance-testing'>
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.image7} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                Quality Assurance & Testing
+                                            </span>
+                                        </Link>
+                                    </div>
+
+                                    <div className='data-process-type2'>
+                                        <Link to='team-augmentation'>
+                                            <span className='data-process-image'>
+                                                <img src={imagePaths.image8} alt='' />
+                                            </span>
+                                            <span className='data-process-text'>
+                                                Team Augmentation
+                                            </span>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <section className='body-section5'>
+                    <div className='arcgate-content'>
+                        <div className='video-content'>
+                            <h1>
+                                Get an inside peek into Arcgate
+                            </h1>
+                            <div className='video-list'>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
+                                            <div className='video-image'>
+                                                <img src={imagePaths.imageVideo1} alt='' />
+                                                <span className='btn-video'>
+                                                    <img src={imagePaths.image18} alt='' />
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>Dun & Bradstreet Special Recognition Award 2019 - SME</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
+                                            <div className='video-image'>
+                                                <img src={imagePaths.imageVideo2} alt='' />
+                                                <span className='btn-video'>
+                                                    <img src={imagePaths.image18} alt='' />
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>CNBC-TV18 highlights the story of Arcgate in “The Leap Takers” show</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
+                                            <div className='video-image'>
+                                                <img src={imagePaths.imageVideo3} alt='' />
+                                                <span className='btn-video'>
+                                                    <img src={imagePaths.image18} alt='' />
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>ET Now business News channel covers Arcgate in the “Emerging SME” series</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='body-section6'>
+                    <div className='body-div4'>
+                        <h2>
+                            Why Arcgate
+                        </h2>
+                        <center>
+                            <p>Since 2005 we have helped accelerate more than 75 startups. That deep experience helps us understand the needs of high growth companies better than most outsourcing vendors.                            </p>
+                        </center>
+                        <div className='why-arcgate'>
+                            <p>
+                                <img src={imagePaths.image9} alt='' />
+                                <br></br>
+                                <span>Speed</span>
+                            </p>
+
+                            <p>
+                                <img src={imagePaths.image10} alt='' />
+                                <br></br>
+                                <span>Management</span>
+                            </p>
+
+                            <p>
+                                <img src={imagePaths.image11} alt='' />
+                                <br></br>
+                                <span>Cost</span>
+                            </p>
+
+                            <p>
+                                <img src={imagePaths.image12} alt='' />
+                                <br></br>
+                                <span>Infrastructure</span>
+                            </p>
+
+                            <p>
+                                <img src={imagePaths.image13} alt='' />
+                                <br></br>
+                                <span>Fexibility</span>
+                            </p>
+
+                            <p>
+                                <img src={imagePaths.image14} alt='' />
+                                <br></br>
+                                <span>Quality</span>
+                            </p>
+                        </div>
+                        <div className='button-div'>
+                            <div className='link-button'>
+                                <a className='link-button-a' href='about#why-arcgate'>LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='body-section7'>
+                    <div className='body-div5'>
+                        <div className='body-section-content'>
+                            <div className='body-section-content1'>
+                                <h2>
+                                    Become an Arcgatian
+                                </h2>
+                                <center>
+                                    <p>Combining the innovative feel of a startup with the sophistication of an experienced team, we are at the forefront of the outsourcing revolution for startups in the AI-first world.</p>
+                                </center>
+                                <div className='body-section-content1'>
+                                    <div className='video-list'>
+                                        <div className='video-blog1'>
+                                            <div className='blog-pic'>
+                                                <a className='blog-text'>
+                                                    <div className='thumb'>
+                                                        <img src={imagePaths.image15} alt='' />
+                                                        <span className='btn-play'>
+                                                            <img src={imagePaths.image18} alt='' />
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div className='video-blog1'>
+                                            <div className='blog-pic'>
+                                                <a className='blog-text'>
+                                                    <div className='thumb'>
+                                                        <img src={imagePaths.image16} alt='' />
+                                                        <span className='btn-play'>
+                                                            <img src={imagePaths.image18} alt='' />
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div className='video-blog1'>
+                                            <div className='blog-pic'>
+                                                <a className='blog-text'>
+                                                    <div className='thumb'>
+                                                        <img src={imagePaths.image17} alt='' />
+                                                        <span className='btn-play'>
+                                                            <img src={imagePaths.image18} alt='' />
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='button-div'>
+                                    <div className='link-button'>
+                                        <a href='careers'>SEE CAREERS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='body-section8'>
+                    <div className='body-section-content2'>
+                        <h2>Our Blog</h2>
+                        <center>
+                            <p>Read our thoughts around outsourcing and startups</p>
+                        </center>
+                        <div className='blog'>
+                            <div className='blog-container'>
+                                <div className='blog-content'>
+                                    <a href=''>
+                                        <div className='blog-div'>
+                                            <img src={imagePaths.imageBlog1} alt='' />
+                                        </div>
+                                        <div className='thumb-blog'>
+                                            <p>Retail in India and Future Trends</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='blog-container'>
+                                <div className='blog-content'>
+                                    <a href=''>
+                                        <div className='blog-div'>
+                                            <img src={imagePaths.imageBlog2} alt='' />
+                                        </div>
+                                        <div className='thumb-blog'>
+                                            <p>
+                                                Artificial Intelligence – The Exciting Future </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='blog-container'>
+                                <div className='blog-content'>
+                                    <a href=''>
+                                        <div className='blog-div'>
+                                            <img src={imagePaths.imageBlog3} alt='' />
+                                        </div>
+                                        <div className='thumb-blog'>
+                                            <p>
+                                                Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='button-div'>
+                            <div className='button-div-link'>
+                                <a href='blog'>VIEW ALL</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='body-section9'>
+                    <div className='body-section9-content'>
+                        <div className='body-section9-div'>
+                            <h2>Listen to our Podcasts</h2>
+                        </div>
+                        <div className='podcast'>
+                            <div className='frame-content'>
+                                <div className='frame-div'>
+                                    <iframe></iframe>
+                                    <div className='frame-body'>
+                                        <a>
+                                            <p>Food tech startups are leveraging artificial intelligence and image recognition</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='frame-content'>
+                                <div className='frame-div'>
+                                    <iframe></iframe>
+                                    <div className='frame-body'>
+                                        <a>
+                                            <p>Food tech startups are leveraging artificial intelligence and image recognition</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='frame-content'>
+                                <div className='frame-div'>
+                                    <iframe></iframe>
+                                    <div className='frame-body'>
+                                        <a>
+                                            <p>Food tech startups are leveraging artificial intelligence and image recognition</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className='body-section10'>
+                    <div className='body-section10-div'>
+                        <h2>Tweets</h2>
+                        <div className='tweet-content'>
+                            <div className='tweet-div'>
+                                <img></img>
+                            </div>
+                        </div>
+                        <div className='tweet-body'>
+                            <div className='tweet-text'>
+                                <a href=''>Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+
+
+        </div>
+    )
+}
+
+export default BodyContainer

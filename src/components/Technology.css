@@ -1,0 +1,286 @@
+.technology-container {
+  margin: 105px auto 0;
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.technology-section1 {
+  background-color: #f8f0e4;
+  background-image: url(../images//arcgatelab.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 104px 0 40px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.technology-content1 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.technology-content1 img {
+  position: absolute;
+  left: -15%;
+  top: -14%;
+  width: 317px;
+}
+
+.technology-content1 .technology-div1 {
+  float: right;
+  text-align: left;
+  width: 100%;
+  max-width: 737px;
+  position: relative;
+  padding: 0 10px;
+}
+
+.technology-content1 .technology-div1 h2 {
+  text-align: inherit;
+  color: #1a171b;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  width: 82%;
+  line-height: 1.09em;
+  float: left;
+  margin-bottom: 22px;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.technology-content1 .technology-div1 p {
+  font-size: 24px;
+  line-height: 1.25em;
+  width: 92%;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  margin-bottom: 26px;
+}
+
+.technology-section2 {
+  background: rgba(164, 163, 150, .2);
+  padding: 52px 0;
+  text-align: center;
+  display: block;
+  height: 800px;
+}
+
+.technology-content2 {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.technology-content2 h2 {
+  margin-bottom: 22px;
+  width: 74%;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  line-height: 1.08em;
+  font-size: 36px;
+  color: #373435;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.technology-content2 center p {
+  line-height: normal;
+  font-size: 24px;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  margin-bottom: 22px;
+}
+
+.technology-content2 .technology-div2 {
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  margin-left: 63px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+.data-process-type1 {
+  margin: 0 5px 45px;
+  width: 230px;
+}
+
+.data-process-type1 a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  margin: 0 10px;
+  text-align: center;
+  color: #1a171b;
+}
+
+.data-process-image {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 5px 18px 0 rgba(0, 0, 0, .12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  max-width: 112px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.data-process-type1 .data-process-image img {
+  max-width: 75px;
+}
+
+.data-process-text {
+  max-width: 190px;
+  width: 190px;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  line-height: normal;
+  font-size: 17px;
+}
+
+.data-process-type1 img {
+  margin: 7px auto;
+  max-width: 48px;
+  display: block;
+}
+
+.data-process-type1 img {
+  margin: 7px auto;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.technology-section3 {
+  padding: 52px 0 60px;
+}
+
+.technology-content3 {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.technology-content3 h2 {
+  margin-bottom: 22px;
+  font-size: 36px;
+  color: #373435;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  text-align: center;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.technology-content3 center {
+  margin-bottom: 74px;
+}
+
+.technology-content3 center p {
+  width: 80%;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  line-height: normal;
+  font-size: 24px;
+}
+
+.technology-div3 {
+  text-align: center;
+}
+
+.technology-div3 .technology-body {
+  margin: 0 4px 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+.technology-div3 .technology-body .rounded-box1 {
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  background-color: #f19168;
+}
+
+.technology-div3 .technology-body .rounded-box1 p {
+  font-size: 150%;
+  line-height: 120%;
+  text-align: center;
+  width: 70%;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  margin: 0 auto;
+}
+
+.technology-div3 .technology-body .rounded-box2 {
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  background-color: #82c5bc;
+}
+
+.technology-div3 .technology-body .rounded-box2 p {
+  font-size: 150%;
+  line-height: 120%;
+  text-align: center;
+  width: 70%;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  margin: 0 auto;
+}
+
+.technology-div3 .technology-body .rounded-box3 {
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  background-color: #a4a397;
+}
+
+.technology-div3 .technology-body .rounded-box3 p {
+  font-size: 150%;
+  line-height: 120%;
+  text-align: center;
+  width: 70%;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  margin: 0 auto;
+}
+
+.technology-div3 .technology-body .rounded-box4 {
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  background-color: #fbc861;
+}
+
+.technology-div3 .technology-body .rounded-box4 p {
+  font-size: 150%;
+  line-height: 120%;
+  text-align: center;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  width: 70%;
+  margin: 0 auto;
+}
