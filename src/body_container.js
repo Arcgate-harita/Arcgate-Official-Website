@@ -3,7 +3,6 @@ import "../src/body_container.css";
 import imagePaths from './imagePath';
 import { Link } from "react-router-dom";
 
-
 function BodyContainer() {
     return (
         <div className='body-container'>
@@ -50,9 +49,11 @@ function BodyContainer() {
                                     <div className='data-process-type1'>
                                         <Link to="/accounting_outsourcing">
                                             <span className='data-process-image'>
+
                                                 <img src={imagePaths.bpoImage} alt='' />
+
                                             </span>
-                                            <span className='data-process-text'>
+                                            <span className='data-process-text1'>
                                                 Accounting Outsourcing
                                             </span>
                                         </Link>
@@ -86,7 +87,7 @@ function BodyContainer() {
                                             <span className='data-process-image'>
                                                 <img src={imagePaths.image3} alt='' />
                                             </span>
-                                            <span className='data-process-text'>
+                                            <span className='data-process-text2'>
                                                 customer Onboarding & support
                                             </span>
                                         </a>
@@ -123,7 +124,7 @@ function BodyContainer() {
                                 <h2>Technology</h2>
                                 <div className='row1'>
                                     <div className='data-process-type2'>
-                                        <Link to='application-development'>
+                                        <Link to='/application-development'>
                                             <span className='data-process-image'>
                                                 <img src={imagePaths.image6} alt='' />
                                             </span>
@@ -134,7 +135,7 @@ function BodyContainer() {
                                     </div>
 
                                     <div className='data-process-type2'>
-                                        <Link to='quality-assurance-testing'>
+                                        <Link to='/quality-assurance-testing'>
                                             <span className='data-process-image'>
                                                 <img src={imagePaths.image7} alt='' />
                                             </span>
@@ -145,7 +146,7 @@ function BodyContainer() {
                                     </div>
 
                                     <div className='data-process-type2'>
-                                        <Link to='team-augmentation'>
+                                        <Link to='/team-augmentation'>
                                             <span className='data-process-image'>
                                                 <img src={imagePaths.image8} alt='' />
                                             </span>
@@ -172,11 +173,13 @@ function BodyContainer() {
                                 <div className='video-div'>
                                     <div className='video-body'>
                                         <a href=''>
-                                            <div className='video-image'>
-                                                <img src={imagePaths.imageVideo1} alt='' />
-                                                <span className='btn-video'>
-                                                    <img src={imagePaths.image18} alt='' />
-                                                </span>
+                                            <div class='video-image'>
+                                                <a href='https://www.youtube.com/watch?v=rn1v6nod--E' target='_blank'>
+                                                    <img src={imagePaths.imageVideo1} alt='' />
+                                                    <span className='btn-video'>
+                                                        <img src={imagePaths.image18} alt='' />
+                                                    </span>
+                                                </a>
                                             </div>
                                         </a>
                                         <div className='video-text'>
@@ -187,11 +190,13 @@ function BodyContainer() {
                                 <div className='video-div'>
                                     <div className='video-body'>
                                         <a href=''>
-                                            <div className='video-image'>
-                                                <img src={imagePaths.imageVideo2} alt='' />
-                                                <span className='btn-video'>
-                                                    <img src={imagePaths.image18} alt='' />
-                                                </span>
+                                            <div class='video-image'>
+                                                <a href='https://www.youtube.com/watch?v=9JF7rnMgKKg&t=446s' target='_blank'>
+                                                    <img src={imagePaths.imageVideo2} alt='' />
+                                                    <span className='btn-video'>
+                                                        <img src={imagePaths.image18} alt='' />
+                                                    </span>
+                                                </a>
                                             </div>
                                         </a>
                                         <div className='video-text'>
@@ -202,11 +207,13 @@ function BodyContainer() {
                                 <div className='video-div'>
                                     <div className='video-body'>
                                         <a href=''>
-                                            <div className='video-image'>
-                                                <img src={imagePaths.imageVideo3} alt='' />
-                                                <span className='btn-video'>
-                                                    <img src={imagePaths.image18} alt='' />
-                                                </span>
+                                            <div class='video-image'>
+                                                <a href='https://www.youtube.com/watch?v=rEJ1V48lrc0' target='_blank'>
+                                                    <img src={imagePaths.imageVideo3} alt='' />
+                                                    <span className='btn-video'>
+                                                        <img src={imagePaths.image18} alt='' />
+                                                    </span>
+                                                </a>
                                             </div>
                                         </a>
                                         <div className='video-text'>
@@ -269,7 +276,7 @@ function BodyContainer() {
                         </div>
                         <div className='button-div'>
                             <div className='link-button'>
-                                <a className='link-button-a' href='about#why-arcgate'>LEARN MORE</a>
+                                <a className='link-button-a' href="/About#why-arcgate" >LEARN MORE</a>
                             </div>
                         </div>
                     </div>
@@ -291,10 +298,12 @@ function BodyContainer() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                        <img src={imagePaths.image15} alt='' />
-                                                        <span className='btn-play'>
-                                                            <img src={imagePaths.image18} alt='' />
-                                                        </span>
+                                                        <a href='https://www.youtube.com/watch?v=ux_FiVC4eVM' target='_blank'>
+                                                            <img src={imagePaths.image15} alt='' />
+                                                            <span className='btn-play'>
+                                                                <img src={imagePaths.image18} alt='' />
+                                                            </span>
+                                                        </a>
                                                     </div>
                                                 </a>
                                             </div>
@@ -303,10 +312,12 @@ function BodyContainer() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                        <img src={imagePaths.image16} alt='' />
-                                                        <span className='btn-play'>
-                                                            <img src={imagePaths.image18} alt='' />
-                                                        </span>
+                                                        <a href='https://www.youtube.com/watch?v=0dEGFOtAsZs' target='_blank'>
+                                                            <img src={imagePaths.image16} alt='' />
+                                                            <span className='btn-play'>
+                                                                <img src={imagePaths.image18} alt='' />
+                                                            </span>
+                                                        </a>
                                                     </div>
                                                 </a>
                                             </div>
@@ -315,10 +326,12 @@ function BodyContainer() {
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
-                                                        <img src={imagePaths.image17} alt='' />
-                                                        <span className='btn-play'>
-                                                            <img src={imagePaths.image18} alt='' />
-                                                        </span>
+                                                        <a href='https://www.youtube.com/watch?v=O97QHjU-i-Y' target='_blank'>
+                                                            <img src={imagePaths.image17} alt='' />
+                                                            <span className='btn-play'>
+                                                                <img src={imagePaths.image18} alt='' />
+                                                            </span>
+                                                        </a>
                                                     </div>
                                                 </a>
                                             </div>
@@ -328,7 +341,7 @@ function BodyContainer() {
 
                                 <div className='button-div'>
                                     <div className='link-button'>
-                                        <a href='careers'>SEE CAREERS</a>
+                                        <a href='/Career'>SEE CAREERS</a>
                                     </div>
                                 </div>
                             </div>
