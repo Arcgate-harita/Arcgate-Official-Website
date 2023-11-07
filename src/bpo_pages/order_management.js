@@ -2,7 +2,7 @@ import React from 'react'
 import imagePaths from '../imagePath'
 import "../bpo_pages/order_management.css";
 
-function order_managemnet() {
+function order_management() {
   return (
     <div className='order-container'>
 <article>
@@ -159,4 +159,4 @@ function order_managemnet() {
   )
 }
 
-export default order_managemnet
+export default order_management
