@@ -1,8 +1,16 @@
 import React from 'react';
 import "../bpo_pages/account_outsourcing.css";
 import imagePaths from '../imagePath';
+import { useEffect } from 'react';
 
-function accountOutsourcing() {
+function AccountOutsourcing() {
+
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+}, []);
+
+  
   return (
     <div className='account-container'>
       <article>
@@ -104,4 +112,4 @@ function accountOutsourcing() {
 }
 
 
-export default accountOutsourcing
+export default AccountOutsourcing
