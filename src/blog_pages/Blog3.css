@@ -1,0 +1,116 @@
+.blog-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.blog3-section1 {
+    background-image: url(../images/arcgate-bg.jpg);
+    padding: 0;
+    background-position: center center;
+}
+
+.blog3-section1 .blog3-content1 {
+    background: 0 0;
+    display: flex;
+    height: 275px;
+    align-items: center;
+}
+
+.blog3-section1 .blog3-content1 h2{
+    font-size: 36px;
+    line-height: 45px;
+    color: #000;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    padding: 10px;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+.blog3-section2 {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.blog3-section2 .blog3-content2 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.blog3-section2 .blog3-content2 p {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-size: 18px;
+    line-height: normal;
+    margin: 20px 0 0;
+}
+
+.blog3-section2 {
+    padding: 45px 0;
+  }
+  
+  .blog3-section-content2 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  
+  .blog3-section-content2 h6 {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    text-align: center;
+    font-size: 18px;
+    color: #868572;
+    margin-top: 50px;
+    padding: 20px 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e8e1da;
+}
+
+
+  .blog3 {
+    text-align: center;
+    margin-bottom: 34px;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 47px;
+  }
+  
+  .blog3 .blog3-container {
+    opacity: 1;
+  }
+  
+  .blog3 .blog3-container .blog3-content {
+    overflow: hidden;
+    margin: 20px 0 0;
+  }
+  
+  .blog3 .blog3-container .blog3-content .blog3-div {
+    display: block;
+  }
+  
+  .blog3-content .thumb-blog3 {
+    display: none;
+  }
+  
+  .blog3-content .thumb-blog3 p {
+    padding: 5px 10px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    vertical-align: middle;
+    line-height: 20px;
+    transition: padding-top .4s;
+    clear: both;
+    display: inline-block;
+    padding: 3px 10px 0;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    font-size: 15px;
+    color: #fff;
+  }
+  
