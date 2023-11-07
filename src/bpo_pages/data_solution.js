@@ -19,7 +19,7 @@ function data_solution() {
           '<div className='solution-content2'>
             <div className='solution-div2'>
               <div className='data-solution-type1'>
-                <Link to="/data-enrichment">
+                <Link to="/data1">
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon8} alt='' />
                   </span>
@@ -30,7 +30,7 @@ function data_solution() {
               </div>
 
               <div className='data-solution-type1'>
-                <Link to="/data-entry">
+                <Link to="/data2">
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon1} alt='' />
                   </span>
@@ -41,7 +41,7 @@ function data_solution() {
               </div>
 
               <div className='data-solution-type1'>
-                <Link to='/data-collection'>
+                <Link to='/data3'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon2} alt='' />
                   </span>
@@ -52,7 +52,7 @@ function data_solution() {
               </div>
 
               <div className='data-solution-type1'>
-                <Link to='/data-categorization'>
+                <Link to='/data4'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon3} alt='' />
                   </span>
@@ -63,7 +63,7 @@ function data_solution() {
               </div>
 
               <div className='data-solution-type1'>
-                <a href='/data-cleansing'>
+                <a href='/data5'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon4} alt='' />
                   </span>
@@ -74,7 +74,7 @@ function data_solution() {
               </div>
 
               <div className='data-solution-type1'>
-                <Link to='/data-deduplication'>
+                <Link to='/data6'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon5} alt='' />
                   </span>
@@ -85,7 +85,7 @@ function data_solution() {
               </div>
 
               <div className='data-solution-type1'>
-                <Link to='/reporting'>
+                <Link to='/data7'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon6} alt='' />
                   </span>
@@ -96,7 +96,7 @@ function data_solution() {
               </div>
 
               <div className='data-solution-type1'>
-                <Link to='/analytics'>
+                <Link to='/data8'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon7} alt='' />
                   </span>
@@ -137,85 +137,66 @@ function data_solution() {
           </div>
         </section>
 
-        <section className='solution-section4'>
-          <div className='solution-content4'>
-            <h6>Insights</h6>
-            <div className='solution-div4'>
-              <div className='solution-body4'>
-                <div className='insight-card'>
-                  <div className='tag'>
-                    <img src={imagePaths.imageBlog1} alt='' />
-                  </div>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                  <a>
-                    <h2></h2>
-                  </a>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                </div>
-                <p></p>
-              </div>
-              <p></p>
-              <div className='solution-body4'>
-                <div className='insight-card'>
-                  <div className='tag'>
-                    <img src={imagePaths.imageBlog1} alt='' />
-                  </div>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                  <a>
-                    <h2></h2>
-                  </a>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                </div>
-                <p></p>
-              </div>
-              <p></p>
-              <div className='solution-body4'>
-                <div className='insight-card'>
-                  <div className='tag'>
-                    <img src={imagePaths.imageBlog1} alt='' />
-                  </div>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                  <a>
-                    <h2></h2>
-                  </a>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                </div>
-                <p></p>
-              </div>
-              <p></p>
-              <div className='solution-body4'>
-                <div className='insight-card'>
-                  <div className='tag'>
-                    <img src={imagePaths.imageBlog1} alt='' />
-                  </div>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                  <a>
-                    <h2></h2>
-                  </a>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                </div>
-                <p></p>
-              </div>
-              <p></p>
-            </div>
-          </div>
-        </section>
+        <section className='blogView-section2'>
+                  <div className='blogView-div2'>
+                  <h6>MORE ARTICLES</h6>
+                    <div className='blogView'>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog25'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.blog24} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>Retail in India and Future Trends</p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog21'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.blog20} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>
+                                            Artificial Intelligence – The Exciting Future </p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog38'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.blog37} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>
+                                            Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog37'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.blog36} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>
+                                           </p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                   
+                     </div>
+                   
+                   </div>
+                </section>
       </article>
     </div>
   )

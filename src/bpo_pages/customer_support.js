@@ -26,13 +26,13 @@ function customer_support() {
 
               <div className='customer-body2'>
                 <a href=''>
-                  <span>
+                  <span className='customer-image'>
                     <img src={imagePaths.customer1} alt='' />
                   </span>
                   <br></br>
-                  <span>Customer Onboarding</span>
+                  <span className='customer-text'>Customer Onboarding</span>
                   <br></br>
-                  <span>
+                  <span className='customer-para'>
                     <p></p>
                     <p>We help set up every new customer on your platform – the result is a seamless new customer onboarding process.</p>
                   </span>
@@ -41,13 +41,13 @@ function customer_support() {
 
               <div className='customer-body2'>
                 <a href=''>
-                  <span>
+                  <span className='customer-image'>
                     <img src={imagePaths.customer2} alt='' />
                   </span>
                   <br></br>
-                  <span>Customer Care & Help Desk</span>
+                  <span className='customer-text'>Customer Care & Help Desk</span>
                   <br></br>
-                  <span>
+                  <span className='customer-para'>
                     <p></p>
                     <p>Fanatical service request management to ensure high customer satisfaction.</p>
                   </span>
@@ -59,20 +59,20 @@ function customer_support() {
           </div>
         </section>
 
-        <section className='solution-section4'>
-          <div className='solution-content4'>
+        <section className='customer-section3'>
+          <div className='customer-content3'>
             <h6>Insights</h6>
-            <div className='solution-div4'>
-              <div className='solution-body4'>
-                <div className='insight-card'>
-                  <div className='tag'>
-                    <img src={imagePaths.imageBlog1} alt='' />
+            <div className='customer-div3'>
+              <div className='customer-body3'>
+                <div className='insight-cards'>
+                  <div className='tag1'>
+                  <img src={imagePaths.blogLogo} alt='' />
                   </div>
                   <p>
                     <a href=''></a>
                   </p>
                   <a>
-                    <h2></h2>
+                    <h2>Delight your customer always!</h2>
                   </a>
                   <p>
                     <a href=''></a>
@@ -81,52 +81,16 @@ function customer_support() {
                 <p></p>
               </div>
               <p></p>
-              <div className='solution-body4'>
-                <div className='insight-card'>
-                  <div className='tag'>
-                    <img src={imagePaths.imageBlog1} alt='' />
+              <div className='customer-body3'>
+                <div className='insight-cards'>
+                  <div className='tag1'>
+                    <img src={imagePaths.blogLogo} alt='' />
                   </div>
                   <p>
                     <a href=''></a>
                   </p>
                   <a>
-                    <h2></h2>
-                  </a>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                </div>
-                <p></p>
-              </div>
-              <p></p>
-              <div className='solution-body4'>
-                <div className='insight-card'>
-                  <div className='tag'>
-                    <img src={imagePaths.imageBlog1} alt='' />
-                  </div>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                  <a>
-                    <h2></h2>
-                  </a>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                </div>
-                <p></p>
-              </div>
-              <p></p>
-              <div className='solution-body4'>
-                <div className='insight-card'>
-                  <div className='tag'>
-                    <img src={imagePaths.imageBlog1} alt='' />
-                  </div>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                  <a>
-                    <h2></h2>
+                    <h2>Online Reputation and Content Moderation</h2>
                   </a>
                   <p>
                     <a href=''></a>

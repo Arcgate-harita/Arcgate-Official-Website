@@ -1,8 +1,15 @@
 import React from 'react'
 import imagePaths from '../imagePath';
 import "../bpo_pages/ai_data.css";
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
-function data() {
+function Data() {
+  
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+}, []);
   return (
     <div className='data-container'>
       <article>
@@ -140,10 +147,83 @@ function data() {
           </div>
         </section>
 
+
+        <section className='blogView-section2'>
+                  <div className='blogView-div2'>
+                  <h6>MORE ARTICLES</h6>
+                    <div className='blogView'>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog1'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.imageBlog1} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>Retail in India and Future Trends</p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog2'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.imageBlog2} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>
+                                            Artificial Intelligence – The Exciting Future </p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog3'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.imageBlog3} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>
+                                            Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog4'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.blog3} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>
+                                           </p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className='blogView-container1'>
+                            <div className='blogView-content2'>
+                                <Link to='/blog5'>
+                                    <div className='blogView-div'>
+                                        <img src={imagePaths.blog4} alt='' />
+                                    </div>
+                                    <div className='thumb-blogView'>
+                                        <p>
+                                            </p>
+                                    </div>
+                                </Link>
+                            </div>
+                        </div>
+                     </div>
+                   
+                   </div>
+                </section>
       </article>
     </div>
 
   )
 }
 
-export default data
+export default Data
