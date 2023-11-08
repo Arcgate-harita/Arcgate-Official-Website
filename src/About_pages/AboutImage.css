@@ -1,0 +1,145 @@
+.image-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.image-section1 {
+    background-image: url(../images/blog_header_bg\ \(1\).png);
+    background-color: #ddd1c6;
+}
+
+.image-content1 {
+    padding: 128px 0 50px;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90));
+}
+
+.image-content1 .image-div1 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.image-content1 .image-div1  h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.image-content1 .image-div1  p{
+    width: 80%;
+    color: #fff;
+    font-size: 22px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    margin-bottom: 24px;
+    line-height: 1.18em;
+    text-align: center;
+
+}
+
+
+.image-section2 {
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+.image-div2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.image-div2  .image {
+    position: relative;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image .image-container1 {
+    transition-delay: 100ms;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+    margin: 20px 0 0 25px;
+    max-width: 330px;
+    padding: 0;
+    vertical-align: top;
+    width: 100%;
+}
+  
+  
+ .image .image-container1 .image-content2 {
+    box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .35);
+    margin: 0;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .image-container1 .image-content2 a {
+    display: inline-block;
+    vertical-align: top;
+    width: inherit;
+  }
+
+  
+  .image .image-container1 .image-content2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-section-button {
+ padding: 10px;
+  background-color: rgb(209, 209, 209);
+}
+
+.image-content-button button{
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(209, 209, 209);
+  border: #ddd1c6;
+  text-align: center;
+  font-weight: 700px;
+  gap: 20px;
+}
+
+.image-content-button .button1{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(209, 209, 209);
+    border: #ddd1c6;
+    text-align: center;
+    padding-right: 30px;
+  }
+
+  
+  .image-content-button .button2{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(209, 209, 209);
+    border: #ddd1c6;
+    text-align: center;
+  }
+
+  
+.image-content-button button:hover{
+color: white;
+}
