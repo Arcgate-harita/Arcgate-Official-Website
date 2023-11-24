@@ -42,6 +42,3 @@ test('should render the component', async () => {
     const { getByRole } = render(<MemoryRouter><About /></MemoryRouter>);
 
       });
- 
-
-
