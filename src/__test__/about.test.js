@@ -32,7 +32,7 @@ test('should render the component', async () => {
         expect(screen.getByTestId('image-modal')).toBeInTheDocument();
       });
       
-    // Simulate closing the ImageModal
+
     fireEvent.click(getByText('Close Image'));
     
     expect(queryByTestId('image-modal')).toBeNull();

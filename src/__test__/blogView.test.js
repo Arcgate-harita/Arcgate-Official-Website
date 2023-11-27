@@ -16,7 +16,7 @@ test('renders Blog_view component',  () => {
       const blogViewContainer = screen.getByTestId('blogView-container');
       expect(blogViewContainer).toBeInTheDocument();
   
-      // Additional assertions...
+   
       const articleElement = screen.getByRole('article');
       expect(articleElement).toBeInTheDocument();
   
@@ -32,7 +32,7 @@ test('renders Blog_view component',  () => {
 test('renders Blog_view component', () => {
     render(<MemoryRouter><BlogView /> </MemoryRouter>);
     
-    // Replace these assertions with the actual elements you expect in your component
+   
     const articleElement = screen.getByTestId('article-element'); 
     const blogImages = screen.getAllByRole('img');
 
@@ -47,12 +47,12 @@ test('renders blog links with images and captions', () => {
   );
     const blogImages = screen.queryAllByAltText(/./);
 
-    // Check if each blog has a corresponding caption
+
     blogImages.forEach((image, index) => {
       const caption = screen.getByText(/./);
       expect(caption).toBeInTheDocument();
 
-      // Optional: Check if the Link component is present with the correct 'to' prop
+
       const link = screen.getByRole('link', { name: /./ });
       expect(link).toHaveAttribute('to', `/blog${index + 1}`);
     });

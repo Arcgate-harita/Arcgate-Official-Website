@@ -4,9 +4,8 @@ import '@testing-library/jest-dom';
 import App from '../App';
 
 test('suite', async () => {
-    const { debug } = render(
-        <App />
-    );
+    const { debug } = 
+    render( <App />);
     debug();
 
 });

@@ -14,13 +14,6 @@ test('suite', async () => {
 
 });
 
-// test('scrolls to the top on component mount', () => {
-//   render(<MemoryRouter><Navbar /> </MemoryRouter>);
-
-//   // Assert that window.scrollTo(0, 0) was called
-//   expect(window.scrollTo).toHaveBeenCalledWith(0, 0);
-// });
-
 test('renders Navbar component', () => {
   render(<MemoryRouter><Navbar /> </MemoryRouter>);
   // Check if the component renders without crashing
@@ -78,7 +71,6 @@ test('closes Industries dropdown', async () => {
   expect(screen.getByText(/ADTECH/i)).toBeInTheDocument();
 }); 
 
-  // Close Industries dropdown
   const industriesDropdownCloseButton = screen.getByText('View More'); // Assuming there's a close button in the dropdown
   userEvent.click(industriesDropdownCloseButton);
 
@@ -87,7 +79,7 @@ test('closes Industries dropdown', async () => {
 test('closes Insight dropdown', async () => {
   render(<MemoryRouter><Navbar /> </MemoryRouter>);
 
-  // Open Insight dropdown
+
   userEvent.hover(screen.getByText(/INSIGHTS/i));
 
   await waitFor(() => {
