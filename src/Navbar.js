@@ -62,7 +62,8 @@ function Navbar() {
       </div>
       <section className="navbar">
         <div className="arcgate-logo">
-          <a href=""></a>
+        <Link to="/"> 
+        </Link>
         </div>
         <nav>
           <ul>
@@ -86,7 +87,7 @@ function Navbar() {
 
                   <div className='row1'>
                     <div className='data-process-type1'>
-                      <Link to="/accounting_outsourcing" onClick={handleDropdownLinkClick}>
+                      <Link to="/accounting_outsourcing"  data-testid="accounting-outsourcing-link" onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
 
                           <img src={imagePaths.bpoImage} alt='' />
@@ -182,11 +183,9 @@ function Navbar() {
 
                   <div className='row1'>
                     <div className='data-process-type1'>
-                      <Link to="/testing1" onClick={handleDropdownLinkClick}>
+                      <Link to="/industry1" onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
-
                           <img src={imagePaths.tech1} alt='' />
-
                         </span>
                         <span className='data-process-text1'>
                           ADTECH
@@ -195,7 +194,7 @@ function Navbar() {
                     </div>
 
                     <div className='data-process-type1'>
-                      <Link to='/testing2' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry2' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image' >
                           <img src={imagePaths.tech2} alt='' />
                         </span>
@@ -206,7 +205,7 @@ function Navbar() {
                     </div>
 
                     <div className='data-process-type1'>
-                      <Link to='/testing3' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry3' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
                           <img src={imagePaths.tech3} alt='' />
                         </span>
@@ -218,7 +217,7 @@ function Navbar() {
                   </div>
                   <div className='row2'>
                     <div className='data-process-type1'>
-                      <Link to='/testing4' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry4' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
                           <img src={imagePaths.tech4} alt='' />
                         </span>
@@ -229,7 +228,7 @@ function Navbar() {
                     </div>
 
                     <div className='data-process-type1'>
-                      <Link to='/testing5' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry5' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
                           <img src={imagePaths.tech5} alt='' />
                         </span>
@@ -240,7 +239,7 @@ function Navbar() {
                     </div>
 
                     <div className='data-process-type1'>
-                      <Link to='/testing6' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry6' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
                           <img src={imagePaths.tech6} alt='' />
                         </span>

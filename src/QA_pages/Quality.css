@@ -1,273 +1,452 @@
-.testing-container {
+.quality-container {
     margin: 105px auto 0;
     width: 100%;
     position: relative;
     padding: 0;
 }
 
-.testing-section1{
-    background-color: #DDD1C6;
+.quality-section1 {
+    background-image: url(../images/arcgate-bg.jpg);
     padding: 40px 0;
-
+    background-position: center center;
 }
 
-.testing-section1-a{
-    background-color: #86C7BE;
-    padding: 40px 0;
-
-}
-
-.testing-section1-b{
-    background-color: #ebedd9;
-    padding: 40px 0;
-}
-
-.testing-section1-c{
-    background-color: #BCCAD3;
-    padding: 40px 0;
-
-}
-
-.testing-section1-d{
-    background-color: #ebedd9;
-    padding: 40px 0;
-
-}
-
-.testing-section1-e{
-    background-color: #B2B2B2;
-    padding: 40px 0;
-
-}
-
-.testing-content1 {
+.quality-content1 {
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
 }
 
-.testing-content1 p {
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    FONT-SIZE: 21PX;
-    text-align: center;
-}
-
-.testing-content2 p {
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    FONT-SIZE: 21PX;
-    text-align: center;
-}
-
-.testing-content1 h1{
-    margin: 0 0 40px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    font-size: 30px;
-    color: #1a171b !important;
+.quality-content1 h2 {
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: #373435;
     text-align: center;
     font-weight: 400;
-
+    margin: 0 auto;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
 }
 
-.testing-content1 h2 {
-    color: #1a171b !important;
+.quality-content1 p {
     font-size: 24px;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    margin-bottom: 0;
+    line-height: 32px;
     text-align: center;
-    line-height: 1.04em;
-    width: 88%;
+}
+
+
+.quality-section3 {
+    background: #ffffff;
+    padding: 50px 0;
+}
+
+.quality-content3 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.quality-content3 .quality-div3 {
+    padding: 0px 0 40px;
+}
+
+.quality-content3 .quality-div3 h1 {
+    font-size: 36px;
+    line-height: normal;
+    padding: 0 20px 20px;
+    text-align: center;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     font-weight: 400;
     margin: 0 auto;
 }
 
-
-.testing-section3 {
-    padding: 40px 0 10px;
-    background: #ced8d6;
-  }
-  
-  .testing-content3 {
-    width: 100%;
-    max-width: 1050px;
-    margin: 0 auto;
-  }
-
-  .testing-content3 p {
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  .testing-div3 .testing-body {
-    max-width: 310px;
-    margin: 20px;
-    display: inline-flex;
-  }
-  
-  .testing-div3 .testing-body .testing-data {
-    padding: 10px 25px;
-    text-align: left;
-    background-color: #fff;
-    border: 1px solid #efefef;
-    border-radius: 5px;
-    box-shadow: 0 4px 9px 0 rgba(23, 28, 33, .06);
-    min-height: 336px;
-  }
-  
-  .testing-div3 .testing-body .testing-data p {
-    font-size: 19px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    line-height: normal;
-    margin: 10px 0 0;
-  }
-
-
-  .testing-section2 {
-    background-color: #fff;
-    padding: 64px 0 65px;
-    text-align: center;
-  }
-
-  .testing-content2 {
-    width: 100%;
-    max-width: 1050px;
-    margin: 0 auto;
-}
-
-  .testing-content2  .testing-div2 {
-    text-align: center;
-    max-width: 1000px;
-    width: 100%;
-    display: inline-block;
-    margin-top: 20px;
-  }
-
-  .testing-content2  .testing-div2 h2 {
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    font-size: 21p;
-    margin-bottom: 0;
-    width: 74%;
-    line-height: 1.08em;
-    text-align: center;
-    font-weight: 400;
-    margin: 0 auto;
-  }
-
-   
-  .testing-content2  .testing-div2 .testing-body2 {
-    margin: 0 23px 23px;
-    display: inline-block;
-    max-width: 262px;
-    vertical-align: top;
-  }
-
-     
-  .testing-content2  .testing-div2 .testing-body2 .testing-image{
-    min-height: 120px;
-    display: table-cell;
-    width: 100%;
-    max-width: 172px;
-    clear: both;
-    float: left;
-    text-align: center;
-
-  }
-
-  .testing-div2 .testing-body2 .testing-image img{
-    width: 45%;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .testing-content2  .testing-div2 .testing-body2 .testing-text {
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    max-width: 150px;
-    line-height: normal;
-    font-size: 17px;
-    display: table-cell;
-    width: 100%;
-    clear: both;
-    float: left;
-    font-weight: bold;
-    text-align: center;
-}
-
-
-.testing-section4 {
-    padding-bottom: 40px;
-}
-
-.testing-content4 {
-    width: 100%;
-    max-width: 1050px;
-    margin: 0 auto;
-}
-
-.testing-content4 h6 {
-    text-align: center;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+.quality-content3 .quality-div3 h3 {
+    line-height: 24px;
     font-size: 18px;
-    color: #868572;
-    margin-top: 50px;
-    padding: 20px 0;
+    color: #393435;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    text-align: center;
     font-weight: 400;
-    text-transform: uppercase;
-    border-bottom: 1px solid #e8e1da;
+    margin: 0 auto;
 }
 
-.testing-content4 .testing-div4{
-    position: relative;
-    width: 700px;
-    height: 220px;
-    gap: 13px;
+.quality-content3 .quality-body3 {
     display: flex;
-    margin-left: -20px;
-
+    justify-content: space-around;
 }
 
-.testing-content4 .testing-div4 .testing-body4{
-    display: inline-block;
-    max-width: 330px;
-    padding: 0;
-    vertical-align: top;
-    width: 100%;
+.quality-content3 .quality-body3 .quality-left {
+    width: 48%;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.quality-content3 .quality-body3 .quality-right {
+    width: 48%;
+    margin-bottom: 50px;
+    padding: 0 20px;
 }
 
 
-.testing-content4 .testing-div4 .testing-body4 .insight-cards{ 
-    box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .35);
-    background-color: #eee;
-    height: 200px;
+.quality-content3 .quality-body3 .quality-left .quality-element3 .quality-icon{
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: #e8eded;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.testing-content4 .testing-div4 .testing-body4 .insight-cards .tag1{
-    position: absolute;
-    right: 29px;
-    top: 15px;
+.quality-content3 .quality-body3 .quality-right .quality-element3 .quality-icon{
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: #e8eded;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality-content3 .quality-body3 .quality-left .quality-element3 .quality-icon img{
+    width: auto;
+    height: 48px;
 }
 
-.testing-content4 .testing-div4 .testing-body4 .insight-cards .tag2{
-    position: absolute;
-    left: 272px;
-    top: 15px;
+.quality-content3 .quality-body3 .quality-right .quality-element3 .quality-icon img{
+    width: auto;
+    height: 48px;
 }
 
-
-.testing-content4 .testing-div4 .testing-body4 .insight-cards .tag1 img{
-    height: 15px;
-}
-
-.testing-content4 .testing-div4 .testing-body4 .insight-cards .tag2 img{
- height: 16px;
-}
-
-.testing-content4 .testing-div4 .testing-body4 .insight-cards h2{
+.quality-content3 .quality-body3 .quality-left .quality-element3 h2{
     font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    text-align: center;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.quality-content3 .quality-body3 .quality-right .quality-element3 h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 0 auto;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.quality-content3 .quality-body3 .quality-left .quality-element3 h3{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #393435;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: 24px;
+}
+
+.quality-content3 .quality-body3 .quality-right .quality-element3 h3{
+    text-align: center;
+    font-weight: 400;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    margin: 0 auto;
+    font-size: 18px;
+    color: #393435;
+    line-height: 24px;
+}
+
+.quality-content3 .quality-body3 .quality-element3 .quality-icon{
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: #e8eded;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-content3 .quality-body3 .quality-element3 .quality-icon img{
+    width: auto;
+    height: 48px;
+}
+
+.quality-content3 .quality-body3 .quality-element3 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
     font-weight: 700;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    line-height: normal;
-    text-align: center;
+    margin: 0 auto;
 }
+
+.quality-content3 .quality-body3 .quality-element3 h3{
+    line-height: 24px;
+    font-size: 18px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #393435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.quality-content3 .quality-body3 .quality-element3 p{
+    line-height: 24px;
+    font-size: 18px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #393435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.quality-content3 p {
+    line-height: 24px;
+    font-size: 18px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #393435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.quality-div2 .row-a {
+    display: grid;
+    width: 700px;
+    margin-left: 101px;
+    grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1fr); 
+}
+
+ .quality-div2 .row-b {
+    display: grid;
+    width: 700px;
+    margin-left: 101px;
+    margin-top: -212px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+.quality-content3 .quality3 .quality-left .quality-element3 .quality-icon img{
+    width: auto;
+    height: 48px;
+}
+
+
+.quality-content3 .quality3 .quality3-element3 .quality3-icon{
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: #e8eded;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-content3 .quality3 .quality3-element3 .quality3-icon img{
+    width: auto;
+    height: 48px;
+}
+
+.quality-content3 .quality3 .quality3-element3 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    margin: 0 auto;
+}
+
+.quality-content3 .quality3 .quality3-element3 h3{
+    line-height: 24px;
+    font-size: 18px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #393435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.quality-content3 .quality3 .quality3-element3 p{
+    line-height: 24px;
+    font-size: 18px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #393435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.quality-left  .quality-list {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    min-height: 335px;
+}
+
+.quality-left  .quality-list ul {
+    list-style: none;
+    font-size: 18px;
+    color: #393435;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.quality-left .quality-list ul li {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    position: relative;
+    padding-left: 40px;
+}
+
+.quality-right  .quality-list {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    min-height: 335px;
+}
+
+.quality-right  .quality-list ul {
+    list-style: none;
+    font-size: 18px;
+    color: #393435;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.quality-right .quality-list ul li {
+ font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    position: relative;
+   
+    padding-left: 40px;
+}
+
+.quality-right .quality-list ul li:before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/tick-icon\ \(1\).png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 24px;
+    top: 0;
+    left: 0;
+    height: 35px;
+}
+
+
+.quality-left .quality-list ul li:before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/tick-icon\ \(1\).png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 24px;
+    top: 0;
+    left: 0;
+    height: 35px;
+}
+
+.quality-list-section {
+    padding: 80px 0;
+    background-color: #ededea;
+    position: relative;
+}
+
+.quality-list-content {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.quality-list-body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.quality-list-body h1 {
+    margin-bottom: 60px;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.quality-list-body .list {
+
+}
+
+.quality-list-section .list ul {
+    display: flex;
+    justify-content: flex-start;
+  
+    list-style: none;
+    align-items: center;
+}
+
+.quality-list-body .list ul li{
+    position: relative;
+    flex-basis: 50%;
+    max-width: 50%;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.quality-list-body .list ul li p{
+    background-image: url(../images/tick-icon\ \(1\).png);
+    background-position: 0 7px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    padding-left: 35px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+}
+
+
+.team-section3 .team-content3 h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-weight: 400;
+    margin: 0 auto;
+color: black;
+}
+
+.team-section3 .team-content3 h3{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #393435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+

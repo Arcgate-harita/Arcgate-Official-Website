@@ -214,16 +214,16 @@
   gap: 16px;
 }
 
-.about-content1 .btn-div {
+.about-section3 .btn-div {
   text-align: center;
 }
 
-.about-content1 .button-div .btn-link {
+.about-section3 .button-div .btn-link {
   color: #e85631;
   display: inline-block;
 }
 
-.about-content1 .button-div .btn-link a {
+.about-section3  .button-div .btn-link a {
   color: inherit;
   font-size: 24px;
   padding: 8px 12px;
@@ -236,7 +236,7 @@
 }
 
 
-.about-content1 .button-div .btn-link a:hover {
+.about-section3  .button-div .btn-link a:hover {
   color: white;
   background-color: #e85631;
 }

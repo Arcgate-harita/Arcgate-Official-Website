@@ -157,3 +157,163 @@ header>section {
     transition: all .8s;
     cursor: pointer;
 }
+.bpo-dropdown {
+    position: absolute;
+    top: 140%;
+    left: -216px;
+    box-shadow: 10px 0px 15px 10px rgba(0, 0, 0, .24);
+    z-index: 1;
+    padding: 27px;
+    background-color: white;
+    height: 330px;
+  }
+  
+  .bpo-item:hover .bpo-dropdown {
+    display: block; 
+  }
+
+
+  .industries-dropdown {
+    position: absolute;
+    top: 135%;
+    left: -216px;
+    box-shadow: 10px 0px 15px 10px rgba(0, 0, 0, .24);
+    z-index: 1;
+    padding: 27px;
+    background-color: white;
+    height: 350px;
+  }
+  
+  .industries-item:hover .industries-dropdown {
+    display: block; 
+  }
+
+  .row1-li {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1fr); 
+  }
+
+  .row2-li{
+    margin-top: -130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1fr); 
+  }
+
+
+  .insight-dropdown {
+    position: absolute;
+    top: 135%;
+    left: -216px;
+    box-shadow: 10px 0px 15px 10px rgba(0, 0, 0, .24);
+    z-index: 1;
+    padding: 10px;
+    background-color: white;
+    height: 200px;
+  }
+  
+  .insight-item:hover .insight-dropdown {
+    display: block; 
+  }
+
+
+
+  .nav-button {
+    border-top: 1px solid #dddddd;
+    margin-top: 20px;
+  }
+
+  .nav-button button{
+    position: absolute;
+    top: 340px;
+    border: none;
+    background: white;
+    left: 245px;
+    font-size: 15px;
+
+  }
+
+  .nav-button button:hover{
+color: #f00;
+  }
+
+.bpo-dropdown,
+.industries-dropdown .insight-dropdown {
+  display: none; 
+ 
+}
+
+.bpo-item:hover .bpo-dropdown,
+.industries-item:hover .industries-dropdown .insight-item:hover .insight-dropdown{
+  display: block; 
+ 
+}
+.industries-dropdown .data-process-text {
+    font-size: 1rem;
+   margin-left: -10px; 
+}
+
+.industries-dropdown .data-process-text1 {
+    font-size: 1rem;
+    margin-left: -20px;
+ 
+}
+
+.insight-dropdown .data-process-text {
+    font-size: 1rem;
+    margin-left: 2px; 
+   
+}
+
+.insight-dropdown .data-process-text1 {
+    font-size: 1rem;
+     margin-left: 50px; 
+     width: 100px;
+}
+
+.industries-dropdown .row2 {
+    margin-top: -119px;
+}
+
+.insight-button {
+    border-top: 1px solid #dddddd;
+    margin-top: -110px;
+   
+  }
+
+  .insight-button button{
+    position: absolute;
+    top: 180px;
+    border: none;
+    background: white;
+    left: 150px;
+    font-size: 15px;
+
+  }
+
+  .insight-button button:hover{
+color: #f00;
+  }
+
+  .industries-button {
+    border-top: 1px solid #dddddd;
+    margin-top: 10px;
+   
+  }
+
+  .industries-button button{
+    position: absolute;
+    top: 350px;
+    border: none;
+    background: white;
+    left: 250px;
+    font-size: 15px;
+
+  }
+
+  .industries-button button:hover{
+color: #f00;
+  }
+
+  

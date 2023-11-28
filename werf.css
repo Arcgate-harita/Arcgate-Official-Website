@@ -1,0 +1,47 @@
+/* Add this at the end of your existing CSS file */
+
+/* Toggle button styles */
+.toggle-button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 12px;
+    display: block; /* Ensure the button is visible */
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    /* Hide regular nav items */
+    section nav {
+      display: none;
+    }
+  
+    /* Show nav items when toggle button is clicked */
+    section nav.show {
+      display: block;
+      float: none;
+      position: absolute;
+      top: 56px;
+      width: 100%;
+      background-color: #164ca2;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+      padding-top: 10px;
+    }
+  
+    /* Style for nav items in mobile view */
+    section nav.show ul li {
+      display: block;
+      float: none;
+      margin: 10px 0;
+    }
+  
+    /* Style for nav links in mobile view */
+    section nav.show ul li a {
+      font-size: 16px;
+      color: #ffffff;
+    }
+  }
+  

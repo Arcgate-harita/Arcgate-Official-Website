@@ -32,7 +32,7 @@ function Technology() {
                         </center>
                         <p></p>
                         <div className='technology-div2'>
-                            <div className='row1'>
+                            <div className='row3'>
                                 <div className='data-process-type1'>
                                     <a href='Application-Developement'>
                                         <span className='data-process-image'>
@@ -74,7 +74,7 @@ function Technology() {
                                     </a>
                                 </div>
                             </div>
-                            <div className='row2'>
+                            <div className='row4'>
                                 <div className='data-process-type1'>
                                     <a href=' Zendesk Admin Support'>
                                         <span className='data-process-image'>

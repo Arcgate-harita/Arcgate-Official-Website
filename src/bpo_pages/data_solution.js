@@ -3,7 +3,7 @@ import "../bpo_pages/data_solution.css";
 import { Link } from "react-router-dom";
 import imagePaths from '../imagePath';
 
-function data_solution() {
+function DataSolution() {
   return (
     <div className='solution-container'>
       <article>
@@ -16,7 +16,7 @@ function data_solution() {
         </section>
 
         <section className='solution-section2'>
-          '<div className='solution-content2'>
+          <div className='solution-content2'>
             <div className='solution-div2'>
               <div className='data-solution-type1'>
                 <Link to="/data1">
@@ -202,4 +202,4 @@ function data_solution() {
   )
 }
 
-export default data_solution
+export default DataSolution

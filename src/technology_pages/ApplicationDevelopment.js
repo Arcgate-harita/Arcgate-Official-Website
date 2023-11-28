@@ -92,6 +92,355 @@ function ApplicationDevelopment() {
                     </div>
                 </div>
             </section>
+
+            <section className='app-section3'>
+                <div className='app-content3'>
+                    <h1>How We Do It</h1>
+                    <div className='app-div3'>
+                        <div className='app-color1'>
+                            <h3>
+                                <img src={imagePaths.adoIcon1} alt='' />
+                                Understand your business & requirement
+                            </h3>
+                            <ul>
+                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                            </ul>
+                        </div>
+                        <div className='app-color2'>
+                            <h3>
+                                <img src={imagePaths.adoIcon2} alt='' />
+                                Understand your business & requirement
+                            </h3>
+                            <ul>
+                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                            </ul>
+                        </div>
+                        <div className='app-color3'>
+                            <h3>
+                                <img src={imagePaths.adoIcon3} alt='' />
+                                Understand your business & requirement
+                            </h3>
+                            <ul>
+                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                            </ul>
+                        </div>
+                        <div className='app-color4'>
+                            <h3>
+                                <img src={imagePaths.adoIcon4} alt='' />
+                                Understand your business & requirement
+                            </h3>
+                            <ul>
+                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                            </ul>
+                        </div>
+                        <div className='app-color5'>
+                            <h3>
+                                <img src={imagePaths.adoIcon5} alt='' />
+                                Understand your business & requirement
+                            </h3>
+                            <ul>
+                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                            </ul>
+                        </div>
+                        <div className='app-color6'>
+                            <h3>
+                                <img src={imagePaths.adoIcon6} alt='' />
+                                Understand your business & requirement
+                            </h3>
+                            <ul>
+                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='app-section2'>
+                <div className='app-content2'>
+                    <div className='app-div2'>
+                        <h1>Why Arcgate for Application Development?</h1>
+                    </div>
+                    <div className='app-body2'>
+                        <div className='app-left'>
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.function1} alt='' />
+                                </div>
+                                <h2>Experience and Expertise</h2>
+                                <h3>
+                                    We have a team of experienced developers who have the expertise to develop customized software solutions for businesses across various industries.</h3>
+                            </div>
+                        </div>
+                        <div className='app-right'>
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.function2} alt='' />
+                                </div>
+                                <h2>Quality Assurance</h2>
+                                <h3>
+                                    We have a dedicated quality assurance team that ensures the software developed is thoroughly tested and meets the client's expectations.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='app-body2'>
+                        <div className='app-left'>
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.function3} alt='' />
+                                </div>
+                                <h2>Agile Development Methodology</h2>
+                                <h3>
+                                    We follow agile development methodology to develop software in short cycles with continuous feedback from the client and various stakeholders. This ensures that the application is developed quickly and efficiently, with minimal delays and errors.</h3>
+                            </div>
+                        </div>
+                        <div className='app-right'>
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.function4} alt='' />
+                                </div>
+                                <h2>Customized Solutions</h2>
+                                <h3>
+                                    We offer tailored solutions that are designed to meet the unique needs of each business. This ensures that the application developed is specific to the client's requirements.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='app-body2'>
+                        <div className='app-left'>
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.function5} alt='' />
+                                </div>
+                                <h2>Support and Maintenance</h2>
+                                <h3>
+                                    We offer ongoing support and maintenance services to ensure that the software developed continues to function optimally after deployment.</h3>
+                            </div>
+                        </div>
+                        <div className='app-right'>
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.function6} alt='' />
+                                </div>
+                                <h2>Scalability
+                                </h2>
+                                <h3>
+                                    Our software applications are designed to be scalable so they can easily adapt to the changing needs of the business as it grows and evolves.</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='app-body2'>
+                        <div className='app-left'>
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.function7} alt='' />
+                                </div>
+                                <h2>Competitive Pricing</h2>
+                                <h3>
+                                    We offer highly competitive pricing options to ensure that our application development services allow you to scale up your development initiatives at low costs.</h3>
+                            </div>
+                        </div>
+                        <div className='app-right'>
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.function8} alt='' />
+                                </div>
+                                <h2>Service Quality
+                                </h2>
+                                <h3>
+                                    Our approach prioritizes quality through a well-established quality management system certified by ISO 9001. We are also ISO 27001 certified and follow best practices related to security, policies, processes, and people.</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section className='app-section4'>
+                <div className='app-content4'>
+                    <h1>Technology Expertise</h1>
+                        <div className='app-div4'>
+                            <div className='app-body4' >
+                                <h6>Back-End Development</h6>
+                            </div>
+                           <div className='app-logs'>
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.NetLogo} alt='' className='image1'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.JavaLogo} alt='' className='image2' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.PyhtonLogo} alt='' className='image3' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.PhpLogo} alt='' className='image4' />
+                                </div>
+                            </div>
+
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.NodeLogo} alt='' className='image5'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.DjangoLogo} alt=''className='image6' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.FlaskLogo} alt='' className='image7'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.LarvelLogo} alt=''className='image8' />
+                                </div>
+                            </div>
+
+                           </div>
+                        </div>
+
+                        <div className='app-div4'>
+                            <div className='app-body4' >
+                                <h6>Front-End Development</h6>
+                            </div>
+                           <div className='app-logs'>
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.ReactLogo} alt=''className='image9' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.HtmlLogo} alt='' className='image10' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.VuejsLogo} alt='' className='image11'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.CSSLogo} alt='' className='image12'/>
+                                </div>
+                            </div>
+
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.AngularLogo} alt='' className='image13'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.NextLogo} alt='' className='image14'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.jsLogo} alt=''className='image15' />
+                                </div>
+                            </div>
+                            
+                           </div>
+                        </div>
+
+                        <div className='app-div4'>
+                            <div className='app-body4' >
+                                <h6>Mobile Development</h6>
+                            </div>
+                           <div className='app-logs'>
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.iosLogo} alt='' className='image16'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.AndroidLogo} alt='' className='image17' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.ReactNativeLogo} alt='' className='image18' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.xamarinLOgo} alt='' className='image19'/>
+                                </div>
+                            </div>                            
+                           </div>
+                        </div>
+
+                        <div className='app-div4'>
+                            <div className='app-body4' >
+                                <h6>DataBase</h6>
+                            </div>
+                           <div className='app-logs'>
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.MysqlLogo} alt='' className='image20'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.RedisLogo} alt='' className='image21'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.PostLogo} alt='' className='image22'/>
+                                </div>
+                                
+                            </div>
+                           </div>
+                        </div>
+
+                        <div className='app-div4'>
+                            <div className='app-body4' >
+                                <h6>Continous Intregration Tools</h6>
+                            </div>
+                           <div className='app-logs'>
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.JenkinsLogo} alt='' className='image23'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.GItLogo} alt='' className='image24' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.BitbucketLogo} alt='' className='image25' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.CircleLogo} alt='' className='image26'/>
+                                </div>
+                            </div>                            
+                           </div>
+                        </div>
+
+                        <div className='app-div4'>
+                            <div className='app-body4' >
+                                <h6>DevOps</h6>
+                            </div>
+                           <div className='app-logs'>
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.AwsLogo} alt='' className='image27'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.DockerLogo} alt='' className='image28'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.AnsibleLogo} alt='' className='image29'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.terraForm} alt=''className='image30' />
+                                </div>
+                            </div>                           
+                           </div>
+                        </div>
+
+                        <div className='app-div4'>
+                            <div className='app-body4' >
+                                <h6>API Testing Tools</h6>
+                            </div>
+                           <div className='app-logs'>
+                            <div className='app-images'>
+                                <div>
+                                <img src={imagePaths.PostLogo} alt='' className='image31'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.SoapuiLogo} alt='' className='image32' />
+                                </div>
+                                <div>
+                                <img src={imagePaths.JmeterLogo} alt='' className='image33'/>
+                                </div>
+                                <div>
+                                <img src={imagePaths.FastapiLogo} alt='' className='image34'/>
+                                </div>
+                            </div>                            
+                           </div>
+                        </div>
+
+                </div>
+            </section>
         </div>
     )
 }

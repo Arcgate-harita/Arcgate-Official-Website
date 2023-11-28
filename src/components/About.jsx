@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import arcgateImage from "../images/arcgate-image.png";
 import "../components/About.css";
 import imagePaths from "../imagePath";
+import { Link } from "react-router-dom";
+import ImageModal from '../ImageModal';
 
 const About = () => {
+
+
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openImage = (imageUrl) => {
+    setSelectedImage(imageUrl);
+  };
+
+  const closeImage = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <div className="about-container">
       <article>
@@ -81,38 +95,40 @@ const About = () => {
             <div className="video-bloglist">
               <div className="video-bloglist-content">
                 <div className="photos">
-                  <a href="">
+                  <div onClick={() => openImage(imagePaths.arcgateImage1)}>
                     <img src={imagePaths.arcgateImage1} alt="" />
-                  </a>
+                  </div>
                 </div>
-                <p></p>
               </div>
+              <p></p>
               <div className="video-bloglist-content">
                 <div className="photos">
-                  <a href="">
+                  <div onClick={() => openImage(imagePaths.arcgateImage2)}>
                     <img src={imagePaths.arcgateImage2} alt="" />
-                  </a>
+                  </div>
                 </div>
                 <p></p>
               </div>
               <div className="video-bloglist-content">
                 <div className="photos">
-                  <a href="">
+                  <div onClick={() => openImage(imagePaths.arcgateImage3)}>
                     <img src={imagePaths.arcgateImage3} alt="" />
-                  </a>
+                  </div>
+
                 </div>
                 <p></p>
               </div>
-              <p></p>
-            </div>
-            <div className="button-div">
-              <div className="btn-link">
-                <a href="">VEIW ALL</a>
-              </div>
-              <p></p>
             </div>
             <p></p>
           </div>
+          <div className="button-div">
+            <div className="btn-link">
+              <Link to="/aboutImage">VEIW ALL</Link>
+            </div>
+            <p></p>
+          </div>
+          <p></p>
+
         </section>
 
         <section className='about-section4'>
@@ -374,7 +390,7 @@ const About = () => {
           </div>
         </section>
 
-        <section className="about-section7">
+        <section id="why-arcgate" className="about-section7">
           <div className="about-content5">
             <h1>Why Arcgate</h1>
             <p></p>
@@ -471,10 +487,14 @@ const About = () => {
 
       </article>
 
+      {
+        selectedImage && (
+          <ImageModal imageUrl={selectedImage} onClose={closeImage} />
+        )
+      }
 
     </div>
   );
 };
 
 export default About;
- 

@@ -1,5 +1,6 @@
 import React from 'react'
 import "../src/Footer.css";
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -7,26 +8,27 @@ function Footer() {
             <section>
                 <aside>
                     <div className='footer-logo'>
-                        <a href=''></a>
+                    <Link to="/"> 
+                   </Link>
                     </div>
                     <nav>
                         <ul className='menu'>
                             <li><a href='about'>ABOUT</a></li>
-                            <li><a href='bpo'>SERVICES</a></li>
+                            <li><a href='view1'>SERVICES</a></li>
                             <li><a href='technology'>TECHNOLOGY</a></li>
-                            <li><a href='industries'>INDUSTRIES</a></li>
+                            <li><a href='view2'>INDUSTRIES</a></li>
                         </ul>
 
                         <ul className='second-menu'>
                             <li><a href='clients'>CLIENTS</a></li>
-                            <li><a href='careers'>CAREERS</a></li>
+                            <li><a href='career'>CAREERS</a></li>
                             <li><a href='contact'>CONTACT</a></li>
-                            <li><a href='blog'>BLOG</a></li>
+                            <li><a href='blogView'>BLOG</a></li>
                         </ul>
 
                         <ul className='second-menu'>
-                            <li><a href='terms-of-use'>TERMS OF USE</a></li>
-                            <li><a href='privacy-policy'>PRIVACY POLICY</a></li>
+                            <li><a href='terms'>TERMS OF USE</a></li>
+                            <li><a href='privacy'>PRIVACY POLICY</a></li>
                         </ul>
                     </nav>
                 </aside>

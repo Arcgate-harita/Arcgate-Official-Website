@@ -5,10 +5,10 @@ import imagePaths from '../imagePath';
 
 function Data8() {
   return (
-    <div className='data-container'>
+    <div className='data-solution-container'>
     <article>
-        <section className='data-section1-7'>
-            <div className='data-content1'>
+        <section className='data-solution-section1-7'>
+            <div className='data-solution-content1'>
                 <h1>Analytics</h1>
                 <p></p>
                 {data.map((section, index) => (
@@ -19,8 +19,8 @@ function Data8() {
             </div>
         </section>
 
-        <section className='data-section2'>
-                    <div className='data-content2'>
+        <section className='data-solution-section2'>
+                    <div className='data-solution-content2'>
                         <p></p>
                         {data.map((section, index) => (
                             <div key={index}>
@@ -31,9 +31,9 @@ function Data8() {
 
 
 
-          <div className='data-content2-7'>'
-            <div className='data-div6'>
-              <div className='data-body6'>
+          <div className='data-solution-content2-7'>'
+            <div className='data-solution-div6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
@@ -44,7 +44,7 @@ function Data8() {
                 <span className='span-text'>Customer and Marketing Analytics</span>
                 <br></br>
               </div>
-              <div className='data-body6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
@@ -55,7 +55,7 @@ function Data8() {
                 <span className='span-text'>Fraud and Risk Analytics</span>
                 <br></br>
               </div>
-              <div className='data-body6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
@@ -66,7 +66,7 @@ function Data8() {
                 <span className='span-text'>Human Capital Analytics</span>
                 <br></br>
               </div>
-              <div className='data-body6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
@@ -77,7 +77,7 @@ function Data8() {
                 <span className='span-text'>OPerations Analytics</span>
                 <br></br>
               </div>
-              <div className='data-body6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
