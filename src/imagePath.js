@@ -353,7 +353,8 @@ import icons7 from "./images/links-icon.png";
 import icons8 from "./images/captcha-icon.png";
 import icons9 from "./images/zoom-icon.png";
 import icons10 from "./images/focus-icon.png";
-
+import toggle1 from "./images/align-justify.svg"
+import toogle2 from "./images/x.svg";
 
 const imagePath = { 
     icons1,
@@ -362,6 +363,8 @@ icons3,
 icons4,
 icons5,
 icons6,
+toggle1,
+toogle2,
 icons7,
 icons8,
 icons9,

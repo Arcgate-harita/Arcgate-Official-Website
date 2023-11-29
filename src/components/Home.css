@@ -4,3 +4,9 @@
     position: relative;
     padding: 0;
 }
+
+@media (max-width: 768px) {
+.home-container {
+    width: 100%;
+}
+}

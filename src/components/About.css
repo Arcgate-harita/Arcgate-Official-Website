@@ -341,8 +341,8 @@
 
 .about-content3 {
   width: 100%;
-  max-width: 1050px;
-  margin: 0 auto;
+ 
+  /* margin: 0 auto; */
 }
 
 .about-section5 .about-content3 h2 {
@@ -604,14 +604,11 @@
   width: 32%;
   padding: 10px 10px 10px 25px;
   display: table-cell;
-  overflow: hidden;
+
   vertical-align: top;
 }
 
-.founder-content img {
-  margin-left: 100px;
-  margin-top: 10px;
-}
+
 
 .founder-body {
   padding: 10px 10px 10px 25px;
@@ -802,4 +799,208 @@
   border: 3px solid white;
   text-align: center;
   text-decoration-line: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+
+  .about-container {
+    margin-top: 60px;
+  }
+
+  .about-content {
+    padding: 0 10px;
+  }
+
+  .about-content img {
+    left: -167px;
+    margin-bottom: 15px;
+  }
+
+  .about-div {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    padding: 0 10px;
+  }
+
+  .about-div h2 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .about-div p {
+    font-size: 17px;
+  }
+
+  .about-list .about-list1-item,
+  .about-list2-item {
+    width: 100%;
+  }
+
+  .about-list1-item ul li h1,
+  .about-list2-item ul li h1 {
+    font-size: 28px;
+  }
+
+  .about-list1-item ul li h6,
+  .about-list2-item ul li h6 {
+    padding: 10px;
+  }
+
+  
+
+  .awards-body-row,
+  .leftnode {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .table-row .table-cell,
+  .table-cell-info {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .table-cell-info h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .about-section3 .video-bloglist{
+    display: block;
+  }
+
+  .about-section6 .founder-container {
+    display: grid;
+  }
+
+  .about-section8 .table-row {
+    display: block;
+  }
+ 
+  .table-cell-info p {
+    text-align: center;
+  }
+
+
+  .about-content6 .table-row .table-cell {
+    text-align: center;
+  }
+
+  .table-button {
+    text-align: center;
+  }
+
+  .awards-container {
+    background-position: 18px 0;
+    height: 2959px;
+  }
+
+  .awards-body-row {
+    width: 86%;
+    background-position: 0 .8%;
+    padding-left: 38px;
+ 
+  }
+
+  .awards-body-row .heading1 {
+    font-size: 25px;
+  }
+
+  .awards-body-row .heading2 {
+    font-size: 25px;
+  }
+
+  .awards-body-row  h4 {
+    font-size: 18px;
+  }
+
+  .awards-body-row  p {
+    font-size: 16px;
+  }
+
+  .leftnode {
+    text-align: left;
+    float: left;
+    background-position: 0 2%;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    padding-right: 0;
+    background-image: url(../images/timeline-rightnode.png);
+    margin-left: 0;
+  }
+
+ .awards-content-1 .leftnode {
+    text-align: left;
+    float: left;
+    background-position: 0 2%;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    padding-right: 0;
+    background-image: url(../images/timeline-rightnode.png);
+    margin-left: 0;
+  }
+
+  .timeline-image {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .awards-content-1 .leftnode .heading2 {
+    margin-top: -10px;
+
+  }
+
+  .timeline-image img {
+      width: 86%;
+  }
+
+  .awards-content-1 {
+    margin-top: 99%;
+  }
+
+  .awards-content-2 {
+    margin-top: -3%;
+  }
+
+  .awards-content-3 {
+    margin-top: -2%;
+  }
+
+  .awards-content-4 {
+    margin-top: 63%;
+  }
+
+  .awards-content-5 {
+    margin-top: 78%;
+  }
+
+  .awards-content-6 {
+    margin-top: 1%;
+  }
+
+  .awards-content-7 {
+    margin-top: 4%;
+  }
+
+  .awards-content-8 {
+    margin-top: 0%;
+  }
+
+  .start-year {
+
+    text-align: left;
+    font-size: 28px;
+
+  }
+
 }

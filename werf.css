@@ -1,47 +1,91 @@
-/* Add this at the end of your existing CSS file */
+/* Base styles */
 
-/* Toggle button styles */
-.toggle-button {
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 8px 12px;
-    display: block; /* Ensure the button is visible */
+.about-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
   }
   
-  /* Media query for smaller screens */
+  .about-content {
+    position: relative;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+  
+  /* Media queries for responsiveness */
+  
   @media only screen and (max-width: 768px) {
-    /* Hide regular nav items */
-    section nav {
-      display: none;
+    /* Adjustments for smaller screens */
+  
+    .about-container {
+      margin-top: 60px;
     }
   
-    /* Show nav items when toggle button is clicked */
-    section nav.show {
-      display: block;
-      float: none;
-      position: absolute;
-      top: 56px;
+    .about-content {
+      padding: 0 10px;
+    }
+  
+    .about-content img {
+      left: auto;
+      top: auto;
+      margin-bottom: 15px;
+    }
+  
+    .about-div {
       width: 100%;
-      background-color: #164ca2;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-      z-index: 1;
-      padding-top: 10px;
-    }
-  
-    /* Style for nav items in mobile view */
-    section nav.show ul li {
-      display: block;
+      max-width: 100%;
       float: none;
-      margin: 10px 0;
+      padding: 0 10px;
     }
   
-    /* Style for nav links in mobile view */
-    section nav.show ul li a {
-      font-size: 16px;
-      color: #ffffff;
+    .about-div h2 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .about-list .about-list1-item,
+    .about-list2-item {
+      width: 100%;
+    }
+  
+    .about-list1-item ul li h1,
+    .about-list2-item ul li h1 {
+      font-size: 28px;
+    }
+  
+    .about-list1-item ul li h6,
+    .about-list2-item ul li h6 {
+      padding: 10px;
+    }
+  
+    .awards-container {
+      height: auto;
+    }
+  
+    .awards-body-row,
+    .leftnode {
+      width: 100%;
+      max-width: 100%;
+      float: none;
+      margin-left: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .table-row .table-cell,
+    .table-cell-info {
+      width: 100%;
+      display: block;
+      margin-top: 20px;
+    }
+  
+    .table-cell-info h1 {
+      margin-bottom: 15px;
     }
   }
   
