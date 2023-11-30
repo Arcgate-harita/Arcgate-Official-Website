@@ -1,0 +1,277 @@
+.team-container{
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.team-section1 {
+    background-size: cover;
+    background-image: url(../images/arcgate-bg.jpg);
+    padding: 40px 0;
+    background-position: center center;
+}
+
+.team-content1 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.team-content1 h2{
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.team-content1 p{
+    font-size: 24px;
+    text-align: center;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: 30px;
+}
+
+.team-section2 {
+    background: #f0ebe3;
+    padding: 50px 0;
+}
+
+.team-content2 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.team-content2 .team-div2 {
+    padding: 0px 0 40px;
+}
+
+.team-content2 .team-div2 h1 {
+    font-size: 36px;
+    line-height: normal;
+    padding: 0 20px 20px;
+    text-align: center;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.team-content2 .team-div2 h3 {
+    line-height: 24px;
+    font-size: 18px;
+    color: #393435;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.team-section2 .team-content2 .team-body2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-content2 .team-body2 .team-left {
+    width: 48%;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.team-content2 .team-body2 .team-right {
+    width: 48%;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+
+.team-content2 .team-body2 .team-left .team-element .team-icon{
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-content2 .team-body2 .team-right .team-element .team-icon{
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-content2 .team-body2 .team-left .team-element .team-icon img{
+    width: auto;
+    height: 48px;
+}
+
+.team-content2 .team-body2 .team-right .team-element .team-icon img{
+    width: auto;
+    height: 48px;
+}
+
+.team-content2 .team-body2 .team-left .team-element h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.team-content2 .team-body2 .team-right .team-element h2{
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.team-content2 .team-body2 .team-left .team-element h3{
+    text-align: center;
+    font-weight: 400;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #393435;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: 24px;
+}
+
+.team-content2 .team-body2 .team-right .team-element h3{
+    text-align: center;
+    font-weight: 400;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    margin: 0 auto;
+    font-size: 18px;
+    color: #393435;
+    line-height: 24px;
+}
+
+.team-content2 .team-body2 .team-element .team-icon{
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-content2 .team-body2 .team-element .team-icon img{
+    width: auto;
+    height: 48px;
+}
+
+.team-content2 .team-body2 .team-element h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    margin: 0 auto;
+}
+
+.team-content2 .team-body2 .team-element h3{
+    line-height: 24px;
+    font-size: 18px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #393435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.team-section3 {
+    padding: 50px 0;
+    background-color: #fbc861;
+    position: relative;
+}
+
+.team-section3::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-image: url(../images/arcgate-a.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    opacity: 0.30;
+    top: 50px;
+    bottom: 0;
+}
+
+.team-content3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+
+.team-content3 .team-div3 {
+    margin: 0;
+    padding: 0;
+}
+
+.team-div3 h1 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+
+.team-content3 .team-body3 {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.team-content3 .team-body3 ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.team-content3 .team-body3 li {
+    position: relative;
+    flex-basis: 30%;
+    max-width: 30%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #393435;
+    padding-left: 15px;
+}
+
+.team-section3 .team-body3 ul li:before {
+    content: '';
+    position: absolute;
+    background: #e85631;
+    width: 4px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}

@@ -5,10 +5,10 @@ import imagePaths from '../imagePath';
 
 function Data7() {
   return (
-    <div className='data-container'>
+    <div className='data-solution-container'>
     <article>
-        <section className='data-section1-6'>
-            <div className='data-content1'>
+        <section className='data-solution-section1-6'>
+            <div className='data-solution-content1'>
                 <h1>Reporting</h1>
                 <p></p>
                 {data.map((section, index) => (
@@ -19,8 +19,8 @@ function Data7() {
             </div>
         </section>
 
-        <section className='data-section2'>
-                    <div className='data-content2'>
+        <section className='data-solution-section2'>
+                    <div className='data-solution-content2'>
                         <p></p>
                         {data.map((section, index) => (
                             <div key={index}>
@@ -31,9 +31,9 @@ function Data7() {
 
 
 
-          <div className='data-content2-6'>'
-            <div className='data-div6'>
-              <div className='data-body6'>
+          <div className='data-solution-content2-6'>'
+            <div className='data-solution-div6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
@@ -44,7 +44,7 @@ function Data7() {
                 <span className='span-text'>Dashboards</span>
                 <br></br>
               </div>
-              <div className='data-body6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
@@ -55,7 +55,7 @@ function Data7() {
                 <span className='span-text'>Data pulls</span>
                 <br></br>
               </div>
-              <div className='data-body6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
@@ -66,7 +66,7 @@ function Data7() {
                 <span className='span-text'>Reoprts</span>
                 <br></br>
               </div>
-              <div className='data-body6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>
@@ -77,7 +77,7 @@ function Data7() {
                 <span className='span-text'>Charts</span>
                 <br></br>
               </div>
-              <div className='data-body6'>
+              <div className='data-solution-body6'>
                 <br></br>
                 <span className='span-image'>
                   <br></br>

@@ -2,8 +2,14 @@ import React from 'react'
 import "../src/body_container.css";
 import imagePaths from './imagePath';
 import { Link } from "react-router-dom";
+import { useEffect } from 'react';
 
 function BodyContainer() {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='body-container'>
             <article className='body-content'>
@@ -81,16 +87,17 @@ function BodyContainer() {
                                         </Link>
                                     </div>
                                 </div>
+                                <p></p>
                                 <div className='row2'>
                                     <div className='data-process-type1'>
-                                        <a href='/customer-onboarding-support'>
+                                        <Link to='/customer-onboarding-support'>
                                             <span className='data-process-image'>
                                                 <img src={imagePaths.image3} alt='' />
                                             </span>
                                             <span className='data-process-text2'>
                                                 customer Onboarding & support
                                             </span>
-                                        </a>
+                                        </Link>
                                     </div>
 
                                     <div className='data-process-type1'>
@@ -356,48 +363,47 @@ function BodyContainer() {
                             <p>Read our thoughts around outsourcing and startups</p>
                         </center>
                         <div className='blog'>
-                            <div className='blog-container'>
-                                <div className='blog-content'>
-                                    <a href=''>
-                                        <div className='blog-div'>
-                                            <img src={imagePaths.imageBlog1} alt='' />
-                                        </div>
-                                        <div className='thumb-blog'>
-                                            <p>Retail in India and Future Trends</p>
-                                        </div>
-                                    </a>
-                                </div>
+
+                            <div className='blog-content'>
+                                <Link to='/blog1'>
+                                    <div className='blog-div'>
+                                        <img src={imagePaths.imageBlog1} alt='' />
+                                    </div>
+                                    <div className='thumb-blog'>
+                                        <p>Retail in India and Future Trends</p>
+                                    </div>
+                                </Link>
                             </div>
-                            <div className='blog-container'>
-                                <div className='blog-content'>
-                                    <a href=''>
-                                        <div className='blog-div'>
-                                            <img src={imagePaths.imageBlog2} alt='' />
-                                        </div>
-                                        <div className='thumb-blog'>
-                                            <p>
-                                                Artificial Intelligence – The Exciting Future </p>
-                                        </div>
-                                    </a>
-                                </div>
+
+                            <div className='blog-content'>
+                                <Link to='/blog2'>
+                                    <div className='blog-div'>
+                                        <img src={imagePaths.imageBlog2} alt='' />
+                                    </div>
+                                    <div className='thumb-blog'>
+                                        <p>
+                                            Artificial Intelligence – The Exciting Future </p>
+                                    </div>
+                                </Link>
+
                             </div>
-                            <div className='blog-container'>
-                                <div className='blog-content'>
-                                    <a href=''>
-                                        <div className='blog-div'>
-                                            <img src={imagePaths.imageBlog3} alt='' />
-                                        </div>
-                                        <div className='thumb-blog'>
-                                            <p>
-                                                Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
-                                        </div>
-                                    </a>
-                                </div>
+
+                            <div className='blog-content'>
+                                <Link to='/blog3'>
+                                    <div className='blog-div'>
+                                        <img src={imagePaths.imageBlog3} alt='' />
+                                    </div>
+                                    <div className='thumb-blog'>
+                                        <p>
+                                            Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+                                    </div>
+                                </Link>
                             </div>
+
                         </div>
                         <div className='button-div'>
                             <div className='button-div-link'>
-                                <a href='blog'>VIEW ALL</a>
+                                <a href='/blogView'>VIEW ALL</a>
                             </div>
                         </div>
                     </div>
@@ -413,9 +419,9 @@ function BodyContainer() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                        <a>
+                                        <Link to="/podcast1">
                                             <p>Food tech startups are leveraging artificial intelligence and image recognition</p>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -424,9 +430,9 @@ function BodyContainer() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                        <a>
-                                            <p>Food tech startups are leveraging artificial intelligence and image recognition</p>
-                                        </a>
+                                    <Link to="/podcast2">
+                                            <p>Real Estate Tech Space to Witness a Boost in Investments</p>
+                                            </Link>
                                     </div>
                                 </div>
                             </div>
@@ -435,9 +441,9 @@ function BodyContainer() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                        <a>
-                                            <p>Food tech startups are leveraging artificial intelligence and image recognition</p>
-                                        </a>
+                                    <Link to="/podcast3">
+                                            <p>Rewriting the Ecommerce Strategy and Reinventing Retail</p>
+                                            </Link>
                                     </div>
                                 </div>
                             </div>

@@ -4,10 +4,10 @@ import data from "../Data_solution_pages/data_para";
 
 function Data6() {
   return (
-    <div className='data-container'>
+    <div className='data-solution-container'>
     <article>
-        <section className='data-section1-5'>
-            <div className='data-content1'>
+        <section className='data-solution-section1-5'>
+            <div className='data-solution-content1'>
                 <h1>Data Deduplication</h1>
                 <p></p>
                 {data.map((section, index) => (
@@ -18,8 +18,8 @@ function Data6() {
             </div>
         </section>
 
-        <section className='data-section2'>
-                    <div className='data-content2'>
+        <section className='data-solution-section2'>
+                    <div className='data-solution-content2'>
                         <p></p>
                         {data.map((section, index) => (
                             <div key={index}>

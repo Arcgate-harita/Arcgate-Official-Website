@@ -1,0 +1,50 @@
+.podcast-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.podcast-section1{
+    padding: 98px 0;
+    background: #ddd1c6 url(http://arcgate.com/arcgate-content/uploads/2017/08/pd-bg.png) 0 0 repeat-x;
+    background-position: center center;
+}
+
+.podcast-content1{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.podcast-content1 h2 {
+    font-weight: 400;
+    margin: 0 auto;
+    font-size: 36px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    color: #fff;
+    text-align: left;
+}
+
+.podcast-section2{
+    background-color: #fff;
+    padding: 145px 0;
+}
+
+.podcast-content2{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+
+.podcast-content2 p {
+    font-size: 18px;
+    line-height: normal;
+    margin: 20px 0 0;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+}

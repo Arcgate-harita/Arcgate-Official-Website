@@ -16,7 +16,7 @@ function Quality1() {
                         <div key={index}>
                             <p>{section.paragraph1}</p>
                             <p></p>
-                            <p>{section.paragraph}</p>
+                            <p>{section.paragraph2}</p>
                             <p></p>
                         </div>
                     ))}
@@ -41,7 +41,7 @@ function Quality1() {
                                 <div className='quality-icon'>
                                     <img src={imagePaths.FunctionalTesting} alt='' />
                                 </div>
-                                <h2>Experience</h2>
+                                <h2>Functional Testing</h2>
                                 {QualityPara.map((section, index) => (
                         <div key={index}>
                             <p>{section.paragraph4}</p>
@@ -53,9 +53,9 @@ function Quality1() {
                         <div className='quality-right'>
                             <div className='quality-element3'>
                                 <div className='quality-icon'>
-                                    <img src={imagePaths.UserTesting} alt='' />
+                                    <img src={imagePaths.function9} alt='' />
                                 </div>
-                                <h2>Cost</h2>
+                                <h2>Integration Testing</h2>
                                 {QualityPara.map((section, index) => (
                         <div key={index}>
                             <p>{section.paragraph5}</p>
@@ -69,9 +69,9 @@ function Quality1() {
                         <div className='quality-left'>
                             <div className='quality-element3'>
                                 <div className='quality-icon'>
-                                    <img src={imagePaths.ZendeskTesting} alt='' />
+                                    <img src={imagePaths.function10} alt='' />
                                 </div>
-                                <h2>Flexibility</h2>
+                                <h2>Smoke Testing</h2>
                                 {QualityPara.map((section, index) => (
                         <div key={index}>
                             <p>{section.paragraph6}</p>
@@ -83,9 +83,9 @@ function Quality1() {
                         <div className='quality-right'>
                             <div className='quality-element3'>
                                 <div className='quality-icon'>
-                                    <img src={imagePaths.AccountTesting} alt='' />
+                                    <img src={imagePaths.function5} alt='' />
                                 </div>
-                                <h2>Speed</h2>
+                                <h2>Security Testing</h2>
                                 {QualityPara.map((section, index) => (
                         <div key={index}>
                             <p>{section.paragraph7}</p>
@@ -95,13 +95,85 @@ function Quality1() {
                             </div>
                         </div>
                     </div>
-                    <p></p>
-                    {QualityPara.map((section, index) => (
+
+                    <div className='quality-body3'>
+                        <div className='quality-left'>
+                            <div className='quality-element3'>
+                                <div className='quality-icon'>
+                                    <img src={imagePaths.function11} alt='' />
+                                </div>
+                                <h2>Regression Testing
+</h2>
+                                {QualityPara.map((section, index) => (
                         <div key={index}>
                             <p>{section.paragraph8}</p>
                             <p></p>
                         </div>
                     ))}
+                            </div>
+                        </div>
+                        <div className='quality-right'>
+                            <div className='quality-element3'>
+                                <div className='quality-icon'>
+                                    <img src={imagePaths.function12} alt='' />
+                                </div>
+                                <h2>Configuration Testing</h2>
+                                {QualityPara.map((section, index) => (
+                        <div key={index}>
+                            <p>{section.paragraph9}</p>
+                            <p></p>
+                        </div>
+                    ))}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='quality-body3'>
+                        <div className='quality-left'>
+                            <div className='quality-element3'>
+                                <div className='quality-icon'>
+                                    <img src={imagePaths.function13} alt='' />
+                                </div>
+                                <h2>Graphical User Interface (GUI) Testing</h2>
+                                {QualityPara.map((section, index) => (
+                        <div key={index}>
+                            <p>{section.paragraph10}</p>
+                            <p></p>
+                        </div>
+                    ))}
+                            </div>
+                        </div>
+                        <div className='quality-right'>
+                            <div className='quality-element3'>
+                                <div className='quality-icon'>
+                                    <img src={imagePaths.function8} alt='' />
+                                </div>
+                                <h2>User Acceptance Testing
+</h2>
+                                {QualityPara.map((section, index) => (
+                                 <div key={index}>
+                                  <p>{section.paragraph11}</p>
+                                  <p></p>
+                                   </div>
+                                 ))}
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <div className='quality3'>
+                    <div className='quality3-element3'>
+                                <div className='quality3-icon'>
+                                    <img src={imagePaths.function7} alt='' />
+                                </div>
+                                <h2>Compatibility Testing</h2>
+                                {QualityPara.map((section, index) => (
+                                 <div key={index}>
+                                  <p>{section.paragraph12}</p>
+                                  <p></p>
+                                   </div>
+                                 ))}
+                            </div>
+                            </div>
                 </div>
             </section>
             

@@ -8,7 +8,7 @@ function Career() {
             <article>
                 <section className='career-section1'>
                     <div className='career-content1'>
-                        <h1>Become an Arcgatian</h1>
+                        <h1 id='arcgatian'>Become an Arcgatian</h1>
                         <div className='career-div1'>
                             <p className='orange'>WE THRIVE ON EXPERIENCE</p>
                             <p className='lightBlue'>WE CRAVE FOR INNOVATION</p>
@@ -164,7 +164,7 @@ function Career() {
                     </div>
                 </section>
 
-                <section className='career-section5'>
+                <section id='current-openings' className='career-section5'>
                     <div className='career-content5'>
                         <div className='career-div4'>
                             <h1>Current Job Openings</h1>

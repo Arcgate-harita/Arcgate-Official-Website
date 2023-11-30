@@ -2,9 +2,20 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import imagePaths from "./imagePath";
+// import {toggle1, toggle2 } from "./imagePath";
+import toggle1 from "./images/align-justify.svg";
+import toggle2 from "./images/x.svg";
 
 
 function Navbar() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
+  };
+
+
   const [isBpoDropdownOpen, setIsBpoDropdownOpen] = useState(false);
   const [isIndustriesDropdownOpen, setIsIndustriesDropdownOpen] = useState(false);
   const [isInsightDropdownOpen, setIsInsightDropdownOpen] = useState(false);
@@ -22,12 +33,12 @@ function Navbar() {
     setIsInsightDropdownOpen(false);
   };
 
-  // Function to open the BPO dropdown
+
   const openBpoDropdown = () => {
     setIsBpoDropdownOpen(true);
   };
 
-  // Function to open the Industries dropdown
+
   const openIndustriesDropdown = () => {
     setIsIndustriesDropdownOpen(true);
   };
@@ -43,11 +54,22 @@ function Navbar() {
     closeBpoDropdown();
     closeIndustriesDropdown();
     closeInsightDropdown();
+    closeDropdownAndToggle();
   };
+
+  const closeDropdownAndToggle = () => {
+    closeBpoDropdown();
+    closeIndustriesDropdown();  
+    closeInsightDropdown();
+    setIsOpen(false); 
+    };
+    
+     
+    
 
   return (
     <header>
-      <div className="container">
+      <div className="header-container">
         <div className="header-content">
           <p>
             <strong className="strong-word">We are hiring!</strong>
@@ -59,19 +81,25 @@ function Navbar() {
             See Current Openings
           </a>
         </div>
-      </div>
-      <section className="navbar">
+      <section className={`navbar ${isOpen ? 'open' : ''}`} >
         <div className="arcgate-logo">
-          <a href=""></a>
+        <Link to="/"> 
+        </Link>
         </div>
-        <nav>
+     
+        <button className="toggle-button" 
+        onClick={() => setIsOpen(!isOpen)}>
+        {isOpen ? <img src={toggle2} alt="Times Icon" /> : <img src={toggle1} alt="Bars Icon" />}
+      </button>
+ 
+      <nav className={`nav ${isOpen ? 'open' : ''}`}>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/"  onClick={closeDropdownAndToggle} >Home</Link>
             </li>
 
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about"  onClick={closeDropdownAndToggle} >About</Link>
             </li>
 
             <li className="bpo-item"
@@ -86,7 +114,7 @@ function Navbar() {
 
                   <div className='row1'>
                     <div className='data-process-type1'>
-                      <Link to="/accounting_outsourcing" onClick={handleDropdownLinkClick}>
+                      <Link to="/accounting_outsourcing"  data-testid="accounting-outsourcing-link" onClick={handleDropdownLinkClick} >
                         <span className='data-process-image'>
 
                           <img src={imagePaths.bpoImage} alt='' />
@@ -168,7 +196,7 @@ function Navbar() {
 
 
             <li>
-              <Link to="/technology">TECHNOLOGY</Link>
+              <Link to="/technology"  onClick={closeDropdownAndToggle}>TECHNOLOGY</Link>
             </li>
             <li className="industries-item"
               onMouseEnter={openIndustriesDropdown}
@@ -182,11 +210,9 @@ function Navbar() {
 
                   <div className='row1'>
                     <div className='data-process-type1'>
-                      <Link to="/testing1" onClick={handleDropdownLinkClick}>
+                      <Link to="/industry1" onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
-
                           <img src={imagePaths.tech1} alt='' />
-
                         </span>
                         <span className='data-process-text1'>
                           ADTECH
@@ -195,7 +221,7 @@ function Navbar() {
                     </div>
 
                     <div className='data-process-type1'>
-                      <Link to='/testing2' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry2' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image' >
                           <img src={imagePaths.tech2} alt='' />
                         </span>
@@ -206,7 +232,7 @@ function Navbar() {
                     </div>
 
                     <div className='data-process-type1'>
-                      <Link to='/testing3' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry3' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
                           <img src={imagePaths.tech3} alt='' />
                         </span>
@@ -218,7 +244,7 @@ function Navbar() {
                   </div>
                   <div className='row2'>
                     <div className='data-process-type1'>
-                      <Link to='/testing4' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry4' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
                           <img src={imagePaths.tech4} alt='' />
                         </span>
@@ -229,7 +255,7 @@ function Navbar() {
                     </div>
 
                     <div className='data-process-type1'>
-                      <Link to='/testing5' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry5' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
                           <img src={imagePaths.tech5} alt='' />
                         </span>
@@ -240,7 +266,7 @@ function Navbar() {
                     </div>
 
                     <div className='data-process-type1'>
-                      <Link to='/testing6' onClick={handleDropdownLinkClick}>
+                      <Link to='/industry6' onClick={handleDropdownLinkClick}>
                         <span className='data-process-image'>
                           <img src={imagePaths.tech6} alt='' />
                         </span>
@@ -262,13 +288,13 @@ function Navbar() {
               )}
             </li>
             <li>
-              <Link to="/clients">CLIENTS</Link>
+              <Link to="/clients"  onClick={closeDropdownAndToggle} >CLIENTS</Link>
             </li>
             <li>
-              <Link to="/career">CAREERS</Link>
+              <Link to="/career"  onClick={closeDropdownAndToggle} >CAREERS</Link>
             </li>
             <li>
-              <Link to="/contact">CONTACT</Link>
+              <Link to="/contact"  onClick={closeDropdownAndToggle} >CONTACT</Link>
             </li>
             <li
               className="insight-item"
@@ -316,7 +342,7 @@ function Navbar() {
           </ul>
         </nav>
       </section>
-
+</div>
     </header>
   );
 }
