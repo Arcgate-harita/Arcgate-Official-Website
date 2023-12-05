@@ -1,5 +1,4 @@
 .contact-container {
-    margin: 105px auto 0;
     width: 100%;
     position: relative;
     padding: 0;
@@ -150,4 +149,61 @@ input[type=submit] {
     color: #000;
     font-weight: 400;
     margin: 0 auto;
+}
+
+.contact-div1 .contact-body1 input[type=text]:focus,
+.contact-div1 .contact-body1 textarea:focus {
+    border-color: #e85631;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .contact-content1 h1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .contact-content1 p {
+        width: 90%;
+    }
+
+    .contact-div1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-div1 .contact-body1 input[type=text],
+    .contact-div1 .contact-body1 textarea {
+        width: 278px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        border-radius: 0;
+    }
+
+    .contact-section2 .address {
+        width: 100%;
+        float: none;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .contact-section2 .address h4 {
+        font-size: 20px;
+        line-height: 27px;
+        padding: 10px;
+    }
+
+    input[type=submit] {
+        margin: 10px;
+        width: 130px;
+    }
+
+    .contact-body1 p {
+        padding: 10px;
+    }
 }

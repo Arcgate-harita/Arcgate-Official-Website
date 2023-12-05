@@ -1,7 +1,91 @@
 import React from 'react'
+import { useState } from 'react';
 import "../components/Contact.css";
 import imagePaths from '../imagePath';
 function Contact() {
+
+    const [formData, setFormData] = useState({
+        name: '',
+        number: '',
+        email: '',
+        message: '',
+    });
+
+    const [formErrors, setFormErrors] = useState({
+        name: '',
+        number: '',
+        email: '',
+        message: '',
+    });
+
+    const [formSubmitted, setFormSubmitted] = useState(false);
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    };
+
+    const validateForm = () => {
+        let isValid = true;
+        const newFormErrors = { ...formErrors };
+
+        if (!formData.name.trim()) {
+            isValid = false;
+            newFormErrors.name = 'Name is required';
+        } else {
+            newFormErrors.name = '';
+        }
+
+        if (!formData.email.trim()) {
+            isValid = false;
+            newFormErrors.email = 'Email is required';
+        } else {
+            newFormErrors.email = '';
+        }
+
+
+        if (!formData.number.trim()) {
+            isValid = false;
+            newFormErrors.number = 'Number is required';
+        } else {
+            newFormErrors.number = '';
+        }
+
+
+        if (!formData.message.trim()) {
+            isValid = false;
+            newFormErrors.message = 'Message is required';
+        } else {
+            newFormErrors.message = '';
+        }
+
+        setFormErrors(newFormErrors);
+        return isValid;
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (validateForm()) {
+            setFormData({
+                name: '',
+                number: '',
+                email: '',
+                message: '',
+            });
+
+            setFormSubmitted(true);
+
+            setTimeout(() => {
+                setFormSubmitted(false);
+            }, 5000);
+        }
+    };
+
+
     return (
         <div className='contact-container'>
             <article>
@@ -22,25 +106,53 @@ function Contact() {
                         <div className='contact-div1'>
                             <div className='contact-body1'>
                                 <div className='contact-form'></div>
-                                <form name='contact-form'>
+                                <form name='contact-form' onSubmit={handleSubmit}>
                                     <p>
                                         <span className='relative'>
                                             <img src={imagePaths.name} alt='' />
-                                            <input type='text' name='name' placeholder='Name'></input>
+                                            <input
+                                                type='text'
+                                                name='name'
+                                                placeholder='Name'
+                                                value={formData.name}
+                                                onChange={handleInputChange}
+                                            ></input>
+                                            {formErrors.name && <p className='error-message'>{formErrors.name}</p>}
                                         </span>
                                         <br></br>
                                         <span className='relative'>
                                             <img src={imagePaths.number} alt='' />
-                                            <input type='text' name='number' placeholder='Phone'></input>
+                                            <input
+                                                type='text'
+                                                name='number'
+                                                placeholder='Phone'
+                                                value={formData.number}
+                                                onChange={handleInputChange}
+                                            ></input>
+                                            {formErrors.number && <p className='error-message'>{formErrors.number}</p>}
                                         </span>
                                         <br></br>
                                         <span className='relative'>
                                             <img src={imagePaths.email} alt='' />
-                                            <input type='text' name='email' placeholder='Email'></input>
+                                            <input
+                                                type='text'
+                                                name='email'
+                                                placeholder='Email'
+                                                value={formData.email}
+                                                onChange={handleInputChange}
+                                            ></input>
+                                            {formErrors.email && <p className='error-message'>{formErrors.email}</p>}
                                         </span>
                                         <br></br>
                                         <span className='relative'>
-                                            <textarea type='text' name='message' placeholder='Message'></textarea>
+                                            <textarea
+                                                type='text'
+                                                name='message'
+                                                placeholder='Message'
+                                                value={formData.message}
+                                                onChange={handleInputChange}
+                                            ></textarea>
+                                            {formErrors.message && <p className='error-message'>{formErrors.message}</p>}
                                         </span>
                                     </p>
                                     <div className='contact-button'>
@@ -50,6 +162,7 @@ function Contact() {
                                         </div>
                                         <input type='submit' value="Submit" />
                                     </div>
+                                    {formSubmitted && <p className='success-message'>Form submitted successfully!</p>}
                                 </form>
                             </div>
                         </div>

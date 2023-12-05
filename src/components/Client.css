@@ -130,3 +130,96 @@
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     color: #f15e3a !important;
 }
+
+
+@media only screen and (max-width: 767px) {
+
+    .clients-container {
+        margin: 0;
+    }
+
+    .clients-section1 {
+        padding: 20px 0;
+    }
+
+    .clients-section2 {
+        padding-top: 10px;
+    }
+
+    .clients-content1 h1 {
+        width: 90%;
+        font-size: 25px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .clients-content1 p {
+        width: 90%;
+        margin-left: 0;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .clients-div1 .clients-body1 img {
+        margin-right: 10px;
+    }
+
+    .clients-div1 .clients-body1 h6 {
+        font-size: 18px;
+    }
+
+    .clients-div1 .clients-body2 {
+        margin: 0 15px;
+    }
+
+    .clients-div1 .clients-body3 {
+        max-width: 100%;
+    }
+
+    .clients-div1 .clients-body3 p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .clients-div1 {
+        display: block;
+        margin: 40px 0 50px;
+    }
+
+    .clients-div1 .clients-body1 img {
+        margin-right: 10px;
+        width: 15px;
+    }
+
+    .clients-div1 .clients-body2 {
+        margin: 0 50px;
+        text-align: center;
+        width: auto;
+    }
+
+    .clients-div1 .clients-body2 img {
+        width: 150px;
+    }
+}
+
+
+@media only screen and (max-width:480px) {
+    .clients-div1 .clients-body1 {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .clients-div1 .clients-body3 {
+        width: 82%;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .clients-div1 .clients-body3 p {
+        font-size: 18px;
+    }
+}

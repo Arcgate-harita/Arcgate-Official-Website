@@ -14,8 +14,8 @@ function Career() {
                             <p className='lightBlue'>WE CRAVE FOR INNOVATION</p>
                             <p className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
                             <p className='red'>WE WORK HARD AND LAUGH A LOT</p>
-                            <p className='pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
-                            <p className='darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
+                            <p className=' pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
+                            <p className=' darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
                             <p className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
                         </div>
                     </div>
