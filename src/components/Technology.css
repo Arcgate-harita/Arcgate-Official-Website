@@ -1,5 +1,4 @@
 .technology-container {
-  margin: 105px auto 0;
   width: 100%;
   position: relative;
   padding: 0;
@@ -103,63 +102,6 @@
   margin-top: 20px;
 }
 
-
-/* .data-process1-type1 {
-  margin: 0 5px 45px;
-  width: 230px;
-}
-
-.data-process1-type1 a {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-  margin: 0 10px;
-  text-align: center;
-  color: #1a171b;
-}
-
-.data-process1-image {
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 5px 18px 0 rgba(0, 0, 0, .12);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  max-width: 112px;
-  margin: 10px;
-  padding: 5px;
-}
-
-.data-process1-type1 .data-process1-image img {
-  max-width: 75px;
-}
-
-.data-process1-text {
-  max-width: 190px;
-  width: 190px;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-  line-height: normal;
-  font-size: 17px;
-}
-
-.data-process1-type1 img {
-  margin: 7px auto;
-  max-width: 48px;
-  display: block;
-}
-
-.data-process1-type1 img {
-  margin: 7px auto;
-  background: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 10px;
-  padding: 5px
-} */
-
 .data-process1 {
   margin-top: 20px;
 }
@@ -181,8 +123,6 @@
   margin: 0 5px 16px;
   width: 230px;
 }
-
-
 
 .data-process1-type1 a {
   display: flex;
@@ -211,10 +151,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
- height: 10px;
-    max-width: 10px;
-    margin: 17px;
-    padding: 56px;
+  height: 10px;
+  max-width: 10px;
+  margin: 17px;
+  padding: 56px;
 }
 
 .data-process1-text {
@@ -286,21 +226,9 @@
   font-size: 15px;
 }
 
-/* .row1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.row2 {
-  margin-top: -157px;
-} */
-
-
 .row3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(2, 1fr); */
   padding: 10px;
 }
 
@@ -421,4 +349,123 @@
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   width: 70%;
   margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .technology-section1 {
+    padding: 20px 0;
+  }
+
+  .technology-section1 .technology-content1 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    object-fit: cover;
+    width: auto;
+    height: 120%;
+  }
+
+  .technology-section1 .technology-div1 h2 {
+    font-size: 24px;
+
+    margin-left: 42px;
+
+  }
+
+  .technology-section1 .technology-div1 p {
+    font-size: 18px;
+    margin-left: 42px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+  .technology-container {
+    padding: 0px;
+    margin: 0;
+  }
+
+  .technology-content2 .technology-div2 {
+    margin-left: 0px;
+  }
+
+  .technology-content2 center p {
+    font-size: 15px;
+    width: 88%;
+  }
+
+  .technology-content1 img {
+    left: auto;
+    top: auto;
+    width: 100%;
+    max-width: none;
+  }
+
+
+  .technology-content3 center p {
+    font-size: 18px;
+  }
+
+
+  .technology-div3 .technology-body .rounded-box1 {
+    width: 176px;
+    height: 167px;
+  }
+
+  .technology-div3 .technology-body .rounded-box1 p {
+    font-size: 17px;
+  }
+
+  .technology-div3 .technology-body .rounded-box2 {
+    width: 176px;
+    height: 167px;
+  }
+
+  .technology-div3 .technology-body .rounded-box2 p {
+    font-size: 17px;
+  }
+
+  .technology-div3 .technology-body .rounded-box3 {
+    width: 176px;
+    height: 167px;
+  }
+
+  .technology-div3 .technology-body .rounded-box3 p {
+    font-size: 17px;
+  }
+
+  .technology-div3 .technology-body .rounded-box4 {
+    width: 176px;
+    height: 167px;
+  }
+
+  .technology-div3 .technology-body .rounded-box4 p {
+    font-size: 17px;
+  }
+
+  .technology-div3 .technology-body {
+    margin: 0 10px;
+  }
+
+  .technology-content1 .technology-div1 {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .technology-section2 {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .row3,
+  .row4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .technology-div2 {
+    margin-left: 0;
+  }
 }

@@ -1,5 +1,4 @@
 .about-container {
-  margin: 105px auto 0;
   width: 100%;
   position: relative;
   padding: 0;
@@ -7,12 +6,12 @@
 
 .about-container .about-section1 {
   background-color: #fff;
-  padding: 65px 0 28px;
+  padding: -21px 0 28px;
   overflow: hidden;
   text-align: center;
 }
 
-.about-content {
+.about-section1 .about-content {
   position: relative;
   display: inline-block;
   padding-left: 15px;
@@ -22,14 +21,15 @@
   margin: 0 auto;
 }
 
-.about-content img {
+.about-section1 .about-content img {
   opacity: 1;
   position: absolute;
   left: -20%;
+  transform: translateY(0);
   top: 12.25%;
 }
 
-.about-div {
+.about-section1 .about-div {
   float: right;
   text-align: left;
   width: 100%;
@@ -41,20 +41,19 @@
 .about-div h2 {
   text-align: inherit;
   color: #1a171b;
-  width: 90%;
+  width: 82%;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   line-height: 2.09em;
   float: left;
   font-size: 36px;
   margin-bottom: 26px;
   font-weight: 400;
-  margin: 0 auto;
 }
 
 .about-div p {
   font-size: 24px;
   line-height: 1.25em;
-  width: 92%;
+  width: 86%;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   margin-bottom: 26px;
 }
@@ -223,7 +222,7 @@
   display: inline-block;
 }
 
-.about-section3  .button-div .btn-link a {
+.about-section3 .button-div .btn-link a {
   color: inherit;
   font-size: 24px;
   padding: 8px 12px;
@@ -236,7 +235,7 @@
 }
 
 
-.about-section3  .button-div .btn-link a:hover {
+.about-section3 .button-div .btn-link a:hover {
   color: white;
   background-color: #e85631;
 }
@@ -341,8 +340,6 @@
 
 .about-content3 {
   width: 100%;
- 
-  /* margin: 0 auto; */
 }
 
 .about-section5 .about-content3 h2 {
@@ -585,7 +582,7 @@
 }
 
 .about-content4 center {
-  width: 90%;
+
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   line-height: normal;
   font-size: 24px;
@@ -802,38 +799,7 @@
 }
 
 
-
 @media only screen and (max-width: 768px) {
-  /* Adjustments for smaller screens */
-
-  .about-container {
-    margin-top: 60px;
-  }
-
-  .about-content {
-    padding: 0 10px;
-  }
-
-  .about-content img {
-    left: -167px;
-    margin-bottom: 15px;
-  }
-
-  .about-div {
-    width: 100%;
-    max-width: 100%;
-    float: none;
-    padding: 0 10px;
-  }
-
-  .about-div h2 {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .about-div p {
-    font-size: 17px;
-  }
 
   .about-list .about-list1-item,
   .about-list2-item {
@@ -850,7 +816,10 @@
     padding: 10px;
   }
 
-  
+
+  .video-list .video-div {
+    margin-left: 10px;
+  }
 
   .awards-body-row,
   .leftnode {
@@ -874,7 +843,7 @@
     text-align: center;
   }
 
-  .about-section3 .video-bloglist{
+  .about-section3 .video-bloglist {
     display: block;
   }
 
@@ -885,11 +854,10 @@
   .about-section8 .table-row {
     display: block;
   }
- 
+
   .table-cell-info p {
     text-align: center;
   }
-
 
   .about-content6 .table-row .table-cell {
     text-align: center;
@@ -908,7 +876,7 @@
     width: 86%;
     background-position: 0 .8%;
     padding-left: 38px;
- 
+
   }
 
   .awards-body-row .heading1 {
@@ -919,11 +887,11 @@
     font-size: 25px;
   }
 
-  .awards-body-row  h4 {
+  .awards-body-row h4 {
     font-size: 18px;
   }
 
-  .awards-body-row  p {
+  .awards-body-row p {
     font-size: 16px;
   }
 
@@ -938,7 +906,7 @@
     margin-left: 0;
   }
 
- .awards-content-1 .leftnode {
+  .awards-content-1 .leftnode {
     text-align: left;
     float: left;
     background-position: 0 2%;
@@ -961,7 +929,7 @@
   }
 
   .timeline-image img {
-      width: 86%;
+    width: 86%;
   }
 
   .awards-content-1 {
@@ -997,10 +965,65 @@
   }
 
   .start-year {
-
     text-align: left;
     font-size: 28px;
+  }
 
+  .about-content4 p {
+    font-size: 18px;
+  }
+
+  .about-content4 h2 {
+    font-size: 29px;
+  }
+
+  .founder-body ul li {
+    font-size: 19px;
+  }
+
+  .founder-body h5 {
+    text-align: center;
+  }
+
+  .founder-body .head-text {
+    text-align: center;
+  }
+
+  .founder-content img {
+    margin-left: 97px;
+  }
+
+  .about-container {
+    overflow-x: hidden;
+  }
+
+  .about-section1 {
+    padding: 32px 0 14px;
+  }
+
+  .about-section1 .about-content img {
+    position: absolute;
+    left: -50%;
+    top: -5%;
+  }
+
+  .about-section1 .about-div {
+    padding: 0;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .about-section1 .about-div h2 {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: -41px;
+  }
+
+  .about-section1 .about-div p {
+    font-size: 16px;
+    width: 94%;
   }
 
 }
