@@ -8,8 +8,8 @@ function Footer() {
             <section>
                 <aside>
                     <div className='footer-logo'>
-                    <Link to="/"> 
-                   </Link>
+                        <Link to="/">
+                        </Link>
                     </div>
                     <nav>
                         <ul className='menu'>
@@ -41,13 +41,16 @@ function Footer() {
                 </div>
                 <div className='footer-social-links'>
                     <ul>
-                        <li><a href='' target='_blank' className='fb-icon' ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href='' target='_blank' className='twitter-icon' ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li> <a href='' className='linkedin-icon'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href='' target='_blank' className='youtube-icon'><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        <li><a href='' target='_blank' className='cloud-icon'><i class="fa fa-cloud" aria-hidden="true"></i></a></li>
-                        <li><a href='' target='_blank' className='insta-icon'><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href='' target='_blank' className='fb-icon' ></a></li>
+                        <li><a href='' target='_blank' className='twitter-icon' ></a></li>
+                        <li> <a href='' className='linkedin-icon'></a></li>
+                        <li><a href='' target='_blank' className='youtube-icon'></a></li>
+                        <li><a href='' target='_blank' className='cloud-icon'></a></li>
+                        <li><a href='' target='_blank' className='insta-icon'></a></li>
                     </ul>
+
+                </div>
+                <div className='footer-copyright'>
                     <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
                 </div>
             </section>
