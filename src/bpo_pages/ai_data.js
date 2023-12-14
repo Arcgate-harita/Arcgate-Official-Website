@@ -5,11 +5,11 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Data() {
-  
+
   useEffect(() => {
     // Scroll to the top of the page when the component mounts
     window.scrollTo(0, 0);
-}, []);
+  }, []);
   return (
     <div className='data-container'>
       <article>
@@ -92,55 +92,57 @@ function Data() {
 
         <section className='data-section4'>
           <div className='data-content4'>
-            <h1>We help
-              <span>AI and machine learning models
-                get better </span>with human intelligence. Get highly specialized annotated custom datasets to make your algorithms and applications smarter and more accurate. Our dedicated team of analysts will work with you to generate training data to solve a wide range of use cases.
-            </h1>
+            <center>
+              <h1>We help
+                <span>AI and machine learning models
+                  get better </span>with human intelligence. Get highly specialized annotated custom datasets to make your algorithms and applications smarter and more accurate. Our dedicated team of analysts will work with you to generate training data to solve a wide range of use cases.
+              </h1>
+            </center>
             <div className='data-div4'>
               <div className='data-body4'>
                 <div className='data-image'>
-                <img src={imagePaths.machine1} alt='' />
+                  <img src={imagePaths.machine1} alt='' />
                 </div>
                 <h6>Data Collection</h6>
                 <ul>
                   <li>
-                  <img src={imagePaths.data1} alt='' />Data Enrichment</li>
+                    <img src={imagePaths.data1} alt='' />Data Enrichment</li>
                   <li>
-                  <img src={imagePaths.data2} alt='' />Data Entry</li>
+                    <img src={imagePaths.data2} alt='' />Data Entry</li>
                 </ul>
               </div>
 
               <div className='data-body4'>
                 <div className='data-image'>
-                <img src={imagePaths.machine2} alt='' />
+                  <img src={imagePaths.machine2} alt='' />
                 </div>
                 <h6>Data Preparation</h6>
                 <ul>
                   <li>
-                  <img src={imagePaths.data3} alt='' />Content Tagging</li>
+                    <img src={imagePaths.data3} alt='' />Content Tagging</li>
                   <li>
-                  <img src={imagePaths.data4} alt='' />Transcription </li>
+                    <img src={imagePaths.data4} alt='' />Transcription </li>
                   <li>
-                  <img src={imagePaths.data5} alt='' />Image & Video</li>
+                    <img src={imagePaths.data5} alt='' />Image & Video</li>
                 </ul>
               </div>
 
               <div className='data-body4'>
                 <div className='data-image'>
-                <img src={imagePaths.machine3} alt='' />
+                  <img src={imagePaths.machine3} alt='' />
                 </div>
                 <h6>Algorithm Training</h6>
                 <ul>
                   <li>
-                  <img src={imagePaths.data6} alt='' />Search Relevance</li>
+                    <img src={imagePaths.data6} alt='' />Search Relevance</li>
                   <li>
-                  <img src={imagePaths.data7} alt='' />Visual Search</li>
+                    <img src={imagePaths.data7} alt='' />Visual Search</li>
                   <li>
-                  <img src={imagePaths.data8} alt='' />Content Moderation</li>
+                    <img src={imagePaths.data8} alt='' />Content Moderation</li>
                   <li>
-                  <img src={imagePaths.data9} alt='' />Sentiment Analysis</li>
+                    <img src={imagePaths.data9} alt='' />Sentiment Analysis</li>
                   <li>
-                  <img src={imagePaths.data10} alt='' />Chatbot Training</li>
+                    <img src={imagePaths.data10} alt='' />Chatbot Training</li>
                 </ul>
               </div>
             </div>
@@ -149,77 +151,77 @@ function Data() {
 
 
         <section className='blogView-section2'>
-                  <div className='blogView-div2'>
-                  <h6>MORE ARTICLES</h6>
-                    <div className='blogView'>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog1'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.imageBlog1} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>Retail in India and Future Trends</p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog2'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.imageBlog2} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>
-                                            Artificial Intelligence – The Exciting Future </p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog3'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.imageBlog3} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>
-                                            Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog4'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.blog3} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>
-                                           </p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog5'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.blog4} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>
-                                            </p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                     </div>
-                   
-                   </div>
-                </section>
+          <div className='blogView-div2'>
+            <h6>MORE ARTICLES</h6>
+            <div className='blogView'>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog1'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.imageBlog1} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>Retail in India and Future Trends</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog2'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.imageBlog2} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                        Artificial Intelligence – The Exciting Future </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog3'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.imageBlog3} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                        Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog4'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog3} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog5'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog4} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
       </article>
     </div>
 

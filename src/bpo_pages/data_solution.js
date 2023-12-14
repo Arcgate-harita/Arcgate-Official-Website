@@ -138,65 +138,65 @@ function DataSolution() {
         </section>
 
         <section className='blogView-section2'>
-                  <div className='blogView-div2'>
-                  <h6>MORE ARTICLES</h6>
-                    <div className='blogView'>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog25'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.blog24} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>Retail in India and Future Trends</p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog21'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.blog20} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>
-                                            Artificial Intelligence – The Exciting Future </p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog38'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.blog37} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>
-                                            Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                        <div className='blogView-container1'>
-                            <div className='blogView-content2'>
-                                <Link to='/blog37'>
-                                    <div className='blogView-div'>
-                                        <img src={imagePaths.blog36} alt='' />
-                                    </div>
-                                    <div className='thumb-blogView'>
-                                        <p>
-                                           </p>
-                                    </div>
-                                </Link>
-                            </div>
-                        </div>
-                   
-                     </div>
-                   
-                   </div>
-                </section>
+          <div className='blogView-div2'>
+            <h6>MORE ARTICLES</h6>
+            <div className='blogView'>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog25'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog24} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>Retail in India and Future Trends</p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog21'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog20} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                        Artificial Intelligence – The Exciting Future </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog38'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog37} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                        Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog37'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog36} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
       </article>
     </div>
   )

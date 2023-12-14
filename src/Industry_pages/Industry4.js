@@ -12,24 +12,28 @@ function Industry4() {
                     <div className='industry-content1'>
                         <h1>Oil & Energy</h1>
                         <p></p>
-                        {IndustryPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph8}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                        <center>
+                            {IndustryPara.map((section, index) => (
+                                <div key={index}>
+                                    <p>{section.paragraph8}</p>
+                                    <p></p>
+                                </div>
+                            ))}
+                        </center>
                         <p></p>
                     </div>
                 </section>
 
                 <section className='industry-section2'>
                     <div className='industry-content2'>
-                    {IndustryPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph9}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                        <center>
+                            {IndustryPara.map((section, index) => (
+                                <div key={index}>
+                                    <p>{section.paragraph9}</p>
+                                    <p></p>
+                                </div>
+                            ))}
+                        </center>
                         <div className='industry-div2'>
                             <div className='industry-body2'>
                                 <a>
@@ -76,11 +80,12 @@ function Industry4() {
                                     <br></br>
                                 </a>
                             </div>
-                           
+
 
                         </div>
                     </div>
                 </section>
+
 
 
 
@@ -92,25 +97,22 @@ function Industry4() {
                         <div className='blogView'>
                             <div className='blogView-container1'>
                                 <div className='blogView-content2'>
-                                    <Link to='/blog12'>
+                                    <Link to='/blog1'>
                                         <div className='blogView-div'>
-                                            <img src={imagePaths.imageBlog13} alt='' />
+                                            <img src={imagePaths.imageBlog1} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                          
+                                            <p>Retail in India and Future Trends</p>
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-                          
                         </div>
-
-
                     </div>
-            </section>
+                </section>
 
 
-        </article>
+            </article>
         </div >
     )
 }

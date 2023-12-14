@@ -1,5 +1,4 @@
 .image-container {
-    margin: 105px auto 0;
     width: 100%;
     position: relative;
     padding: 0;
@@ -19,11 +18,9 @@
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
-.image-content1 .image-div1  h1{
+.image-content1 .image-div1 h1 {
     font-size: 36px;
     text-align: center;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
@@ -33,7 +30,7 @@
     color: #fff;
 }
 
-.image-content1 .image-div1  p{
+.image-content1 .image-div1 p {
     width: 80%;
     color: #fff;
     font-size: 22px;
@@ -41,9 +38,7 @@
     margin-bottom: 24px;
     line-height: 1.18em;
     text-align: center;
-
 }
-
 
 .image-section2 {
     background-color: #fff;
@@ -51,14 +46,12 @@
 }
 
 .image-div2 {
-    padding-left: 15px;
-    padding-right: 15px;
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.image-div2  .image {
+.image-div2 .image {
     position: relative;
     min-height: 100px;
     margin: 0 auto;
@@ -76,46 +69,31 @@
     vertical-align: top;
     width: 100%;
 }
-  
-  
- .image .image-container1 .image-content2 {
+
+.image .image-container1 .image-content2 {
     box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .35);
     margin: 0;
     overflow: hidden;
     background: #fff;
-  }
+}
 
-  .image-container1 .image-content2 a {
+.image-container1 .image-content2 a {
     display: inline-block;
     vertical-align: top;
     width: inherit;
-  }
+}
 
-  
-  .image .image-container1 .image-content2 img {
+.image .image-container1 .image-content2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 .image-section-button {
- /* padding: 10px; */
-  background-color: rgb(209, 209, 209);
+    background-color: rgb(209, 209, 209);
 }
 
-/* .image-content-button button{
-  padding: 10px;
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
-  background-color: rgb(209, 209, 209);
-  border: #ddd1c6;
-  text-align: center;
-  font-weight: 700px;
-  gap: 20px;
-} */
-
-.image-content-button .button1{
+.image-content-button .button1 {
     padding: 16px;
     font-size: 15px;
     font-weight: 700px;
@@ -125,10 +103,9 @@
     border: #ddd1c6;
     text-align: center;
     padding-right: 30px;
-  }
+}
 
-  
-  .image-content-button .button2{
+.image-content-button .button2 {
     padding: 16px;
     font-size: 15px;
     font-weight: 700px;
@@ -137,21 +114,21 @@
     background-color: rgb(209, 209, 209);
     border: #ddd1c6;
     text-align: center;
-  }
+}
 
-  
-.image-content-button button:hover{
-color: white;
+
+.image-content-button button:hover {
+    color: white;
 }
 
 .image-content-button .button1:active {
-    background-color: #fff; /* Change the background color to white when active */
-    color: #000; /* Change the text color to black when active */
+    background-color: #fff;
+    color: #000;
 }
 
 .image-content-button .button2:active {
-    background-color: #fff; /* Change the background color to white when active */
-    color: #000; /* Change the text color to black when active */
+    background-color: #fff;
+    color: #000;
 }
 
 .image-content-button .button1:focus {
@@ -162,4 +139,10 @@ color: white;
 .image-content-button .button2:focus {
     background-color: #fff;
     color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+    .image .image-container1 {
+        margin: 0;
+    }
 }

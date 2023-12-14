@@ -69,26 +69,26 @@ function team() {
                 </section>
 
 
-<section className="team-section3">
-    <div className="team-content3">
-        <div className="team-div3">
-            <h1>Our IT Staff Augmentation Service Areas</h1>
-            <br></br>
-            <div className="team-body3">
-                <ul>
-                    <li>Data Analytics</li>
-                    <li>Cloud Computing</li>
-                    <li>Software Dovelopment</li>
-                    <li>Technical Support</li>
-                    <li>Network Infrastructure</li>
-                    <li>Quality Assurance & Testing</li>
-                    <li>UI/UX Design</li>
-                    <li>Project Management</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+                <section className="team-section3">
+                    <div className="team-content3">
+                        <div className="team-div3">
+                            <h1>Our IT Staff Augmentation Service Areas</h1>
+                            <br></br>
+                            <div className="team-body3">
+                                <ul>
+                                    <li>Data Analytics</li>
+                                    <li>Cloud Computing</li>
+                                    <li>Software Dovelopment</li>
+                                    <li>Technical Support</li>
+                                    <li>Network Infrastructure</li>
+                                    <li>Quality Assurance & Testing</li>
+                                    <li>UI/UX Design</li>
+                                    <li>Project Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section className='team-section2'>
                     <div className='team-content2'>
                         <div className='team-div2'>

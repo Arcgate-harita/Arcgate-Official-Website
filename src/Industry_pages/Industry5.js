@@ -13,24 +13,28 @@ function Industry5() {
                     <div className='industry-content1'>
                         <h1>Sharing Economy</h1>
                         <p></p>
-                        {IndustryPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph10}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                        <center>
+                            {IndustryPara.map((section, index) => (
+                                <div key={index}>
+                                    <p>{section.paragraph10}</p>
+                                    <p></p>
+                                </div>
+                            ))}
+                        </center>
                         <p></p>
                     </div>
                 </section>
 
                 <section className='industry-section2'>
                     <div className='industry-content2'>
-                    {IndustryPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph11}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                        <center>
+                            {IndustryPara.map((section, index) => (
+                                <div key={index}>
+                                    <p>{section.paragraph11}</p>
+                                    <p></p>
+                                </div>
+                            ))}
+                        </center>
                         <div className='industry-div2'>
                             <div className='industry-body2'>
                                 <a>
@@ -77,7 +81,7 @@ function Industry5() {
                                     <br></br>
                                 </a>
                             </div>
-                           
+
                             <div className='industry-body2'>
                                 <a>
                                     <br></br>
@@ -113,13 +117,13 @@ function Industry5() {
                                             <img src={imagePaths.imageBlog1} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                           
+
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-                          
-                      
+
+
                             <div className='blogView-container1'>
                                 <div className='blogView-content2'>
                                     <Link to='/blog2'>
@@ -127,17 +131,17 @@ function Industry5() {
                                             <img src={imagePaths.imageBlog2} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                           
+
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-                            </div>
                         </div>
-            </section>
+                    </div>
+                </section>
 
 
-        </article>
+            </article>
         </div >
     )
 }

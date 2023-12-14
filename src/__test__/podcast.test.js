@@ -11,8 +11,7 @@ describe('Podcast Component', () => {
       </MemoryRouter>
     );
 
-    // Check if the container is present
-    const podcastContainer =screen.getByTestId('blogView-container');
+    const podcastContainer = screen.getByTestId('blogView-container');
     expect(podcastContainer).toBeInTheDocument();
 
   });

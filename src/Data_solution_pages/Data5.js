@@ -5,17 +5,17 @@ import data from "../Data_solution_pages/data_para";
 function Data5() {
   return (
     <div className='data-solution-container'>
-    <article>
+      <article>
         <section className='data-solution-section1-4'>
-            <div className='data-solution-content1'>
-                <h1>Data Cleansing</h1>
-                <p></p>
-                {data.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.data10}</p>
-                            </div>
-                        ))}
-            </div>
+          <div className='data-solution-content1'>
+            <h1>Data Cleansing</h1>
+            <p></p>
+            {data.map((section, index) => (
+              <div key={index}>
+                <p>{section.data10}</p>
+              </div>
+            ))}
+          </div>
         </section>
 
         <section className='data-solution-section2-4'>
@@ -45,8 +45,8 @@ function Data5() {
             </div>
           </div>
         </section>
-                </article>
-                </div>
+      </article>
+    </div>
   )
 };
 

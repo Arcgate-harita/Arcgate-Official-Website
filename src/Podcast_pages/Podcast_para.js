@@ -1,11 +1,11 @@
 const PodcastPara = [
     {
-        heading1:"The Arcgate Podcast: Retail Technology has Changed the Experience of Shopping Enormously",
+        heading1: "The Arcgate Podcast: Retail Technology has Changed the Experience of Shopping Enormously",
         paragraph1: "Continued growth in e-commerce space, improvements in mobile technology and increasing social media use has not only made retailers re-evaluate the traditional practices, but more importantly, it has forever changed consumers shopping habits. Recognizing the demand for new retail technology solutions, digital savvy retailers are combining traditional practices with new technology helping them serve their customers better.",
         paragraph2: "Would love for you to hear this podcast and tell us what you think. We can be reached on twitter @arcgateinc",
 
 
-        heading2:"The Arcgate Podcast: Meet the team – Episode 2",
+        heading2: "The Arcgate Podcast: Meet the team – Episode 2",
         paragraph3: "As we start to hire more and more people, at times, we miss out on getting to know all our employees – and so we constantly make efforts to maintain a tight-knit culture. That’s why it’s crucial for us to find new ways to get to know our expanding workforce by cultivating a close-knit culture through every stage. So here in a series of podcasts, you will get to know a little more about what drives our people to achieve, accomplish and accelerate!",
         paragraph4: "#Arcgatian Anshul – He quit an exciting sea life to settle ashore! A passionate engineer and a data lover, we are glad he found his calling here at Arcgate and was able to move back to Udaipur with his family. After all, it all boils down to what one really wants from one’s life and how far one can go to achieve one’s dreams.",
 
@@ -50,8 +50,8 @@ const PodcastPara = [
         paragraph19: "Every restaurant, supermarket, convenience store, food truck, cafeteria, manufacturer, distributor – every food business – generates a huge amount of data. The data generated is in form of customers’ orders, delivery locations, social media engagements, loyalty card usage, product inventory, average wait times, experience with delivery, taste of the food, menu availability etc. And as the on-demand marketplace grows, along with advancements in technology, the food industry will have to adapt big data analytics and technology effectively in order to stay competitive, enhance their market reach, increase customer satisfaction and provide better services.",
 
         heading15: "The Arcgate Podcast: The Shiny New Trends in Real Estate Industry: Technology and Big Data",
-        paragraph20: "Real estate is not behind in adapting to modern technology. But there were times when the tools to properly analyze and draw relevant conclusions from data were reserved for bigger real estate companies and investments firms. However, thanks to the boom in personal computing (mobile, tablets, wearables etc.) anybody can find information on a property within a few minutes. Not only that, today mining listing of homes for sale and rent, geographic information systems data, results of consumer surveys, census information etc. and then further analyzing this enormous swathes of information – much of it aggregated from disparate places and formats can reveal actionable trends, patterns and associations when analyzed computationally. It’s time for real estate agents to start applying the insights big data provides to enhance business, attract more buyers and sellers and generate more leads.",   
-       
+        paragraph20: "Real estate is not behind in adapting to modern technology. But there were times when the tools to properly analyze and draw relevant conclusions from data were reserved for bigger real estate companies and investments firms. However, thanks to the boom in personal computing (mobile, tablets, wearables etc.) anybody can find information on a property within a few minutes. Not only that, today mining listing of homes for sale and rent, geographic information systems data, results of consumer surveys, census information etc. and then further analyzing this enormous swathes of information – much of it aggregated from disparate places and formats can reveal actionable trends, patterns and associations when analyzed computationally. It’s time for real estate agents to start applying the insights big data provides to enhance business, attract more buyers and sellers and generate more leads.",
+
     }
 ]
 export default PodcastPara;

@@ -12,24 +12,28 @@ function Industry3() {
                     <div className='industry-content1'>
                         <h1>Real Estate Tech</h1>
                         <p></p>
-                        {IndustryPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph6}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                        <center>
+                            {IndustryPara.map((section, index) => (
+                                <div key={index}>
+                                    <p>{section.paragraph6}</p>
+                                    <p></p>
+                                </div>
+                            ))}
+                        </center>
                         <p></p>
                     </div>
                 </section>
 
                 <section className='industry-section2'>
                     <div className='industry-content2'>
-                    {IndustryPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph7}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                        <center>
+                            {IndustryPara.map((section, index) => (
+                                <div key={index}>
+                                    <p>{section.paragraph7}</p>
+                                    <p></p>
+                                </div>
+                            ))}
+                        </center>
                         <div className='industry-div2'>
                             <div className='industry-body2'>
                                 <a>
@@ -203,10 +207,10 @@ function Industry3() {
 
 
                     </div>
-            </section>
+                </section>
 
 
-        </article>
+            </article>
         </div >
     )
 }

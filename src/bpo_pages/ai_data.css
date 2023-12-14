@@ -1,11 +1,10 @@
 .data-container {
-    margin: 105px auto 0;
     width: 100%;
     position: relative;
     padding: 0;
 }
 
-.data-container article{
+.data-container article {
     text-align: left;
     display: block;
 }
@@ -15,10 +14,7 @@
     background: #FFFBD7;
 }
 
-.data-section1  .data-content1 {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
+.data-section1 .data-content1 {
     max-width: 1050px;
     margin: 0 auto;
 }
@@ -29,17 +25,16 @@
     margin-top: -249px;
 }
 
-.data-section1 .data-content1 .data-left h1{
+.data-section1 .data-content1 .data-left h1 {
     font-size: 36px;
     line-height: 50px;
     font-weight: 600;
     color: #373435;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     text-align: left;
-    margin: 0 auto;
 }
 
-.data-section1 .data-content1 .data-left h2{
+.data-section1 .data-content1 .data-left h2 {
     font-size: 28px;
     line-height: 36px;
     font-weight: 600;
@@ -49,23 +44,23 @@
     margin: 0 auto;
 }
 
-.data-content1 .data-left span{
-font-size: 28px;
-line-height: 36px;
-font-weight: 600;
-margin-top: 20px;
-font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-text-align: left;
+.data-content1 .data-left span {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    text-align: left;
 }
 
-.data-content1 .data-left .orange{
+.data-content1 .data-left .orange {
     color: #f15e3a !important;
 }
 
 .data-content1 .data-right {
     width: 48%;
     float: right;
-    margin-top: -249px;
+    margin-top: -277px;
 }
 
 .data-content1 .data-right img {
@@ -79,7 +74,6 @@ text-align: left;
 .data-content2 {
     padding-left: 15px;
     padding-right: 15px;
-    width: 100%;
     max-width: 1050px;
     margin: 0 auto;
 }
@@ -96,7 +90,7 @@ text-align: left;
 }
 
 
-.data-content2 .data-div2 h2{
+.data-content2 .data-div2 h2 {
     font-size: 28px;
     line-height: 36px;
     font-weight: 600;
@@ -108,7 +102,7 @@ text-align: left;
 
 
 
-.data-content2 .data-div2 span{
+.data-content2 .data-div2 span {
     font-size: 28px;
     line-height: 36px;
     font-weight: 600;
@@ -117,13 +111,12 @@ text-align: left;
     text-align: left;
 }
 
-.data-content2 .data-div2 .orng{
+.data-content2 .data-div2 .orng {
     color: #f15e3a !important;
 }
 
 .data-content2 .market-today {
     padding: 30px;
-    display: flex;
 }
 
 .data-content2 .data-div2 h2 {
@@ -135,17 +128,17 @@ text-align: left;
     margin: 10px auto;
 }
 
-.data-content2 .market-today .data-left1{
+.data-content2 .market-today .data-left1 {
     width: 48%;
-    float: left;
 }
 
-.data-content2 .market-today .data-right1{
+.data-content2 .market-today .data-right2 {
     width: 48%;
+    margin-top: -170px;
     float: right;
 }
 
-.data-content2 .market-today .data-left1 h3{
+.data-content2 .market-today .data-left1 h3 {
     margin: 30px 0;
     padding: 0 12px;
     text-align: left;
@@ -155,7 +148,7 @@ text-align: left;
     line-height: 26px;
 }
 
-.data-content2 .market-today .data-right2 h3{
+.data-content2 .market-today .data-right2 h3 {
     margin: 30px 0;
     padding: 0 40px;
     font-size: 20px;
@@ -167,34 +160,24 @@ text-align: left;
 
 .data-section3 {
     background: #ebedd9;
-    padding: 500px 0 163px;
-
 }
 
 .data-section3 .data-content3 {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-    max-width: 1050px;
-    margin: -474px auto;
+    padding: 10px;
 
-}
-
-.data-section3 .data-content3 .data-left2 {
-    width: 48%;
-    float: left;
 }
 
 .data-section3 .data-content3 .data-left2 img {
-    margin-right: 10px;
+    margin-left: 80px;
 }
 
-.data-section3 .data-content3 .data-right2{
+.data-section3 .data-content3 .data-right2 {
     width: 48%;
+    margin-top: -528px;
     float: right;
 }
 
-.data-section3 .data-content3 .data-right2 h1{
+.data-section3 .data-content3 .data-right2 h1 {
     font-size: 36px;
     line-height: 50px;
     font-weight: 600;
@@ -203,15 +186,13 @@ text-align: left;
     margin: 0 auto;
 }
 
-.data-section3 .data-content3 .data-right2 span { 
-    /* font-size: 36px; */
-    /* line-height: 50px; */
+.data-section3 .data-content3 .data-right2 span {
     font-weight: 600;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     text-align: left;
 }
 
-.data-section3 .data-content3 .data-right2 p{
+.data-section3 .data-content3 .data-right2 p {
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -219,13 +200,13 @@ text-align: left;
     margin: 40px 0;
 }
 
-.data-section3 .data-content3 .data-right2 p{
+.data-section3 .data-content3 .data-right2 p {
     font-size: 20px;
     font-weight: 700;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
 }
 
-.data-section3 .data-content3 .data-right2 .orng { 
+.data-section3 .data-content3 .data-right2 .orng {
     color: #f15e3a !important;
 }
 
@@ -233,26 +214,18 @@ text-align: left;
     padding: 50px 0;
 }
 
-.data-content4 {
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-    max-width: 1050px;
-    margin: 0 auto;
-
-}
-
 .data-content4 h1 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 50px;
     font-weight: 600;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     color: #373435;
     text-align: center;
     margin: 0 auto;
+    width: 1000px;
 }
 
-.data-content4 h1 span{
+.data-content4 h1 span {
     font-size: 36px;
     line-height: 50px;
     font-weight: 600;
@@ -261,8 +234,8 @@ text-align: left;
     color: #f15e3a;
 }
 
-.data-content4 h1.orng{
-   color: #f15e3a !important;
+.data-content4 h1.orng {
+    color: #f15e3a !important;
 }
 
 .data-content4 .data-div4 {
@@ -278,7 +251,6 @@ text-align: left;
 
 .data-content4 .data-div4 .data-body4 {
     border: 0 solid red;
-    width: 232px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -296,14 +268,14 @@ text-align: left;
     width: 100%;
 }
 
-.data-content4 .data-div4 .data-body4 h6{
+.data-content4 .data-div4 .data-body4 h6 {
     margin: 10px;
     font-size: 20px;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     font-weight: 700;
 }
 
-.data-content4 .data-div4 .data-body4 ul{
+.data-content4 .data-div4 .data-body4 ul {
     margin: 20px;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
 }
@@ -317,8 +289,8 @@ text-align: left;
     text-align: left;
 }
 
-.data-content4 .data-div4 .data-body4 li img{
-width: 25px;
+.data-content4 .data-div4 .data-body4 li img {
+    width: 25px;
     margin-right: 10px;
 }
 
@@ -332,4 +304,222 @@ width: 25px;
     font-weight: 400;
     text-transform: uppercase;
     border-bottom: 1px solid #e8e1da;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .data-content4 h1 {
+        font-size: 23px;
+        width: 331px;
+        line-height: 29px;
+    }
+
+    .blogView {
+        margin-right: 0;
+    }
+
+    .data-content4 h1 span {
+        font-size: 23px;
+    }
+
+    .data-section3 .data-content3 .data-left2 img {
+        margin: 16px;
+        width: 88%;
+    }
+
+    .data-section3 .data-content3 .data-right2 p {
+        text-align: center;
+    }
+
+    .data-section3 .data-content3 .data-right2 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .market-today {
+        display: grid;
+    }
+
+    .data-content2 .market-today .data-left1 {
+        width: 100%;
+    }
+
+    .market-today .data-left1 {
+        width: 100%;
+    }
+
+    .data-section1 {
+        padding: 150px 0;
+    }
+
+    .data-content1 .data-right {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+    }
+
+    .data-left {
+        width: 100%;
+        float: initial;
+        margin-bottom: 20px;
+    }
+
+    .data-section1 .data-content1 .data-left h1 {
+        text-align: center;
+        font-size: 24px;
+        width: 354px;
+        line-height: normal;
+    }
+
+    .data-section1 .data-content1 .data-left h2 {
+        font-size: 17px;
+        width: 370px;
+        line-height: 26px;
+    }
+
+    .data-content1 .data-left .orange {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .data-content1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .data-section2,
+    .data-section4 {
+        padding: 30px 0;
+    }
+
+    .data-section3 {
+        height: 1032px;
+    }
+
+    .data-section1 .data-content1 .data-left {
+        padding: 0;
+        margin-top: -43px;
+
+    }
+
+    .data-right {
+        width: 100%;
+        float: initial;
+        margin-bottom: 0;
+    }
+
+    .data-content1 .data-right img {
+        width: 92%;
+    }
+
+    .data-content2 h1 {
+        text-align: center;
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .data-content2 h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .data-content2 .data-div2 .orng {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .data-content4 .data-div4 {
+        display: block;
+        background: none;
+    }
+
+    .data-content4 .data-div4 .data-body4 {
+        align-items: center;
+    }
+
+    .data-content2 .data-div2 h1 {
+        text-align: center;
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .data-content2 .data-div2 h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .data-content2 .data-div2 h2 span {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .market-today h3 {
+        margin: 20px 0;
+    }
+
+    .data-right1 {
+        width: 100%;
+        float: initial;
+        margin-bottom: 0;
+    }
+
+    .data-section3 {
+        padding: 20px 0;
+    }
+
+    .data-content3 {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .data-left2 {
+        width: 100%;
+        float: initial;
+        margin-bottom: 20px;
+    }
+
+    .data-left2 img {
+        margin-right: 10px;
+    }
+
+    .data-right2 h1 {
+        text-align: center;
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .data-right2 p {
+        margin: 20px 0;
+    }
+
+    .data-content2 .market-today .data-right2 {
+        margin-top: 0;
+        width: 118%;
+        margin-left: -33px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .data-section1 {
+        padding: 80px 0;
+    }
+
+    .data-section2,
+    .data-section3,
+    .data-section4 {
+        padding: 20px 0;
+    }
+
+    .data-content2 .market-today .data-left1 {
+        width: 100%;
+    }
+
+    .data-content2 .market-today .data-right2 {
+        margin-top: 0;
+        width: 118%;
+        margin-left: -33px;
+    }
+
 }

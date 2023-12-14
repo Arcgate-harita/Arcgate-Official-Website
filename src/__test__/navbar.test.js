@@ -16,14 +16,11 @@ test('suite', async () => {
 
 test('renders Navbar component', () => {
   render(<MemoryRouter><Navbar /> </MemoryRouter>);
-  // Check if the component renders without crashing
   expect(screen.getByText('Home')).toBeInTheDocument();
 });
 
 test('opens and closes BPO dropdown on mouse enter and leave', () => {
-
   render(<MemoryRouter><Navbar /> </MemoryRouter>);
-
   const bpoNavItem = screen.getByText('BPO');
 
   fireEvent.mouseEnter(bpoNavItem);
@@ -64,12 +61,11 @@ test('closes all dropdowns on link click', async () => {
 
 test('closes Industries dropdown', async () => {
   render(<MemoryRouter><Navbar /> </MemoryRouter>);
-  // Open Industries dropdown
   userEvent.hover(screen.getByText(/Industries/i));
 
   await waitFor(() => {
-  expect(screen.getByText(/ADTECH/i)).toBeInTheDocument();
-}); 
+    expect(screen.getByText(/ADTECH/i)).toBeInTheDocument();
+  });
 
   const industriesDropdownCloseButton = screen.getByText('View More'); // Assuming there's a close button in the dropdown
   userEvent.click(industriesDropdownCloseButton);
@@ -84,7 +80,7 @@ test('closes Insight dropdown', async () => {
 
   await waitFor(() => {
     expect(screen.getByText(/Blogs/i)).toBeInTheDocument();
-  }); 
+  });
 
   const insightDropdownCloseButton = screen.getByText('View More'); // Assuming there's a close button in the dropdown
   userEvent.click(insightDropdownCloseButton);

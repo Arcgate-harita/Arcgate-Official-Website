@@ -1,5 +1,4 @@
 .solution-container {
-  margin: 105px auto 0;
   width: 100%;
   position: relative;
   padding: 0;
@@ -45,9 +44,7 @@
   color: #1a171b !important;
   text-align: center;
   line-height: 1.04em;
-  width: 88%;
   FONT-WEIGHT: 400;
-  margin-left: 100px;
 }
 
 .solution-div2 {

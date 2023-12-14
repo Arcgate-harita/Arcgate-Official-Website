@@ -6,7 +6,7 @@ function ImageModal({ imageUrl, onClose }) {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content">
         <button className="close-button" onClick={onClose}>
-          &times; 
+          &times;
         </button>
         <div className="image-container1">
           <img src={imageUrl} alt="Image" />

@@ -1,6 +1,7 @@
 import React from 'react'
 import "../bpo_pages/customer_support.css";
 import imagePaths from '../imagePath';
+import { Link } from 'react-router-dom';
 
 function customer_support() {
   return (
@@ -59,47 +60,64 @@ function customer_support() {
           </div>
         </section>
 
-        <section className='customer-section3'>
-          <div className='customer-content3'>
-            <h6>Insights</h6>
-            <div className='customer-div3'>
-              <div className='customer-body3'>
-                <div className='insight-cards'>
-                  <div className='tag1'>
-                  <img src={imagePaths.blogLogo} alt='' />
-                  </div>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                  <a>
-                    <h2>Delight your customer always!</h2>
-                  </a>
-                  <p>
-                    <a href=''></a>
-                  </p>
+        <section className='blogView-section2'>
+          <div className='blogView-div2'>
+            <h6>MORE ARTICLES</h6>
+            <div className='blogView'>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog25'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog24} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>Retail in India and Future Trends</p>
+                    </div>
+                  </Link>
                 </div>
-                <p></p>
               </div>
-              <p></p>
-              <div className='customer-body3'>
-                <div className='insight-cards'>
-                  <div className='tag1'>
-                    <img src={imagePaths.blogLogo} alt='' />
-                  </div>
-                  <p>
-                    <a href=''></a>
-                  </p>
-                  <a>
-                    <h2>Online Reputation and Content Moderation</h2>
-                  </a>
-                  <p>
-                    <a href=''></a>
-                  </p>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog21'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog20} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                        Artificial Intelligence – The Exciting Future </p>
+                    </div>
+                  </Link>
                 </div>
-                <p></p>
               </div>
-              <p></p>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog38'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog37} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                        Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+              <div className='blogView-container1'>
+                <div className='blogView-content2'>
+                  <Link to='/blog37'>
+                    <div className='blogView-div'>
+                      <img src={imagePaths.blog36} alt='' />
+                    </div>
+                    <div className='thumb-blogView'>
+                      <p>
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+
             </div>
+
           </div>
         </section>
 

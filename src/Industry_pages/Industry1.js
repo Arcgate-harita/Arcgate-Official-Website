@@ -13,7 +13,9 @@ function Industry1() {
                     <div className='industry-content1'>
                         <h1>Adtech</h1>
                         <p></p>
-                        <h2>Arcgate helps companies leading innovation in the advertising industry with data categorization, tagging, reporting and improving ad-matching relevance</h2>
+                        <center>
+                            <h2>Arcgate helps companies leading innovation in the advertising industry with data categorization, tagging, reporting and improving ad-matching relevance</h2>
+                        </center>
                         <p></p>
                     </div>
                 </section>
@@ -103,13 +105,14 @@ function Industry1() {
 
                 <section className='industry-section3'>
                     <div className='industry-content3'>
-                        {IndustryPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph1}</p>
-                                <p></p>
-                            </div>
-                        ))}
-
+                        <center>
+                            {IndustryPara.map((section, index) => (
+                                <div key={index}>
+                                    <p>{section.paragraph1}</p>
+                                    <p></p>
+                                </div>
+                            ))}
+                        </center>
                         <div className='industry-div3'>
                             <div className='industry-body'>
                                 <div className='industry-data'>
@@ -164,7 +167,7 @@ function Industry1() {
                                             <img src={imagePaths.blog16} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                           
+
                                         </div>
                                     </Link>
                                 </div>
@@ -176,16 +179,16 @@ function Industry1() {
                                             <img src={imagePaths.blog17} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                          
+
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-                       
-                     </div>
+
+                        </div>
 
                     </div>
-            </section>
+                </section>
 
 
             </article>
