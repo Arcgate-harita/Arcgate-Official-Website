@@ -181,7 +181,7 @@ const About = () => {
               <div className='video-list'>
                 <div className='video-div'>
                   <div className='video-body'>
-                    <a href=''>
+                    <a href='https://www.youtube.com/watch?v=rn1v6nod--E' target='_blank'>
                       <div className='video-image'>
                         <div data-aos="fade-up">
                           <img src={imagePaths.imageVideo3} alt='' />
@@ -198,7 +198,7 @@ const About = () => {
                 </div>
                 <div className='video-div'>
                   <div className='video-body'>
-                    <a href=''>
+                    <a href='https://www.youtube.com/watch?v=0dEGFOtAsZs' target='_blank'>
                       <div className='video-image'>
                         <div data-aos="fade-up">
                           <img src={imagePaths.imageVideo2} alt='' />
@@ -215,7 +215,7 @@ const About = () => {
                 </div>
                 <div className='video-div'>
                   <div className='video-body'>
-                    <a href=''>
+                    <a href='https://www.youtube.com/watch?v=O97QHjU-i-Y' target='_blank'>
                       <div className='video-image'>
                         <div data-aos="fade-up">
                           <img src={imagePaths.imageVideo01} alt='' />
@@ -244,7 +244,7 @@ const About = () => {
             <div className="awards-container">
               <div className="awards-content">
                 <div className="awards-body-row">
-                  <div data-aos="fade-left">
+                  <div data-aos="fade-right">
                     <div className="heading1">2021</div>
                     <h4>"UDAAN - DARE TO DREAM" Award</h4>
                     <p>Kunal Bagla, Founder of Arcgate was honored by Zee Media for his contribution to the IT sector.</p>
@@ -404,7 +404,7 @@ const About = () => {
 
               <div className="awards-content-8">
                 <div className="awards-body-row">
-                  <div data-aos="fade-right">
+                  <div data-aos="fade-left">
                     <h4>Member of the University of Texas</h4>
                     <p>Information Systems Steering Committee.</p>
                   </div>
@@ -553,7 +553,9 @@ const About = () => {
                 <p>The mission of the Arcgate Foundation is to help improve the local community by creating opportunities through programs in the areas of education, healthcare and rural development. A not-for-profit initiative aimed at improving the future, the Arcgate Foundation will work to support the less privileged sections of the society through various initiatives.</p>
                 <div className="table-button">
                   <div className="table-button-link">
-                    <a href="">Our Work</a>
+                    <a href="https://www.arcgatefoundation.org/" target="_blank" rel="noopener noreferrer">
+                      Our Work
+                    </a>
                   </div>
                 </div>
                 <p></p>

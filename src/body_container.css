@@ -4,6 +4,39 @@
   padding: 0;
 }
 
+.top-btn {
+  font-size: 2.4rem;
+  color: black;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top-btn img {
+  width: 42px;
+}
+
+.icon-text {
+  font-size: 10px;
+  color: black;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 3.5rem;
+  right: 1.4rem;
+  top: 1re;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .article {
   display: block;
 }
@@ -25,14 +58,24 @@
 }
 
 .body-section .body-div h2 {
+  /* color: #fff;
+  width: 90%;
+  line-height: 120%;
+  font-size: 28px;
+
+  text-align: center;
+  font-weight: 400;
+  margin: 0 auto; */
+
+  font-family: proxima nova regular web font_0, Arial, Helvetica, sans-serif;
   color: #fff;
   width: 90%;
   line-height: 120%;
   font-size: 28px;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   text-align: center;
   font-weight: 400;
   margin: 0 auto;
+
 }
 
 .body-section2 {
@@ -95,7 +138,6 @@
 }
 
 .body-section5 {
-  background: #D5D9BD;
   padding: 48px 0;
 }
 
@@ -206,7 +248,7 @@
 
 .bpo1 {
   width: 100%;
-  max-width: 1271px;
+  max-width: 1060px;
   margin: 0 auto;
   display: flex;
   height: 500px;
@@ -487,7 +529,7 @@
 
 .data-process1 {
   display: flex;
-  margin-top: 56px;
+  margin-top: 25px;
   text-align: center;
   max-width: 1000px;
   width: 100%;
@@ -609,6 +651,7 @@
 .link-button a {
   border-color: #7b7a68;
   color: #7b7a68;
+  font-weight: 600;
   text-decoration-line: none;
 }
 
@@ -625,7 +668,8 @@
 
 .link-button-a:hover {
   color: #ebebeb;
-  background-color: #373435;
+  background-color: #7b7a68;
+  ;
 }
 
 .body-section7 {
@@ -754,6 +798,7 @@
   font-size: 24px;
   padding: 8px 12px;
   display: inherit;
+  font-weight: 600;
   min-width: 170px;
   border-radius: 10px;
   border: 3px solid #ebebeb
@@ -849,6 +894,7 @@
   display: inherit;
   min-width: 170px;
   border-radius: 10px;
+  font-weight: 600;
   text-decoration-line: none;
   border: 3px solid #e85631;
 }
@@ -1008,6 +1054,7 @@
   color: #3953a4;
   font-size: 24px;
   padding: 8px 12px;
+  font-weight: 700;
   display: inherit;
   text-decoration-line: none;
   min-width: 170px;

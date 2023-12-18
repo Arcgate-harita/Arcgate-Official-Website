@@ -24,6 +24,11 @@ import {
   ApplicationDevelopment,
   QualityTesting,
   Team,
+  Devops,
+  Zendesk,
+  Salesforce,
+  NetSuite,
+  DataVisual,
 } from "./technology_pages";
 
 
@@ -141,6 +146,7 @@ import {
   Quality5,
   Quality6,
 } from "./QA_pages";
+import Nutsuite from "./technology_pages/Nutsuite";
 
 
 function App() {
@@ -163,6 +169,11 @@ function App() {
         <Route path="/application-development" element={<ApplicationDevelopment />} />
         <Route path="/quality-assurance-testing" element={<QualityTesting />} />
         <Route path="/team-augmentation" element={<Team />} />
+        <Route path="/devops" element={<Devops/>} />
+        <Route path="/zendesk" element={<Zendesk/>} />
+        <Route path="/salesforce" element={<Salesforce/>} />
+        <Route path="/nutsuite" element={<Nutsuite/>} />
+        <Route path="/datavisual" element={<DataVisual/>} />
         <Route path="/blog1" element={<Blog1 />} />
         <Route path="/blog2" element={<Blog2 />} />
         <Route path="/blog3" element={<Blog3 />} />

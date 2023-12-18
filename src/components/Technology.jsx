@@ -3,6 +3,7 @@ import imagePaths from '../imagePath';
 import "../components/Technology.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 AOS.init();
 
 AOS.init({
@@ -59,86 +60,85 @@ function Technology() {
                         <div className='technology-div2'>
 
                             <div className='data-process-type1'>
-                                <a href='Application-Developement'>
+                                <Link to="/accounting_outsourcing">
                                     <span className='data-process-image'>
                                         <img src={imagePaths.image6} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         Application Developement
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                             <div className='data-process-type1'>
-                                <a href='Quality Assurance & Testing'>
+                                <Link to='/ai-data-preparation'>
                                     <span className='data-process-image'>
                                         <img src={imagePaths.image7} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         Quality Assurance & Testing
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                             <div className='data-process-type1'>
-                                <a href='Team Augmentation'>
+                                <Link to='/team-augmentation'>
                                     <span className='data-process-image'>
                                         <img src={imagePaths.image8} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         Team Augmentation
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                             <div className='data-process-type1'>
-                                <a href=' DevOps Solutions'>
+                                <Link to='/devops'>
                                     <span className='data-process-image'>
                                         <img src={imagePaths.devops} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         DevOps Solutions
                                     </span>
-                                </a>
-
+                                </Link>
                             </div>
 
                             <div className='data-process-type1'>
-                                <a href=' Zendesk Admin Support'>
+                                <Link to='/zendesk'>
                                     <span className='data-process-image'>
                                         <img src={imagePaths.arcgatelab4} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         Zendesk Admin Support
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                             <div className='data-process-type1'>
-                                <a href=' Salesforce Admin Support'>
+                                <Link to='/salesforce'>
                                     <span className='data-process-image'>
                                         <img src={imagePaths.arcgatelab3} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         Salesforce Admin Support
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                             <div className='data-process-type1'>
-                                <a href='NetSulte Admin Support'>
+                                <Link to='/nutsuite'>
                                     <span className='data-process-image'>
                                         <img src={imagePaths.arcgatelab2} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         NetSulte Admin Support
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                             <div className='data-process-type1'>
-                                <a href='Data Visulatization'>
+                                <Link to='/datavisual'>
                                     <span className='data-process-image'>
                                         <img src={imagePaths.arcgatelab1} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         Data Visulatization
                                     </span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

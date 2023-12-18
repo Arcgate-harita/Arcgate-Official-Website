@@ -7,7 +7,7 @@ header {
   z-index: 100;
   background-color: #fff;
   transition: all .5s ease-in-out;
-  box-shadow: 0 1px 5px -3px rgba(0,0,0,.24);
+  box-shadow: 0 1px 5px -3px rgba(0, 0, 0, .24);
 }
 
 .header-container {
@@ -33,7 +33,7 @@ header {
 
 .header-content span {
   padding: 2px;
-  font-family: proxima nova semibold ,Arial,Helvetica,sans-serif !important;
+  font-family: proxima nova semibold, Arial, Helvetica, sans-serif !important;
   color: #ffffff;
 }
 
@@ -73,7 +73,7 @@ header {
 #cancelButton {
   position: absolute;
   top: 10px;
-  right: 10px; 
+  right: 10px;
   cursor: pointer;
 }
 
@@ -178,7 +178,7 @@ header>section {
   z-index: 1;
   padding: 27px;
   background-color: white;
-  height: 370px;
+  height: 308px;
 }
 
 .bpo-item:hover .bpo-dropdown {
@@ -209,14 +209,15 @@ header>section {
 }
 
 .insight-dropdown {
+
   position: absolute;
-  top: 135%;
+  top: 192%;
   left: -216px;
   box-shadow: 10px 0px 15px 10px rgba(0, 0, 0, .24);
   z-index: 1;
   padding: 10px;
   background-color: white;
-  height: 200px;
+  height: 172px;
 }
 
 .insight-item:hover .insight-dropdown {
@@ -229,30 +230,53 @@ header>section {
 
 .insight-dropdown .nav-button button {
   position: absolute;
-  top: 186px;
+  top: 161px;
   border: none;
   background: white;
   left: 144px;
   font-size: 15px;
 }
 
+.insight-dropdown .nav-button {
+  border-top: 1px solid #dddddd;
+  margin-top: 9px;
+}
+
+
+.industries-dropdown .nav-button {
+  border-top: 1px solid #dddddd;
+  margin-top: -100px;
+}
+
+.industries-dropdown .nav-button button {
+  position: absolute;
+  top: 333px;
+  border: none;
+  background: white;
+  left: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  width: 493px;
+  border-top: 1px solid #80808059;
+}
+
 .bpo-dropdown .nav-button button {
   position: absolute;
-  top: 390px;
+  top: 329px;
   border: none;
   background: white;
   left: 243px;
   font-size: 15px;
 }
 
-.nav-button {
+.bpo-dropdown .nav-button {
   border-top: 1px solid #dddddd;
   margin-top: 20px;
 }
 
-.nav-button button {
+.bpo-dropdown .nav-button button {
   position: absolute;
-  top: 340px;
+  top: 328px;
   border: none;
   background: white;
   left: 245px;
@@ -276,16 +300,22 @@ header>section {
 }
 
 .insight-dropdown .data-process-text {
-  font-size: 1rem;
-  margin-left: 2px;
+  line-height: normal;
+  font-size: 13px;
   text-align: center;
+  font-family: sans-serif;
+  color: #0000009c;
+  font-weight: 100;
 }
 
 .insight-dropdown .data-process-text1 {
-  font-size: 1rem;
-  margin-left: 50px;
-  width: 100px;
+  line-height: normal;
+  font-size: 13px;
   text-align: center;
+  margin-left: -1px;
+  font-family: sans-serif;
+  color: #0000009c;
+  font-weight: 100;
 }
 
 
@@ -478,8 +508,8 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
@@ -490,8 +520,8 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
@@ -503,8 +533,8 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
@@ -515,8 +545,8 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
@@ -527,8 +557,8 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
@@ -539,8 +569,8 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
@@ -551,8 +581,8 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
@@ -563,8 +593,8 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
@@ -575,17 +605,20 @@ header>section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  max-width: 79px;
+  height: 59px;
+  max-width: 63px;
   margin: 10px;
 }
 
 
 .bpo-dropdown .data-process-text {
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   line-height: normal;
-  font-size: 17px;
+  font-size: 13px;
   text-align: center;
+  font-family: sans-serif;
+  color: #0000009c;
+  font-weight: 100;
+
 }
 
 .bpo-dropdown .data-process-text1 {
@@ -613,7 +646,10 @@ header>section {
   border-radius: 50%;
   display: inline-block;
   margin: 10px;
-  padding: 5px
+  background: none;
+  padding: 5px;
+  width: 35px;
+  height: 95px;
 }
 
 .bpo-dropdown .data-process1 {
@@ -916,28 +952,36 @@ header>section {
 }
 
 .insight-dropdown .data-process-type1 img {
-  width: 26px;
-  height: 69px;
+  height: 152px;
+  background: none;
+  width: 42px;
 }
 
 .industries-dropdown .data-process-text {
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   line-height: normal;
-  font-size: 17px;
+  font-size: 13px;
   text-align: center;
+  font-family: sans-serif;
+  color: #0000009c;
+  font-weight: 100;
 }
 
 .industries-dropdown .data-process-text1 {
-  margin-left: 30px;
+  line-height: normal;
+  font-size: 13px;
   text-align: center;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  font-family: sans-serif;
+  color: #0000009c;
+  font-weight: 100;
 }
 
 .industries-dropdown .data-process-text2 {
-  margin-left: 0px;
+  line-height: normal;
+  font-size: 13px;
   text-align: center;
-  text-align: center;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  font-family: sans-serif;
+  color: #0000009c;
+  font-weight: 100;
 }
 
 .industries-dropdown .data-process-type1 img {
@@ -947,14 +991,16 @@ header>section {
 }
 
 .industries-dropdown .data-process-type1 img {
-  background: #fff;
+
   border-radius: 50%;
   display: inline-block;
   margin: 10px;
   padding: 5px;
-  height: 55px;
-  width: 28px;
+  height: 90px;
+  background: none;
+  width: 42px;
 }
+
 
 .industries-dropdown .data-process1 {
   display: flex;
@@ -1108,6 +1154,23 @@ header>section {
     left: 155px;
     font-size: 15px;
   }
+
+
+
+  .industries-dropdown .nav-button {
+    border-top: none;
+    margin-top: 20px;
+  }
+
+  .industries-dropdown .nav-button button {
+    position: absolute;
+    top: 340px;
+    border: 1px solid;
+    background: white;
+    left: 155px;
+    font-size: 15px;
+  }
+
 
 
   .insight-dropdown .nav-button button {
@@ -1938,9 +2001,12 @@ header>section {
   }
 
   .insight-dropdown .data-process-text {
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     line-height: normal;
-    font-size: 17px;
+    font-size: 13px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #0000009c;
+    font-weight: 100;
   }
 
   .insight-dropdown .data-process-text1 {
