@@ -1,6 +1,7 @@
 import React from 'react';
 import TermPara from './Term_para';
 import "../Term_page/Term.css";
+import { Link } from 'react-router-dom';
 
 function Terms() {
     return (
@@ -48,7 +49,8 @@ function Terms() {
                                 <p></p>
                                 <h2>{section.heading6}</h2>
                                 <p></p>
-                                <p>{section.paragraph11}</p>
+                                <p>{section.paragraph11}
+                                <Link to="/privacy">Privacy Policy</Link></p>
                                 <p></p>
                                 <h2>{section.heading7}</h2>
                                 <p></p>

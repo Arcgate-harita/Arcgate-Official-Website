@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import imagePaths from "./imagePath";
 import toggle1 from "./images/align-justify.svg";
 import toggle2 from "./images/x.svg";
+import cancelIcon from "./images/cancle.png";
 
 
 function Navbar() {
@@ -48,7 +49,6 @@ function Navbar() {
   };
 
 
-
   const handleDropdownLinkClick = () => {
     closeBpoDropdown();
     closeIndustriesDropdown();
@@ -61,6 +61,12 @@ function Navbar() {
     closeIndustriesDropdown();
     closeInsightDropdown();
     setIsOpen(false);
+    var headerContent = document.querySelector(".header-content");
+    var navbar = document.querySelector(".navbar");
+  
+    headerContent.style.display = "none";
+    navbar.style.top = "0";
+    
   };
 
 
@@ -76,9 +82,12 @@ function Navbar() {
               Become an Arcgatian. Join our team and deliver outsourcing services to the most innovative companies in the world.
             </span>
           </p>
-          <a className="current-link" href="career#current-openings">
+          <a className="current-link" href="#current-openings">
             See Current Openings
           </a>
+          <button id="cancelButton" onClick={closeDropdownAndToggle}>
+            <img src={cancelIcon} alt="Cancel Icon" />
+          </button>
         </div>
         <section className={`navbar ${isOpen ? 'open' : ''}`} >
           <div className="arcgate-logo">
