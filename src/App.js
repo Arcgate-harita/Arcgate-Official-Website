@@ -28,49 +28,49 @@ import {
 
 
 import {
-Blog1,
-Blog2,
-Blog3,
-Blog4,
-Blog5,
-Blog6,
-Blog7,
-Blog8,
-Blog9,
-Blog10,
-Blog11,
-Blog12,
-Blog13,
-Blog14,
-Blog15,
-Blog16,
-Blog17,
-Blog18,
-Blog19,
-Blog20,
-Blog21,
-Blog22,
-Blog23,
-Blog24,
-Blog25,
-Blog26,
-Blog27,
-Blog28,
-Blog29,
-Blog30,
-Blog31,
-Blog32,
-Blog33,
-Blog34,
-Blog35,
-Blog36,
-Blog37,
-Blog38,
-Blog39,
-Blog40,
-Blog41,
-Blog42,
-Blog43,
+  Blog1,
+  Blog2,
+  Blog3,
+  Blog4,
+  Blog5,
+  Blog6,
+  Blog7,
+  Blog8,
+  Blog9,
+  Blog10,
+  Blog11,
+  Blog12,
+  Blog13,
+  Blog14,
+  Blog15,
+  Blog16,
+  Blog17,
+  Blog18,
+  Blog19,
+  Blog20,
+  Blog21,
+  Blog22,
+  Blog23,
+  Blog24,
+  Blog25,
+  Blog26,
+  Blog27,
+  Blog28,
+  Blog29,
+  Blog30,
+  Blog31,
+  Blog32,
+  Blog33,
+  Blog34,
+  Blog35,
+  Blog36,
+  Blog37,
+  Blog38,
+  Blog39,
+  Blog40,
+  Blog41,
+  Blog42,
+  Blog43,
 } from "./blog_pages";
 
 
@@ -107,16 +107,16 @@ import {
   Data6,
   Data7,
   Data8,
-  
+
 } from "./Data_solution_pages";
 
 import AboutImage from "./About_pages/AboutImage";
 
 
 import {
-View1,
-View2,
-View3,
+  View1,
+  View2,
+  View3,
 
 } from "./View_page";
 
@@ -190,7 +190,7 @@ function App() {
         <Route path="/blog25" element={<Blog25 />} />
         <Route path="/blog26" element={<Blog26 />} />
         <Route path="/blog27" element={<Blog27 />} />
-        <Route path="/blog28" element={<Blog28/>} />
+        <Route path="/blog28" element={<Blog28 />} />
         <Route path="/blog29" element={<Blog29 />} />
         <Route path="/blog30" element={<Blog30 />} />
         <Route path="/blog31" element={<Blog31 />} />
@@ -206,7 +206,7 @@ function App() {
         <Route path="/blog41" element={<Blog41 />} />
         <Route path="/blog42" element={<Blog42 />} />
         <Route path="/blog43" element={<Blog43 />} />
-        <Route path="/blogView" element={<BlogView/>} />
+        <Route path="/blogView" element={<BlogView />} />
         <Route path="/podcast" element={<Podcast />} />
         <Route path="/podcast1" element={<Podcast1 />} />
         <Route path="/podcast2" element={<Podcast2 />} />
@@ -242,7 +242,7 @@ function App() {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/Industry1" element={<Industry1 />} />
         <Route path="/Industry2" element={<Industry2 />} />
-        <Route path="/Industry3" element={<Industry3 />} />  
+        <Route path="/Industry3" element={<Industry3 />} />
         <Route path="/Industry4" element={<Industry4 />} />
         <Route path="/Industry5" element={<Industry5 />} />
         <Route path="/Industry6" element={<Industry6 />} />
@@ -252,9 +252,9 @@ function App() {
         <Route path="/quality4" element={<Quality4 />} />
         <Route path="/quality5" element={<Quality5 />} />
         <Route path="/quality6" element={<Quality6 />} />
-    
 
-       </Routes>
+
+      </Routes>
       <Footer />
     </Router>
   );

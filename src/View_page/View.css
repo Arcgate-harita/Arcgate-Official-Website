@@ -1,5 +1,4 @@
 .view-container {
-    margin: 105px auto 0;
     width: 100%;
     position: relative;
     padding: 0;
@@ -42,12 +41,12 @@
     text-align: center;
 }
 
-.view-content1 p span{
+.view-content1 p span {
     color: orangered;
     font-size: 24px;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     text-align: center;
-} 
+}
 
 .view-section2 {
     background-color: #fff;
@@ -87,7 +86,7 @@
     width: 700px;
     margin-left: 199px;
     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .view-content2 .view-div .view-row2 {
@@ -103,7 +102,7 @@
     max-width: 262px;
     margin: 0 45px 45px;
     vertical-align: top;
-    
+
 }
 
 .view-content2 .view-div .view-insight-body {
@@ -111,7 +110,7 @@
     max-width: 262px;
     margin: 0 45px 45px;
     vertical-align: top;
-    
+
 }
 
 .view-body .span-image {
@@ -136,4 +135,27 @@
     line-height: normal;
     font-size: 19px;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .view-content2 .view-div .view-row1 {
+        display: contents;
+    }
+
+    .view-content2 .view-div .view-row2 {
+        display: contents;
+    }
+
+    .view-content1 p {
+        font-size: 18px;
+    }
+
+    .view-content2 p {
+        font-size: 20px;
+    }
+
+    .solution-content1 h2 {
+        font-size: 19px;
+    }
 }

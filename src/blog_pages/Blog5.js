@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 
 function Blog5() {
     useEffect(() => {
-  
+
         window.scrollTo(0, 0);
     }, []);
 

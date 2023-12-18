@@ -3,9 +3,33 @@ import "../src/body_container.css";
 import imagePaths from './imagePath';
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+AOS.init({
+    disable: false,
+    startEvent: 'DOMContentLoaded',
+    initClassName: 'aos-init',
+    animatedClassName: 'aos-animate',
+    useClassNames: false,
+    disableMutationObserver: false,
+    debounceDelay: 50,
+    throttleDelay: 99,
+
+
+    offset: 120,
+    delay: 0,
+    duration: 1000,
+    easing: 'ease',
+    once: false,
+    mirror: false,
+    anchorPlacement: 'top-bottom',
+
+});
 
 function BodyContainer() {
-    
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -51,124 +75,122 @@ function BodyContainer() {
                         <div className='right-border'>
                             <div className='data-process'>
                                 <h2>BPO</h2>
-                                <div className='row1'>
-                                    <div className='data-process-type1'>
-                                        <Link to="/accounting_outsourcing">
-                                            <span className='data-process-image'>
 
-                                                <img src={imagePaths.bpoImage} alt='' />
+                                <div className='data-process-type1'>
+                                    <Link to="/accounting_outsourcing">
+                                        <span className='data-process-image'>
 
-                                            </span>
-                                            <span className='data-process-text1'>
-                                                Accounting Outsourcing
-                                            </span>
-                                        </Link>
-                                    </div>
+                                            <img src={imagePaths.bpoImage} alt='' />
 
-                                    <div className='data-process-type1'>
-                                        <Link to='/ai-data-preparation'>
-                                            <span className='data-process-image'>
-                                                <img src={imagePaths.image1} alt='' />
-                                            </span>
-                                            <span className='data-process-text'>
-                                                AI Data Preparation
-                                            </span>
-                                        </Link>
-                                    </div>
-
-                                    <div className='data-process-type1'>
-                                        <Link to='/data-solution'>
-                                            <span className='data-process-image'>
-                                                <img src={imagePaths.image2} alt='' />
-                                            </span>
-                                            <span className='data-process-text'>
-                                                Data Solutions
-                                            </span>
-                                        </Link>
-                                    </div>
+                                        </span>
+                                        <span className='data-process-text1'>
+                                            Accounting Outsourcing
+                                        </span>
+                                    </Link>
                                 </div>
-                                <p></p>
-                                <div className='row2'>
-                                    <div className='data-process-type1'>
-                                        <Link to='/customer-onboarding-support'>
-                                            <span className='data-process-image'>
-                                                <img src={imagePaths.image3} alt='' />
-                                            </span>
-                                            <span className='data-process-text2'>
-                                                customer Onboarding & support
-                                            </span>
-                                        </Link>
-                                    </div>
 
-                                    <div className='data-process-type1'>
-                                        <Link to='/order-management'>
-                                            <span className='data-process-image'>
-                                                <img src={imagePaths.image4} alt='' />
-                                            </span>
-                                            <span className='data-process-text'>
-                                                Order Management
-                                            </span>
-                                        </Link>
-                                    </div>
+                                <div className='data-process-type1'>
+                                    <Link to='/ai-data-preparation'>
+                                        <span className='data-process-image2'>
+                                            <img src={imagePaths.image1} alt='' />
+                                        </span>
+                                        <span className='data-process-text'>
+                                            AI Data Preparation
+                                        </span>
+                                    </Link>
+                                </div>
 
-                                    <div className='data-process-type1'>
-                                        <Link to='/transcription'>
-                                            <span className='data-process-image'>
-                                                <img src={imagePaths.image5} alt='' />
-                                            </span>
-                                            <span className='data-process-text'>
-                                                Transcription
-                                            </span>
-                                        </Link>
-                                    </div>
+                                <div className='data-process-type1'>
+                                    <Link to='/data-solution'>
+                                        <span className='data-process-image3'>
+                                            <img src={imagePaths.image2} alt='' />
+                                        </span>
+                                        <span className='data-process-text'>
+                                            Data Solutions
+                                        </span>
+                                    </Link>
+                                </div>
+
+                                <div className='data-process-type1'>
+                                    <Link to='/customer-onboarding-support'>
+                                        <span className='data-process-image4'>
+                                            <img src={imagePaths.image3} alt='' />
+                                        </span>
+                                        <span className='data-process-text2'>
+                                            customer Onboarding & support
+                                        </span>
+                                    </Link>
+                                </div>
+
+                                <div className='data-process-type1'>
+                                    <Link to='/order-management'>
+                                        <span className='data-process-image5'>
+                                            <img src={imagePaths.image4} alt='' />
+                                        </span>
+                                        <span className='data-process-text'>
+                                            Order Management
+                                        </span>
+                                    </Link>
+                                </div>
+
+                                <div className='data-process-type1'>
+                                    <Link to='/transcription'>
+                                        <span className='data-process-image6'>
+                                            <img src={imagePaths.image5} alt='' />
+                                        </span>
+                                        <span className='data-process-text'>
+                                            Transcription
+                                        </span>
+                                    </Link>
                                 </div>
                             </div>
+
                         </div>
 
 
-                        <div>
+                        <div className='left-border'>
+                            <h2>Technology</h2>
                             <div className='data-process1'>
-                                <h2>Technology</h2>
-                                <div className='row1'>
-                                    <div className='data-process-type2'>
-                                        <Link to='/application-development'>
-                                            <span className='data-process-image'>
-                                                <img src={imagePaths.image6} alt='' />
-                                            </span>
-                                            <span className='data-process-text'>
-                                                Application Development
-                                            </span>
-                                        </Link>
-                                    </div>
 
-                                    <div className='data-process-type2'>
-                                        <Link to='/quality-assurance-testing'>
-                                            <span className='data-process-image'>
-                                                <img src={imagePaths.image7} alt='' />
-                                            </span>
-                                            <span className='data-process-text'>
-                                                Quality Assurance & Testing
-                                            </span>
-                                        </Link>
-                                    </div>
+                                <p></p>
+                                <br></br>
+                                <div className='data-process-type2'>
+                                    <Link to='/application-development'>
+                                        <span className='data-process-image7'>
+                                            <img src={imagePaths.image6} alt='' />
+                                        </span>
+                                        <span className='data-process-text'>
+                                            Application Development
+                                        </span>
+                                    </Link>
+                                </div>
 
-                                    <div className='data-process-type2'>
-                                        <Link to='/team-augmentation'>
-                                            <span className='data-process-image'>
-                                                <img src={imagePaths.image8} alt='' />
-                                            </span>
-                                            <span className='data-process-text'>
-                                                Team Augmentation
-                                            </span>
-                                        </Link>
-                                    </div>
+                                <div className='data-process-type2'>
+                                    <Link to='/quality-assurance-testing'>
+                                        <span className='data-process-image8'>
+                                            <img src={imagePaths.image7} alt='' />
+                                        </span>
+                                        <span className='data-process-text'>
+                                            Quality Assurance & Testing
+                                        </span>
+                                    </Link>
+                                </div>
+
+                                <div className='data-process-type2'>
+                                    <Link to='/team-augmentation'>
+                                        <span className='data-process-image9'>
+                                            <img src={imagePaths.image8} alt='' />
+                                        </span>
+                                        <span className='data-process-text'>
+                                            Team Augmentation
+                                        </span>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                </section>
 
+                </section>
 
                 <section className='body-section5'>
                     <div className='arcgate-content'>
@@ -180,12 +202,86 @@ function BodyContainer() {
                                 <div className='video-div'>
                                     <div className='video-body'>
                                         <a href=''>
+                                            <div className='video-image'>
+                                                <a href='https://www.youtube.com/watch?v=rn1v6nod--E' target='_blank'>
+                                                    <div data-aos="fade-up">
+                                                        <img src={imagePaths.imageVideo1} alt='' />
+                                                        <span className='btn-video'>
+                                                            <img src={imagePaths.image18} alt='' />
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>Dun & Bradstreet Special Recognition Award 2019 - SME</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
+                                            <div className='video-image'>
+                                                <a href='https://www.youtube.com/watch?v=9JF7rnMgKKg&t=446s' target='_blank'>
+                                                    <div data-aos="fade-up">
+                                                        <img src={imagePaths.imageVideo2} alt='' />
+                                                        <span className='btn-video'>
+                                                            <img src={imagePaths.image18} alt='' />
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>ET Now business News channel covers Arcgate in the “Emerging SME” series</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
+                                            <div className='video-image'>
+                                                <a href='https://www.youtube.com/watch?v=rEJ1V48lrc0' target='_blank'>
+                                                    <div data-aos="fade-up">
+                                                        <img src={imagePaths.imageVideo3} alt='' />
+                                                        <span className='btn-video'>
+                                                            <img src={imagePaths.image18} alt='' />
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </a>
+                                        <div className='video-text'>
+                                            <p>Hear our startup story from our founder</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* <section className='body-section5'>
+                    <div className='arcgate-content'>
+                        <div className='video-content'>
+                            <h1>
+                                Get an inside peek into Arcgate
+                            </h1>
+                            <div className='video-list'>
+                                <div className='video-div'>
+                                    <div className='video-body'>
+                                        <a href=''>
                                             <div class='video-image'>
                                                 <a href='https://www.youtube.com/watch?v=rn1v6nod--E' target='_blank'>
+                                                <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo1} alt='' />
                                                     <span className='btn-video'>
                                                         <img src={imagePaths.image18} alt='' />
                                                     </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </a>
@@ -199,10 +295,12 @@ function BodyContainer() {
                                         <a href=''>
                                             <div class='video-image'>
                                                 <a href='https://www.youtube.com/watch?v=9JF7rnMgKKg&t=446s' target='_blank'>
+                                                <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo2} alt='' />
                                                     <span className='btn-video'>
                                                         <img src={imagePaths.image18} alt='' />
                                                     </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </a>
@@ -216,10 +314,12 @@ function BodyContainer() {
                                         <a href=''>
                                             <div class='video-image'>
                                                 <a href='https://www.youtube.com/watch?v=rEJ1V48lrc0' target='_blank'>
+                                                <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo3} alt='' />
                                                     <span className='btn-video'>
                                                         <img src={imagePaths.image18} alt='' />
                                                     </span>
+                                                    </div>
                                                 </a>
                                             </div>
                                         </a>
@@ -234,7 +334,7 @@ function BodyContainer() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 <section className='body-section6'>
                     <div className='body-div4'>
@@ -246,37 +346,49 @@ function BodyContainer() {
                         </center>
                         <div className='why-arcgate'>
                             <p>
-                                <img src={imagePaths.image9} alt='' />
+                                <div data-aos="fade-right">
+                                    <img src={imagePaths.image9} alt='' />
+                                </div>
                                 <br></br>
                                 <span>Speed</span>
                             </p>
 
                             <p>
-                                <img src={imagePaths.image10} alt='' />
+                                <div data-aos="fade-right">
+                                    <img src={imagePaths.image10} alt='' />
+                                </div>
                                 <br></br>
                                 <span>Management</span>
                             </p>
 
                             <p>
-                                <img src={imagePaths.image11} alt='' />
+                                <div data-aos="fade-right">
+                                    <img src={imagePaths.image11} alt='' />
+                                </div>
                                 <br></br>
                                 <span>Cost</span>
                             </p>
 
                             <p>
-                                <img src={imagePaths.image12} alt='' />
+                                <div data-aos="fade-right">
+                                    <img src={imagePaths.image12} alt='' />
+                                </div>
                                 <br></br>
                                 <span>Infrastructure</span>
                             </p>
 
                             <p>
-                                <img src={imagePaths.image13} alt='' />
+                                <div data-aos="fade-right">
+                                    <img src={imagePaths.image13} alt='' />
+                                </div>
                                 <br></br>
                                 <span>Fexibility</span>
                             </p>
 
                             <p>
-                                <img src={imagePaths.image14} alt='' />
+                                <div data-aos="fade-right">
+                                    <img src={imagePaths.image14} alt='' />
+                                </div>
                                 <br></br>
                                 <span>Quality</span>
                             </p>
@@ -306,10 +418,12 @@ function BodyContainer() {
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
                                                         <a href='https://www.youtube.com/watch?v=ux_FiVC4eVM' target='_blank'>
-                                                            <img src={imagePaths.image15} alt='' />
-                                                            <span className='btn-play'>
-                                                                <img src={imagePaths.image18} alt='' />
-                                                            </span>
+                                                            <div data-aos="fade-up">
+                                                                <img src={imagePaths.image15} alt='' />
+                                                                <span className='btn-play'>
+                                                                    <img src={imagePaths.image18} alt='' />
+                                                                </span>
+                                                            </div>
                                                         </a>
                                                     </div>
                                                 </a>
@@ -320,10 +434,12 @@ function BodyContainer() {
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
                                                         <a href='https://www.youtube.com/watch?v=0dEGFOtAsZs' target='_blank'>
-                                                            <img src={imagePaths.image16} alt='' />
-                                                            <span className='btn-play'>
-                                                                <img src={imagePaths.image18} alt='' />
-                                                            </span>
+                                                            <div data-aos="fade-up">
+                                                                <img src={imagePaths.image16} alt='' />
+                                                                <span className='btn-play'>
+                                                                    <img src={imagePaths.image18} alt='' />
+                                                                </span>
+                                                            </div>
                                                         </a>
                                                     </div>
                                                 </a>
@@ -334,10 +450,12 @@ function BodyContainer() {
                                                 <a className='blog-text'>
                                                     <div className='thumb'>
                                                         <a href='https://www.youtube.com/watch?v=O97QHjU-i-Y' target='_blank'>
-                                                            <img src={imagePaths.image17} alt='' />
-                                                            <span className='btn-play'>
-                                                                <img src={imagePaths.image18} alt='' />
-                                                            </span>
+                                                            <div data-aos="fade-up">
+                                                                <img src={imagePaths.image17} alt='' />
+                                                                <span className='btn-play'>
+                                                                    <img src={imagePaths.image18} alt='' />
+                                                                </span>
+                                                            </div>
                                                         </a>
                                                     </div>
                                                 </a>
@@ -367,10 +485,11 @@ function BodyContainer() {
                             <div className='blog-content'>
                                 <Link to='/blog1'>
                                     <div className='blog-div'>
-                                        <img src={imagePaths.imageBlog1} alt='' />
+                                        <div data-aos="fade-up">
+                                            <img src={imagePaths.imageBlog1} alt='' />
+                                        </div>
                                     </div>
                                     <div className='thumb-blog'>
-                                        <p>Retail in India and Future Trends</p>
                                     </div>
                                 </Link>
                             </div>
@@ -378,11 +497,12 @@ function BodyContainer() {
                             <div className='blog-content'>
                                 <Link to='/blog2'>
                                     <div className='blog-div'>
-                                        <img src={imagePaths.imageBlog2} alt='' />
+                                        <div data-aos="fade-up">
+                                            <img src={imagePaths.imageBlog2} alt='' />
+                                        </div>
                                     </div>
                                     <div className='thumb-blog'>
-                                        <p>
-                                            Artificial Intelligence – The Exciting Future </p>
+
                                     </div>
                                 </Link>
 
@@ -391,11 +511,12 @@ function BodyContainer() {
                             <div className='blog-content'>
                                 <Link to='/blog3'>
                                     <div className='blog-div'>
-                                        <img src={imagePaths.imageBlog3} alt='' />
+                                        <div data-aos="fade-up">
+                                            <img src={imagePaths.imageBlog3} alt='' />
+                                        </div>
                                     </div>
                                     <div className='thumb-blog'>
-                                        <p>
-                                            Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+
                                     </div>
                                 </Link>
                             </div>
@@ -430,9 +551,9 @@ function BodyContainer() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast2">
+                                        <Link to="/podcast2">
                                             <p>Real Estate Tech Space to Witness a Boost in Investments</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -441,9 +562,9 @@ function BodyContainer() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast3">
+                                        <Link to="/podcast3">
                                             <p>Rewriting the Ecommerce Strategy and Reinventing Retail</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

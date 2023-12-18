@@ -19,7 +19,7 @@ function view1() {
           <div className='solution-content2'>
             <div className='solution-div2'>
               <div className='data-solution-type1'>
-              <Link to="/accounting_outsourcing">
+                <Link to="/accounting_outsourcing">
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon8} alt='' />
                   </span>
@@ -30,18 +30,18 @@ function view1() {
               </div>
 
               <div className='data-solution-type1'>
-              <Link to='/ai-data-preparation'>
+                <Link to='/ai-data-preparation'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon1} alt='' />
                   </span>
                   <span className='data-solution-text'>
-                   AI-Data Preparation
+                    AI-Data Preparation
                   </span>
                 </Link>
               </div>
 
               <div className='data-solution-type1'>
-              <Link to='/data-solution'>
+                <Link to='/data-solution'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon2} alt='' />
                   </span>
@@ -52,7 +52,7 @@ function view1() {
               </div>
 
               <div className='data-solution-type1'>
-              <Link to='/customer-onboarding-support'>
+                <Link to='/customer-onboarding-support'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon3} alt='' />
                   </span>
@@ -63,7 +63,7 @@ function view1() {
               </div>
 
               <div className='data-solution-type1'>
-              <Link to='/order-management'>
+                <Link to='/order-management'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon4} alt='' />
                   </span>
@@ -74,7 +74,7 @@ function view1() {
               </div>
 
               <div className='data-solution-type1'>
-              <Link to='/transcription'>
+                <Link to='/transcription'>
                   <span className='data-solution-image'>
                     <img src={imagePaths.icon5} alt='' />
                   </span>
@@ -87,8 +87,8 @@ function view1() {
           </div>
         </section>
 
-     
-      
+
+
       </article>
     </div>
   )

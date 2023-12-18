@@ -1,20 +1,21 @@
 import React from 'react';
 import TermPara from './Term_para';
 import "../Term_page/Term.css";
+import { Link } from 'react-router-dom';
 
 function Terms() {
-  return (
-    <div className='term-container'>
-     <article>
-        <section className='term-section1'>
-            <div className='term-content1'>
-                <h1>Terms of Use</h1>
-            </div>
-        </section>
+    return (
+        <div className='term-container'>
+            <article>
+                <section className='term-section1'>
+                    <div className='term-content1'>
+                        <h1>Terms of Use</h1>
+                    </div>
+                </section>
 
-        <section className='term-section2'>
-            <div className='term-content2'>
-            {TermPara.map((section, index) => (
+                <section className='term-section2'>
+                    <div className='term-content2'>
+                        {TermPara.map((section, index) => (
                             <div key={index}>
                                 <h2>{section.heading1}</h2>
                                 <p></p>
@@ -48,7 +49,8 @@ function Terms() {
                                 <p></p>
                                 <h2>{section.heading6}</h2>
                                 <p></p>
-                                <p>{section.paragraph11}</p>
+                                <p>{section.paragraph11}
+                                <Link to="/privacy">Privacy Policy</Link></p>
                                 <p></p>
                                 <h2>{section.heading7}</h2>
                                 <p></p>
@@ -58,14 +60,14 @@ function Terms() {
                                 <p></p>
                                 <p>{section.paragraph13}</p>
                                 <p></p>
-                                
+
                             </div>
-                        ))}  
-            </div>
-        </section>
-     </article>
-    </div>
-  )
+                        ))}
+                    </div>
+                </section>
+            </article>
+        </div>
+    )
 }
 
 export default Terms

@@ -11,24 +11,27 @@ function Industry6() {
                 <section className='industry-section1-e'>
                     <div className='industry-content1'>
                         <h1>Marketplaces & eCommerce</h1>
-                        <p>Internet and mobile technologies have fundamentally transformed how people connect, share ideas, and do business.</p>
-                       
+                        <center>
+                            <p>Internet and mobile technologies have fundamentally transformed how people connect, share ideas, and do business.</p>
+                        </center>
                         <p></p>
                     </div>
                 </section>
 
                 <section className='industry-section2'>
                     <div className='industry-content2'>
-                    {IndustryPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph12}</p>
-                                <p></p>
-                                <p>{section.paragraph13}</p>
-                                <p></p>
-                                <p>{section.paragraph14}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                        <center>
+                            {IndustryPara.map((section, index) => (
+                                <div key={index}>
+                                    <p>{section.paragraph12}</p>
+                                    <p></p>
+                                    <p>{section.paragraph13}</p>
+                                    <p></p>
+                                    <p>{section.paragraph14}</p>
+                                    <p></p>
+                                </div>
+                            ))}
+                        </center>
                         <div className='industry-div2'>
                             <div className='industry-body2'>
                                 <a>
@@ -75,7 +78,7 @@ function Industry6() {
                                     <br></br>
                                 </a>
                             </div>
-                           
+
                             <div className='industry-body2'>
                                 <a>
                                     <br></br>
@@ -110,20 +113,20 @@ function Industry6() {
                                             <img src={imagePaths.blog12} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                           
+
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-                          
+
                         </div>
 
 
                     </div>
-            </section>
+                </section>
 
 
-        </article>
+            </article>
         </div >
     )
 }

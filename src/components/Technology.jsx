@@ -1,6 +1,31 @@
 import React from 'react'
 import imagePaths from '../imagePath';
 import "../components/Technology.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+AOS.init({
+    disable: false,
+    startEvent: 'DOMContentLoaded',
+    initClassName: 'aos-init',
+    animatedClassName: 'aos-animate',
+    useClassNames: false,
+    disableMutationObserver: false,
+    debounceDelay: 50,
+    throttleDelay: 99,
+
+
+    offset: 120,
+    delay: 0,
+    duration: 1000,
+    easing: 'ease',
+    once: false,
+    mirror: false,
+    anchorPlacement: 'top-bottom',
+
+});
+
 
 function Technology() {
     return (
@@ -32,93 +57,93 @@ function Technology() {
                         </center>
                         <p></p>
                         <div className='technology-div2'>
-                            <div className='row3'>
-                                <div className='data-process-type1'>
-                                    <a href='Application-Developement'>
-                                        <span className='data-process-image'>
-                                            <img src={imagePaths.image6} alt='' />
-                                        </span>
-                                        <span className='data-process-text'>
-                                            Application Developement
-                                        </span>
-                                    </a>
-                                </div>
-                                <div className='data-process-type1'>
-                                    <a href='Quality Assurance & Testing'>
-                                        <span className='data-process-image'>
-                                            <img src={imagePaths.image7} alt='' />
-                                        </span>
-                                        <span className='data-process-text'>
-                                            Quality Assurance & Testing
-                                        </span>
-                                    </a>
-                                </div>
-                                <div className='data-process-type1'>
-                                    <a href='Team Augmentation'>
-                                        <span className='data-process-image'>
-                                            <img src={imagePaths.image8} alt='' />
-                                        </span>
-                                        <span className='data-process-text'>
-                                            Team Augmentation
-                                        </span>
-                                    </a>
-                                </div>
-                                <div className='data-process-type1'>
-                                    <a href=' DevOps Solutions'>
-                                        <span className='data-process-image'>
-                                            <img src={imagePaths.devops} alt='' />
-                                        </span>
-                                        <span className='data-process-text'>
-                                            DevOps Solutions
-                                        </span>
-                                    </a>
-                                </div>
+
+                            <div className='data-process-type1'>
+                                <a href='Application-Developement'>
+                                    <span className='data-process-image'>
+                                        <img src={imagePaths.image6} alt='' />
+                                    </span>
+                                    <span className='data-process-text'>
+                                        Application Developement
+                                    </span>
+                                </a>
                             </div>
-                            <div className='row4'>
-                                <div className='data-process-type1'>
-                                    <a href=' Zendesk Admin Support'>
-                                        <span className='data-process-image'>
-                                            <img src={imagePaths.arcgatelab4} alt='' />
-                                        </span>
-                                        <span className='data-process-text'>
-                                            Zendesk Admin Support
-                                        </span>
-                                    </a>
-                                </div>
-                                <div className='data-process-type1'>
-                                    <a href=' Salesforce Admin Support'>
-                                        <span className='data-process-image'>
-                                            <img src={imagePaths.arcgatelab3} alt='' />
-                                        </span>
-                                        <span className='data-process-text'>
-                                            Salesforce Admin Support
-                                        </span>
-                                    </a>
-                                </div>
-                                <div className='data-process-type1'>
-                                    <a href='NetSulte Admin Support'>
-                                        <span className='data-process-image'>
-                                            <img src={imagePaths.arcgatelab2} alt='' />
-                                        </span>
-                                        <span className='data-process-text'>
-                                            NetSulte Admin Support
-                                        </span>
-                                    </a>
-                                </div>
-                                <div className='data-process-type1'>
-                                    <a href='Data Visulatization'>
-                                        <span className='data-process-image'>
-                                            <img src={imagePaths.arcgatelab1} alt='' />
-                                        </span>
-                                        <span className='data-process-text'>
-                                            Data Visulatization
-                                        </span>
-                                    </a>
-                                </div>
+                            <div className='data-process-type1'>
+                                <a href='Quality Assurance & Testing'>
+                                    <span className='data-process-image'>
+                                        <img src={imagePaths.image7} alt='' />
+                                    </span>
+                                    <span className='data-process-text'>
+                                        Quality Assurance & Testing
+                                    </span>
+                                </a>
+                            </div>
+                            <div className='data-process-type1'>
+                                <a href='Team Augmentation'>
+                                    <span className='data-process-image'>
+                                        <img src={imagePaths.image8} alt='' />
+                                    </span>
+                                    <span className='data-process-text'>
+                                        Team Augmentation
+                                    </span>
+                                </a>
+                            </div>
+                            <div className='data-process-type1'>
+                                <a href=' DevOps Solutions'>
+                                    <span className='data-process-image'>
+                                        <img src={imagePaths.devops} alt='' />
+                                    </span>
+                                    <span className='data-process-text'>
+                                        DevOps Solutions
+                                    </span>
+                                </a>
+
+                            </div>
+
+                            <div className='data-process-type1'>
+                                <a href=' Zendesk Admin Support'>
+                                    <span className='data-process-image'>
+                                        <img src={imagePaths.arcgatelab4} alt='' />
+                                    </span>
+                                    <span className='data-process-text'>
+                                        Zendesk Admin Support
+                                    </span>
+                                </a>
+                            </div>
+                            <div className='data-process-type1'>
+                                <a href=' Salesforce Admin Support'>
+                                    <span className='data-process-image'>
+                                        <img src={imagePaths.arcgatelab3} alt='' />
+                                    </span>
+                                    <span className='data-process-text'>
+                                        Salesforce Admin Support
+                                    </span>
+                                </a>
+                            </div>
+                            <div className='data-process-type1'>
+                                <a href='NetSulte Admin Support'>
+                                    <span className='data-process-image'>
+                                        <img src={imagePaths.arcgatelab2} alt='' />
+                                    </span>
+                                    <span className='data-process-text'>
+                                        NetSulte Admin Support
+                                    </span>
+                                </a>
+                            </div>
+                            <div className='data-process-type1'>
+                                <a href='Data Visulatization'>
+                                    <span className='data-process-image'>
+                                        <img src={imagePaths.arcgatelab1} alt='' />
+                                    </span>
+                                    <span className='data-process-text'>
+                                        Data Visulatization
+                                    </span>
+                                </a>
                             </div>
                         </div>
-                        <p></p>
                     </div>
+                    <p></p>
+
                 </section>
 
                 <section className='technology-section3'>
@@ -133,84 +158,92 @@ function Technology() {
                         <p></p>
                         <div className='technology-div3'>
                             <div className='technology-body'>
-                                <div className='rounded-box1'>
-                                    <p>
-                                        We
-                                        <br></br>
-                                        dream and
-                                        <br></br>
-                                        discuss the
-                                        <br></br>
-                                        next big
-                                        <br></br>
-                                        thing.
-                                    </p>
+                                <div data-aos="fade-up">
+                                    <div className='rounded-box1'>
+                                        <p>
+                                            We
+                                            <br></br>
+                                            dream and
+                                            <br></br>
+                                            discuss the
+                                            <br></br>
+                                            next big
+                                            <br></br>
+                                            thing.
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                    <p>Ideation</p>
                                     <p></p>
                                 </div>
-                                <p>Ideation</p>
-                                <p></p>
                             </div>
                             <div className='technology-body'>
-                                <div className='rounded-box2'>
-                                    <p>
-                                        We
-                                        <br></br>
-                                        provide the
-                                        <br></br>
-                                        funding,
-                                        <br></br>
-                                        infrastructure
-                                        <br></br>
-                                        and resources
-                                        <br></br>
-                                        to make it.
-                                        <br></br>
-                                        happen.
-                                    </p>
+                                <div data-aos="fade-up">
+                                    <div className='rounded-box2'>
+                                        <p>
+                                            We
+                                            <br></br>
+                                            provide the
+                                            <br></br>
+                                            funding,
+                                            <br></br>
+                                            infrastructure
+                                            <br></br>
+                                            and resources
+                                            <br></br>
+                                            to make it.
+                                            <br></br>
+                                            happen.
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                    <p>Resources</p>
                                     <p></p>
                                 </div>
-                                <p>Resources</p>
-                                <p></p>
                             </div>
                             <div className='technology-body'>
-                                <div className='rounded-box3'>
-                                    <p>
-                                        We
-                                        <br></br>
-                                        put together
-                                        <br></br>
-                                        the best cross-
-                                        <br></br>
-                                        functional
-                                        <br></br>
-                                        team to make
-                                        <br></br>
-                                        the idea come
-                                        <br></br>
-                                        alive.
-                                    </p>
+                                <div data-aos="fade-up">
+                                    <div className='rounded-box3'>
+                                        <p>
+                                            We
+                                            <br></br>
+                                            put together
+                                            <br></br>
+                                            the best cross-
+                                            <br></br>
+                                            functional
+                                            <br></br>
+                                            team to make
+                                            <br></br>
+                                            the idea come
+                                            <br></br>
+                                            alive.
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                    <p>Build</p>
                                     <p></p>
                                 </div>
-                                <p>Build</p>
-                                <p></p>
                             </div>
                             <div className='technology-body'>
-                                <div className='rounded-box4'>
-                                    <p>
-                                        We
-                                        <br></br>
-                                        invest to
-                                        <br></br>
-                                        scale and
-                                        <br></br>
-                                        move as fast
-                                        <br></br>
-                                        as we can.
-                                    </p>
+                                <div data-aos="fade-up">
+                                    <div className='rounded-box4'>
+                                        <p>
+                                            We
+                                            <br></br>
+                                            invest to
+                                            <br></br>
+                                            scale and
+                                            <br></br>
+                                            move as fast
+                                            <br></br>
+                                            as we can.
+                                        </p>
+                                        <p></p>
+                                    </div>
+                                    <p>Grow</p>
                                     <p></p>
                                 </div>
-                                <p>Grow</p>
-                                <p></p>
                             </div>
                         </div>
                         <p></p>

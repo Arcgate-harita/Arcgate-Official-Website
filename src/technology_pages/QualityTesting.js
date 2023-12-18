@@ -35,7 +35,7 @@ function QualityTesting() {
                         <p></p>
 
                         <div className='quality-div2'>
-                            <div className='row-a'>
+                            {/* <div className='row-a'> */}
                             <div className='quality-body2'>
                                 <Link to="/quality1">
                                     <span className='quality-image'>
@@ -48,7 +48,7 @@ function QualityTesting() {
                                 </Link>
                             </div>
                             <div className='quality-body2'>
-                            <Link to="/quality2">
+                                <Link to="/quality2">
                                     <span className='quality-image'>
                                         <img src={imagePaths.testing2} alt='' />
                                     </span>
@@ -56,10 +56,10 @@ function QualityTesting() {
                                     <br></br>
 
                                     <span className='quality-text'>Automated Testing</span>
-                                    </Link>
+                                </Link>
                             </div>
                             <div className='quality-body2'>
-                            <Link to="/quality3">
+                                <Link to="/quality3">
                                     <span className='quality-image'>
                                         <img src={imagePaths.testing3} alt='' />
                                     </span>
@@ -67,12 +67,12 @@ function QualityTesting() {
                                     <br></br>
 
                                     <span className='quality-text'>API Testing</span>
-                                    </Link>
+                                </Link>
                             </div>
-                            </div>
-                            <div className='row-b'>
+                            {/* </div> */}
+                            {/* <div className='row-b'> */}
                             <div className='quality-body2'>
-                            <Link to="/quality4">
+                                <Link to="/quality4">
                                     <span className='quality-image'>
                                         <img src={imagePaths.testing4} alt='' />
                                     </span>
@@ -80,10 +80,10 @@ function QualityTesting() {
                                     <br></br>
 
                                     <span className='quality-text'>Performance Testing</span>
-                                    </Link>
+                                </Link>
                             </div>
                             <div className='quality-body2'>
-                            <Link to="/quality5">
+                                <Link to="/quality5">
                                     <span className='quality-image'>
                                         <img src={imagePaths.testing5} alt='' />
                                     </span>
@@ -91,10 +91,10 @@ function QualityTesting() {
                                     <br></br>
 
                                     <span className='quality-text'>Accessbilty Testing</span>
-                                    </Link>
+                                </Link>
                             </div>
                             <div className='quality-body2'>
-                            <Link to="/quality6">
+                                <Link to="/quality6">
                                     <span className='quality-image'>
                                         <img src={imagePaths.testing6} alt='' />
                                     </span>
@@ -102,210 +102,210 @@ function QualityTesting() {
                                     <br></br>
 
                                     <span className='quality-text'>Salesforce Testing</span>
-                                    </Link>
-                            </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
+                    {/* </div> */}
                 </section>
 
-                
-
-             
 
 
-             <section className='app-section4'>
-                <div className='app-content4'>
-                    <h1>Technology Expertise</h1>
+
+
+
+                <section className='app-section4'>
+                    <div className='app-content4'>
+                        <h1>Technology Expertise</h1>
                         <div className='app-div4'>
                             <div className='app-body4' >
                                 <h6>Back-End Development</h6>
                             </div>
-                           <div className='app-logs'>
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.NetLogo} alt='' className='image1'/>
+                            <div className='app-logs'>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.NetLogo} alt='' className='image1' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.JavaLogo} alt='' className='image2' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.PyhtonLogo} alt='' className='image3' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.PhpLogo} alt='' className='image4' />
+                                    </div>
                                 </div>
-                                <div>
-                                <img src={imagePaths.JavaLogo} alt='' className='image2' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.PyhtonLogo} alt='' className='image3' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.PhpLogo} alt='' className='image4' />
-                                </div>
-                            </div>
 
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.NodeLogo} alt='' className='image5'/>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.NodeLogo} alt='' className='image5' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.DjangoLogo} alt='' className='image6' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.FlaskLogo} alt='' className='image7' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LarvelLogo} alt='' className='image8' />
+                                    </div>
                                 </div>
-                                <div>
-                                <img src={imagePaths.DjangoLogo} alt=''className='image6' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.FlaskLogo} alt='' className='image7'/>
-                                </div>
-                                <div>
-                                <img src={imagePaths.LarvelLogo} alt=''className='image8' />
-                                </div>
-                            </div>
 
-                           </div>
+                            </div>
                         </div>
 
                         <div className='app-div4'>
                             <div className='app-body4' >
                                 <h6>Front-End Development</h6>
                             </div>
-                           <div className='app-logs'>
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.ReactLogo} alt=''className='image9' />
+                            <div className='app-logs'>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.ReactLogo} alt='' className='image9' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.HtmlLogo} alt='' className='image10' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.VuejsLogo} alt='' className='image11' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.CSSLogo} alt='' className='image12' />
+                                    </div>
                                 </div>
-                                <div>
-                                <img src={imagePaths.HtmlLogo} alt='' className='image10' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.VuejsLogo} alt='' className='image11'/>
-                                </div>
-                                <div>
-                                <img src={imagePaths.CSSLogo} alt='' className='image12'/>
-                                </div>
-                            </div>
 
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.AngularLogo} alt='' className='image13'/>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.AngularLogo} alt='' className='image13' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.NextLogo} alt='' className='image14' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.jsLogo} alt='' className='image15' />
+                                    </div>
                                 </div>
-                                <div>
-                                <img src={imagePaths.NextLogo} alt='' className='image14'/>
-                                </div>
-                                <div>
-                                <img src={imagePaths.jsLogo} alt=''className='image15' />
-                                </div>
+
                             </div>
-                            
-                           </div>
                         </div>
 
                         <div className='app-div4'>
                             <div className='app-body4' >
                                 <h6>Mobile Development</h6>
                             </div>
-                           <div className='app-logs'>
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.iosLogo} alt='' className='image16'/>
+                            <div className='app-logs'>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.iosLogo} alt='' className='image16' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.AndroidLogo} alt='' className='image17' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.ReactNativeLogo} alt='' className='image18' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.xamarinLOgo} alt='' className='image19' />
+                                    </div>
                                 </div>
-                                <div>
-                                <img src={imagePaths.AndroidLogo} alt='' className='image17' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.ReactNativeLogo} alt='' className='image18' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.xamarinLOgo} alt='' className='image19'/>
-                                </div>
-                            </div>                            
-                           </div>
+                            </div>
                         </div>
 
                         <div className='app-div4'>
                             <div className='app-body4' >
                                 <h6>DataBase</h6>
                             </div>
-                           <div className='app-logs'>
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.MysqlLogo} alt='' className='image20'/>
+                            <div className='app-logs'>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.MysqlLogo} alt='' className='image20' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.RedisLogo} alt='' className='image21' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.PostLogo} alt='' className='image22' />
+                                    </div>
+
                                 </div>
-                                <div>
-                                <img src={imagePaths.RedisLogo} alt='' className='image21'/>
-                                </div>
-                                <div>
-                                <img src={imagePaths.PostLogo} alt='' className='image22'/>
-                                </div>
-                                
                             </div>
-                           </div>
                         </div>
 
                         <div className='app-div4'>
                             <div className='app-body4' >
                                 <h6>Continous Intregration Tools</h6>
                             </div>
-                           <div className='app-logs'>
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.JenkinsLogo} alt='' className='image23'/>
+                            <div className='app-logs'>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.JenkinsLogo} alt='' className='image23' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.GItLogo} alt='' className='image24' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.BitbucketLogo} alt='' className='image25' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.CircleLogo} alt='' className='image26' />
+                                    </div>
                                 </div>
-                                <div>
-                                <img src={imagePaths.GItLogo} alt='' className='image24' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.BitbucketLogo} alt='' className='image25' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.CircleLogo} alt='' className='image26'/>
-                                </div>
-                            </div>                            
-                           </div>
+                            </div>
                         </div>
 
                         <div className='app-div4'>
                             <div className='app-body4' >
                                 <h6>DevOps</h6>
                             </div>
-                           <div className='app-logs'>
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.AwsLogo} alt='' className='image27'/>
+                            <div className='app-logs'>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.AwsLogo} alt='' className='image27' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.DockerLogo} alt='' className='image28' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.AnsibleLogo} alt='' className='image29' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.terraForm} alt='' className='image30' />
+                                    </div>
                                 </div>
-                                <div>
-                                <img src={imagePaths.DockerLogo} alt='' className='image28'/>
-                                </div>
-                                <div>
-                                <img src={imagePaths.AnsibleLogo} alt='' className='image29'/>
-                                </div>
-                                <div>
-                                <img src={imagePaths.terraForm} alt=''className='image30' />
-                                </div>
-                            </div>                           
-                           </div>
+                            </div>
                         </div>
 
                         <div className='app-div4'>
                             <div className='app-body4' >
                                 <h6>API Testing Tools</h6>
                             </div>
-                           <div className='app-logs'>
-                            <div className='app-images'>
-                                <div>
-                                <img src={imagePaths.PostLogo} alt='' className='image31'/>
+                            <div className='app-logs'>
+                                <div className='app-images'>
+                                    <div>
+                                        <img src={imagePaths.PostLogo} alt='' className='image31' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.SoapuiLogo} alt='' className='image32' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.JmeterLogo} alt='' className='image33' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.FastapiLogo} alt='' className='image34' />
+                                    </div>
                                 </div>
-                                <div>
-                                <img src={imagePaths.SoapuiLogo} alt='' className='image32' />
-                                </div>
-                                <div>
-                                <img src={imagePaths.JmeterLogo} alt='' className='image33'/>
-                                </div>
-                                <div>
-                                <img src={imagePaths.FastapiLogo} alt='' className='image34'/>
-                                </div>
-                            </div>                            
-                           </div>
+                            </div>
                         </div>
 
-                </div>
-            </section>
+                    </div>
+                </section>
 
-            <section className='quality-section3'>
+                <section className='quality-section3'>
                     <div className='quality-content3'>
                         <div className='quality-div3'>
                             <h1>Why Arcgate for Quality Assurance & Testing?</h1>
-                           
+
                         </div>
                         <div className='quality-body3'>
                             <div className='quality-left'>
@@ -315,11 +315,13 @@ function QualityTesting() {
                                     </div>
                                     <h2>Experience</h2>
                                     {TechnologyPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph3}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                                        <div key={index}>
+                                            <center>
+                                                <p>{section.paragraph3}</p>
+                                            </center>
+                                            <p></p>
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                             <div className='quality-right'>
@@ -329,11 +331,11 @@ function QualityTesting() {
                                     </div>
                                     <h2>Cost</h2>
                                     {TechnologyPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph4}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                                        <div key={index}>
+                                            <p>{section.paragraph4}</p>
+                                            <p></p>
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                         </div>
@@ -345,11 +347,11 @@ function QualityTesting() {
                                     </div>
                                     <h2>Flexibility</h2>
                                     {TechnologyPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph5}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                                        <div key={index}>
+                                            <p>{section.paragraph5}</p>
+                                            <p></p>
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                             <div className='quality-right'>
@@ -359,11 +361,11 @@ function QualityTesting() {
                                     </div>
                                     <h2>Speed</h2>
                                     {TechnologyPara.map((section, index) => (
-                            <div key={index}>
-                                <p>{section.paragraph6}</p>
-                                <p></p>
-                            </div>
-                        ))}
+                                        <div key={index}>
+                                            <p>{section.paragraph6}</p>
+                                            <p></p>
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                         </div>
@@ -376,7 +378,7 @@ function QualityTesting() {
                         ))}
                     </div>
                 </section>
-                
+
 
             </article>
         </div>

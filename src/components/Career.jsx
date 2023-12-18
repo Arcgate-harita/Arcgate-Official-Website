@@ -1,6 +1,30 @@
 import React from 'react'
 import "../components/Career.css";
 import imagePaths from '../imagePath';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+AOS.init({
+    disable: false,
+    startEvent: 'DOMContentLoaded',
+    initClassName: 'aos-init',
+    animatedClassName: 'aos-animate',
+    useClassNames: false,
+    disableMutationObserver: false,
+    debounceDelay: 50,
+    throttleDelay: 99,
+
+
+    offset: 120,
+    delay: 0,
+    duration: 1000,
+    easing: 'ease',
+    once: false,
+    mirror: false,
+    anchorPlacement: 'top-bottom',
+
+});
 
 function Career() {
     return (
@@ -10,13 +34,27 @@ function Career() {
                     <div className='career-content1'>
                         <h1 id='arcgatian'>Become an Arcgatian</h1>
                         <div className='career-div1'>
-                            <p className='orange'>WE THRIVE ON EXPERIENCE</p>
-                            <p className='lightBlue'>WE CRAVE FOR INNOVATION</p>
-                            <p className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
-                            <p className='red'>WE WORK HARD AND LAUGH A LOT</p>
-                            <p className=' pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
-                            <p className=' darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
-                            <p className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
+                            <div data-aos="fade-left">
+                                <p className='orange'>WE THRIVE ON EXPERIENCE</p>
+                            </div>
+                            <div data-aos="fade-right">
+                                <p className='lightBlue'>WE CRAVE FOR INNOVATION</p>
+                            </div>
+                            <div data-aos="fade-left">
+                                <p className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
+                            </div>
+                            <div data-aos="fade-right">
+                                <p className='red'>WE WORK HARD AND LAUGH A LOT</p>
+                            </div>
+                            <div data-aos="fade-left">
+                                <p className=' pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
+                            </div>
+                            <div data-aos="fade-right">
+                                <p className=' darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
+                            </div>
+                            <div data-aos="fade-left">
+                                <p className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -44,7 +82,7 @@ function Career() {
                 </section>
 
                 <section className='career-section3'>
-                    <div className='career-content3'>
+                    <div className='arcgate-content'>
                         <div className='video-content'>
                             <h1>
                                 Get an inside peek into Arcgate
@@ -52,12 +90,14 @@ function Career() {
                             <div className='video-list'>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href="#">
+                                        <a href=''>
                                             <div className='video-image'>
-                                                <img src={imagePaths.imageVideo2} alt='' />
-                                                <span className='btn-video'>
-                                                    <img src={imagePaths.image18} alt='' />
-                                                </span>
+                                                <div data-aos="fade-up">
+                                                    <img src={imagePaths.imageVideo3} alt='' />
+                                                    <span className='btn-video'>
+                                                        <img src={imagePaths.image18} alt='' />
+                                                    </span>
+                                                </div>
                                             </div>
                                         </a>
                                         <div className='video-text'>
@@ -67,12 +107,14 @@ function Career() {
                                 </div>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href='#'>
+                                        <a href=''>
                                             <div className='video-image'>
-                                                <img src={imagePaths.imageVideo3} alt='' />
-                                                <span className='btn-video'>
-                                                    <img src={imagePaths.image18} alt='' />
-                                                </span>
+                                                <div data-aos="fade-up">
+                                                    <img src={imagePaths.imageVideo2} alt='' />
+                                                    <span className='btn-video'>
+                                                        <img src={imagePaths.image18} alt='' />
+                                                    </span>
+                                                </div>
                                             </div>
                                         </a>
                                         <div className='video-text'>
@@ -82,12 +124,14 @@ function Career() {
                                 </div>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href='#'>
+                                        <a href=''>
                                             <div className='video-image'>
-                                                <img src={imagePaths.imageVideo01} alt='' />
-                                                <span className='btn-video'>
-                                                    <img src={imagePaths.image18} alt='' />
-                                                </span>
+                                                <div data-aos="fade-up">
+                                                    <img src={imagePaths.imageVideo01} alt='' />
+                                                    <span className='btn-video'>
+                                                        <img src={imagePaths.image18} alt='' />
+                                                    </span>
+                                                </div>
                                             </div>
                                         </a>
                                         <div className='video-text'>
@@ -102,7 +146,6 @@ function Career() {
                         </div>
                     </div>
                 </section>
-
                 <section className='career-section4'>
                     <div className='career-content4'>
                         <div className='career-div3'>
@@ -118,11 +161,13 @@ function Career() {
                                         <div className='video-blog1'>
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
-                                                    <div className='thumb'>
-                                                        <img src={imagePaths.videoImage1} alt='' />
-                                                        <span className='btn-play'>
-                                                            <img src={imagePaths.image18} alt='' />
-                                                        </span>
+                                                    <div data-aos="fade-up">
+                                                        <div className='thumb'>
+                                                            <img src={imagePaths.videoImage1} alt='' />
+                                                            <span className='btn-play'>
+                                                                <img src={imagePaths.image18} alt='' />
+                                                            </span>
+                                                        </div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -130,11 +175,13 @@ function Career() {
                                         <div className='video-blog1'>
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
-                                                    <div className='thumb'>
-                                                        <img src={imagePaths.videoImage2} alt='' />
-                                                        <span className='btn-play'>
-                                                            <img src={imagePaths.image18} alt='' />
-                                                        </span>
+                                                    <div data-aos="fade-up">
+                                                        <div className='thumb'>
+                                                            <img src={imagePaths.videoImage2} alt='' />
+                                                            <span className='btn-play'>
+                                                                <img src={imagePaths.image18} alt='' />
+                                                            </span>
+                                                        </div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -142,11 +189,13 @@ function Career() {
                                         <div className='video-blog1'>
                                             <div className='blog-pic'>
                                                 <a className='blog-text'>
-                                                    <div className='thumb'>
-                                                        <img src={imagePaths.videoImage3} alt='' />
-                                                        <span className='btn-play'>
-                                                            <img src={imagePaths.image18} alt='' />
-                                                        </span>
+                                                    <div data-aos="fade-up">
+                                                        <div className='thumb'>
+                                                            <img src={imagePaths.videoImage3} alt='' />
+                                                            <span className='btn-play'>
+                                                                <img src={imagePaths.image18} alt='' />
+                                                            </span>
+                                                        </div>
                                                     </div>
                                                 </a>
                                             </div>

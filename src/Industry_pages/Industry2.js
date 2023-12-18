@@ -11,7 +11,9 @@ function Industry2() {
                     <div className='industry-content1'>
                         <h1>Food Tech</h1>
                         <p></p>
-                        <h2>We have years of deep experience helping successful food tech startups ensure they have the most comprehensive and accurate data on menus and restaurants.</h2>
+                        <center>
+                            <h2>We have years of deep experience helping successful food tech startups ensure they have the most comprehensive and accurate data on menus and restaurants.</h2>
+                        </center>
                         <p></p>
                     </div>
                 </section>
@@ -147,10 +149,10 @@ function Industry2() {
 
 
                     </div>
-            </section>
+                </section>
 
 
-        </article>
+            </article>
         </div >
     )
 }

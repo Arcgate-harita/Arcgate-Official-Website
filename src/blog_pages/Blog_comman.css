@@ -1,11 +1,11 @@
-.blog-section2 .blog-content2 ul{
+.blog-section2 .blog-content2 ul {
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     font-size: 18px;
     line-height: normal;
     margin: 20px 0 0;
 }
 
-.blog-section2 .blog-content2  ul li {
+.blog-section2 .blog-content2 ul li {
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     font-size: 18px;
     font-weight: 400;
@@ -22,7 +22,6 @@
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
-    /* text-align: center; */
     font-weight: 700;
 }
 
@@ -57,10 +56,10 @@
 
 
 .blog-section1-bg1 {
-        background-image: url(../images/blog9-bg.png);
-        padding: 0;
-        background-position: center center;
-    }
+    background-image: url(../images/blog9-bg.png);
+    padding: 0;
+    background-position: center center;
+}
 
 .blog-content1-bg1 {
     background: 0 0;
@@ -70,7 +69,7 @@
 }
 
 
-.blog-content1-bg1 h2{
+.blog-content1-bg1 h2 {
     font-size: 36px;
     line-height: 45px;
     color: #ffffff;

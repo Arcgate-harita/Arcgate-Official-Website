@@ -102,130 +102,6 @@
   margin-top: 20px;
 }
 
-.data-process1 {
-  margin-top: 20px;
-}
-
-.data-process1 h2 {
-  font-size: 30px;
-  margin-bottom: 45px;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-  line-height: 1.08em;
-  text-align: center;
-  font-weight: 400;
-}
-
-.data-process1-type1 {
-  opacity: 1;
-  max-width: 162px;
-  margin: 0 0 30px;
-  display: inline-block;
-  margin: 0 5px 16px;
-  width: 230px;
-}
-
-.data-process1-type1 a {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px;
-  text-decoration-line: none;
-  color: black;
-}
-
-.data-process1-image {
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 5px 18px 0 rgba(0, 0, 0, .12);
-  max-width: 72px;
-  margin: 10px;
-  width: 100%;
-  padding: 0px;
-}
-
-.data-process1-image {
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 5px 18px 0 rgba(0, 0, 0, .12);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10px;
-  max-width: 10px;
-  margin: 17px;
-  padding: 56px;
-}
-
-.data-process1-text {
-  width: 166px;
-  line-height: normal;
-  font-size: 15px;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-  text-align: center;
-}
-
-.data-process1-type1 img {
-  margin: 7px auto;
-  max-width: 99px;
-  display: block;
-}
-
-.data-process1-type1 img {
-  margin: 7px auto;
-  background: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 10px;
-  padding: 5px
-}
-
-.data-process1 {
-  text-align: center;
-  max-width: 1000px;
-  width: 100%;
-}
-
-.data-process1 h2 {
-  font-size: 30px;
-  margin-bottom: 45px;
-  line-height: 1.08em;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-  text-align: center;
-  font-weight: 400;
-}
-
-.data-process1-type2 {
-  opacity: 1;
-  max-width: 162px;
-  margin: 0 0 30px;
-}
-
-.data-process1-type2 a {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px;
-  text-decoration-line: none;
-  color: black;
-}
-
-
-.data-process1-type2 img {
-  margin: 7px auto;
-  background: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 10px;
-  padding: 5px
-}
-
-.data-process1-type2 span {
-  line-height: normal;
-  font-size: 15px;
-}
-
 .row3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -369,9 +245,7 @@
 
   .technology-section1 .technology-div1 h2 {
     font-size: 24px;
-
     margin-left: 42px;
-
   }
 
   .technology-section1 .technology-div1 p {
@@ -458,11 +332,6 @@
   .technology-section2 {
     height: auto;
     padding: 20px 0;
-  }
-
-  .row3,
-  .row4 {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .technology-div2 {

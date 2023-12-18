@@ -30,9 +30,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast2">
+                                        <Link to="/podcast2">
                                             <p>Meet the team – Episode 2</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -41,9 +41,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast3">
+                                        <Link to="/podcast3">
                                             <p>Meet the team – Episode 1</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -66,9 +66,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast5">
+                                        <Link to="/podcast5">
                                             <p>Receipt Data is a Holy Grail For Marketers</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -77,9 +77,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast6">
+                                        <Link to="/podcast6">
                                             <p>Receipt Data is a Holy Grail For Marketers</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -102,9 +102,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast2">
+                                        <Link to="/podcast2">
                                             <p>Real Estate Tech Space to Witness a Boost in Investments</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -113,9 +113,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast3">
+                                        <Link to="/podcast3">
                                             <p>Rewriting the Ecommerce Strategy and Reinventing Retail</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -138,9 +138,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast11">
+                                        <Link to="/podcast11">
                                             <p>Learning Algorithms Need Data to Train On</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -149,9 +149,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast12">
+                                        <Link to="/podcast12">
                                             <p>Sharing economy is going sharing-crazy with everything from bikes and spaces</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -174,9 +174,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast14">
+                                        <Link to="/podcast14">
                                             <p>Trends that Will Keep Pushing Advertisers to Reinvent Themselves</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -185,9 +185,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast15">
+                                        <Link to="/podcast15">
                                             <p>Adapt Technology to Move Forward or Leave Money on the Table</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -210,9 +210,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast17">
+                                        <Link to="/podcast17">
                                             <p>Food Industry Needs to Adapt Big Data Analytics and Technology</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -221,9 +221,9 @@ function Podcast() {
                                 <div className='frame-div'>
                                     <iframe></iframe>
                                     <div className='frame-body'>
-                                    <Link to="/podcast18">
+                                        <Link to="/podcast18">
                                             <p>The Shiny New Trends in Real Estate Industry: Technology and Big Data</p>
-                                            </Link>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

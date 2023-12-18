@@ -1,5 +1,4 @@
 .customer-container {
-    margin: 105px auto 0;
     width: 100%;
     position: relative;
     padding: 0;
@@ -63,7 +62,7 @@
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     text-align: center;
     font-weight: 400;
-    margin: 26px auto; 
+    margin: 26px auto;
 }
 
 .customer-div2 .customer-body2 {
@@ -72,7 +71,7 @@
     display: inline-block;
 }
 
-.customer-div2 .customer-body2 .customer-image{
+.customer-div2 .customer-body2 .customer-image {
     display: table-cell;
     width: 100%;
     min-height: 120px;
@@ -84,7 +83,7 @@
 }
 
 
-.customer-div2 .customer-body2 .customer-text{
+.customer-div2 .customer-body2 .customer-text {
     max-width: 300px;
     line-height: normal;
     font-size: 17px;
@@ -118,7 +117,7 @@
     text-decoration-line: none;
 }
 
-.customer-div2 .customer-body2 .customer-image img{
+.customer-div2 .customer-body2 .customer-image img {
     width: 35%;
 }
 
@@ -144,7 +143,7 @@
     border-bottom: 1px solid #e8e1da;
 }
 
-.customer-content3 .customer-div3{
+.customer-content3 .customer-div3 {
     position: relative;
     width: 700px;
     height: 220px;
@@ -154,7 +153,7 @@
 
 }
 
-.customer-content3 .customer-div3 .customer-body3{
+.customer-content3 .customer-div3 .customer-body3 {
     display: inline-block;
     max-width: 330px;
     padding: 0;
@@ -163,7 +162,7 @@
 }
 
 
-.customer-content3 .customer-div3 .customer-body3 .insight-cards{ 
+.customer-content3 .customer-div3 .customer-body3 .insight-cards {
     box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .35);
     background-color: #eee;
     height: 200px;
@@ -172,28 +171,28 @@
     justify-content: center;
 }
 
-.customer-content3 .customer-div3 .customer-body3 .insight-cards .tag1{
+.customer-content3 .customer-div3 .customer-body3 .insight-cards .tag1 {
     position: absolute;
     right: 29px;
     top: 15px;
 }
 
-.customer-content3 .customer-div3 .customer-body3 .insight-cards .tag2{
+.customer-content3 .customer-div3 .customer-body3 .insight-cards .tag2 {
     position: absolute;
     left: 272px;
     top: 15px;
 }
 
 
-.customer-content3 .customer-div3 .customer-body3 .insight-cards .tag1 img{
+.customer-content3 .customer-div3 .customer-body3 .insight-cards .tag1 img {
     height: 15px;
 }
 
-.customer-content3 .customer-div3 .customer-body3 .insight-cards .tag2 img{
- height: 16px;
+.customer-content3 .customer-div3 .customer-body3 .insight-cards .tag2 img {
+    height: 16px;
 }
 
-.customer-content3 .customer-div3 .customer-body3 .insight-cards h2{
+.customer-content3 .customer-div3 .customer-body3 .insight-cards h2 {
     font-size: 20px;
     font-weight: 700;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";

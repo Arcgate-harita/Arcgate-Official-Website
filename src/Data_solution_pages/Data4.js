@@ -3,37 +3,38 @@ import "../Data_solution_pages/Data.css";
 import data from "../Data_solution_pages/data_para";
 
 function Data4() {
-  return (
-    <div className='data-solution-container'>
-    <article>
-        <section className='data-solution-section1-3'>
-            <div className='data-solution-content1'>
-                <h1>Data Categorization</h1>
-                <p></p>
-                {data.map((section, index) => (
+    return (
+        <div className='data-solution-container'>
+            <article>
+                <section className='data-solution-section1-3'>
+                    <div className='data-solution-content1'>
+                        <h1>Data Categorization</h1>
+                        <p></p>
+                        {data.map((section, index) => (
                             <div key={index}>
                                 <p>{section.data7}</p>
                             </div>
                         ))}
-            </div>
-        </section>
+                    </div>
+                </section>
 
-        <section className='data-solution-section2-3'>
+                <section className='data-solution-section2-3'>
                     <div className='data-solution-content2'>
                         <p></p>
                         {data.map((section, index) => (
                             <div key={index}>
                                 <p>{section.data8}</p>
-                                <p></p>
+                                <br></br>
+                                <br></br>
                                 <p>{section.data9}</p>
                             </div>
                         ))}
                         <p></p>
                     </div>
-        </section>
-                </article>
-                </div>
-  )
+                </section>
+            </article>
+        </div>
+    )
 };
 
 export default Data4
