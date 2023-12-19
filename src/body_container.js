@@ -1,10 +1,13 @@
-import React from 'react'
+import { useState } from 'react';
 import "../src/body_container.css";
 import imagePaths from './imagePath';
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import FaArrowUp from "./images/arrow-up.png";
+
+
 AOS.init();
 
 AOS.init({
@@ -30,8 +33,27 @@ AOS.init({
 
 function BodyContainer() {
 
+    const [isVisible, setIsVisible] = useState(false);
+
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+
     useEffect(() => {
-        window.scrollTo(0, 0);
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
     return (
@@ -264,77 +286,6 @@ function BodyContainer() {
                     </div>
                 </section>
 
-                {/* <section className='body-section5'>
-                    <div className='arcgate-content'>
-                        <div className='video-content'>
-                            <h1>
-                                Get an inside peek into Arcgate
-                            </h1>
-                            <div className='video-list'>
-                                <div className='video-div'>
-                                    <div className='video-body'>
-                                        <a href=''>
-                                            <div class='video-image'>
-                                                <a href='https://www.youtube.com/watch?v=rn1v6nod--E' target='_blank'>
-                                                <div data-aos="fade-up">
-                                                    <img src={imagePaths.imageVideo1} alt='' />
-                                                    <span className='btn-video'>
-                                                        <img src={imagePaths.image18} alt='' />
-                                                    </span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </a>
-                                        <div className='video-text'>
-                                            <p>Dun & Bradstreet Special Recognition Award 2019 - SME</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='video-div'>
-                                    <div className='video-body'>
-                                        <a href=''>
-                                            <div class='video-image'>
-                                                <a href='https://www.youtube.com/watch?v=9JF7rnMgKKg&t=446s' target='_blank'>
-                                                <div data-aos="fade-up">
-                                                    <img src={imagePaths.imageVideo2} alt='' />
-                                                    <span className='btn-video'>
-                                                        <img src={imagePaths.image18} alt='' />
-                                                    </span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </a>
-                                        <div className='video-text'>
-                                            <p>CNBC-TV18 highlights the story of Arcgate in “The Leap Takers” show</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='video-div'>
-                                    <div className='video-body'>
-                                        <a href=''>
-                                            <div class='video-image'>
-                                                <a href='https://www.youtube.com/watch?v=rEJ1V48lrc0' target='_blank'>
-                                                <div data-aos="fade-up">
-                                                    <img src={imagePaths.imageVideo3} alt='' />
-                                                    <span className='btn-video'>
-                                                        <img src={imagePaths.image18} alt='' />
-                                                    </span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </a>
-                                        <div className='video-text'>
-                                            <p>ET Now business News channel covers Arcgate in the “Emerging SME” series</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
 
                 <section className='body-section6'>
                     <div className='body-div4'>
@@ -582,15 +533,22 @@ function BodyContainer() {
                         </div>
                         <div className='tweet-body'>
                             <div className='tweet-text'>
-                                <a href=''>Follow</a>
+                                <a href=''>FOLLOW US</a>
                             </div>
                         </div>
                     </div>
                 </section>
             </article>
-
-
-
+            {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={FaArrowUp} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
         </div>
     )
 }

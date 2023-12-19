@@ -63,10 +63,10 @@ function Navbar() {
     setIsOpen(false);
     var headerContent = document.querySelector(".header-content");
     var navbar = document.querySelector(".navbar");
-  
+
     headerContent.style.display = "none";
     navbar.style.top = "0";
-    
+
   };
 
 
@@ -124,10 +124,10 @@ function Navbar() {
                       <div className='data-process-type1'>
                         <Link to='/ai-data-preparation' onClick={handleDropdownLinkClick}>
                           <span className='data-process-image'>
-                            <img src={imagePaths.image1} alt='' />
+                            <img src={imagePaths.bpoImage} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Accounting Outsourcing
+                            ACCOUNTING OUTSOURCING
                           </span>
                         </Link>
                       </div>
@@ -135,10 +135,10 @@ function Navbar() {
                       <div className='data-process-type1'>
                         <Link to='/ai-data-preparation' onClick={handleDropdownLinkClick}>
                           <span className='data-process-image6'>
-                            <img src={imagePaths.image1} alt='' />
+                            <img src={imagePaths.aiImage} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            AI Data Preparation
+                            AI DATA PREPARATION
                           </span>
                         </Link>
                       </div>
@@ -146,10 +146,10 @@ function Navbar() {
                       <div className='data-process-type1'>
                         <Link to='/data-solution' onClick={handleDropdownLinkClick}>
                           <span className='data-process-image3'>
-                            <img src={imagePaths.image2} alt='' />
+                            <img src={imagePaths.machine2} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Data Solutions
+                            DATA SOLUTIONS
                           </span>
                         </Link>
                       </div>
@@ -158,10 +158,10 @@ function Navbar() {
                       <div className='data-process-type1'>
                         <Link to='/ai-data-preparation' onClick={handleDropdownLinkClick}>
                           <span className='data-process-image2'>
-                            <img src={imagePaths.image1} alt='' />
+                            <img src={imagePaths.customerImage} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Customer Onboarding & Support
+                            CUSTOMER ONBOARDING & SUPPORT
                           </span>
                         </Link>
                       </div>
@@ -169,10 +169,10 @@ function Navbar() {
                       <div className='data-process-type1'>
                         <Link to='/order-management' onClick={handleDropdownLinkClick}>
                           <span className='data-process-image5'>
-                            <img src={imagePaths.image4} alt='' />
+                            <img src={imagePaths.reporting21} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Order Management
+                            ORDER MANAGEMENT
                           </span>
                         </Link>
                       </div>
@@ -180,10 +180,10 @@ function Navbar() {
                       <div className='data-process-type1'>
                         <Link to='/transcription' onClick={handleDropdownLinkClick}>
                           <span className='data-process-image4'>
-                            <img src={imagePaths.image5} alt='' />
+                            <img src={imagePaths.transImage} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Transcription
+                            TRANSCRIPTION
                           </span>
                         </Link>
                       </div>
@@ -220,7 +220,7 @@ function Navbar() {
                             <img src={imagePaths.tech1} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            AD Tech
+                            AD TECH
                           </span>
                         </Link>
                       </div>
@@ -231,7 +231,7 @@ function Navbar() {
                             <img src={imagePaths.tech2} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Food Tech
+                            FOOD TECH
                           </span>
                         </Link>
                       </div>
@@ -242,7 +242,7 @@ function Navbar() {
                             <img src={imagePaths.tech3} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Real Estate Tech
+                            REAL ESTATE TECH
                           </span>
                         </Link>
                       </div>
@@ -254,7 +254,7 @@ function Navbar() {
                             <img src={imagePaths.tech4} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Oil & Energy
+                            OIL & ENERGY
                           </span>
                         </Link>
                       </div>
@@ -265,7 +265,7 @@ function Navbar() {
                             <img src={imagePaths.tech5} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Sharing Economy
+                            SHARING ECONOMY
                           </span>
                         </Link>
                       </div>
@@ -276,7 +276,7 @@ function Navbar() {
                             <img src={imagePaths.tech6} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Marketplaces & Ecommerce
+                            MARKETPLACES & ECOMMERCE
                           </span>
                         </Link>
                       </div>
@@ -318,7 +318,7 @@ function Navbar() {
                             <img src={imagePaths.blogIcon} alt='' />
                           </span>
                           <span className='data-process-text1'>
-                            Blogs
+                            BLOGS
                           </span>
                         </Link>
                       </div>
@@ -328,7 +328,7 @@ function Navbar() {
                             <img src={imagePaths.Podcast} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            Podcasts
+                            PODCASTS
                           </span>
                         </Link>
                       </div>

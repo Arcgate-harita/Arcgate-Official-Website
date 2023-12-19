@@ -3,6 +3,7 @@ import "../components/Career.css";
 import imagePaths from '../imagePath';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 AOS.init();
 
 AOS.init({
@@ -80,6 +81,7 @@ function Career() {
                         </div>
                     </div>
                 </section>
+
 
                 <section className='career-section3'>
                     <div className='arcgate-content'>

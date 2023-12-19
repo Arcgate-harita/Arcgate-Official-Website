@@ -1,9 +1,10 @@
-import React from 'react'
+import react from "react"; 
 import "../src/Footer.css";
 import { Link } from 'react-router-dom';
 
 function Footer() {
-    return (
+
+   return (
         <footer>
             <section>
                 <aside>
@@ -54,6 +55,7 @@ function Footer() {
                     <p className='copyright'>"Copyright © 2005 - 2023. All rights reserved. Built By Arcgate Technologies LLP. Designed by" <a href='' target='_blank'>superstudio.in</a></p>
                 </div>
             </section>
+          
         </footer>
     )
 }
