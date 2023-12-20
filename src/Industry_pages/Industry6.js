@@ -43,7 +43,7 @@ function Industry6() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Reporting
+                                    Order Management
                                     </span>
                                     <br></br>
                                 </a>
@@ -58,7 +58,7 @@ function Industry6() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Analytics
+                                    Order Tracking
                                     </span>
                                     <br></br>
                                 </a>
@@ -73,7 +73,7 @@ function Industry6() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Customer Support 
                                     </span>
                                     <br></br>
                                 </a>
@@ -89,7 +89,7 @@ function Industry6() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Recommendation Engine Training Data
                                     </span>
                                     <br></br>
                                 </a>

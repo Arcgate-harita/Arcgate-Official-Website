@@ -46,7 +46,7 @@ function Industry5() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Reporting
+                                    Application Verification
                                     </span>
                                     <br></br>
                                 </a>
@@ -61,7 +61,7 @@ function Industry5() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Analytics
+                                    Payment Verification
                                     </span>
                                     <br></br>
                                 </a>
@@ -76,7 +76,7 @@ function Industry5() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Reporting & Analytics 
                                     </span>
                                     <br></br>
                                 </a>
@@ -92,7 +92,7 @@ function Industry5() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Fraud Management 
                                     </span>
                                     <br></br>
                                 </a>

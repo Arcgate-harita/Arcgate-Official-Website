@@ -45,7 +45,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Reporting
+                                    Lease and Sale Listings Management
                                     </span>
                                     <br></br>
                                 </a>
@@ -60,7 +60,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Analytics
+                                    Agent and Broker Onboarding
                                     </span>
                                     <br></br>
                                 </a>
@@ -75,7 +75,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Brokerages and Agents Support
                                     </span>
                                     <br></br>
                                 </a>
@@ -90,7 +90,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Deal Portfolio Management
                                     </span>
                                     <br></br>
                                 </a>
@@ -105,7 +105,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Lease and Sale Data Analysis
                                     </span>
                                     <br></br>
                                 </a>

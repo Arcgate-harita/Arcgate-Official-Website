@@ -45,7 +45,7 @@ function Industry4() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Reporting
+                                    Public Filings Data Extraction
                                     </span>
                                     <br></br>
                                 </a>
@@ -60,7 +60,7 @@ function Industry4() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Analytics
+                                    Data Collection
                                     </span>
                                     <br></br>
                                 </a>
@@ -75,7 +75,7 @@ function Industry4() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Data Enrichment 
                                     </span>
                                     <br></br>
                                 </a>

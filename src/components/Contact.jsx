@@ -1,4 +1,5 @@
 import React from 'react'
+import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from 'react';
 import "../components/Contact.css";
 import imagePaths from '../imagePath';
@@ -12,10 +13,15 @@ function Contact() {
     });
 
     const [formSubmitted, setFormSubmitted] = useState(false);
+    const [recaptchaValue, setRecaptchaValue] = useState(null);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData((prevData) => ({ ...prevData, [name]: value }));
+    };
+
+    const handleRecaptchaChange = (value) => {
+        setRecaptchaValue(value);
     };
 
     const validateForm = () => {
@@ -46,6 +52,10 @@ function Contact() {
 
         if (!formData.message.trim()) {
             alert('Message is required');
+            return false;
+        }
+ if (!recaptchaValue) {
+            alert('Please complete the reCAPTCHA challenge.');
             return false;
         }
 
@@ -141,6 +151,12 @@ function Contact() {
                                             <p className='error-message'></p>
                                         </span>
                                     </p>
+
+                                    <ReCAPTCHA
+                                sitekey="6Lf-MjcpAAAAAJQKQkI7JUSYfhWvYGl0pdULqPVv"
+                                onChange={handleRecaptchaChange}
+                            />
+                            
                                     <div className='contact-button'>
                                         <div className='contact-button-link'>
                                             <div className='submit-btn'>
@@ -150,6 +166,8 @@ function Contact() {
                                     </div>
                                     {formSubmitted && <p className='success-message'>Great! We will be in touch with you shortly.</p>}
                                 </form>
+                                <p></p>
+                               
                             </div>
                         </div>
                         <div className='address'>

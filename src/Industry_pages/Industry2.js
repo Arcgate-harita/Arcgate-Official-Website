@@ -31,7 +31,7 @@ function Industry2() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Reporting
+                                        Menu Creation
                                     </span>
                                     <br></br>
                                 </a>
@@ -46,7 +46,7 @@ function Industry2() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Analytics
+                                        Menu Updates
                                     </span>
                                     <br></br>
                                 </a>
@@ -61,7 +61,7 @@ function Industry2() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Business Profile Setup 
                                     </span>
                                     <br></br>
                                 </a>
