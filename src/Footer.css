@@ -5,6 +5,31 @@ footer {
   display: block;
 }
 
+.back-to-top {
+  line-height: 25px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+  color: #373435;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top.show {
+  display: block;
+}
+
+
+.back-to-top  img {
+  width: 40px;
+  color: #373435;
+}
+
+
 footer section {
   max-width: 1150px;
   padding: 40px 10px;

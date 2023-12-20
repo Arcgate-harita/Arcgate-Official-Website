@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import "../components/Career.css";
 import imagePaths from '../imagePath';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import FaArrowUp from "../images/arrow-up.png";
+
 
 AOS.init();
 
@@ -28,6 +30,33 @@ AOS.init({
 });
 
 function Career() {
+
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const goToBtn = () => {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
+  const listenToScroll = () => {
+      let heightToHidden = 20;
+      const winScroll =
+          document.body.scrollTop || document.documentElement.scrollTop;
+
+      if (winScroll > heightToHidden) {
+          setIsVisible(true);
+      } else {
+          setIsVisible(false);
+      }
+  };
+
+  useEffect(() => {
+      window.addEventListener("scroll", listenToScroll);
+      return () => window.removeEventListener("scroll", listenToScroll);
+  }, []);
+
+
+
     return (
         <div className='career-container'>
             <article>
@@ -35,28 +64,14 @@ function Career() {
                     <div className='career-content1'>
                         <h1 id='arcgatian'>Become an Arcgatian</h1>
                         <div className='career-div1'>
-                            <div data-aos="fade-left">
-                                <p className='orange'>WE THRIVE ON EXPERIENCE</p>
-                            </div>
-                            <div data-aos="fade-right">
-                                <p className='lightBlue'>WE CRAVE FOR INNOVATION</p>
-                            </div>
-                            <div data-aos="fade-left">
-                                <p className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
-                            </div>
-                            <div data-aos="fade-right">
-                                <p className='red'>WE WORK HARD AND LAUGH A LOT</p>
-                            </div>
-                            <div data-aos="fade-left">
-                                <p className=' pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
-                            </div>
-                            <div data-aos="fade-right">
-                                <p className=' darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
-                            </div>
-                            <div data-aos="fade-left">
-                                <p className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
-                            </div>
-                        </div>
+              <p data-aos="fade-left" className='orange'>WE THRIVE ON EXPERIENCE</p>
+              <p data-aos="fade-right" className='lightBlue'>WE CRAVE FOR INNOVATION</p>
+              <p data-aos="fade-left" className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
+              <p data-aos="fade-right" className='red'>WE WORK HARD AND LAUGH A LOT</p>
+              <p data-aos="fade-left" className='pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
+              <p data-aos="fade-right" className='darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
+              <p data-aos="fade-left" className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
+            </div>
                     </div>
                 </section>
 
@@ -277,6 +292,18 @@ function Career() {
                 </section>
 
             </article>
+
+            {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={FaArrowUp} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
+
         </div>
     )
 }

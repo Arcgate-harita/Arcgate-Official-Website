@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import arcgateImage from "../images/arcgate-image.png";
 import "../components/About.css";
 import imagePaths from "../imagePath";
 import { Link } from "react-router-dom";
 import ImageModal from '../ImageModal';
+import FaArrowUp from "../images/arrow-up.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -42,6 +43,31 @@ const About = () => {
   const closeImage = () => {
     setSelectedImage(null);
   };
+
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const goToBtn = () => {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
+  const listenToScroll = () => {
+      let heightToHidden = 20;
+      const winScroll =
+          document.body.scrollTop || document.documentElement.scrollTop;
+
+      if (winScroll > heightToHidden) {
+          setIsVisible(true);
+      } else {
+          setIsVisible(false);
+      }
+  };
+
+  useEffect(() => {
+      window.addEventListener("scroll", listenToScroll);
+      return () => window.removeEventListener("scroll", listenToScroll);
+  }, []);
+
 
   return (
     <div className="about-container">
@@ -574,6 +600,16 @@ const About = () => {
         )
       }
 
+{isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={FaArrowUp} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
     </div>
   );
 };

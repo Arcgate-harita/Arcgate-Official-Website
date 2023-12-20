@@ -23,7 +23,7 @@
     margin-bottom: 34px;
     font-size: 36px;
     text-align: center;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font: 33px Arial, sans-serif;
     font-weight: 400;
     margin: 0 auto;
 }
@@ -31,7 +31,7 @@
 
 .contact-content1 p {
     width: 80%;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font: 33px Arial, sans-serif;
     font-size: 22px;
     margin-bottom: 24px;
     line-height: 1.18em;
@@ -62,8 +62,8 @@
 
 .contact-div1 .contact-body1 img {
     position: absolute;
-    top: -2px;
-    left: 3px;
+    top: -3px;
+    left: 2px;
 }
 
 .contact-div1 .contact-body1 input[type=text] {
@@ -74,11 +74,12 @@
     border-width: 0 0 1px;
     color: #e85631;
     font-size: 16px;
-    padding: 39px;
+   margin-bottom: 34px;
+    margin-left: 34px;
+    line-height: 53px;
     -webkit-appearance: none;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
 }
-
 
 .contact-div1 .contact-body1 textarea {
     width: 100%;
@@ -145,7 +146,7 @@ input[type=submit] {
 .contact-section2 .address h4 {
     font-size: 24px;
     text-align: left;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: sans-serif;
     line-height: 35px;
     color: #000;
     font-weight: 400;
@@ -155,6 +156,14 @@ input[type=submit] {
 .contact-div1 .contact-body1 input[type=text]:focus,
 .contact-div1 .contact-body1 textarea:focus {
     border-color: #e85631;
+}
+
+.success-message {
+border: 2px solid green;
+position: absolute;
+top: -55px;
+padding: 6px;
+left: 100px;
 }
 
 

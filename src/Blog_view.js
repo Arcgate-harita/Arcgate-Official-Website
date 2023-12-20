@@ -22,7 +22,7 @@ function Blog_view() {
                                             <img className='blog-image' src={imagePaths.imageBlog1} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                            <p>Retail in India and Future Trends</p>
+                                           
                                         </div>
                                     </Link>
                                 </div>
@@ -34,8 +34,7 @@ function Blog_view() {
                                             <img className='blog-image' src={imagePaths.imageBlog2} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                            <p>
-                                                Artificial Intelligence – The Exciting Future </p>
+                                           
                                         </div>
                                     </Link>
                                 </div>
@@ -47,8 +46,7 @@ function Blog_view() {
                                             <img className='blog-image' src={imagePaths.imageBlog3} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                            <p>
-                                                Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
+                                           
                                         </div>
                                     </Link>
                                 </div>

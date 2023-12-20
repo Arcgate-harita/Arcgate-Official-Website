@@ -9,6 +9,10 @@ import cancelIcon from "./images/cancle.png";
 
 function Navbar() {
 
+  const [isBpoMenuOpen, setIsBpoMenuOpen] = useState(false);
+  const [isIndustriesMenuOpen, setIsIndustriesMenuOpen] = useState(false);
+  const [isInsightMenuOpen, setIsInsightMenuOpen] = useState(false);
+  const [isHeaderContentVisible, setIsHeaderContentVisible] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNav = () => {
@@ -16,65 +20,50 @@ function Navbar() {
   };
 
 
-  const [isBpoDropdownOpen, setIsBpoDropdownOpen] = useState(false);
-  const [isIndustriesDropdownOpen, setIsIndustriesDropdownOpen] = useState(false);
-  const [isInsightDropdownOpen, setIsInsightDropdownOpen] = useState(false);
-
-
-  const closeBpoDropdown = () => {
-    setIsBpoDropdownOpen(false);
+  const handleMouseEnter = () => {
+    setIsBpoMenuOpen(true);
   };
 
-  const closeIndustriesDropdown = () => {
-    setIsIndustriesDropdownOpen(false);
+  const handleMouseLeave = () => {
+    setIsBpoMenuOpen(false);
   };
 
-  const closeInsightDropdown = () => {
-    setIsInsightDropdownOpen(false);
+  const handleLinkClick = () => {
+    setIsBpoMenuOpen(false);
   };
 
-
-  const openBpoDropdown = () => {
-    setIsBpoDropdownOpen(true);
+  const handleMouseEnterIndustries = () => {
+    setIsIndustriesMenuOpen(true);
   };
 
-
-  const openIndustriesDropdown = () => {
-    setIsIndustriesDropdownOpen(true);
+  const handleMouseLeaveIndustries = () => {
+    setIsIndustriesMenuOpen(false);
   };
 
-
-  const openInsightDropdown = () => {
-    setIsInsightDropdownOpen(true);
+  const handleLinkClickIndustries = () => {
+    setIsIndustriesMenuOpen(false);
   };
 
-
-  const handleDropdownLinkClick = () => {
-    closeBpoDropdown();
-    closeIndustriesDropdown();
-    closeInsightDropdown();
-    closeDropdownAndToggle();
+  const handleMouseEnterInsight = () => {
+    setIsInsightMenuOpen(true);
   };
 
-  const closeDropdownAndToggle = () => {
-    closeBpoDropdown();
-    closeIndustriesDropdown();
-    closeInsightDropdown();
-    setIsOpen(false);
-    var headerContent = document.querySelector(".header-content");
-    var navbar = document.querySelector(".navbar");
-
-    headerContent.style.display = "none";
-    navbar.style.top = "0";
-
+  const handleMouseLeaveInsight = () => {
+    setIsInsightMenuOpen(false);
   };
 
+  const handleLinkClickInsight = () => {
+    setIsInsightMenuOpen(false);
+  };
 
-
+  const handleCancelClick = () => {
+    setIsHeaderContentVisible(!isHeaderContentVisible);
+  };
 
   return (
     <header>
       <div className="header-container">
+      {isHeaderContentVisible && (
         <div className="header-content">
           <p>
             <strong className="strong-word">We are hiring!</strong>
@@ -85,10 +74,11 @@ function Navbar() {
           <a className="current-link" href="#current-openings">
             See Current Openings
           </a>
-          <button id="cancelButton" onClick={closeDropdownAndToggle}>
+          <button id="cancelButton" onClick={handleCancelClick}>
             <img src={cancelIcon} alt="Cancel Icon" />
           </button>
         </div>
+)}
         <section className={`navbar ${isOpen ? 'open' : ''}`} >
           <div className="arcgate-logo">
             <Link to="/">
@@ -100,29 +90,28 @@ function Navbar() {
             {isOpen ? <img src={toggle2} alt="Times Icon" /> : <img src={toggle1} alt="Bars Icon" />}
           </button>
 
+
           <nav className={`nav ${isOpen ? 'open' : ''}`}>
             <ul>
               <li>
-                <Link to="/" onClick={closeDropdownAndToggle} >Home</Link>
+                <Link to="/" ></Link>
               </li>
 
               <li>
-                <Link to="/about" onClick={closeDropdownAndToggle} >About</Link>
+                <Link to="/about" >ABOUT</Link>
               </li>
 
               <li className="bpo-item"
-                onMouseEnter={openBpoDropdown}
-                onMouseLeave={closeBpoDropdown} >
-                <a href="#" onClick={openBpoDropdown}>
+                onMouseEnter={handleMouseEnter} >
+                <a href="#" >
                   BPO
                   <span className="down-arrow"></span>
-                </a>
-                {isBpoDropdownOpen && (
-                  <div className="bpo-dropdown" onMouseEnter={openBpoDropdown} onMouseLeave={closeBpoDropdown}>
-
-                    <div className='row1-bpo'>
-                      <div className='data-process-type1'>
-                        <Link to='/ai-data-preparation' onClick={handleDropdownLinkClick}>
+                  {isBpoMenuOpen && (
+                    <ul className="bpo-dropdown"
+                      onMouseLeave={handleMouseLeave}>
+                      <li>
+                        <Link to='/accounting_outsourcing'
+                          onClick={handleLinkClick}>
                           <span className='data-process-image'>
                             <img src={imagePaths.bpoImage} alt='' />
                           </span>
@@ -130,92 +119,90 @@ function Navbar() {
                             ACCOUNTING OUTSOURCING
                           </span>
                         </Link>
-                      </div>
-
-                      <div className='data-process-type1'>
-                        <Link to='/ai-data-preparation' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image6'>
+                      </li>
+                      <li>
+                        <Link to='/ai-data-preparation'
+                          onClick={handleLinkClick}>
+                          <span className='data-process-image'>
                             <img src={imagePaths.aiImage} alt='' />
                           </span>
                           <span className='data-process-text'>
                             AI DATA PREPARATION
                           </span>
                         </Link>
-                      </div>
-
-                      <div className='data-process-type1'>
-                        <Link to='/data-solution' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image3'>
+                      </li>
+                      <li>
+                        <Link to='/data-solution'
+                          onClick={handleLinkClick}>
+                          <span className='data-process-image'>
                             <img src={imagePaths.machine2} alt='' />
                           </span>
                           <span className='data-process-text'>
                             DATA SOLUTIONS
                           </span>
                         </Link>
-                      </div>
-                    </div>
-                    <div className='row2'>
-                      <div className='data-process-type1'>
-                        <Link to='/ai-data-preparation' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image2'>
+                      </li>
+                      <li>
+                        <Link to='/customer-onboarding-support'
+                          onClick={handleLinkClick}>
+                          <span className='data-process-image'>
                             <img src={imagePaths.customerImage} alt='' />
                           </span>
                           <span className='data-process-text'>
                             CUSTOMER ONBOARDING & SUPPORT
                           </span>
                         </Link>
-                      </div>
-
-                      <div className='data-process-type1'>
-                        <Link to='/order-management' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image5'>
+                      </li>
+                      <li>
+                        <Link to='/order-management'
+                          onClick={handleLinkClick}>
+                          <span className='data-process-image'>
                             <img src={imagePaths.reporting21} alt='' />
                           </span>
                           <span className='data-process-text'>
                             ORDER MANAGEMENT
                           </span>
                         </Link>
-                      </div>
-
-                      <div className='data-process-type1'>
-                        <Link to='/transcription' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image4'>
+                      </li>
+                      <li>
+                        <Link to='/transcription'
+                          onClick={handleLinkClick}>
+                          <span className='data-process-image'>
                             <img src={imagePaths.transImage} alt='' />
                           </span>
                           <span className='data-process-text'>
                             TRANSCRIPTION
                           </span>
                         </Link>
+                      </li>
+                      <div className="nav-button">
+                        <center>
+                          <Link to="/view1" >
+                            <button>View More</button>
+                          </Link>
+                        </center>
                       </div>
-                    </div>
-                    <div className="nav-button">
-                      <center>
-                        <Link to="/view1" onClick={handleDropdownLinkClick}>
-                          <button>View More</button>
-                        </Link>
-                      </center>
-                    </div>
-                  </div>
-                )}
-              </li>
 
+                    </ul>
+
+                  )}
+                </a>
+
+              </li>
 
               <li>
-                <Link to="/technology" onClick={closeDropdownAndToggle}>TECHNOLOGY</Link>
+                <Link to="/technology">TECHNOLOGY</Link>
               </li>
-              <li className="industries-item"
-                onMouseEnter={openIndustriesDropdown}
-                onMouseLeave={closeIndustriesDropdown} >
-                <a href="#" onClick={openIndustriesDropdown}>
+
+              <li className="industries-item" onMouseEnter={handleMouseEnterIndustries}>
+                <a href="#">
                   INDUSTRIES
                   <span className="down-arrow"></span>
-                </a>
-                {isIndustriesDropdownOpen && (
-                  <div className="industries-dropdown" onMouseEnter={openIndustriesDropdown} onMouseLeave={closeIndustriesDropdown}>
-
-                    <div className='row1-drop'>
-                      <div className='data-process-type1'>
-                        <Link to='/Industry1' onClick={handleDropdownLinkClick}>
+                  {isIndustriesMenuOpen && (
+                    <ul className="industries-dropdown" onMouseLeave={handleMouseLeaveIndustries}>
+                      <li>
+                      <Link to='/Industry1' 
+                       onClick={handleLinkClickIndustries}>
                           <span className='data-process-image'>
                             <img src={imagePaths.tech1} alt='' />
                           </span>
@@ -223,126 +210,125 @@ function Navbar() {
                             AD TECH
                           </span>
                         </Link>
-                      </div>
-
-                      <div className='data-process-type1'>
-                        <Link to='/Industry2' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image2'>
+                      </li>
+                      <li>
+                      <Link to='/Industry2'
+                         onClick={handleLinkClickIndustries}>
+                          <span className='data-process-image'>
                             <img src={imagePaths.tech2} alt='' />
                           </span>
                           <span className='data-process-text'>
                             FOOD TECH
                           </span>
                         </Link>
-                      </div>
-
-                      <div className='data-process-type1'>
-                        <Link to='/Industry3' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image3'>
+                      </li>
+                      <li>
+                      <Link to='/Industry3'
+                          onClick={handleLinkClickIndustries}>
+                           <span className='data-process-image'>
                             <img src={imagePaths.tech3} alt='' />
                           </span>
                           <span className='data-process-text'>
                             REAL ESTATE TECH
                           </span>
                         </Link>
-                      </div>
-                    </div>
-                    <div className='row2-drop'>
-                      <div className='data-process-type1'>
-                        <Link to='/Industry4' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image4'>
+                      </li>
+                      <li>
+                      <Link to='/Industry4'
+                          onClick={handleLinkClickIndustries}>
+                         <span className='data-process-image'>
                             <img src={imagePaths.tech4} alt='' />
                           </span>
                           <span className='data-process-text'>
                             OIL & ENERGY
                           </span>
                         </Link>
-                      </div>
-
-                      <div className='data-process-type1'>
-                        <Link to='/Industry5' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image5'>
+                      </li>
+                      <li>
+                      <Link to='/Industry5'
+                          onClick={handleLinkClickIndustries}>
+                           <span className='data-process-image'>
                             <img src={imagePaths.tech5} alt='' />
                           </span>
                           <span className='data-process-text'>
                             SHARING ECONOMY
                           </span>
                         </Link>
-                      </div>
-
-                      <div className='data-process-type1'>
-                        <Link to='/Industry6' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image6'>
+                      </li>
+                      <li>
+                      <Link to='/Industry6'
+                          onClick={handleLinkClickIndustries}>
+                        <span className='data-process-image'>
                             <img src={imagePaths.tech6} alt='' />
                           </span>
                           <span className='data-process-text'>
                             MARKETPLACES & ECOMMERCE
                           </span>
                         </Link>
+                      </li>
+                      <div className="nav-button">
+                        <center>
+                          <Link to="/view2" >
+                            <button>View More</button>
+                          </Link>
+                        </center>
                       </div>
-                    </div>
-                    <div className="nav-button">
-                      <center>
-                        <Link to="/view2" onClick={handleDropdownLinkClick}>
-                          <button>View More</button>
-                        </Link>
-                      </center>
-                    </div>
-                  </div>
-                )}
-              </li>
-              <li>
-                <Link to="/clients" onClick={closeDropdownAndToggle} >CLIENTS</Link>
-              </li>
-              <li>
-                <Link to="/career" onClick={closeDropdownAndToggle} >CAREERS</Link>
-              </li>
-              <li>
-                <Link to="/contact" onClick={closeDropdownAndToggle} >CONTACT</Link>
-              </li>
-              <li
-                className="insight-item"
-                onMouseEnter={openInsightDropdown}
-                onMouseLeave={closeInsightDropdown} >
-                <a href="#" onClick={openInsightDropdown}>
-                  INSIGHTS
+                    </ul>
+                  )}
                 </a>
-                <span className="down-arrow"></span>
-                {isInsightDropdownOpen && (
-                  <div className="insight-dropdown" onMouseEnter={openInsightDropdown} onMouseLeave={closeIndustriesDropdown}>
+              </li>
+              <li>
+                <Link to="/clients">CLIENTS</Link>
+              </li>
+              <li>
+                <Link to="/career">CAREERS</Link>
+              </li>
+              <li>
+                <Link to="/contact">CONTACT</Link>
+              </li>
 
-                    <div className="row1-blog">
-                      <div className='data-process-type1'>
-                        <Link to='/blogView' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image2' >
+              <li className="insight-item" onMouseEnter={handleMouseEnterInsight}>
+                <a href="#">
+                  INSIGHT
+                  <span className="down-arrow"></span>
+                  {isInsightMenuOpen && (
+                    <ul className="insight-dropdown" onMouseLeave={handleMouseLeaveInsight}>
+                      <li>
+                      <Link to='/blogView'
+                       onClick={handleLinkClickInsight}>
+                         <span className='data-process-image' >
                             <img src={imagePaths.blogIcon} alt='' />
                           </span>
                           <span className='data-process-text1'>
                             BLOGS
                           </span>
                         </Link>
-                      </div>
-                      <div className='data-process-type1'>
-                        <Link to='/podcast' onClick={handleDropdownLinkClick}>
-                          <span className='data-process-image3' >
+                      </li>
+                      <li>
+                      <Link to='/podcast'
+                         onClick={handleLinkClickInsight}>
+                            <span className='data-process-image' >
                             <img src={imagePaths.Podcast} alt='' />
                           </span>
                           <span className='data-process-text'>
                             PODCASTS
                           </span>
                         </Link>
+                      </li>
+                      <li>
+                      </li>
+                      <div className="nav-button">
+                        <center>
+                          <Link to="/view3" >
+                            <button>View More</button>
+                          </Link>
+                        </center>
                       </div>
-                    </div>
-                    <div className="nav-button">
-                      <center>
-                        <Link to="/view3" onClick={handleDropdownLinkClick}>
-                          <button>View More</button>
-                        </Link>
-                      </center>
-                    </div>
-                  </div>
-                )}
+                    </ul>
+                  )}
+                </a>
               </li>
+
             </ul>
           </nav>
         </section>

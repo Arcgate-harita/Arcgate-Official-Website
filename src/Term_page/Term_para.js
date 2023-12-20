@@ -16,7 +16,7 @@ const TermPara = [
         paragraph9: "The information contained in this site does not extend or modify the warranty that may apply to you as a result of a contractual relationship with the Company. The Company will not be liable for any indirect, consequential or incidental damages, including but not limited to lost profits or revenues, business interruption, loss of data arising out of or in connection with the use, inability to use or reliance on any material contained in this site or any linked site.",
         paragraph10: "In any event, the liability of the Company for direct damages arising out of or in connection with the use, inability to use or reliance on any material contained in this site or any linked site shall not exceed the amount of INR 1,000",
         heading6: "Online Privacy Policy",
-        paragraph11: "Please check our Online Privacy Policy",
+        paragraph11: "Please check our Online",
         heading7: "Applicable law – Severability",
         paragraph12: "Any controversy or claim arising out of or related to the Terms of Use shall be governed by Indian law. The Courts of Udaipur, Rajasthan, India will have exclusive jurisdiction. If any provision of these Terms of Use is held by a court to be illegal, invalid or unenforceable, the remaining provisions shall remain in full force and effect.",
         heading8: "Modifications of the Terms of Use",
