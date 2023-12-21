@@ -1,8 +1,33 @@
 import React from 'react';
 import imagePaths from "../imagePath";
 import "../technology_pages/ApplicationDevelopment.css";
+import { useState, useEffect } from 'react';
+import goToTop from "../images/goto_top.png";
 
 function Nutsuite() {
+    const [isVisible, setIsVisible] = useState(false);
+
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+  
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+  
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+  
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
+    
     return (
         <div className='app-container'>
             <section className='app-section1'>
@@ -124,6 +149,17 @@ function Nutsuite() {
                     </div>
                 </div>
             </section>
+
+            {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={goToTop} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
 
         </div>
     )

@@ -1,6 +1,7 @@
 .data-container {
     width: 100%;
     position: relative;
+    margin: 105px auto;
     padding: 0;
 }
 

@@ -4,7 +4,7 @@ import "../components/Technology.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
-import FaArrowUp from "../images/arrow-up.png";
+import goToTop from "../images/goto_top.png";
 
 AOS.init();
 
@@ -288,7 +288,7 @@ function Technology() {
             {isVisible && (
                 <>
                     <div className="top-btn" onClick={goToBtn}>
-                        <img src={FaArrowUp} className="top-btn--icon" />
+                        <img src={goToTop} className="top-btn--icon" />
                     </div>
                     <div className='icon-text'>
                         BACK TO TOP

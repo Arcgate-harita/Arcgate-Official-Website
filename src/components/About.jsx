@@ -4,7 +4,7 @@ import "../components/About.css";
 import imagePaths from "../imagePath";
 import { Link } from "react-router-dom";
 import ImageModal from '../ImageModal';
-import FaArrowUp from "../images/arrow-up.png";
+import goToTop from "../images/goto_top.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -22,7 +22,7 @@ AOS.init({
 
   offset: 120,
   delay: 0,
-  duration: 1000,
+  duration: 50,
   easing: 'ease',
   once: false,
   mirror: false,
@@ -269,8 +269,8 @@ const About = () => {
             <h2>Awards & Recognitions</h2>
             <div className="awards-container">
               <div className="awards-content">
+              <div data-aos="fade-right">
                 <div className="awards-body-row">
-                  <div data-aos="fade-right">
                     <div className="heading1">2021</div>
                     <h4>"UDAAN - DARE TO DREAM" Award</h4>
                     <p>Kunal Bagla, Founder of Arcgate was honored by Zee Media for his contribution to the IT sector.</p>
@@ -279,8 +279,8 @@ const About = () => {
               </div>
 
               <div className="awards-content">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
                     <div className="heading2">2019</div>
                     <h4>SME Business Excellence Award</h4>
                     <p>Dun & Bradstreet & RBL Bank Ltd. recognized Arcgate for growth in the IT & ITeS sector.</p>
@@ -289,8 +289,8 @@ const About = () => {
               </div>
 
               <div className="awards-content">
+              <div data-aos="fade-left">
                 <div className="awards-body-row">
-                  <div data-aos="fade-left">
                     <div className="heading1">2018</div>
                     <h4>Mewar Entrepreneur Award</h4>
                     <p>Kunal Bagla, Founder of Arcgate was honored with the Mewar Entrepreneur Award by the Udaipur Chamber of Commerce & Industry (UCCI) and DCB Bank, for outstanding work in the field of Information Technology.</p>
@@ -299,8 +299,9 @@ const About = () => {
               </div>
 
               <div className="awards-content">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+ 
                     <div className="heading2">2017</div>
                     <h4>Best Services Exporter (Small) in India</h4>
                     <p>Arcgate won the ECGC Indian Exporters’ Excellence Award. ECGC is a premier export credit agency of the Government of India.</p>
@@ -310,8 +311,9 @@ const About = () => {
 
 
               <div className="awards-content">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+          
                     <h4>Diversified Staffing Achievement Award</h4>
                     <p>ICICI Rural Self Employment Training Institute under the support of Ministry of Rural Development, Government of India awarded Arcgate.</p>
                   </div>
@@ -320,8 +322,9 @@ const About = () => {
 
 
               <div className="awards-content">
+              <div data-aos="fade-left">
                 <div className="awards-body-row">
-                  <div data-aos="fade-left">
+                 
                     <div className="heading1">2016</div>
                     <h4>Most Promising Brands of Udaipur Award</h4>
                     <p>Economic Times recognized Arcgate for outstanding growth, innovation and entrepreneurship.</p>
@@ -330,8 +333,9 @@ const About = () => {
               </div>
 
               <div className="awards-content">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+                
                     <div className="heading2">2015</div>
                     <h4>Best IT & ITES SME, India</h4>
                     <p>Dun & Bradstreet and Karur Vysya Bank rated Arcgate as the best SME in the IT & ITES sector in India.</p>
@@ -340,8 +344,9 @@ const About = () => {
               </div>
 
               <div className="awards-content">
+              <div data-aos="fade-left">
                 <div className="awards-body-row">
-                  <div data-aos="fade-left">
+                  
                     <div className="heading1">2014</div>
                     <h4>Best Emerging SME in India</h4>
                     <p>Dun & Bradstreet (D&B), Times Group and Federal Bank rated Arcgate as the best Emerging SME.</p>
@@ -355,8 +360,9 @@ const About = () => {
               </div>
 
               <div className="awards-content-1">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+                
                     <div className="heading2">2013</div>
                     <h4>Best Regional SME, North India</h4>
                     <p>Dun & Bradstreet (D&B), the world’s leading provider of business information, knowledge and insight, rated Arcgate as the best Regional SME.</p>
@@ -365,8 +371,9 @@ const About = () => {
               </div>
 
               <div className="awards-content-2">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+               
                     <h4>Best Young Entrepreneur in India</h4>
                     <p>Dun & Bradstreet (D&B) rated Kunal Bagla, Founder of Arcgate, as the Best Young Entrepreneur.</p>
                   </div>
@@ -374,8 +381,9 @@ const About = () => {
               </div>
 
               <div className="awards-content-3">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+                
                     <h4>Most Promising Young Entrepreneur</h4>
                     <p>The Vigyan Samiti Udaipur honored Kunal Bagla for contribution to the growth of technology in the local region.</p>
                     <div className="timeline-image">
@@ -386,8 +394,9 @@ const About = () => {
               </div>
 
               <div className="awards-content-4">
+              <div data-aos="fade-left">
                 <div className="awards-body-row">
-                  <div data-aos="fade-left">
+                 
                     <div className="heading1">2012</div>
                     <h4>Top 20 finalist for fastest growing SME’s</h4>
                     <p>Vodafone ET Now Award</p>
@@ -399,8 +408,9 @@ const About = () => {
               </div>
 
               <div className="awards-content-5">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+                 
                     <div className="heading2">2011</div>
                     <h4>Best performance in the IT & ITES</h4>
                     <p>Dainik Bhaskar MSME Award Rajasthan sector</p>
@@ -409,8 +419,9 @@ const About = () => {
               </div>
 
               <div className="awards-content-6">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+                
                     <h4>Best IT & ITES Micro Enterprise, India</h4>
                     <p>Axis Bank</p>
                   </div>
@@ -418,8 +429,9 @@ const About = () => {
               </div>
 
               <div className="awards-content-7">
+              <div data-aos="fade-right">
                 <div className="awards-body-row leftnode">
-                  <div data-aos="fade-right">
+             
                     <h4>Top 20 finalist
                     </h4>
                     <p>IndiaMart Leaders of Tomorrow Awards</p>
@@ -429,8 +441,9 @@ const About = () => {
 
 
               <div className="awards-content-8">
+              <div data-aos="fade-left">
                 <div className="awards-body-row">
-                  <div data-aos="fade-left">
+                 
                     <h4>Member of the University of Texas</h4>
                     <p>Information Systems Steering Committee.</p>
                   </div>
@@ -603,7 +616,7 @@ const About = () => {
 {isVisible && (
                 <>
                     <div className="top-btn" onClick={goToBtn}>
-                        <img src={FaArrowUp} className="top-btn--icon" />
+                        <img src={goToTop} className="top-btn--icon" />
                     </div>
                     <div className='icon-text'>
                         BACK TO TOP

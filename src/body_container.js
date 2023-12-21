@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import FaArrowUp from "./images/arrow-up.png";
+import goToTop from "./images/goto_top.png";
 
 
 AOS.init();
@@ -255,7 +255,7 @@ function BodyContainer() {
                                             </div>
                                         </a>
                                         <div className='video-text'>
-                                            <p>ET Now business News channel covers Arcgate in the “Emerging SME” series</p>
+                                            <p>CNBC-TV18 highlights the story of Arcgate in “The Leap Takers” show</p>
                                         </div>
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@ function BodyContainer() {
                                             </div>
                                         </a>
                                         <div className='video-text'>
-                                            <p>Hear our startup story from our founder</p>
+                                            <p>ET Now business News channel covers Arcgate in the “Emerging SME” series</p>
                                         </div>
                                     </div>
                                 </div>
@@ -542,7 +542,7 @@ function BodyContainer() {
             {isVisible && (
                 <>
                     <div className="top-btn" onClick={goToBtn}>
-                        <img src={FaArrowUp} className="top-btn--icon" />
+                        <img src={goToTop} className="top-btn--icon" />
                     </div>
                     <div className='icon-text'>
                         BACK TO TOP

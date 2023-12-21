@@ -3,7 +3,7 @@ import "../components/Career.css";
 import imagePaths from '../imagePath';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import FaArrowUp from "../images/arrow-up.png";
+import goToTop from "../images/goto_top.png";
 
 
 AOS.init();
@@ -64,13 +64,13 @@ function Career() {
                     <div className='career-content1'>
                         <h1 id='arcgatian'>Become an Arcgatian</h1>
                         <div className='career-div1'>
-              <p data-aos="fade-left" className='orange'>WE THRIVE ON EXPERIENCE</p>
-              <p data-aos="fade-right" className='lightBlue'>WE CRAVE FOR INNOVATION</p>
-              <p data-aos="fade-left" className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
-              <p data-aos="fade-right" className='red'>WE WORK HARD AND LAUGH A LOT</p>
-              <p data-aos="fade-left" className='pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
-              <p data-aos="fade-right" className='darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
-              <p data-aos="fade-left" className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
+              <p data-aos="fade-right" className='orange'>WE THRIVE ON EXPERIENCE</p>
+              <p data-aos="fade-left" className='lightBlue'>WE CRAVE FOR INNOVATION</p>
+              <p data-aos="fade-right" className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
+              <p data-aos="fade-left" className='red'>WE WORK HARD AND LAUGH A LOT</p>
+              <p data-aos="fade-right" className='pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
+              <p data-aos="fade-left" className='darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
+              <p data-aos="fade-right" className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
             </div>
                     </div>
                 </section>
@@ -91,7 +91,7 @@ function Career() {
                             <div className='career-table'>
                                 <p>We are hungry for talented individuals who believe in teamwork, dedication, discipline and growth.</p>
                                 <p>We’re extremely selective, with an emphasis on the right skills, experience, attitude and ethics.</p>
-                                <p>If you’re looking to make an impact and work with a great team, please <a href='join'>apply now</a>. We’d love to have you join our team.</p>
+                                <p>If you’re looking to make an impact and work with a great team, please <a href='/contact'>apply now</a>. We’d love to have you join our team.</p>
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ function Career() {
                             <div className='video-list'>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href=''>
+                                    <a href='https://www.youtube.com/watch?v=9JF7rnMgKKg&t=446s' target='_blank'>
                                             <div className='video-image'>
                                                 <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo3} alt='' />
@@ -124,7 +124,7 @@ function Career() {
                                 </div>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href=''>
+                                    <a href='https://www.youtube.com/watch?v=rEJ1V48lrc0' target='_blank'>
                                             <div className='video-image'>
                                                 <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo2} alt='' />
@@ -141,7 +141,7 @@ function Career() {
                                 </div>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                        <a href=''>
+                                    <a href='https://www.youtube.com/watch?v=bxVOaa7FZVM' target='_blank'>
                                             <div className='video-image'>
                                                 <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo01} alt='' />
@@ -283,7 +283,7 @@ function Career() {
                                 </div>
                                 <div className='career-button-div'>
                                     <div className='career-button-link'>
-                                        <a href='join'>APPLY</a>
+                                        <a href='/contact'>APPLY</a>
                                     </div>
                                 </div>
                             </div>
@@ -296,7 +296,7 @@ function Career() {
             {isVisible && (
                 <>
                     <div className="top-btn" onClick={goToBtn}>
-                        <img src={FaArrowUp} className="top-btn--icon" />
+                        <img src={goToTop} className="top-btn--icon" />
                     </div>
                     <div className='icon-text'>
                         BACK TO TOP

@@ -50,7 +50,7 @@ function Terms() {
                                 <h2>{section.heading6}</h2>
                                 <p></p>
                                 <p>{section.paragraph11}
-                                <Link to="/privacy">Privacy Policy</Link></p>
+                                <Link to="/privacy"> <span>Privacy Policy</span></Link></p>
                                 <p></p>
                                 <h2>{section.heading7}</h2>
                                 <p></p>

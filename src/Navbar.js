@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink, useLocation } from 'react-router-dom';
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import imagePaths from "./imagePath";
@@ -9,56 +10,47 @@ import cancelIcon from "./images/cancle.png";
 
 function Navbar() {
 
+  const location = useLocation();
   const [isBpoMenuOpen, setIsBpoMenuOpen] = useState(false);
   const [isIndustriesMenuOpen, setIsIndustriesMenuOpen] = useState(false);
   const [isInsightMenuOpen, setIsInsightMenuOpen] = useState(false);
   const [isHeaderContentVisible, setIsHeaderContentVisible] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null);
+  
 
-  const toggleNav = () => {
+  const handleToggle = () => {
     setIsOpen(!isOpen);
   };
 
-
-  const handleMouseEnter = () => {
+  const handleMouseEnter = (dropdown) => {
+    setActiveDropdown(dropdown);
     setIsBpoMenuOpen(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsBpoMenuOpen(false);
-  };
-
-  const handleLinkClick = () => {
-    setIsBpoMenuOpen(false);
-  };
-
-  const handleMouseEnterIndustries = () => {
     setIsIndustriesMenuOpen(true);
-  };
-
-  const handleMouseLeaveIndustries = () => {
-    setIsIndustriesMenuOpen(false);
-  };
-
-  const handleLinkClickIndustries = () => {
-    setIsIndustriesMenuOpen(false);
-  };
-
-  const handleMouseEnterInsight = () => {
     setIsInsightMenuOpen(true);
   };
 
-  const handleMouseLeaveInsight = () => {
+  const handleMouseLeave = () => {
+    setActiveDropdown(null);
+    setIsBpoMenuOpen(false);
+    setIsIndustriesMenuOpen(false);
     setIsInsightMenuOpen(false);
   };
 
-  const handleLinkClickInsight = () => {
+  const handleLinkClick = () => {
+    setActiveDropdown(null);
+    setIsOpen(false);
+    setIsBpoMenuOpen(false);
+    setIsIndustriesMenuOpen(false);
     setIsInsightMenuOpen(false);
   };
 
   const handleCancelClick = () => {
+    setIsOpen(false);
     setIsHeaderContentVisible(!isHeaderContentVisible);
   };
+
+
 
   return (
     <header>
@@ -93,20 +85,23 @@ function Navbar() {
 
           <nav className={`nav ${isOpen ? 'open' : ''}`}>
             <ul>
-              <li>
-                <Link to="/" ></Link>
+            <li className={location.pathname === '/' ? 'active' : ''}>
+                <NavLink to='/'></NavLink>
               </li>
 
-              <li>
-                <Link to="/about" >ABOUT</Link>
+              <li className={location.pathname === '/about' ? 'active' : ''}>
+                <NavLink to='/about'>ABOUT</NavLink>
               </li>
 
-              <li className="bpo-item"
-                onMouseEnter={handleMouseEnter} >
-                <a href="#" >
+              <li
+                className={`bpo-item ${location.pathname === '/view1'  ? 'active' : ''
+                }`}
+                onMouseEnter={() => handleMouseEnter('bpo')}
+              >
+                  <NavLink to="/view1">
                   BPO
                   <span className="down-arrow"></span>
-                  {isBpoMenuOpen && (
+                  {activeDropdown === 'bpo' && (
                     <ul className="bpo-dropdown"
                       onMouseLeave={handleMouseLeave}>
                       <li>
@@ -186,23 +181,30 @@ function Navbar() {
                     </ul>
 
                   )}
-                </a>
+                </NavLink>
 
               </li>
 
-              <li>
-                <Link to="/technology">TECHNOLOGY</Link>
+
+              <li className={location.pathname === '/technology' ? 'active' : ''}>
+                <NavLink to='/technology'>TECHNOLOGY</NavLink>
               </li>
 
-              <li className="industries-item" onMouseEnter={handleMouseEnterIndustries}>
-                <a href="#">
+
+                <li
+                className={`industries-item ${location.pathname === '/view2'  ? 'active' : ''
+                }`}
+                onMouseEnter={() => handleMouseEnter('industries')}
+              >
+                  <NavLink to="/view2">
                   INDUSTRIES
                   <span className="down-arrow"></span>
-                  {isIndustriesMenuOpen && (
-                    <ul className="industries-dropdown" onMouseLeave={handleMouseLeaveIndustries}>
+                  {activeDropdown === 'industries' && (
+                    <ul className="industries-dropdown" 
+                     onMouseLeave={handleMouseLeave}>
                       <li>
                       <Link to='/Industry1' 
-                       onClick={handleLinkClickIndustries}>
+                       onClick={handleLinkClick}>
                           <span className='data-process-image'>
                             <img src={imagePaths.tech1} alt='' />
                           </span>
@@ -213,7 +215,7 @@ function Navbar() {
                       </li>
                       <li>
                       <Link to='/Industry2'
-                         onClick={handleLinkClickIndustries}>
+                       onClick={handleLinkClick}>
                           <span className='data-process-image'>
                             <img src={imagePaths.tech2} alt='' />
                           </span>
@@ -224,7 +226,7 @@ function Navbar() {
                       </li>
                       <li>
                       <Link to='/Industry3'
-                          onClick={handleLinkClickIndustries}>
+                        onClick={handleLinkClick}>
                            <span className='data-process-image'>
                             <img src={imagePaths.tech3} alt='' />
                           </span>
@@ -235,7 +237,7 @@ function Navbar() {
                       </li>
                       <li>
                       <Link to='/Industry4'
-                          onClick={handleLinkClickIndustries}>
+                         onClick={handleLinkClick}>
                          <span className='data-process-image'>
                             <img src={imagePaths.tech4} alt='' />
                           </span>
@@ -246,7 +248,7 @@ function Navbar() {
                       </li>
                       <li>
                       <Link to='/Industry5'
-                          onClick={handleLinkClickIndustries}>
+                        onClick={handleLinkClick}>
                            <span className='data-process-image'>
                             <img src={imagePaths.tech5} alt='' />
                           </span>
@@ -257,7 +259,7 @@ function Navbar() {
                       </li>
                       <li>
                       <Link to='/Industry6'
-                          onClick={handleLinkClickIndustries}>
+                          onClick={handleLinkClick}>
                         <span className='data-process-image'>
                             <img src={imagePaths.tech6} alt='' />
                           </span>
@@ -275,27 +277,35 @@ function Navbar() {
                       </div>
                     </ul>
                   )}
-                </a>
+                </NavLink>
               </li>
-              <li>
-                <Link to="/clients">CLIENTS</Link>
+
+               <li className={location.pathname === '/clients' ? 'active' : ''}>
+                <NavLink to="/clients">CLIENTS</NavLink>
               </li>
-              <li>
+
+              <li className={location.pathname === '/career' ? 'active' : ''}>
                 <Link to="/career">CAREERS</Link>
               </li>
-              <li>
+
+              <li className={location.pathname === '/contact' ? 'active' : ''}>
                 <Link to="/contact">CONTACT</Link>
               </li>
 
-              <li className="insight-item" onMouseEnter={handleMouseEnterInsight}>
-                <a href="#">
+              <li
+                className={`insight-item ${location.pathname === '/view3'  ? 'active' : ''
+                }`}
+                onMouseEnter={() => handleMouseEnter('insight')}
+              >
+                  <NavLink to="/view3">
                   INSIGHT
                   <span className="down-arrow"></span>
-                  {isInsightMenuOpen && (
-                    <ul className="insight-dropdown" onMouseLeave={handleMouseLeaveInsight}>
+                  {activeDropdown === 'insight' && (
+                    <ul className="insight-dropdown"
+                    onMouseLeave={handleMouseLeave}>
                       <li>
                       <Link to='/blogView'
-                       onClick={handleLinkClickInsight}>
+                      onClick={handleLinkClick}>
                          <span className='data-process-image' >
                             <img src={imagePaths.blogIcon} alt='' />
                           </span>
@@ -306,7 +316,7 @@ function Navbar() {
                       </li>
                       <li>
                       <Link to='/podcast'
-                         onClick={handleLinkClickInsight}>
+                        onClick={handleLinkClick}>
                             <span className='data-process-image' >
                             <img src={imagePaths.Podcast} alt='' />
                           </span>
@@ -326,7 +336,7 @@ function Navbar() {
                       </div>
                     </ul>
                   )}
-                </a>
+                </NavLink>
               </li>
 
             </ul>

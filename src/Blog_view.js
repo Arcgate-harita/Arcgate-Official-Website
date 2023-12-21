@@ -2,8 +2,35 @@ import React from 'react'
 import imagePaths from './imagePath';
 import { Link } from "react-router-dom";
 import "./Blog_view.css";
+import { useState, useEffect } from 'react';
+import goToTop from "./images/goto_top.png";
 
 function Blog_view() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+  
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+  
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+  
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
+
+    
     return (
         <div className='blogView-container' data-testid="blogView-container">
             <article data-testid="article-element">
@@ -579,6 +606,18 @@ function Blog_view() {
                 </section>
 
             </article>
+
+            {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={goToTop} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
+
         </div>
     )
 }

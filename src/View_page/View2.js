@@ -2,10 +2,35 @@ import React from 'react';
 import "../View_page/View.css";
 import imagePaths from '../imagePath';
 import { Link } from "react-router-dom";
-import { useEffect } from 'react';
 import ViewPara from './view_para';
+import { useState, useEffect } from 'react';
+import goToTop from "../images/goto_top.png";
 
 function View2() {
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const goToBtn = () => {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
+  const listenToScroll = () => {
+      let heightToHidden = 20;
+      const winScroll =
+          document.body.scrollTop || document.documentElement.scrollTop;
+
+      if (winScroll > heightToHidden) {
+          setIsVisible(true);
+      } else {
+          setIsVisible(false);
+      }
+  };
+
+  useEffect(() => {
+      window.addEventListener("scroll", listenToScroll);
+      return () => window.removeEventListener("scroll", listenToScroll);
+  }, []);
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -116,6 +141,18 @@ function View2() {
           </div>
         </section>
       </article>
+
+      {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={goToTop} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
+
     </div>
   )
 }

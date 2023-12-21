@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../components/Client.css";
 import imagePaths from "../imagePath";
-import FaArrowUp from "../images/arrow-up.png";
+import goToTop from "../images/goto_top.png";
 function Clients() {
 
     const [isVisible, setIsVisible] = useState(false);
@@ -134,7 +134,7 @@ function Clients() {
  {isVisible && (
                 <>
                     <div className="top-btn" onClick={goToBtn}>
-                        <img src={FaArrowUp} className="top-btn--icon" />
+                        <img src={goToTop} className="top-btn--icon" />
                     </div>
                     <div className='icon-text'>
                         BACK TO TOP
