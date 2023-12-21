@@ -19,7 +19,6 @@ function Privacy() {
                             <div key={index}>
                                 <p></p>
                                 <p>Last updated on August 5, 2023</p>
-                                <center>
                                     <p>{section.paragraph1}</p>
                                     <p></p>
                                     <h2>{section.heading1}</h2>
@@ -57,7 +56,6 @@ function Privacy() {
                                     <p></p>
                                     <p>{section.paragraph12}</p>
                                     <p></p>
-                                </center>
                             </div>
                         ))}
                     </div>

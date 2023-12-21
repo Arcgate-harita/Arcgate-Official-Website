@@ -1,4 +1,5 @@
 import React from 'react'
+import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from 'react';
 import "../components/Contact.css";
 import imagePaths from '../imagePath';
@@ -11,64 +12,58 @@ function Contact() {
         message: '',
     });
 
-    const [formErrors, setFormErrors] = useState({
-        name: '',
-        number: '',
-        email: '',
-        message: '',
-    });
-
     const [formSubmitted, setFormSubmitted] = useState(false);
+    const [recaptchaValue, setRecaptchaValue] = useState(null);
 
-    const handleInputChange = (e) => {
+    const handleChange = (e) => {
         const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value,
-        });
+        setFormData((prevData) => ({ ...prevData, [name]: value }));
+    };
+
+    const handleRecaptchaChange = (value) => {
+        setRecaptchaValue(value);
     };
 
     const validateForm = () => {
-        let isValid = true;
-        const newFormErrors = { ...formErrors };
-
         if (!formData.name.trim()) {
-            isValid = false;
-            newFormErrors.name = 'Name is required';
-        } else {
-            newFormErrors.name = '';
+            alert('Name is required');
+            return false;
+        } else if (!/^[a-zA-Z\s]+$/.test(formData.name)) {
+            alert('Invalid Name');
+            return false;
+        }
+
+        if (!formData.number.trim()) {
+            alert('Number is required');
+            return false;
+        } else if (!/^\d+$/.test(formData.number)) {
+            alert('Invalid Number');
+            return false;
         }
 
         if (!formData.email.trim()) {
-            isValid = false;
-            newFormErrors.email = 'Email is required';
-        } else {
-            newFormErrors.email = '';
+            alert('Email is required');
+            return false;
         }
-
-
-        if (!formData.number.trim()) {
-            isValid = false;
-            newFormErrors.number = 'Number is required';
-        } else {
-            newFormErrors.number = '';
+        else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+            alert('Invalid Email Address');
+            return false;
         }
-
 
         if (!formData.message.trim()) {
-            isValid = false;
-            newFormErrors.message = 'Message is required';
-        } else {
-            newFormErrors.message = '';
+            alert('Message is required');
+            return false;
+        }
+ if (!recaptchaValue) {
+            alert('Please complete the reCAPTCHA challenge.');
+            return false;
         }
 
-        setFormErrors(newFormErrors);
-        return isValid;
+        return true;
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
         if (validateForm()) {
             setFormData({
                 name: '',
@@ -115,9 +110,9 @@ function Contact() {
                                                 name='name'
                                                 placeholder='Name'
                                                 value={formData.name}
-                                                onChange={handleInputChange}
+                                                onChange={handleChange}
                                             ></input>
-                                            {formErrors.name && <p className='error-message'>{formErrors.name}</p>}
+                                            <span className='error-message'></span>
                                         </span>
                                         <br></br>
                                         <span className='relative'>
@@ -127,9 +122,9 @@ function Contact() {
                                                 name='number'
                                                 placeholder='Phone'
                                                 value={formData.number}
-                                                onChange={handleInputChange}
+                                                onChange={handleChange}
                                             ></input>
-                                            {formErrors.number && <p className='error-message'>{formErrors.number}</p>}
+                                            <p className='error-message'></p>
                                         </span>
                                         <br></br>
                                         <span className='relative'>
@@ -139,22 +134,29 @@ function Contact() {
                                                 name='email'
                                                 placeholder='Email'
                                                 value={formData.email}
-                                                onChange={handleInputChange}
+                                                onChange={handleChange}
                                             ></input>
-                                            {formErrors.email && <p className='error-message'>{formErrors.email}</p>}
+                                            <p className='error-message'></p>
                                         </span>
                                         <br></br>
                                         <span className='relative'>
-                                            <textarea
+                                            <img src={imagePaths.textArea} alt='' />
+                                            <input
                                                 type='text'
                                                 name='message'
                                                 placeholder='Message'
                                                 value={formData.message}
-                                                onChange={handleInputChange}
-                                            ></textarea>
-                                            {formErrors.message && <p className='error-message'>{formErrors.message}</p>}
+                                                onChange={handleChange}
+                                            ></input>
+                                            <p className='error-message'></p>
                                         </span>
                                     </p>
+
+                                    <ReCAPTCHA
+                                sitekey="6Lf-MjcpAAAAAJQKQkI7JUSYfhWvYGl0pdULqPVv"
+                                onChange={handleRecaptchaChange}
+                            />
+                            
                                     <div className='contact-button'>
                                         <div className='contact-button-link'>
                                             <div className='submit-btn'>
@@ -162,8 +164,10 @@ function Contact() {
                                         </div>
                                         <input type='submit' value="Submit" />
                                     </div>
-                                    {formSubmitted && <p className='success-message'>Form submitted successfully!</p>}
+                                    {formSubmitted && <p className='success-message'>Great! We will be in touch with you shortly.</p>}
                                 </form>
+                                <p></p>
+                               
                             </div>
                         </div>
                         <div className='address'>

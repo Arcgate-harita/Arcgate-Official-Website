@@ -1,6 +1,7 @@
 .view-container {
     width: 100%;
     position: relative;
+    margin: 105px auto;
     padding: 0;
 }
 
@@ -126,6 +127,11 @@
     width: 100%;
     margin: 0 auto;
     max-width: 133px;
+    transition: filter 0.3s ease; 
+}
+
+.view-body .span-image img:hover {
+    filter: grayscale(100%); 
 }
 
 .view-body .span-text {
@@ -136,6 +142,7 @@
     font-size: 19px;
     font-weight: 700;
 }
+
 
 @media only screen and (max-width: 768px) {
 

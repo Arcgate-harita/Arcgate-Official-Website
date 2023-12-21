@@ -1,6 +1,7 @@
 .quality-container {
     width: 100%;
     position: relative;
+    margin: 105px auto 0;
     padding: 0;
 }
 
@@ -532,7 +533,7 @@
 
 .link-button-a:hover {
     color: #ebebeb;
-    background-color: #373435;
+    background-color: #7b7a68;;
 }
 
 @media only screen and (max-width: 768px) {

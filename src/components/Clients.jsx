@@ -1,7 +1,34 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import "../components/Client.css";
 import imagePaths from "../imagePath";
+import goToTop from "../images/goto_top.png";
 function Clients() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+  
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+  
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+  
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
+
+    
+
     return (
         <div className='clients-container'>
             <article>
@@ -104,7 +131,16 @@ function Clients() {
                 </section>
 
             </article>
-
+ {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={goToTop} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
 
         </div>
     )

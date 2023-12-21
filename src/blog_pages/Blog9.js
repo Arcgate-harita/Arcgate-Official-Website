@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import imagePaths from '../imagePath';
 import paragraphs from '../blog_pages/Paragraph';
-import { useEffect } from 'react';
-import "../blog_pages/Blog3.css";
+import { useEffect , useState} from 'react';
+import goToTop from "../images/goto_top.png";
 
 
 function Blog9() {

@@ -3,8 +3,35 @@ import imagePaths from '../imagePath';
 import "../Industry_pages/Industry.css";
 import IndustryPara from './Industry_para';
 import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react';
+import goToTop from "../images/goto_top.png";
 
 function Industry3() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+  
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+  
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+  
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
+
+    
     return (
         <div className='industry-container'>
             <article>
@@ -45,7 +72,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Reporting
+                                    Lease and Sale Listings Management
                                     </span>
                                     <br></br>
                                 </a>
@@ -60,7 +87,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Analytics
+                                    Agent and Broker Onboarding
                                     </span>
                                     <br></br>
                                 </a>
@@ -75,7 +102,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Brokerages and Agents Support
                                     </span>
                                     <br></br>
                                 </a>
@@ -90,7 +117,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Deal Portfolio Management
                                     </span>
                                     <br></br>
                                 </a>
@@ -105,7 +132,7 @@ function Industry3() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Lease and Sale Data Analysis
                                     </span>
                                     <br></br>
                                 </a>
@@ -211,6 +238,18 @@ function Industry3() {
 
 
             </article>
+
+            {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={goToTop} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
+
         </div >
     )
 }

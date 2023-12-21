@@ -3,8 +3,35 @@ import imagePaths from '../imagePath';
 import "../Industry_pages/Industry_para";
 import IndustryPara from './Industry_para';
 import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react';
+import goToTop from "../images/goto_top.png";
 
 function Industry6() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+  
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+  
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+  
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
+
+    
     return (
         <div className='industry-container'>
             <article>
@@ -43,7 +70,7 @@ function Industry6() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Reporting
+                                    Order Management
                                     </span>
                                     <br></br>
                                 </a>
@@ -58,7 +85,7 @@ function Industry6() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Analytics
+                                    Order Tracking
                                     </span>
                                     <br></br>
                                 </a>
@@ -73,7 +100,7 @@ function Industry6() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Customer Support 
                                     </span>
                                     <br></br>
                                 </a>
@@ -89,7 +116,7 @@ function Industry6() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Recommendation Engine Training Data
                                     </span>
                                     <br></br>
                                 </a>
@@ -127,6 +154,18 @@ function Industry6() {
 
 
             </article>
+
+            {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={goToTop} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
+
         </div >
     )
 }

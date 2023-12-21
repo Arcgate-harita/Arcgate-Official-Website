@@ -3,7 +3,8 @@ import "../blog_pages/Blog2.css";
 import imagePaths from '../imagePath';
 import { Link } from "react-router-dom";
 import paragraphs from './Paragraph';
-import { useEffect } from 'react';
+import { useEffect , useState} from 'react';
+import goToTop from "../images/goto_top.png";
 
 function Blog2() {
     useEffect(() => {

@@ -2,8 +2,35 @@ import React from 'react';
 import imagePaths from '../imagePath';
 import "../Industry_pages/Industry.css";
 import { Link } from "react-router-dom";
+import { useState, useEffect } from 'react';
+import goToTop from "../images/goto_top.png";
 
 function Industry2() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+  
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+  
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+  
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
+
+    
     return (
         <div className='industry-container'>
             <article>
@@ -31,7 +58,7 @@ function Industry2() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Reporting
+                                        Menu Creation
                                     </span>
                                     <br></br>
                                 </a>
@@ -46,7 +73,7 @@ function Industry2() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Analytics
+                                        Menu Updates
                                     </span>
                                     <br></br>
                                 </a>
@@ -61,7 +88,7 @@ function Industry2() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                        Ad Relevance Training Data
+                                    Business Profile Setup 
                                     </span>
                                     <br></br>
                                 </a>
@@ -153,6 +180,18 @@ function Industry2() {
 
 
             </article>
+
+            {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={goToTop} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
+
         </div >
     )
 }
