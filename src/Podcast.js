@@ -1,9 +1,35 @@
 import React from 'react'
-import imagePaths from './imagePath';
 import { Link } from "react-router-dom";
 import "./Blog_view.css";
+import { useState, useEffect } from 'react';
+import goToTop from "./images/goto_top.png";
 
 function Podcast() {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+  
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
+  
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+  
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
+
+    
     return (
         <div className='blogView-container' data-testid="blogView-container">
             <article>
@@ -78,7 +104,7 @@ function Podcast() {
                                     <iframe></iframe>
                                     <div className='frame-body'>
                                         <Link to="/podcast6">
-                                            <p>Receipt Data is a Holy Grail For Marketers</p>
+                                            <p>Real Estate Tech – A Promising Space for Investors and Venture Capitalists in 2018</p>
                                         </Link>
                                     </div>
                                 </div>
@@ -227,11 +253,35 @@ function Podcast() {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className='frame-content'>
+                                <div className='frame-div'>
+                                    <iframe></iframe>
+                                    <div className='frame-body'>
+                                        <Link to="/podcast18">
+                                            <p>A List of Techstars NYC Alumni which are Significantly Successful</p>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
 
             </article>
+
+            {isVisible && (
+                <>
+                    <div className="top-btn" onClick={goToBtn}>
+                        <img src={goToTop} className="top-btn--icon" />
+                    </div>
+                    <div className='icon-text'>
+                        BACK TO TOP
+                    </div>
+                </>
+            )}
+
         </div>
     )
 }

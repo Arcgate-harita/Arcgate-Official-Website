@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from 'react-router-dom';
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import imagePaths from "./imagePath";
 import toggle1 from "./images/align-justify.svg";
 import toggle2 from "./images/x.svg";
+import podcastLogo from "./images/logo_podcasts.png";
 import cancelIcon from "./images/cancle.png";
+import blogLogo from "./images/logo_arcgate_blog.png";
 
 
 function Navbar() {
@@ -17,6 +19,7 @@ function Navbar() {
   const [isHeaderContentVisible, setIsHeaderContentVisible] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [logo, setLogo] = useState("arcgate"); 
   
 
   const handleToggle = () => {
@@ -50,6 +53,25 @@ function Navbar() {
     setIsHeaderContentVisible(!isHeaderContentVisible);
   };
 
+   // Function to set the podcast logo
+   const setPodcastLogo = () => {
+    setLogo("podcast");
+  };
+
+  // Function to set the blog logo
+  const setBlogLogo = () => {
+    setLogo("blog");
+  };
+
+  useEffect(() => {
+    if (location.pathname.includes("/podcast")) {
+      setPodcastLogo();
+    } else if (location.pathname.includes("/blog")) {
+      setBlogLogo();
+    } else {
+      setLogo("arcgate");
+    }
+  }, [location.pathname]);
 
 
   return (
@@ -72,11 +94,16 @@ function Navbar() {
         </div>
 )}
         <section className={`navbar ${isOpen ? 'open' : ''}`} >
-          <div className="arcgate-logo">
-            <Link to="/">
-            </Link>
+        <div className="arcgate-logo" style={{ display: logo === "arcgate" ? 'block' : 'none' }}>
+            <Link to="/"></Link>
           </div>
-
+          <div className="podcast-logo" style={{ display: logo === "podcast" ? 'block' : 'none' }}>
+            <img src={podcastLogo} alt="Podcast Logo" onClick={handleLinkClick} />
+          </div>
+          <div className="blog-logo" style={{ display: logo === "blog" ? 'block' : 'none' }}>
+            <img src={blogLogo} alt="Blog Logo" onClick={handleLinkClick} />
+          </div>
+          
           <button className="toggle-button"
             onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <img src={toggle2} alt="Times Icon" /> : <img src={toggle1} alt="Bars Icon" />}
@@ -304,8 +331,7 @@ function Navbar() {
                     <ul className="insight-dropdown"
                     onMouseLeave={handleMouseLeave}>
                       <li>
-                      <Link to='/blogView'
-                      onClick={handleLinkClick}>
+                      <Link to='/blogView' onClick={() => { handleLinkClick(); setBlogLogo(); }}>
                          <span className='data-process-image' >
                             <img src={imagePaths.blogIcon} alt='' />
                           </span>
@@ -315,8 +341,7 @@ function Navbar() {
                         </Link>
                       </li>
                       <li>
-                      <Link to='/podcast'
-                        onClick={handleLinkClick}>
+                      <Link to='/podcast' onClick={() => { handleLinkClick(); setPodcastLogo(); }}>
                             <span className='data-process-image' >
                             <img src={imagePaths.Podcast} alt='' />
                           </span>
