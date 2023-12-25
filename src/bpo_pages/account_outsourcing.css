@@ -47,14 +47,51 @@
     margin-top: 20px;
 }
 
-.account-content2 .account-div .account-body {
+.account-content2 .account-div .account-body1 {
     display: inline-block;
-    max-width: 262px;
-    margin: 0 45px 45px;
+    /* max-width: 262px;
+    margin: 0 45px 45px; */
     vertical-align: top;
 }
 
-.account-body .span-image {
+.account-content2 .account-div .account-body2 {
+    display: inline-block;
+    /* max-width: 262px;
+    margin: 0 45px 45px; */
+    vertical-align: top;
+}
+.account-content2 .account-div .account-body3 {
+    display: inline-block;
+    /* max-width: 262px;
+    margin: 0 45px 45px; */
+    vertical-align: top;
+}
+.account-content2 .account-div .account-body4 {
+    display: inline-block;
+    /* max-width: 262px;
+    margin: 0 45px 45px; */
+    vertical-align: top;
+}
+.account-content2 .account-div .account-body5 {
+    display: inline-block;
+    /* max-width: 262px;
+    margin: 0 45px 45px; */
+    vertical-align: top;
+}
+.account-content2 .account-div .account-body6 {
+    display: inline-block;
+    /* max-width: 262px;
+    margin: 0 45px 45px; */
+    vertical-align: top;
+}
+.account-content2 .account-div .account-body7 {
+    display: inline-block;
+    /* max-width: 262px;
+    margin: 0 45px 45px; */
+    vertical-align: top;
+}
+
+.account-body1 .span-image {
     max-width: 100%;
     width: 100%;
     min-height: 120px;
@@ -62,14 +99,159 @@
 }
 
 
-.account-body .span-image img {
+.account-body1 .span-image img {
     display: block;
     width: 100%;
     margin: 0 auto;
     max-width: 133px;
 }
 
-.account-body .span-text {
+.account-body1 .span-text {
+    max-width: 190px;
+    width: 190px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: normal;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+.account-body2 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+
+}
+
+
+.account-body2 .span-image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 133px;
+}
+
+.account-body2 .span-text {
+    max-width: 190px;
+    width: 190px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: normal;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.account-body3 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+
+}
+
+
+.account-body3 .span-image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 133px;
+}
+
+.account-body3 .span-text {
+    max-width: 190px;
+    width: 190px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: normal;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.account-body4 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+
+}
+
+
+.account-body4 .span-image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 133px;
+}
+
+.account-body4 .span-text {
+    max-width: 190px;
+    width: 190px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: normal;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.account-body5 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+
+}
+
+
+.account-body5 .span-image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 133px;
+}
+
+.account-body5 .span-text {
+    max-width: 190px;
+    width: 190px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: normal;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.account-body6 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+
+}
+
+
+.account-body6 .span-image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 133px;
+}
+
+.account-body6 .span-text {
+    max-width: 190px;
+    width: 190px;
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    line-height: normal;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.account-body7 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+
+}
+
+
+.account-body7 .span-image img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 133px;
+}
+
+.account-body7 .span-text {
     max-width: 190px;
     width: 190px;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";

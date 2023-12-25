@@ -88,9 +88,9 @@ function Technology() {
                         <div className='technology-div2'>
 
                             <div className='data-process-type1'>
-                                <Link to="/accounting_outsourcing">
+                                <Link to="/application-development">
                                     <span className='data-process-image'>
-                                        <img src={imagePaths.image6} alt='' />
+                                        <img src={imagePaths.technologyIcon1} alt='' />
                                     </span>
                                     <span className='data-process-text'>
                                         Application Developement
@@ -98,7 +98,7 @@ function Technology() {
                                 </Link>
                             </div>
                             <div className='data-process-type1'>
-                                <Link to='/ai-data-preparation'>
+                                <Link to='/quality-assurance-testing'>
                                     <span className='data-process-image'>
                                         <img src={imagePaths.image7} alt='' />
                                     </span>

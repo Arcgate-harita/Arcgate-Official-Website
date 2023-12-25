@@ -16,7 +16,6 @@ header {
 
 .header-content {
   border: 0px solid #f00;
-  /* padding: 5px; */
   font-size: 16px;
   text-align: left;
   background: rgb(22, 76, 162);
@@ -113,6 +112,26 @@ header {
   top: 15px;
 }
 
+.podcast-logo {
+  width: 94%;
+  position: absolute;
+  padding: 10px;
+}
+
+.podcast-logo img {
+  width: 12%;
+}
+
+.blog-logo {
+  position: absolute;
+  width: 53%;
+  padding: 10px;
+}
+
+.blog-logo img {
+  width: 12%;
+}
+
 .arcgate-logo a {
   display: inherit;
   width: inherit;
@@ -126,7 +145,7 @@ section nav ul li a {
   text-decoration-line: none;
 }
 
-section nav ul li a:hover {
+.navbar nav ul li a:hover {
   color: orangered;
 }
 
@@ -145,6 +164,10 @@ header section nav {
   float: right;
   position: relative;
   top: 8px;
+}
+
+.navbar .nav li.active a {
+  color: orangered;
 }
 
 header>section {
@@ -171,11 +194,11 @@ header>section {
 
 .bpo-dropdown {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 140%;
   left: -216px;
@@ -186,11 +209,11 @@ header>section {
 
 .industries-dropdown {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   padding: 20px;
-  background-color: #fff; 
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 140%;
   left: -216px;
@@ -201,11 +224,11 @@ header>section {
 
 .insight-dropdown {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   padding: 20px;
-  background-color: #fff; 
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 140%;
   left: -216px;
@@ -222,7 +245,7 @@ header>section {
   font-size: 10px;
 }
 
- 
+
 .bpo-dropdown .nav-button button {
   position: absolute;
   top: 329px;
@@ -237,11 +260,16 @@ header>section {
   top: 335px;
   border: none;
   background: white;
-  left: 49px;
+  left: 26px;
   border-top: 1px solid #80808061;
   font-size: 15px;
   line-height: 40px;
   width: 428px;
+}
+
+.active {
+  color: red;
+  /* or any other style you want to apply */
 }
 
 .nav-button button:hover {
@@ -291,24 +319,25 @@ header>section {
   font-family: sans-serif;
   color: #0000009c;
   font-weight: 100;
+  margin-left: -10px;
 }
 
 
-.industries-dropdown .nav-button button {
+/* .industries-dropdown .nav-button button {
   position: absolute;
   top: 329px;
   border: none;
   background: white;
   left: 243px;
   font-size: 15px;
-}
+} */
 
 .industries-dropdown .nav-button button {
   position: absolute;
   top: 335px;
   border: none;
   background: white;
-  left: 49px;
+  left: 26px;
   border-top: 1px solid #80808061;
   font-size: 15px;
   line-height: 40px;
@@ -454,13 +483,13 @@ header>section {
 }
 
 .bpo-dropdown .data-process-text:hover {
-color: #f00;
+  color: #f00;
 }
 
 .industries-dropdown .data-process-text:hover {
   color: #f00;
-  }
+}
 
 .insight-dropdown .data-process-text:hover {
-    color: #f00;
+  color: #f00;
 }

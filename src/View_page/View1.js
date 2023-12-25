@@ -71,7 +71,7 @@ function View1() {
               <div className='data-solution-type1'>
                 <Link to='/data-solution'>
                   <span className='data-solution-image'>
-                    <img src={imagePaths.icon2} alt='' />
+                    <img src={imagePaths.ica3} alt='' />
                   </span>
                   <span className='data-solution-text'>
                     Data Solutions
@@ -82,7 +82,7 @@ function View1() {
               <div className='data-solution-type1'>
                 <Link to='/customer-onboarding-support'>
                   <span className='data-solution-image'>
-                    <img src={imagePaths.icon3} alt='' />
+                    <img src={imagePaths.ica4} alt='' />
                   </span>
                   <span className='data-solution-text'>
                     Customer Onboarding Support
@@ -93,7 +93,7 @@ function View1() {
               <div className='data-solution-type1'>
                 <Link to='/order-management'>
                   <span className='data-solution-image'>
-                    <img src={imagePaths.icon4} alt='' />
+                    <img src={imagePaths.ica5} alt='' />
                   </span>
                   <span className='data-solution-text'>
                     Order Management
@@ -104,7 +104,7 @@ function View1() {
               <div className='data-solution-type1'>
                 <Link to='/transcription'>
                   <span className='data-solution-image'>
-                    <img src={imagePaths.icon5} alt='' />
+                    <img src={imagePaths.ica6} alt='' />
                   </span>
                   <span className='data-solution-text'>
                     Transcription
