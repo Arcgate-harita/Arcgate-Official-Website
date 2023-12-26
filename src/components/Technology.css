@@ -475,6 +475,8 @@
   line-height: normal;
   font-size: 17px;
   font-weight: 700;
+  width: 204px;
+
 }
 
 .technology-div2 .data-process-text1 {
@@ -495,12 +497,13 @@
 }
 
 .technology-div2 .data-process-type1 img {
-  margin: 7px auto;
+  /* margin: 7px auto; */
   background: #fff;
   border-radius: 50%;
   display: inline-block;
-  margin: 10px;
-  padding: 5px
+  /* margin: 10px; */
+  /* padding: 5px; */
+  max-width: 86px;
 }
 
 .technology-div2 .data-process1 {

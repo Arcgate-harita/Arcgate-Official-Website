@@ -195,3 +195,8 @@
 .solution-div4 .solution-body4 .insight .tag img {
   height: 15px;
 }
+
+.data-section1-blog {
+  padding-top: 0;
+  margin-top: -3px;
+}

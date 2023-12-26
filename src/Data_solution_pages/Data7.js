@@ -20,7 +20,7 @@ function Data7() {
         </section>
 
         <section className='data-solution-section2-6'>
-          <div className='data-solution-content2'>
+          <div className='data-solution-content2-6'>
             <p></p>
             {data.map((section, index) => (
               <div key={index}>

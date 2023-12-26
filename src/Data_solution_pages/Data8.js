@@ -19,7 +19,7 @@ function Data8() {
           </div>
         </section>
 
-        <section className='data-solution-section2'>
+        <section className='data-solution-section2-7'>
           <div className='data-solution-content2'>
             <p></p>
             {data.map((section, index) => (
@@ -30,8 +30,7 @@ function Data8() {
             ))}
 
 
-
-            <div className='data-solution-content2-7'>'
+            <div className='data-solution-content2-7'>
               <div className='data-solution-div6'>
                 <div className='data-solution-body6'>
                   <br></br>
@@ -74,7 +73,8 @@ function Data8() {
                     <br></br>
                   </span>
                   <br></br>
-                  <span className='span-text'>OPerations Analytics</span>
+                  <span className='span-text'>Operations Analytics
+                  </span>
                   <br></br>
                 </div>
                 <div className='data-solution-body6'>

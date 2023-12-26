@@ -120,6 +120,7 @@ header {
 
 .podcast-logo img {
   width: 12%;
+  margin-left: -65px;
 }
 
 .blog-logo {
@@ -176,6 +177,31 @@ header>section {
   padding: 0 10px;
   height: 56px;
   margin: 0 auto;
+}
+
+.home-logo {
+  display: inline-block;
+  float: left;
+  margin: 0 0 0 41px;
+  /* Adjust margin as needed */
+  position: relative;
+}
+
+.home-logo a {
+  font-size: 14px;
+  color: #868572;
+  text-align: left;
+  text-decoration: none;
+}
+
+/* Hover styles for the HOME link */
+.home-logo a:hover {
+  color: orangered;
+}
+
+/* Active styles for the HOME link */
+.home-logo.active a {
+  color: orangered;
 }
 
 .down-arrow {

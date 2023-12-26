@@ -4,29 +4,53 @@ import "../bpo_pages/ai_data.css";
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import goToTop from "../images/goto_top.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+AOS.init({
+  disable: false,
+  startEvent: 'DOMContentLoaded',
+  initClassName: 'aos-init',
+  animatedClassName: 'aos-animate',
+  useClassNames: false,
+  disableMutationObserver: false,
+  debounceDelay: 50,
+  throttleDelay: 99,
+
+
+  offset: 120,
+  delay: 0,
+  duration: 1000,
+  easing: 'ease',
+  once: false,
+  mirror: false,
+  anchorPlacement: 'top-bottom',
+
+});
 
 function Data() {
   const [isVisible, setIsVisible] = useState(false);
 
   const goToBtn = () => {
-      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
   const listenToScroll = () => {
-      let heightToHidden = 20;
-      const winScroll =
-          document.body.scrollTop || document.documentElement.scrollTop;
+    let heightToHidden = 20;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
 
-      if (winScroll > heightToHidden) {
-          setIsVisible(true);
-      } else {
-          setIsVisible(false);
-      }
+    if (winScroll > heightToHidden) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
   };
 
   useEffect(() => {
-      window.addEventListener("scroll", listenToScroll);
-      return () => window.removeEventListener("scroll", listenToScroll);
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
 
   useEffect(() => {
@@ -172,91 +196,117 @@ function Data() {
           </div>
         </section>
 
-
-        <section className='blogView-section2'>
-          <div className='blogView-div2'>
-            <h6>MORE ARTICLES</h6>
-            <div className='blogView'>
-              <div className='blogView-container1'>
-                <div className='blogView-content2'>
-                  <Link to='/blog1'>
-                    <div className='blogView-div'>
-                      <img src={imagePaths.imageBlog1} alt='' />
+        <section className='data-section-blog'>
+          <div className='data-content-blog'>
+            <h6>INSIGHTS</h6>
+            <div className='data-body-blog'>
+              <div className='data-blogs1'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.blogLogo} alt='' />
                     </div>
-                    <div className='thumb-blogView'>
-                      <p>Retail in India and Future Trends</p>
-                    </div>
-                  </Link>
+                    <p>
+                      <Link to='/blog7'></Link>
+                    </p>
+                    <Link to='/blog7'>
+                      <h2> Artificial Intelligence (AI) and Data</h2>
+                    </Link>
+                    <p>
+                      <Link to='/blog7'></Link>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className='blogView-container1'>
-                <div className='blogView-content2'>
-                  <Link to='/blog2'>
-                    <div className='blogView-div'>
-                      <img src={imagePaths.imageBlog2} alt='' />
+              <div className='data-blogs2'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.blogLogo} alt='' />
                     </div>
-                    <div className='thumb-blogView'>
-                      <p>
-                        Artificial Intelligence – The Exciting Future </p>
-                    </div>
-                  </Link>
+                    <p>
+                      <Link to='/blog14'></Link>
+                    </p>
+                    <Link to='/blog14'>
+                      <h2>Big Data and Artificial Intelligence (AI) Need Each Other</h2>
+                    </Link>
+                    <p>
+                      <Link to='/blog14'></Link>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className='blogView-container1'>
-                <div className='blogView-content2'>
-                  <Link to='/blog3'>
-                    <div className='blogView-div'>
-                      <img src={imagePaths.imageBlog3} alt='' />
+              <div className='data-blogs3'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.blogLogo} alt='' />
                     </div>
-                    <div className='thumb-blogView'>
-                      <p>
-                        Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
-                    </div>
-                  </Link>
+                    <p>
+                      <Link to='/blog15'></Link>
+                    </p>
+                    <Link to='/blog15'>
+                      <h2>Search Relevance and Conversion</h2>
+                    </Link>
+                    <p>
+                      <Link to='/blog15'></Link>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className='blogView-container1'>
-                <div className='blogView-content2'>
-                  <Link to='/blog4'>
-                    <div className='blogView-div'>
-                      <img src={imagePaths.blog3} alt='' />
+              <div className='data-blogs4'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.blogLogo} alt='' />
                     </div>
-                    <div className='thumb-blogView'>
-                      <p>
-                      </p>
-                    </div>
-                  </Link>
+                    <p>
+                      <Link to='/blog23'></Link>
+                    </p>
+                    <Link to='/blog23'>
+                      <h2>Big Data – Big Opportunity</h2>
+                    </Link>
+                    <p>
+                      <Link to='/blog23'></Link>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className='blogView-container1'>
-                <div className='blogView-content2'>
-                  <Link to='/blog5'>
-                    <div className='blogView-div'>
-                      <img src={imagePaths.blog4} alt='' />
+              <div className='data-blogs5'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.blogLogo} alt='' />
                     </div>
-                    <div className='thumb-blogView'>
-                      <p>
-                      </p>
-                    </div>
-                  </Link>
+                    <p>
+                      <Link to='/blog13'></Link>
+                    </p>
+                    <Link to='/blog13'>
+                      <h2>Startups and Back Office Process Outsourcing</h2>
+                    </Link>
+                    <p>
+                      <Link to='/blog13'></Link>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-
           </div>
         </section>
+
+
       </article>
 
       {isVisible && (
-                <>
-                    <div className="top-btn" onClick={goToBtn}>
-                        <img src={goToTop} className="top-btn--icon" />
-                    </div>
-                    <div className='icon-text'>
-                        BACK TO TOP
-                    </div>
-                </>
-            )}
+        <>
+          <div className="top-btn" onClick={goToBtn}>
+            <img src={goToTop} className="top-btn--icon" />
+          </div>
+          <div className='icon-text'>
+            BACK TO TOP
+          </div>
+        </>
+      )}
 
 
     </div>

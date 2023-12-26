@@ -183,7 +183,6 @@ import function16 from "./images/functional-testing16.png";
 import function17 from "./images/functional-testing17.png";
 import function18 from "./images/functional-testing18.png";
 import function19 from "./images/functional-testing19.png";
-
 import testing1 from "./images/manual-testing.svg";
 import testing2 from "./images/automate-testing.svg";
 import testing3 from "./images/api-testing.svg";
@@ -204,7 +203,7 @@ import teamIcon7 from "./images/zendesk-collaborating-icon.png";
 import teamIcon8 from "./images/scalability-icon.png";
 import solutionImage from "./images/the-solution.jpg";
 import machine1 from "./images/analysing.svg";
-import machine2 from "./images/data-solution.svg";
+import machine2 from "./images/data-solution (1).svg";
 import machine3 from "./images/database-enrichment.svg";
 import line from "./images/bg.png";
 import BackGround from "./images/blog_header_bg.png";
@@ -262,7 +261,7 @@ import dashboard5 from "./images/dashboard5.svg";
 import analysis1 from "./images/analysis1.svg";
 import analysis2 from "./images/analysis2.svg";
 import analysis3 from "./images/analysis3.svg";
-import analysis4 from "./images/analysis4.svg";
+import analysis4 from "./images/analysis4 .svg";
 import analysis5 from "./images/analysis5.svg";
 import aboutImage1 from "./images/aboutImage1.jpg";
 import aboutImage2 from "./images/aboutImage2.jpg";
@@ -325,8 +324,6 @@ import insight1 from "./images/insight1.svg";
 import insight2 from "./images/insight2.svg";
 import LibraryLogo1 from "./images/logo1.svg";
 import LibraryLogo2 from "./images/logo2.svg";
-// import LibraryLogo3 from "./images/logo3.svg";
-// import LibraryLogo4 from "./images/logo4.svg";
 import LibraryLogo5 from "./images/logo5.svg";
 import LibraryLogo6 from "./images/logo6.svg";
 import LibraryLogo7 from "./images/logo7.svg";
@@ -357,6 +354,19 @@ import toggle1 from "./images/align-justify.svg"
 import toogle2 from "./images/x.svg";
 import blogIcon from "./images/blog.svg";
 import Podcast from "./images/podcast.svg";
+import cancle from "./images/cancle.png";
+import aiImage from "./images/ai-training.svg";
+import customerImage from "./images/customer-onboard (1).svg";
+import transImage from "./images/transcription (1).svg";
+import textArea from "./images/textarea.png";
+import ica1 from "./images/icn-55.png";
+import ica2 from "./images/icn-01.png";
+import ica3 from "./images/icn-10.png";
+import ica4 from "./images/icn-27.png";
+import ica5 from "./images/icn-52.png";
+import ica6 from "./images/icn-19.png";
+import technologyIcon1 from "./images/appdev (1).svg";
+import blogA from "./images/blog-A-41.png";
 
 const imagePath = {
     icons1,
@@ -365,9 +375,22 @@ const imagePath = {
     icons4,
     icons5,
     icons6,
+    aiImage,
+    customerImage,
+    textArea,
+    ica1,
+    ica2,
+    ica3,
+    ica4,
+    ica5,
+    ica6,
+    blogA,
+    technologyIcon1,
+    transImage,
     toggle1,
     toogle2,
     icons7,
+    cancle,
     icons8,
     icons9,
     icons10,
@@ -697,8 +720,6 @@ const imagePath = {
     insight2,
     LibraryLogo1,
     LibraryLogo2,
-    // LibraryLogo3,
-    // LibraryLogo4,
     LibraryLogo5,
     LibraryLogo6,
     LibraryLogo7,
