@@ -37,25 +37,25 @@ function Technology() {
     const goToBtn = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     };
-  
+
     const listenToScroll = () => {
         let heightToHidden = 20;
         const winScroll =
             document.body.scrollTop || document.documentElement.scrollTop;
-  
+
         if (winScroll > heightToHidden) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
         }
     };
-  
+
     useEffect(() => {
         window.addEventListener("scroll", listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
-    
+
 
     return (
         <div className='technology-container'>
@@ -88,85 +88,133 @@ function Technology() {
                         <div className='technology-div2'>
 
                             <div className='data-process-type1'>
-                                <Link to="/application-development">
-                                    <span className='data-process-image'>
-                                        <img src={imagePaths.technologyIcon1} alt='' />
-                                    </span>
-                                    <span className='data-process-text'>
-                                        Application Developement
-                                    </span>
-                                </Link>
+                                <div data-aos="fade-in">
+                                    <Link to="/application-development">
+
+                                        <span className='data-process-image'>
+
+                                            <img src={imagePaths.technologyIcon1} alt='' />
+
+                                        </span>
+
+                                        <span className='data-process-text'>
+                                            Application Developement
+                                        </span>
+                                    </Link>
+                                </div>
                             </div>
                             <div className='data-process-type1'>
-                                <Link to='/quality-assurance-testing'>
-                                    <span className='data-process-image'>
-                                        <img src={imagePaths.image7} alt='' />
-                                    </span>
-                                    <span className='data-process-text'>
-                                        Quality Assurance & Testing
-                                    </span>
-                                </Link>
+                                <div data-aos="fade-in">
+                                    <Link to='/quality-assurance-testing'>
+
+                                        <span className='data-process-image'>
+
+                                            <img src={imagePaths.image7} alt='' />
+
+                                        </span>
+
+                                        <span className='data-process-text'>
+                                            Quality Assurance & Testing
+                                        </span>
+                                    </Link>
+                                </div>
                             </div>
                             <div className='data-process-type1'>
-                                <Link to='/team-augmentation'>
-                                    <span className='data-process-image'>
-                                        <img src={imagePaths.image8} alt='' />
-                                    </span>
-                                    <span className='data-process-text'>
-                                        Team Augmentation
-                                    </span>
-                                </Link>
+                                <div data-aos="fade-in">
+                                    <Link to='/team-augmentation'>
+
+                                        <span className='data-process-image'>
+
+                                            <img src={imagePaths.image8} alt='' />
+
+                                        </span>
+
+                                        <span className='data-process-text'>
+                                            Team Augmentation
+                                        </span>
+                                    </Link>
+                                </div>
                             </div>
                             <div className='data-process-type1'>
-                                <Link to='/devops'>
-                                    <span className='data-process-image'>
-                                        <img src={imagePaths.devops} alt='' />
-                                    </span>
-                                    <span className='data-process-text'>
-                                        DevOps Solutions
-                                    </span>
-                                </Link>
+                                <div data-aos="fade-in">
+                                    <Link to='/devops'>
+
+                                        <span className='data-process-image'>
+
+                                            <img src={imagePaths.devops} alt='' />
+
+                                        </span>
+
+                                        <span className='data-process-text'>
+                                            DevOps Solutions
+                                        </span>
+                                    </Link>
+                                </div>
                             </div>
 
                             <div className='data-process-type1'>
-                                <Link to='/zendesk'>
-                                    <span className='data-process-image'>
-                                        <img src={imagePaths.arcgatelab4} alt='' />
-                                    </span>
-                                    <span className='data-process-text'>
-                                        Zendesk Admin Support
-                                    </span>
-                                </Link>
+                                <div data-aos="fade-in">
+                                    <Link to='/zendesk'>
+
+                                        <span className='data-process-image'>
+
+                                            <img src={imagePaths.arcgatelab4} alt='' />
+
+                                        </span>
+
+                                        <span className='data-process-text'>
+                                            Zendesk Admin Support
+                                        </span>
+                                    </Link>
+                                </div>
                             </div>
                             <div className='data-process-type1'>
-                                <Link to='/salesforce'>
-                                    <span className='data-process-image'>
-                                        <img src={imagePaths.arcgatelab3} alt='' />
-                                    </span>
-                                    <span className='data-process-text'>
-                                        Salesforce Admin Support
-                                    </span>
-                                </Link>
+                                <div data-aos="fade-in">
+                                    <Link to='/salesforce'>
+
+                                        <span className='data-process-image'>
+
+                                            <img src={imagePaths.arcgatelab3} alt='' />
+
+                                        </span>
+
+                                        <span className='data-process-text'>
+                                            Salesforce Admin Support
+                                        </span>
+                                    </Link>
+                                </div>
                             </div>
                             <div className='data-process-type1'>
-                                <Link to='/nutsuite'>
-                                    <span className='data-process-image'>
-                                        <img src={imagePaths.arcgatelab2} alt='' />
-                                    </span>
-                                    <span className='data-process-text'>
-                                        NetSulte Admin Support
-                                    </span>
-                                </Link>
+                                <div data-aos="fade-in">
+                                    <Link to='/nutsuite'>
+
+                                        <span className='data-process-image'>
+
+                                            <img src={imagePaths.arcgatelab2} alt='' />
+
+                                        </span>
+
+                                        <span className='data-process-text'>
+                                            NetSulte Admin Support
+                                        </span>
+                                    </Link>
+                                </div>
                             </div>
                             <div className='data-process-type1'>
-                                <Link to='/datavisual'>
-                                    <span className='data-process-image'>
-                                        <img src={imagePaths.arcgatelab1} alt='' />
-                                    </span>
-                                    <span className='data-process-text'>
-                                        Data Visulatization
-                                    </span>
-                                </Link>
+                                <div data-aos="fade-in">
+                                    <Link to='/datavisual'>
+
+                                        <span className='data-process-image'>
+
+                                            <img src={imagePaths.arcgatelab1} alt='' />
+
+                                        </span>
+
+                                        <span className='data-process-text'>
+                                            Data Visulatization
+                                        </span>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
