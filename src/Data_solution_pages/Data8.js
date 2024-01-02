@@ -67,7 +67,7 @@ function Data8() {
                 </div>
                 <div className='data-solution-body6'>
                   <br></br>
-                  <span className='span-image'>
+                  <span className='span-image1'>
                     <br></br>
                     <img src={imagePaths.analysis4} />
                     <br></br>

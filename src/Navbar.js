@@ -183,7 +183,7 @@ function Navbar() {
                       <li>
                         <Link to='/customer-onboarding-support'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image1'>
                             <img src={imagePaths.customerImage} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -194,7 +194,7 @@ function Navbar() {
                       <li>
                         <Link to='/order-management'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image2'>
                             <img src={imagePaths.reporting21} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -205,7 +205,7 @@ function Navbar() {
                       <li>
                         <Link to='/transcription'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image3'>
                             <img src={imagePaths.transImage} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -215,7 +215,8 @@ function Navbar() {
                       </li>
                       <div className="nav-button">
                         <center>
-                          <Link to="/view1" >
+                          <Link to="/view1"
+                            onClick={handleLinkClick}>
                             <button>View More</button>
                           </Link>
                         </center>
@@ -281,9 +282,10 @@ function Navbar() {
                       <li>
                         <Link to='/Industry4'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image1'>
                             <img src={imagePaths.tech4} alt='' />
                           </span>
+                          <p></p>
                           <span className='data-process-text'>
                             OIL & ENERGY
                           </span>
@@ -292,7 +294,7 @@ function Navbar() {
                       <li>
                         <Link to='/Industry5'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image2'>
                             <img src={imagePaths.tech5} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -303,7 +305,7 @@ function Navbar() {
                       <li>
                         <Link to='/Industry6'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image3'>
                             <img src={imagePaths.tech6} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -313,7 +315,8 @@ function Navbar() {
                       </li>
                       <div className="nav-button">
                         <center>
-                          <Link to="/view2" >
+                          <Link to="/view2"
+                            onClick={handleLinkClick} >
                             <button>View More</button>
                           </Link>
                         </center>
@@ -372,7 +375,8 @@ function Navbar() {
                       </li>
                       <div className="nav-button">
                         <center>
-                          <Link to="/view3" >
+                          <Link to="/view3"
+                            onClick={handleLinkClick} >
                             <button>View More</button>
                           </Link>
                         </center>

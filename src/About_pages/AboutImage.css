@@ -141,6 +141,25 @@
     color: #000;
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the arrow images */
+.button-container img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+}
+
+
 @media only screen and (max-width: 768px) {
     .image .image-container1 {
         margin: 0;

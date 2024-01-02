@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap');
+
+body {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+
 .app-container {
     width: 100%;
     position: relative;
@@ -18,7 +25,7 @@
 
 .app-content1 h1 {
     font-size: 36px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
@@ -28,7 +35,7 @@
 
 .app-content1 h2 {
     text-align: center;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     margin: 0 auto;
     font-size: 24px;
@@ -54,7 +61,7 @@
     line-height: normal;
     padding: 0 20px 20px;
     text-align: center;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     margin: 0 auto;
 }
@@ -63,7 +70,7 @@
     line-height: 24px;
     font-size: 18px;
     color: #393435;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
@@ -124,7 +131,8 @@
 .app-content2 .app-body2 .app-left .app-element h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
+    /* font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif"; */
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
@@ -134,7 +142,7 @@
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -143,10 +151,10 @@
     text-align: center;
     font-weight: 400;
     margin: 10px auto;
-    width: 362px;
+    width: 498px;
     font-size: 18px;
     color: #393435;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 24px;
 }
 
@@ -154,7 +162,7 @@
     text-align: center;
     width: 447px;
     font-weight: 400;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin: 0 auto;
     font-size: 18px;
     color: #393435;
@@ -184,14 +192,14 @@
     margin-bottom: 10px;
     text-align: center;
     font-weight: 400;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin: 0 auto;
 }
 
 .app-content2 .app-body2 .app-element h3 {
     line-height: 24px;
     font-size: 18px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     color: #393435;
     text-align: center;
     font-weight: 400;
@@ -317,7 +325,7 @@
     background: rgba(0, 0, 0, 0.20);
     color: #ffffff;
     font-size: 17px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     text-align: left;
@@ -337,7 +345,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     padding: 12px;
@@ -355,7 +363,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     padding: 12px;
@@ -373,7 +381,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     padding: 12px;
@@ -393,7 +401,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     text-align: left;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     padding: 12px;
     margin: 0 20px 0 0;
     min-width: 280px;
@@ -409,7 +417,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     padding: 12px;
@@ -426,7 +434,7 @@
 .app-content3 .app-div3 .app-color1 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -435,7 +443,7 @@
 .app-content3 .app-div3 .app-color2 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -444,7 +452,7 @@
 .app-content3 .app-div3 .app-color3 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -453,7 +461,7 @@
 .app-content3 .app-div3 .app-color4 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -462,7 +470,7 @@
 .app-content3 .app-div3 .app-color5 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -471,7 +479,7 @@
 .app-content3 .app-div3 .app-color6 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -516,7 +524,7 @@
     align-items: center;
     border: 1px solid #ced8d6;
     margin: 0;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 600;
     width: 100%;
     line-height: 20px;
@@ -781,6 +789,21 @@
     object-fit: contain;
     margin: 0px 30px;
     max-width: 93px;
+}
+
+.app-section3 .app-div3 .app-color1:after {
+    content: '';
+    -webkit-mask: url('../images/arrow-icon.svg') no-repeat center;
+    mask: url('../images/arrow-icon.svg') no-repeat center;
+    background: url('../images/arrow-icon.svg');
+    width: 52px;
+    height: 32px;
+    position: absolute;
+    top: 40%;
+    right: 102px;
+    /* z-index: -1; */
+    margin-top: -16px;
+    background: orange;
 }
 
 

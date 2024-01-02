@@ -107,14 +107,14 @@ function Contact() {
                                             <img src={imagePaths.name} alt='' />
                                             <input
                                                 type='text'
-                                                name='name'
+                                                name='number'
                                                 placeholder='Name'
-                                                value={formData.name}
+                                                value={formData.number}
                                                 onChange={handleChange}
                                             ></input>
-                                            <span className='error-message'></span>
+                                            <p className='error-message'></p>
                                         </span>
-                                        <br></br>
+
                                         <span className='relative'>
                                             <img src={imagePaths.number} alt='' />
                                             <input
@@ -126,7 +126,7 @@ function Contact() {
                                             ></input>
                                             <p className='error-message'></p>
                                         </span>
-                                        <br></br>
+
                                         <span className='relative'>
                                             <img src={imagePaths.email} alt='' />
                                             <input
@@ -138,7 +138,7 @@ function Contact() {
                                             ></input>
                                             <p className='error-message'></p>
                                         </span>
-                                        <br></br>
+
                                         <span className='relative'>
                                             <img src={imagePaths.textArea} alt='' />
                                             <input

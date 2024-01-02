@@ -207,6 +207,7 @@
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
+    width: 400px;
 }
 
 .quality-content3 p {
@@ -533,7 +534,8 @@
 
 .link-button-a:hover {
     color: #ebebeb;
-    background-color: #7b7a68;;
+    background-color: #7b7a68;
+    ;
 }
 
 @media only screen and (max-width: 768px) {

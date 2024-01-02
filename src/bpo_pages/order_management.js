@@ -77,7 +77,7 @@ function OrderManagement() {
                   <br></br>
                   <span className='order-image'>
                     <br></br>
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-in">
                       <img src={imagePaths.order1} alt='' />
                     </div>
                     <br></br>
@@ -94,7 +94,7 @@ function OrderManagement() {
                   <br></br>
                   <span className='order-image'>
                     <br></br>
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-in">
                       <img src={imagePaths.order2} alt='' />
                     </div>
                     <br></br>
@@ -111,7 +111,7 @@ function OrderManagement() {
                   <br></br>
                   <span className='order-image'>
                     <br></br>
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-in">
                       <img src={imagePaths.order3} alt='' />
                     </div>
                     <br></br>
@@ -128,7 +128,7 @@ function OrderManagement() {
                   <br></br>
                   <span className='order-image'>
                     <br></br>
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-in">
                       <img src={imagePaths.order4} alt='' />
                     </div>
                     <br></br>
@@ -145,7 +145,7 @@ function OrderManagement() {
                   <br></br>
                   <span className='order-image'>
                     <br></br>
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-in">
                       <img src={imagePaths.order5} alt='' />
                     </div>
                     <br></br>

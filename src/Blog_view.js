@@ -12,25 +12,25 @@ function Blog_view() {
     const goToBtn = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     };
-  
+
     const listenToScroll = () => {
         let heightToHidden = 20;
         const winScroll =
             document.body.scrollTop || document.documentElement.scrollTop;
-  
+
         if (winScroll > heightToHidden) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
         }
     };
-  
+
     useEffect(() => {
         window.addEventListener("scroll", listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
-    
+
     return (
         <div className='blogView-container' data-testid="blogView-container">
             <article data-testid="article-element">
@@ -49,7 +49,7 @@ function Blog_view() {
                                             <img className='blog-image' src={imagePaths.imageBlog1} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                           
+
                                         </div>
                                     </Link>
                                 </div>
@@ -61,7 +61,7 @@ function Blog_view() {
                                             <img className='blog-image' src={imagePaths.imageBlog2} alt='' />
                                         </div>
                                         <div className='thumb-blogView'>
-                                           
+
                                         </div>
                                     </Link>
                                 </div>
@@ -70,10 +70,7 @@ function Blog_view() {
                                 <div className='blogView-content2'>
                                     <Link to='/blog3'>
                                         <div className='blogView-div'>
-                                            <img className='blog-image' src={imagePaths.imageBlog3} alt='' />
-                                        </div>
-                                        <div className='thumb-blogView'>
-                                           
+                                            <img className='blog-image' src={imagePaths.blogA} alt='' />
                                         </div>
                                     </Link>
                                 </div>

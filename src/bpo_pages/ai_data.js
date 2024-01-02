@@ -168,7 +168,8 @@ function Data() {
                   <li>
                     <img src={imagePaths.data3} alt='' />Content Tagging</li>
                   <li>
-                    <img src={imagePaths.data4} alt='' />Transcription </li>
+                    <img src={imagePaths.data4} alt='' />Transcription &
+                    Classification</li>
                   <li>
                     <img src={imagePaths.data5} alt='' />Image & Video</li>
                 </ul>

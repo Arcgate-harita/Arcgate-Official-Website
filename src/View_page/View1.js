@@ -11,31 +11,31 @@ function View1() {
   const [isVisible, setIsVisible] = useState(false);
 
   const goToBtn = () => {
-      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
   const listenToScroll = () => {
-      let heightToHidden = 20;
-      const winScroll =
-          document.body.scrollTop || document.documentElement.scrollTop;
+    let heightToHidden = 20;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
 
-      if (winScroll > heightToHidden) {
-          setIsVisible(true);
-      } else {
-          setIsVisible(false);
-      }
+    if (winScroll > heightToHidden) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
   };
 
   useEffect(() => {
-      window.addEventListener("scroll", listenToScroll);
-      return () => window.removeEventListener("scroll", listenToScroll);
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
 
 
   return (
     <div className='solution-container'>
       <article>
-        <section className='solution-section1'>
+        <section className='solution-section1-2'>
           <div className='solution-content1'>
             <h1>Business Process Outsourcing (BPO) Services</h1>
             <h2>We offer a proven commitment to quality, accuracy, scale, speed and low costs when delivering Data Management and Business Process Outsourcing (BPO) services.</h2>
@@ -52,7 +52,7 @@ function View1() {
                     <img src={imagePaths.ica1} alt='' />
                   </span>
                   <span className='data-solution-text'>
-                    Account Outsourcing
+                  Accounting Outsourcing
                   </span>
                 </Link>
               </div>
@@ -117,15 +117,15 @@ function View1() {
       </article>
 
       {isVisible && (
-                <>
-                    <div className="top-btn" onClick={goToBtn}>
-                        <img src={goToTop} className="top-btn--icon" />
-                    </div>
-                    <div className='icon-text'>
-                        BACK TO TOP
-                    </div>
-                </>
-            )}
+        <>
+          <div className="top-btn" onClick={goToBtn}>
+            <img src={goToTop} className="top-btn--icon" />
+          </div>
+          <div className='icon-text'>
+            BACK TO TOP
+          </div>
+        </>
+      )}
 
     </div>
   )

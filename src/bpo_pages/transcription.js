@@ -3,6 +3,30 @@ import { useState, useEffect } from 'react';
 import imagePaths from '../imagePath';
 import "../bpo_pages/transcription.css";
 import goToTop from "../images/goto_top.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+AOS.init({
+  disable: false,
+  startEvent: 'DOMContentLoaded',
+  initClassName: 'aos-init',
+  animatedClassName: 'aos-animate',
+  useClassNames: false,
+  disableMutationObserver: false,
+  debounceDelay: 50,
+  throttleDelay: 99,
+
+
+  offset: 120,
+  delay: 0,
+  duration: 1000,
+  easing: 'ease',
+  once: false,
+  mirror: false,
+  anchorPlacement: 'top-bottom',
+
+});
 
 function Transcription() {
 
@@ -54,7 +78,9 @@ function Transcription() {
                   <br></br>
                   <span className='trans-image'>
                     <br></br>
-                    <img src={imagePaths.trans1} alt='' />
+                    <div data-aos="fade-in">
+                      <img src={imagePaths.trans1} alt='' />
+                    </div>
                     <br></br>
                   </span>
                   <br></br>
@@ -69,7 +95,9 @@ function Transcription() {
                   <br></br>
                   <span className='trans-image'>
                     <br></br>
-                    <img src={imagePaths.trans2} alt='' />
+                    <div data-aos="fade-in">
+                      <img src={imagePaths.trans2} alt='' />
+                    </div>
                     <br></br>
                   </span>
                   <br></br>
@@ -84,7 +112,9 @@ function Transcription() {
                   <br></br>
                   <span className='trans-image'>
                     <br></br>
-                    <img src={imagePaths.trans3} alt='' />
+                    <div data-aos="fade-in">
+                      <img src={imagePaths.trans3} alt='' />
+                    </div>
                     <br></br>
                   </span>
                   <br></br>
@@ -99,7 +129,9 @@ function Transcription() {
                   <br></br>
                   <span className='trans-image'>
                     <br></br>
-                    <img src={imagePaths.trans4} alt='' />
+                    <div data-aos="fade-in">
+                      <img src={imagePaths.trans4} alt='' />
+                    </div>
                     <br></br>
                   </span>
                   <br></br>

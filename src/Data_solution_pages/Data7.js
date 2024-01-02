@@ -46,7 +46,7 @@ function Data7() {
                 </div>
                 <div className='data-solution-body6'>
                   <br></br>
-                  <span className='span-image'>
+                  <span className='span-image2'>
                     <br></br>
                     <img src={imagePaths.dashboard2} />
                     <br></br>
