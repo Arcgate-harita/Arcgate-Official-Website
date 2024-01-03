@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap');
+
 .quality-container {
     width: 100%;
     position: relative;
@@ -487,14 +489,14 @@
 .quality-section6 .why-arcgate p {
     transition-delay: 200ms;
     opacity: 1;
-    margin: 20px 10px auto;
+    margin: 28px 38px auto;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     display: inline-block;
     text-align: center;
 }
 
 .quality-section6 .why-arcgate img {
-    max-height: 120px;
+    max-height: 108px;
 }
 
 .quality-section6 .why-arcgate span {
@@ -537,6 +539,181 @@
     background-color: #7b7a68;
     ;
 }
+
+
+
+.team-section2 {
+    background: #f0ebe3;
+    padding: 50px 0;
+}
+
+.team-content2-1 {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.team-content2-1 .team-div2 {
+    padding: 0px 0 40px;
+}
+
+.team-content2-1 .team-div2 h1 {
+    font-size: 36px;
+    line-height: normal;
+    padding: 0 20px 20px;
+    text-align: center;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.team-content2-1 .team-div2 h3 {
+    line-height: 24px;
+    font-size: 18px;
+    color: #393435;
+    font-family: 'Proxima Nova', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.team-content2-1 .team-content2 .team-body2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-content2-1-1ent2 .team-body2 .team-left {
+    width: 48%;
+    margin-bottom: 50px;
+}
+
+.team-content2-1 .team-body2 .team-right {
+    width: 48%;
+    margin-bottom: 50px;
+}
+
+
+.team-content2-1 .team-body2 .team-left .team-element .team-icon {
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-body2 .team-left .team-element .team-para p{
+    font-family: 'Proxima Nova', sans-serif;
+    text-align: center;
+}
+
+.team-body2 .team-right .team-element .team-para p{
+    font-family: 'Proxima Nova', sans-serif;
+    text-align: center;
+}
+
+.team-content2-1 .team-body2 .team-right .team-element .team-icon {
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-content2-1 .team-body2 .team-left .team-element .team-icon img {
+    width: auto;
+    height: 48px;
+}
+
+.team-content2-1 .team-body2 .team-right .team-element .team-icon img {
+    width: auto;
+    height: 48px;
+}
+
+.team-content2-1 .team-body2 .team-left .team-element h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Proxima Nova', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.team-content2-1 .team-body2 .team-right .team-element h2 {
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.team-content2-1 .team-body2 .team-left .team-element h3 {
+    text-align: center;
+    font-weight: 400;
+    margin: 10px auto;
+    font-size: 18px;
+    color: #393435;
+    font-family: 'Proxima Nova', sans-serif;
+    line-height: 24px;
+}
+
+.team-content2-1 .team-body2 .team-right .team-element h3 {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #393435;
+    line-height: 24px;
+}
+
+.team-content2-1 .team-body2 .team-element .team-icon {
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-content2-1 .team-body2 .team-element .team-icon img {
+    width: auto;
+    height: 48px;
+}
+
+.team-content2-1 .team-body2 .team-element h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0 auto;
+}
+
+.team-content2-1 .team-body2 .team-element h3 {
+    line-height: 24px;
+    font-size: 18px;
+    font-family: 'Proxima Nova', sans-serif;
+    color: #393435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
 
 @media only screen and (max-width: 768px) {
     .quality-content1 p {

@@ -186,6 +186,7 @@ function Navbar() {
                           <span className='data-process-image1'>
                             <img src={imagePaths.customerImage} alt='' />
                           </span>
+                          <br></br>
                           <span className='data-process-text'>
                             CUSTOMER ONBOARDING & SUPPORT
                           </span>

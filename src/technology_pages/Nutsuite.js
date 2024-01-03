@@ -47,7 +47,7 @@ function Nutsuite() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp1} alt='' />
+                                    <img src={imagePaths.adminIcon1} alt='' />
                                 </div>
                                 <h2>User Management</h2>
                                 <h3>We can help you manage user access and permissions to ensure that the right people have access to the right data and functionality. We can also help you create custom user roles to fit your specific business needs.</h3>
@@ -56,9 +56,9 @@ function Nutsuite() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp2} alt='' />
+                                    <img src={imagePaths.zendesk6} alt='' />
                                 </div>
-                                <h2>Configuring and Customizing Zendesk</h2>
+                                <h2>Custom Scripting</h2>
                                 <h3>We can automate processes and customize functionality using NetSuite's powerful scripting capabilities. Our custom scripting services include script development, testing, and deployment.</h3>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ function Nutsuite() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp3} alt='' />
+                                    <img src={imagePaths.adminIcon6} alt='' />
                                 </div>
                                 <h2>Training and Education</h2>
                                 <h3>We offer training and education services to help users get up to speed with NetSuite, including new feature releases and best practices.</h3>
@@ -76,7 +76,7 @@ function Nutsuite() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp4} alt='' />
+                                    <img src={imagePaths.zendesk4} alt='' />
                                 </div>
                                 <h2>Reporting</h2>
                                 <h3>We can help you create custom reports and dashboards to give you the insights you need to make informed business decisions. Our team can help you identify key performance indicators (KPIs) and set up automated reporting to save you time and effort.</h3>
@@ -87,7 +87,7 @@ function Nutsuite() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp5} alt='' />
+                                    <img src={imagePaths.zendesk5} alt='' />
                                 </div>
                                 <h2>Audit and Optimization</h2>
                                 <h3>We can perform an audit of your NetSuite system to identify areas where you can improve performance and streamline processes. We can also provide recommendations for optimizing your system.</h3>
@@ -96,7 +96,7 @@ function Nutsuite() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp6} alt='' />
+                                    <img src={imagePaths.zendesk8} alt='' />
                                 </div>
                                 <h2>System Health Checks
                                 </h2>
@@ -108,7 +108,7 @@ function Nutsuite() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp5} alt='' />
+                                    <img src={imagePaths.adminIcon2} alt='' />
                                 </div>
                                 <h2>Customization and Configuration</h2>
                                 <h3>We can help you configure and customize NetSuite to fit your business processes and workflows. Our team of certified NetSuite experts can help you create custom fields, forms, and reports to streamline your operations and get the data you need to make informed business decisions.</h3>
@@ -117,7 +117,7 @@ function Nutsuite() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp6} alt='' />
+                                    <img src={imagePaths.zendesk7} alt='' />
                                 </div>
                                 <h2>System Integration
                                 </h2>
@@ -130,7 +130,7 @@ function Nutsuite() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp5} alt='' />
+                                    <img src={imagePaths.teamIcon1} alt='' />
                                 </div>
                                 <h2>Troubleshooting</h2>
                                 <h3>We can help you troubleshoot any issues you encounter with NetSuite, from minor glitches to more complex problems. Our team has the experience and expertise to quickly identify and resolve issues, minimizing downtime and ensuring that your system is running smoothly.</h3>
@@ -139,7 +139,7 @@ function Nutsuite() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp6} alt='' />
+                                    <img src={imagePaths.zendesk7} alt='' />
                                 </div>
                                 <h2>Support and Maintenance
                                 </h2>

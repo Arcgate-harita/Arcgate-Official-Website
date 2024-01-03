@@ -135,24 +135,12 @@ function Industry1() {
                         <center>
                             {IndustryPara.map((section, index) => (
                                 <div key={index}>
-                                    <p>{section.paragraph1}</p>
+                                    <p>{section.paragraph2}</p>
                                     <p></p>
                                 </div>
                             ))}
                         </center>
                         <div className='industry-div3'>
-                            <div className='industry-body'>
-                                <div className='industry-data'>
-                                    {IndustryPara.map((section, index) => (
-                                        <div key={index}>
-                                            <p>{section.paragraph2}</p>
-                                            <p></p>
-                                        </div>
-                                    ))}
-                                    <p></p>
-                                </div>
-                                <p></p>
-                            </div>
                             <div className='industry-body'>
                                 <div className='industry-data'>
                                     {IndustryPara.map((section, index) => (
@@ -177,45 +165,67 @@ function Industry1() {
                                 </div>
                                 <p></p>
                             </div>
+                            <div className='industry-body'>
+                                <div className='industry-data'>
+                                    {IndustryPara.map((section, index) => (
+                                        <div key={index}>
+                                            <p>{section.paragraph5}</p>
+                                            <p></p>
+                                        </div>
+                                    ))}
+                                    <p></p>
+                                </div>
+                                <p></p>
+                            </div>
                         </div>
                     </div>
                 </section>
 
 
 
-                <section className='blogView-section2'>
-                    <div className='blogView-div2'>
-                        <h6>INSIGHTS</h6>
-                        <div className='blogView'>
-                            <div className='blogView-container1'>
-                                <div className='blogView-content2'>
-                                    <Link to='/blog17'>
-                                        <div className='blogView-div'>
-                                            <img src={imagePaths.blog16} alt='' />
-                                        </div>
-                                        <div className='thumb-blogView'>
-
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='blogView-container1'>
-                                <div className='blogView-content2'>
-                                    <Link to='/blog18'>
-                                        <div className='blogView-div'>
-                                            <img src={imagePaths.blog17} alt='' />
-                                        </div>
-                                        <div className='thumb-blogView'>
-
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-
-                        </div>
-
+                <section className='data-section-blog-1'>
+          <div className='data-content-blog-1'>
+            <h6>INSIGHTS</h6>
+            <div className='data-body-blog'>
+              <div className='data-blogs1'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.blogLogo} alt='' />
                     </div>
-                </section>
+                    <p>
+                      <Link to='/blog17'></Link>
+                    </p>
+                    <Link to='/blog17'>
+                      <h2>The exciting future of adtech</h2>
+                    </Link>
+                    <p>
+                      <Link to='/blog17'></Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='data-blogs2'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.podcastLogo} alt='' />
+                    </div>
+                    <p>
+                      <Link to='/podcast14'></Link>
+                    </p>
+                    <Link to='/podcast14'>
+                      <h2>Big Data and Artificial Intelligence (AI) Need Each Other</h2>
+                    </Link>
+                    <p>
+                      <Link to='/podcast14'></Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
 
             </article>

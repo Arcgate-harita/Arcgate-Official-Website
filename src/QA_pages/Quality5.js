@@ -66,7 +66,7 @@ function Quality5() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function14} alt='' />
+                                        <img src={imagePaths.zendesk1} alt='' />
                                     </div>
                                     <h2>Manual Accessibility  testing
                                     </h2>
@@ -93,7 +93,7 @@ function Quality5() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function15} alt='' />
+                                        <img src={imagePaths.zendesk2} alt='' />
                                     </div>
                                     <h2>Automated Accessibility  testing</h2>
                                     {QualityPara.map((section, index) => (
@@ -201,13 +201,28 @@ function Quality5() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo7} alt='' className='image1' />
+                                        <img src={imagePaths.LibraryLogo38} alt='' className='image1' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo8} alt='' className='image2' />
+                                        <img src={imagePaths.LibraryLogo39} alt='' className='image2' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo9} alt='' className='image4' />
+                                        <img src={imagePaths.LibraryLogo40} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo41} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo42} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo43} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo44} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo45} alt='' className='image4' />
                                     </div>
                                 </div>
 

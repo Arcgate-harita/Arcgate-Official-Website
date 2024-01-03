@@ -183,6 +183,10 @@ import function16 from "./images/functional-testing16.png";
 import function17 from "./images/functional-testing17.png";
 import function18 from "./images/functional-testing18.png";
 import function19 from "./images/functional-testing19.png";
+import function20 from "./images/soak-testing-icon.png";
+import function21 from "./images/data-volume-icon.png";
+import function22 from "./images/report-testing-icon.png";
+
 import testing1 from "./images/manual-testing.svg";
 import testing2 from "./images/automate-testing.svg";
 import testing3 from "./images/api-testing.svg";
@@ -339,6 +343,35 @@ import LibraryLogo16 from "./images/jest.svg";
 import LibraryLogo17 from "./images/junit.svg";
 import LibraryLogo18 from "./images/maven.svg";
 import LibraryLogo19 from "./images/cucumber.svg";
+import LibraryLogo20 from "./images/Appium.svg";
+import LibraryLogo21 from "./images/testrail-logo.svg";
+import LibraryLogo22 from "./images/spiraTest-logo.svg";
+import LibraryLogo23 from "./images/testlink-logo.svg";
+import LibraryLogo24 from "./images/trello-official.svg";
+import LibraryLogo25 from "./images/devtrack-logo.svg";
+import LibraryLogo26 from "./images/atlassian_jira.svg";
+import LibraryLogo27 from "./images/bugzilla.svg";
+import LibraryLogo28 from "./images/mantis-logo.svg";
+import LibraryLogo29 from "./images/xray-test-logo.svg";
+import LibraryLogo30 from "./images/Loadrunner.svg";
+import LibraryLogo31 from "./images/cloudtest.svg";
+import LibraryLogo32 from "./images/blazemaster.svg";
+import LibraryLogo33 from "./images/assertible.svg";
+import LibraryLogo34 from "./images/rest-assured.svg";
+import LibraryLogo35 from "./images/swagger.svg";
+import LibraryLogo36 from "./images/loadimpact.svg";
+import LibraryLogo37 from "./images/Gatling.svg";
+
+import LibraryLogo38 from "./images/tpgi-logo.svg";
+import LibraryLogo39 from "./images/wavelogo.svg";
+import LibraryLogo40 from "./images/nv-access-logo.png";
+import LibraryLogo41 from "./images/axe-Accessibility-Checker-logo.png";
+import LibraryLogo42 from "./images/evinced-logo.png";
+import LibraryLogo43 from "./images/insights-blue.svg";
+import LibraryLogo44 from "./images/voiceover-logo.png";
+import LibraryLogo45 from "./images/talkback-logo.png";
+
+
 import TickLogo from "./images/tick-icon (1).png";
 import icons1 from "./images/keyboard-icon.png";
 import icons2 from "./images/images-icon.png";
@@ -367,8 +400,56 @@ import ica5 from "./images/icn-52.png";
 import ica6 from "./images/icn-19.png";
 import technologyIcon1 from "./images/appdev (1).svg";
 import blogA from "./images/blog-A-41.png";
+import qa1 from "./images/qa1.png";
+import qa2 from "./images/qa2.png";
+import qa3 from "./images/qa3.png";
+import qa4 from "./images/qa4.png";
+import dev1 from "./images/dev1.svg";
+import dev2 from "./images/dev2.svg";
+import dev3 from "./images/dev3.svg";
+import dev4 from "./images/dev4.svg";
+import dev5 from "./images/dev5.svg";
+import dev6 from "./images/dev6.svg";
+import dev7 from "./images/dev7.svg";
+import dev8 from "./images/dev8.svg";
+import postman from "./images/Postman-removebg-preview.png";
+import ApiIcon1 from "./images/functional-testing.png";
+import ApiIcon2 from "./images/load-testing-icon.png";
+import ApiIcon3 from "./images/compatibility-testing.png";
+import ApiIcon4 from "./images/nagetive-testing.png";
+import ApiIcon5 from "./images/end-to-end-testing.png";
+import ApiIcon6 from "./images/exploratory-testing.png";
+import ApiIcon7 from "./images/security-testing.png";
+import zendesk1 from "./images/zendesk1.png";
+import zendesk2 from "./images/zendesk2.png";
+import zendesk3 from "./images/zendesk3.png";
+import zendesk4 from "./images/zendesk4.png";
+import zendesk5 from "./images/zendesk5.png";
+import zendesk6 from "./images/zendesk-collaborating-icon.png";
+import zendesk7 from "./images/zendesk-integrations-icon.png";
+import zendesk8 from "./images/zendesk-training-icon.png";
+
+import salesIcon1 from "./images/sales-cloud-icon.png";
+import salesIcon2 from "./images/service-cloud-icon.png";
+import salesIcon3 from "./images/salesforce-billing-icon.png";
+import salesIcon4 from "./images/salesforce-integrations-icon.png";
+
+import adminIcon1 from "./images/user-profile-icon.png";
+import adminIcon2 from "./images/configuring-customizing-salesforce-icon.png";
+import adminIcon3 from "./images/account-manage-icon (1).png";
+import adminIcon4 from "./images/data-manage-icon.png";
+import adminIcon5 from "./images/monitoring-salesforce-icon.png";
+import adminIcon6 from "./images/training-support-icon.png";
+import adminIcon7 from "./images/collaborating-icon (1).png";
+import adminIcon8 from "./images/salesforce-iIntegrations-icon.png";
+
+import tableuIcon from "./images/teablu-icon.png";
+import powerBiIcon from "./images/powerbi-icon.png";
+
+import podcastLogo from "./images/logo_podcasts.png";
 
 const imagePath = {
+    postman,
     icons1,
     icons2,
     icons3,
@@ -376,6 +457,7 @@ const imagePath = {
     icons5,
     icons6,
     aiImage,
+    podcastLogo,
     customerImage,
     textArea,
     ica1,
@@ -512,6 +594,9 @@ const imagePath = {
     function17,
     function18,
     function19,
+    function20,
+function21,
+function22,
     testing1,
     testing2,
     testing3,
@@ -735,9 +820,80 @@ const imagePath = {
     LibraryLogo17,
     LibraryLogo18,
     LibraryLogo19,
+    LibraryLogo20,
+    LibraryLogo21,
+    LibraryLogo22,
+    LibraryLogo23,
+    LibraryLogo24,
+    LibraryLogo25,
+    LibraryLogo26,
+    LibraryLogo27,
+    LibraryLogo28,
+    LibraryLogo29,
+    LibraryLogo30,
+    LibraryLogo31,
+    LibraryLogo32,
+    LibraryLogo33,
+LibraryLogo34,
+LibraryLogo35,
+LibraryLogo36,
+LibraryLogo37,
+
+LibraryLogo38,
+LibraryLogo39,
+LibraryLogo40,
+LibraryLogo41,
+LibraryLogo42,
+LibraryLogo43,
+LibraryLogo44,
+LibraryLogo45,
+
     TickLogo,
     blogIcon,
     Podcast,
+    qa1,
+qa2,
+qa3,
+qa4,
+dev1,
+dev2,
+dev3,
+dev4,
+dev5,
+dev6,
+dev7,
+dev8,
+ ApiIcon1, 
+ApiIcon2,
+ApiIcon3,
+ApiIcon4,
+ApiIcon5,
+ApiIcon6,
+ApiIcon7,
+zendesk1,
+zendesk2,
+zendesk3,
+zendesk4,
+zendesk5,
+zendesk6,
+zendesk7,
+zendesk8,
+salesIcon1,
+salesIcon2,
+salesIcon3,
+salesIcon4,
+
+adminIcon1,
+adminIcon2,
+adminIcon3,
+adminIcon4,
+adminIcon5,
+adminIcon6,
+adminIcon7,
+adminIcon8,
+
+tableuIcon, 
+powerBiIcon,
 }
 
 export default imagePath;

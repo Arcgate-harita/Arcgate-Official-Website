@@ -60,7 +60,7 @@ function Quality6() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function14} alt='' />
+                                        <img src={imagePaths.salesIcon1} alt='' />
                                     </div>
                                     <p></p>
                                     <h2>Sales Cloud</h2>
@@ -77,7 +77,7 @@ function Quality6() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function15} alt='' />
+                                        <img src={imagePaths.salesIcon2} alt='' />
                                     </div>
                                     <p></p>
                                     <h2>Service Cloud</h2>
@@ -96,7 +96,7 @@ function Quality6() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function14} alt='' />
+                                        <img src={imagePaths.salesIcon3} alt='' />
                                     </div>
                                     <p></p>
                                     <h2>Salesforce CPQ & Billing</h2>
@@ -113,7 +113,7 @@ function Quality6() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function15} alt='' />
+                                        <img src={imagePaths.salesIcon4} alt='' />
                                     </div>
                                     <p></p>
                                     <h2>Salesforce Integrations</h2>

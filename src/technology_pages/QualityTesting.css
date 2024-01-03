@@ -352,17 +352,19 @@
     justify-content: space-between;
     align-items: stretch;
     width: 100%;
+    gap: 40px;
 }
 
 .app-content3-1 .app-div3 .app-color1 {
     background: #f19168;
     border-radius: 10px;
-    max-width: 17%;
+    max-width: 16%;
     flex-basis: 17%;
+    height: 257px;
     padding: 15px;
     position: relative;
-
 }
+
 
 .app-content3-1 .app-div3 .app-color1 h3 {
     font-size: 16px;
@@ -377,8 +379,9 @@
 .app-content3-1 .app-div3 .app-color2 {
     background: #82c5bc;
     border-radius: 10px;
-    max-width: 17%;
+    max-width: 16%;
     flex-basis: 17%;
+    height: 257px;
     padding: 15px;
     position: relative;
 }
@@ -396,8 +399,9 @@
 .app-content3-1 .app-div3 .app-color3 {
     background: #fbc861;
     border-radius: 10px;
-    max-width: 17%;
+    max-width: 16%;
     flex-basis: 17%;
+    height: 257px;
     padding: 15px;
     position: relative;
 }
@@ -416,8 +420,9 @@
 .app-content3-1 .app-div3 .app-color4 {
     background: #a4a397;
     border-radius: 10px;
-    max-width: 17%;
+    max-width: 16%;
     flex-basis: 17%;
+    height: 257px;
     padding: 15px;
     position: relative;
 }
@@ -437,8 +442,9 @@
 .app-content3-1 .app-div3 .app-color5 {
     background: #d8ddaf;
     border-radius: 10px;
-    max-width: 17%;
+    max-width: 16%;
     flex-basis: 17%;
+    height: 257px;
     padding: 15px;
     position: relative;
 }
@@ -457,8 +463,9 @@
 .app-content3-1 .app-div3 .app-color6 {
     background: #ceacf1;
     border-radius: 10px;
-    max-width: 17%;
+    max-width: 16%;
     flex-basis: 17%;
+    height: 257px;
     padding: 15px;
     position: relative;
 }
@@ -482,7 +489,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #fff;
-    min-height: 180px
+    min-height: 160px
 }
 
 
@@ -493,7 +500,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #fff;
-    min-height: 180px
+    min-height: 160px
 }
 
 
@@ -504,7 +511,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #fff;
-    min-height: 180px
+    min-height: 160px
 }
 
 
@@ -515,7 +522,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #fff;
-    min-height: 180px
+    min-height: 160px
 }
 
 
@@ -526,7 +533,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #fff;
-    min-height: 180px
+    min-height: 160px
 }
 
 
@@ -537,7 +544,7 @@
     font-size: 14px;
     line-height: 20px;
     color: #fff;
-    min-height: 180px
+    min-height: 160px
 }
 
 .app-content3-1 .app-div3 .app-color1 ul {

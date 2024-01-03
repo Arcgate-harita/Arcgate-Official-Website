@@ -22,8 +22,8 @@ AOS.init({
     offset: 120,
     delay: 0,
     duration: 1000,
-    easing: 'ease',
-    once: false,
+    easing: 'ease-in-out',
+    once: true, 
     mirror: false,
     anchorPlacement: 'top-bottom',
 
@@ -233,8 +233,8 @@ function Technology() {
                         </center>
                         <p></p>
                         <div className='technology-div3'>
-                            <div className='technology-body'>
-                                <div data-aos="fade-up">
+                        <div className='technology-body' data-aos='fade-up'>
+                               
                                     <div className='rounded-box1'>
                                         <p>
                                             We
@@ -249,12 +249,13 @@ function Technology() {
                                         </p>
                                         <p></p>
                                     </div>
+                                    <br></br>
                                     <p>Ideation</p>
                                     <p></p>
-                                </div>
+                               
                             </div>
-                            <div className='technology-body'>
-                                <div data-aos="fade-up">
+                            <div className='technology-body' data-aos='fade-up' data-aos-delay='200'>
+                               
                                     <div className='rounded-box2'>
                                         <p>
                                             We
@@ -273,12 +274,13 @@ function Technology() {
                                         </p>
                                         <p></p>
                                     </div>
+                                    <br></br>
                                     <p>Resources</p>
                                     <p></p>
-                                </div>
+                              
                             </div>
-                            <div className='technology-body'>
-                                <div data-aos="fade-up">
+                            <div className='technology-body' data-aos='fade-up' data-aos-delay='400'>
+                             
                                     <div className='rounded-box3'>
                                         <p>
                                             We
@@ -297,12 +299,13 @@ function Technology() {
                                         </p>
                                         <p></p>
                                     </div>
+                                    <br></br>
                                     <p>Build</p>
                                     <p></p>
-                                </div>
+                               
                             </div>
-                            <div className='technology-body'>
-                                <div data-aos="fade-up">
+                            <div className='technology-body' data-aos='fade-up' data-aos-delay='600'>
+                               
                                     <div className='rounded-box4'>
                                         <p>
                                             We
@@ -317,10 +320,11 @@ function Technology() {
                                         </p>
                                         <p></p>
                                     </div>
+                                    <br></br>
                                     <p>Grow</p>
                                     <p></p>
                                 </div>
-                            </div>
+                            
                         </div>
                         <p></p>
                         <center>

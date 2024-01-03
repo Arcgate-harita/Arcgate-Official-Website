@@ -65,7 +65,7 @@ function Quality3() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function14} alt='' />
+                                        <img src={imagePaths.ApiIcon1} alt='' />
                                     </div>
                                     <h2>Functional testing
                                     </h2>
@@ -80,7 +80,7 @@ function Quality3() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function15} alt='' />
+                                        <img src={imagePaths.ApiIcon2} alt='' />
                                     </div>
                                     <h2>Load testing</h2>
                                     {QualityPara.map((section, index) => (
@@ -96,7 +96,7 @@ function Quality3() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function3} alt='' />
+                                        <img src={imagePaths.ApiIcon3} alt='' />
                                     </div>
                                     <h2>Compatibility testing</h2>
                                     {QualityPara.map((section, index) => (
@@ -110,7 +110,7 @@ function Quality3() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function16} alt='' />
+                                        <img src={imagePaths.ApiIcon4} alt='' />
                                     </div>
                                     <h2>Negative testing</h2>
                                     {QualityPara.map((section, index) => (
@@ -127,7 +127,7 @@ function Quality3() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function17} alt='' />
+                                        <img src={imagePaths.ApiIcon5} alt='' />
                                     </div>
                                     <h2>End-to-end testing
                                     </h2>
@@ -142,7 +142,7 @@ function Quality3() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function18} alt='' />
+                                        <img src={imagePaths.ApiIcon6} alt='' />
                                     </div>
                                     <h2>Exploratory testing</h2>
                                     {QualityPara.map((section, index) => (
@@ -158,7 +158,7 @@ function Quality3() {
                         <div className='quality3'>
                             <div className='quality3-element3'>
                                 <div className='quality3-icon'>
-                                    <img src={imagePaths.function19} alt='' />
+                                    <img src={imagePaths.ApiIcon7} alt='' />
                                 </div>
                                 <h2>Security testing</h2>
                                 {QualityPara.map((section, index) => (
@@ -183,13 +183,22 @@ function Quality3() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo7} alt='' className='image1' />
+                                        <img src={imagePaths.postman} alt='' className='image1' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo8} alt='' className='image2' />
+                                        <img src={imagePaths.SoapuiLogo} alt='' className='image2' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo9} alt='' className='image4' />
+                                        <img src={imagePaths.JmeterLogo} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo33} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo34} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo35} alt='' className='image4' />
                                     </div>
                                 </div>
 

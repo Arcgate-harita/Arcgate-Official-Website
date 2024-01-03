@@ -131,7 +131,7 @@ function View2() {
                       <br></br>
                     </span >
                   </Link>
-                  <span className='span-text'>Marketplace & Ecommerce</span>
+                  <span className='span-text'>Marketplace & eCommerce</span>
                   <br></br>
                 </div>
               </div>

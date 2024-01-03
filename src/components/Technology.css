@@ -150,10 +150,11 @@
 
 .technology-div3 {
   text-align: center;
+  width: 1200px;
 }
 
 .technology-div3 .technology-body {
-  margin: 0 4px 50px;
+  margin: 0 9px 50px;
   text-align: center;
   display: inline-block;
 }
@@ -168,12 +169,16 @@
 }
 
 .technology-div3 .technology-body .rounded-box1 p {
-  font-size: 150%;
+  font-size: 142%;
   line-height: 120%;
   text-align: center;
   width: 70%;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   margin: 0 auto;
+}
+
+.technology-div3 .technology-body p {
+  font-size: 1.3rem;
 }
 
 .technology-div3 .technology-body .rounded-box2 {
@@ -186,7 +191,7 @@
 }
 
 .technology-div3 .technology-body .rounded-box2 p {
-  font-size: 150%;
+  font-size: 142%;
   line-height: 120%;
   text-align: center;
   width: 70%;
@@ -204,7 +209,7 @@
 }
 
 .technology-div3 .technology-body .rounded-box3 p {
-  font-size: 150%;
+  font-size: 142%;
   line-height: 120%;
   text-align: center;
   width: 70%;
@@ -222,7 +227,7 @@
 }
 
 .technology-div3 .technology-body .rounded-box4 p {
-  font-size: 150%;
+  font-size: 142%;
   line-height: 120%;
   text-align: center;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";

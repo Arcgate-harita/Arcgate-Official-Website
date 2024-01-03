@@ -62,7 +62,7 @@ function Transcription() {
           <div className='trans-content1'>
             <h1>Transcription</h1>
             <p></p>
-            <h2>x
+            <h2>
               OCR is not always 100% accurate and at times not possible due to the way the source data needs to be interpreted and mapped to your data structure.</h2>
             <p></p>
           </div>
@@ -85,7 +85,7 @@ function Transcription() {
                   </span>
                   <br></br>
                   <span className='trans-text'>
-                    Order Entry
+                  Menu Transcription
                   </span>
                   <br></br>
                 </a>
@@ -102,7 +102,7 @@ function Transcription() {
                   </span>
                   <br></br>
                   <span className='trans-text'>
-                    Order Fulfillment
+                  Invoice Transcription
                   </span>
                   <br></br>
                 </a>
@@ -119,7 +119,7 @@ function Transcription() {
                   </span>
                   <br></br>
                   <span className='trans-text'>
-                    Order Tracking
+                  Receipt Transcription
                   </span>
                   <br></br>
                 </a>
@@ -136,7 +136,7 @@ function Transcription() {
                   </span>
                   <br></br>
                   <span className='trans-text'>
-                    Cancellations
+                  Form Transcription
                   </span>
                   <br></br>
                 </a>
