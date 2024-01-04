@@ -4,6 +4,7 @@ import imagePaths from '../imagePath';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import goToTop from "../images/goto_top.png";
+import { Link } from "react-router-dom";
 
 
 AOS.init();
@@ -30,6 +31,17 @@ AOS.init({
 });
 
 function Career() {
+    const [isPopupOpen, setPopupOpen] = useState(false);
+    const [selectedJob, setSelectedJob] = useState('');
+  
+    const openPopup = (job) => {
+      setSelectedJob(job);
+      setPopupOpen(true);
+    };
+  
+    const closePopup = () => {
+      setPopupOpen(false);
+    };
 
 
     const [isVisible, setIsVisible] = useState(false);
@@ -92,7 +104,7 @@ function Career() {
                             <div className='career-table'>
                                 <p>We are hungry for talented individuals who believe in teamwork, dedication, discipline and growth.</p>
                                 <p>We’re extremely selective, with an emphasis on the right skills, experience, attitude and ethics.</p>
-                                <p>If you’re looking to make an impact and work with a great team, please <a href='/contact'>apply now</a>. We’d love to have you join our team.</p>
+                                <p>If you’re looking to make an impact and work with a great team, please <a href='/apply'> apply now</a>. We’d love to have you join our team.</p>
                             </div>
                         </div>
                     </div>
@@ -223,7 +235,7 @@ function Career() {
 
                                 <div className='career-button-div'>
                                     <div className='career-link-button'>
-                                        <a href='careers'>VIEW</a>
+                                    <Link to="/aboutVideo">VEIW </Link>
                                     </div>
                                 </div>
                             </div>
@@ -241,7 +253,9 @@ function Career() {
                                         <h4>BPO</h4>
                                         <ul>
                                             <li>
-                                                <a href='career/research-analyst'>Research Analyst</a>
+                                            <a href='career/research-analyst' onClick={() => openPopup('Research Analyst')}>
+                      Research Analyst
+                    </a>
                                             </li>
                                             <li>
                                                 <a href='career/quality-analyst'>Quality Analyst</a>
@@ -284,12 +298,25 @@ function Career() {
                                 </div>
                                 <div className='career-button-div'>
                                     <div className='career-button-link'>
-                                        <a href='/contact'>APPLY</a>
+                                    <Link to="/apply">APPLY</Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    {isPopupOpen && (
+        <div className="popup-overlay">
+          <div className="popup">
+            <button className="cancel-icon" onClick={closePopup}>
+              Cancel
+            </button>
+            <h2>{selectedJob}</h2>
+            {/* Add more details or content here */}
+          </div>
+        </div>
+      )}
+
                 </section>
 
             </article>

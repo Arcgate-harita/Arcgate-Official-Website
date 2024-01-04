@@ -65,10 +65,10 @@ function Data() {
             <div className="data-left">
               <h1>Big Data and Artificial Intelligence (AI) Challenge</h1>
               <h2>The harsh reality of Big Data and AI is that
-                <span className="orange">90% of time is spent preparing data</span>
+                <span className="orange"> 90% of time is spent preparing data </span>
                 before it can be useful. Data extraction, annotation, cleansing and enrichment is difficult, time consuming and repetitive.</h2>
               <h2>Engineering and data scientist experts spend time doing
-                <span className="orange">data cleansing.</span></h2>
+                <span className="orange"> data cleansing.</span></h2>
               <p></p>
             </div>
             <div className="data-right">
@@ -117,18 +117,18 @@ function Data() {
                 <span className='orng'>Arcgate</span>
               </h1>
               <p>Dun & Bradstreet ranked Arcgate as the
-                <span className='orng'>Best Small & Medium Enterprise </span>
+                <span className='orng'> Best Small & Medium Enterprise </span>
                 in the IT & ITES sector in India.
               </p>
               <p>
-                <span className='orng'>2000+ highly skilled full-time analysts</span>
+                <span className='orng'>2000+ highly skilled full-time analysts </span>
                 who have exclusively worked on multi-year engagements for a variety of market leading US customers.
               </p>
               <p>Highly secure, state-of-the-art 150,000 square feet delivery center with
-                <span className='orng'>24×7</span>operations.
+                <span className='orng'> 24×7 </span>operations.
               </p>
               <p>We augment
-                <span className='orng'>training of machine learning models</span>
+                <span className='orng'> training of machine learning models </span>
                 with human intelligence. The result is highly improved data precision and smarter algorithms.
               </p>
               <p></p>
@@ -141,7 +141,7 @@ function Data() {
           <div className='data-content4'>
             <center>
               <h1>We help
-                <span>AI and machine learning models
+                <span> AI and machine learning models
                   get better </span>with human intelligence. Get highly specialized annotated custom datasets to make your algorithms and applications smarter and more accurate. Our dedicated team of analysts will work with you to generate training data to solve a wide range of use cases.
               </h1>
             </center>
