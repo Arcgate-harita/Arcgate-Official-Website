@@ -3,6 +3,32 @@ import imagePaths from "../imagePath";
 import "../technology_pages/ApplicationDevelopment.css";
 import { useState, useEffect } from 'react';
 import goToTop from "../images/goto_top.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+AOS.init();
+
+AOS.init({
+    disable: false,
+    startEvent: 'DOMContentLoaded',
+    initClassName: 'aos-init',
+    animatedClassName: 'aos-animate',
+    useClassNames: false,
+    disableMutationObserver: false,
+    debounceDelay: 50,
+    throttleDelay: 99,
+
+
+    offset: 120,
+    delay: 0,
+    duration: 1000,
+    easing: 'ease',
+    once: false,
+    mirror: false,
+    anchorPlacement: 'top-bottom',
+
+});
 
 
 function ApplicationDevelopment() {
@@ -12,19 +38,19 @@ function ApplicationDevelopment() {
     const goToBtn = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     };
-  
+
     const listenToScroll = () => {
         let heightToHidden = 20;
         const winScroll =
             document.body.scrollTop || document.documentElement.scrollTop;
-  
+
         if (winScroll > heightToHidden) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
         }
     };
-  
+
     useEffect(() => {
         window.addEventListener("scroll", listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);
@@ -50,72 +76,86 @@ function ApplicationDevelopment() {
                     </div>
                     <div className='app-body2'>
                         <div className='app-left'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.webApp1} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.webApp1} alt='' />
+                                    </div>
+                                    <h2>Web Application Development</h2>
+                                    <h3>Our team of expert developers work closely with you to understand your requirements and create a web application that is reliable, scalable, and easy to use. We use the latest technologies and best practices to ensure that your web application is fast, secure, and responsive. Whether you need a custom CRM, project management tool, or inventory management system, we have the expertise to create a web application that meets your needs.</h3>
                                 </div>
-                                <h2>Web Application Development</h2>
-                                <h3>Our team of expert developers work closely with you to understand your requirements and create a web application that is reliable, scalable, and easy to use. We use the latest technologies and best practices to ensure that your web application is fast, secure, and responsive. Whether you need a custom CRM, project management tool, or inventory management system, we have the expertise to create a web application that meets your needs.</h3>
                             </div>
                         </div>
                         <div className='app-right'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.webApp2} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.webApp2} alt='' />
+                                    </div>
+                                    <h2>Mobile Application Development</h2>
+                                    <h3>We offer a full cycle of application development and management services. Whether you need an app for iOS, Android or both, we have the expertise to create a mobile application that will help you achieve your business objectives. Our mobile app developers can build high-quality native apps for both Android and iOS platforms as well as hybrid mobile apps that can work in different environments.</h3>
                                 </div>
-                                <h2>Mobile Application Development</h2>
-                                <h3>We offer a full cycle of application development and management services. Whether you need an app for iOS, Android or both, we have the expertise to create a mobile application that will help you achieve your business objectives. Our mobile app developers can build high-quality native apps for both Android and iOS platforms as well as hybrid mobile apps that can work in different environments.</h3>
                             </div>
                         </div>
                     </div>
                     <div className='app-body2'>
                         <div className='app-left'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.webApp3} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.webApp3} alt='' />
+                                    </div>
+                                    <h2>Desktop Application Development</h2>
+                                    <h3>We use cutting-edge technologies and tools to develop high-performance software that enhances productivity and streamlines workflows. We develop desktop applications for various operating systems, including Windows, macOS, and Linux, using programming languages such as Java, Python, and .NET. We also ensure that our applications are compatible with the latest hardware and software technologies to ensure maximum efficiency.</h3>
                                 </div>
-                                <h2>Desktop Application Development</h2>
-                                <h3>We use cutting-edge technologies and tools to develop high-performance software that enhances productivity and streamlines workflows. We develop desktop applications for various operating systems, including Windows, macOS, and Linux, using programming languages such as Java, Python, and .NET. We also ensure that our applications are compatible with the latest hardware and software technologies to ensure maximum efficiency.</h3>
                             </div>
                         </div>
                         <div className='app-right'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.webApp4} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.webApp4} alt='' />
+                                    </div>
+                                    <h2>API Development</h2>
+                                    <h3>Our team of experienced developers has the expertise to deliver custom APIs using a range of programming languages and frameworks, including REST, SOAP, GraphQL, Java, Python, .NET, and Node.js. We ensure that our APIs are secure, using industry-standard protocols such as OAuth and SSL to protect your data and prevent unauthorized access. We also ensure that our APIs comply with the latest industry standards and best practices.</h3>
                                 </div>
-                                <h2>API Development</h2>
-                                <h3>Our team of experienced developers has the expertise to deliver custom APIs using a range of programming languages and frameworks, including REST, SOAP, GraphQL, Java, Python, .NET, and Node.js. We ensure that our APIs are secure, using industry-standard protocols such as OAuth and SSL to protect your data and prevent unauthorized access. We also ensure that our APIs comply with the latest industry standards and best practices.</h3>
                             </div>
                         </div>
                     </div>
                     <div className='app-body2'>
                         <div className='app-left'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.webApp5} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.webApp5} alt='' />
+                                    </div>
+                                    <h2>CMS Development</h2>
+                                    <h3>We offer our CMS development services to help you easily create, manage, and publish your website or blog. We offer a range of CMS services, including development, implementation, migration, and maintenance. We work with a variety of CMS platforms, including WordPress, Drupal, Magento, and Shopify, and we ensure that our solutions are scalable, secure, and high-performing.</h3>
                                 </div>
-                                <h2>CMS Development</h2>
-                                <h3>We offer our CMS development services to help you easily create, manage, and publish your website or blog. We offer a range of CMS services, including development, implementation, migration, and maintenance. We work with a variety of CMS platforms, including WordPress, Drupal, Magento, and Shopify, and we ensure that our solutions are scalable, secure, and high-performing.</h3>
                             </div>
                         </div>
                         <div className='app-right'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.webApp6} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.webApp6} alt='' />
+                                    </div>
+                                    <h2>Database Services
+                                    </h2>
+                                    <h3>We offer a range of database services, including design, development, implementation, migration, and maintenance. We work with a variety of database platforms, including MySQL, Microsoft SQL Server, PostgreSQL, MongoDB and Cassandra. We ensure that our solutions are scalable, secure, and high-performing. Our database development team has extensive experience in data modeling, database design, indexing, query optimization, and performance tuning.</h3>
                                 </div>
-                                <h2>Database Services
-                                </h2>
-                                <h3>We offer a range of database services, including design, development, implementation, migration, and maintenance. We work with a variety of database platforms, including MySQL, Microsoft SQL Server, PostgreSQL, MongoDB and Cassandra. We ensure that our solutions are scalable, secure, and high-performing. Our database development team has extensive experience in data modeling, database design, indexing, query optimization, and performance tuning.</h3>
                             </div>
                         </div>
                     </div>
                     <div className='app-body2'>
-                        <div className='app-element'>
-                            <div className='app-icon'>
-                                <img src={imagePaths.webApp7} alt='' />
+                        <div data-aos="fade-in">
+                            <div className='app-element'>
+                                <div className='app-icon'>
+                                    <img src={imagePaths.webApp7} alt='' />
+                                </div>
+                                <h2>Maintenance & Support</h2>
+                                <h3>We offer a range of maintenance and support services to suit your budget and needs, from basic support services to more comprehensive maintenance packages that include regular updates and feature enhancements. Our maintenance and support services include bug fixes, performance optimization, security updates, and feature enhancements.</h3>
                             </div>
-                            <h2>Maintenance & Support</h2>
-                            <h3>We offer a range of maintenance and support services to suit your budget and needs, from basic support services to more comprehensive maintenance packages that include regular updates and feature enhancements. Our maintenance and support services include bug fixes, performance optimization, security updates, and feature enhancements.</h3>
                         </div>
                     </div>
                 </div>
@@ -132,51 +172,53 @@ function ApplicationDevelopment() {
                             </h3>
                             <ul>
                                 <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                        
                             </ul>
+                           
                         </div>
                         <div className='app-color2'>
                             <h3>
                                 <img src={imagePaths.adoIcon2} alt='' />
-                                Understand your business & requirement
+                                Requirement Analysis
                             </h3>
                             <ul>
-                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                                <li>Our engineers do an in-depth review of your requirements and your existing codebase to provide optimal solutions and approach to help with a smooth development process.</li>
                             </ul>
                         </div>
                         <div className='app-color3'>
                             <h3>
                                 <img src={imagePaths.adoIcon3} alt='' />
-                                Understand your business & requirement
+                                Create an Action Plan
                             </h3>
                             <ul>
-                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                                <li>We work closely with you to create a development plan that aligns with your goals, timelines, and budget.</li>
                             </ul>
                         </div>
                         <div className='app-color4'>
                             <h3>
                                 <img src={imagePaths.adoIcon4} alt='' />
-                                Understand your business & requirement
+                                Development
                             </h3>
                             <ul>
-                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                                <li>We leverage Agile Development methodology where all teams work together productively and efficiently to solve complex problems, making sure that the entire process is transparent and smooth.</li>
                             </ul>
                         </div>
                         <div className='app-color5'>
                             <h3>
                                 <img src={imagePaths.adoIcon5} alt='' />
-                                Understand your business & requirement
+                                Testing & Deployment
                             </h3>
                             <ul>
-                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                                <li>Perform end to end testing to ensure the product is error free and works as expected. Deploy the release ready version of the code on production to be used by end users.</li>
                             </ul>
                         </div>
                         <div className='app-color6'>
                             <h3>
                                 <img src={imagePaths.adoIcon6} alt='' />
-                                Understand your business & requirement
+                                Delivery & Maintenance
                             </h3>
                             <ul>
-                                <li>We ensure we understand your business and requirements thoroughly to build effective software solutions. We build scalable and flexible solutions that can be adapted easily down the road.</li>
+                                <li>What sets Arcgate apart is our delivery approach. We run your application outsourcing cost-effectively integrating the required technologies, people and service levels through standard processes.</li>
                             </ul>
                         </div>
                     </div>
@@ -190,92 +232,108 @@ function ApplicationDevelopment() {
                     </div>
                     <div className='app-body2'>
                         <div className='app-left'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.function1} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.function1} alt='' />
+                                    </div>
+                                    <h2>Experience and Expertise</h2>
+                                    <h3>
+                                        We have a team of experienced developers who have the expertise to develop customized software solutions for businesses across various industries.</h3>
                                 </div>
-                                <h2>Experience and Expertise</h2>
-                                <h3>
-                                    We have a team of experienced developers who have the expertise to develop customized software solutions for businesses across various industries.</h3>
                             </div>
                         </div>
                         <div className='app-right'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.function2} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.function2} alt='' />
+                                    </div>
+                                    <h2>Quality Assurance</h2>
+                                    <h3>
+                                        We have a dedicated quality assurance team that ensures the software developed is thoroughly tested and meets the client's expectations.</h3>
                                 </div>
-                                <h2>Quality Assurance</h2>
-                                <h3>
-                                    We have a dedicated quality assurance team that ensures the software developed is thoroughly tested and meets the client's expectations.</h3>
                             </div>
                         </div>
                     </div>
                     <div className='app-body2'>
                         <div className='app-left'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.function3} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.function3} alt='' />
+                                    </div>
+                                    <h2>Agile Development Methodology</h2>
+                                    <h3>
+                                        We follow agile development methodology to develop software in short cycles with continuous feedback from the client and various stakeholders. This ensures that the application is developed quickly and efficiently, with minimal delays and errors.</h3>
                                 </div>
-                                <h2>Agile Development Methodology</h2>
-                                <h3>
-                                    We follow agile development methodology to develop software in short cycles with continuous feedback from the client and various stakeholders. This ensures that the application is developed quickly and efficiently, with minimal delays and errors.</h3>
                             </div>
                         </div>
                         <div className='app-right'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.function4} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.function4} alt='' />
+                                    </div>
+                                    <h2>Customized Solutions</h2>
+                                    <h3>
+                                        We offer tailored solutions that are designed to meet the unique needs of each business. This ensures that the application developed is specific to the client's requirements.</h3>
                                 </div>
-                                <h2>Customized Solutions</h2>
-                                <h3>
-                                    We offer tailored solutions that are designed to meet the unique needs of each business. This ensures that the application developed is specific to the client's requirements.</h3>
                             </div>
                         </div>
                     </div>
                     <div className='app-body2'>
                         <div className='app-left'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.function5} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.function5} alt='' />
+                                    </div>
+                                    <h2>Support and Maintenance</h2>
+                                    <h3>
+                                        We offer ongoing support and maintenance services to ensure that the software developed continues to function optimally after deployment.</h3>
                                 </div>
-                                <h2>Support and Maintenance</h2>
-                                <h3>
-                                    We offer ongoing support and maintenance services to ensure that the software developed continues to function optimally after deployment.</h3>
                             </div>
                         </div>
                         <div className='app-right'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.function6} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.function6} alt='' />
+                                    </div>
+                                    <h2>Scalability
+                                    </h2>
+                                    <h3>
+                                        Our software applications are designed to be scalable so they can easily adapt to the changing needs of the business as it grows and evolves.</h3>
                                 </div>
-                                <h2>Scalability
-                                </h2>
-                                <h3>
-                                    Our software applications are designed to be scalable so they can easily adapt to the changing needs of the business as it grows and evolves.</h3>
                             </div>
                         </div>
                     </div>
 
                     <div className='app-body2'>
                         <div className='app-left'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.function7} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.function7} alt='' />
+                                    </div>
+                                    <h2>Competitive Pricing</h2>
+                                    <h3>
+                                        We offer highly competitive pricing options to ensure that our application development services allow you to scale up your development initiatives at low costs.</h3>
                                 </div>
-                                <h2>Competitive Pricing</h2>
-                                <h3>
-                                    We offer highly competitive pricing options to ensure that our application development services allow you to scale up your development initiatives at low costs.</h3>
                             </div>
                         </div>
                         <div className='app-right'>
-                            <div className='app-element'>
-                                <div className='app-icon'>
-                                    <img src={imagePaths.function8} alt='' />
+                            <div data-aos="fade-in">
+                                <div className='app-element'>
+                                    <div className='app-icon'>
+                                        <img src={imagePaths.function8} alt='' />
+                                    </div>
+                                    <h2>Service Quality
+                                    </h2>
+                                    <h3>
+                                        Our approach prioritizes quality through a well-established quality management system certified by ISO 9001. We are also ISO 27001 certified and follow best practices related to security, policies, processes, and people.</h3>
                                 </div>
-                                <h2>Service Quality
-                                </h2>
-                                <h3>
-                                    Our approach prioritizes quality through a well-established quality management system certified by ISO 9001. We are also ISO 27001 certified and follow best practices related to security, policies, processes, and people.</h3>
                             </div>
                         </div>
                     </div>
@@ -452,7 +510,7 @@ function ApplicationDevelopment() {
                         <div className='app-logs'>
                             <div className='app-images'>
                                 <div>
-                                    <img src={imagePaths.PostLogo} alt='' className='image31' />
+                                    <img src={imagePaths.postman} alt='' className='image31' />
                                 </div>
                                 <div>
                                     <img src={imagePaths.SoapuiLogo} alt='' className='image32' />
@@ -480,7 +538,7 @@ function ApplicationDevelopment() {
                     </div>
                 </>
             )}
-            
+
         </div>
     )
 }

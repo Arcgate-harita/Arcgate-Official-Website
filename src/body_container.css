@@ -11,7 +11,7 @@
   border-radius: 50%;
   position: fixed;
   bottom: 5rem;
-  right: 2rem;
+  right: 3rem;
   z-index: 999;
   display: flex;
   justify-content: center;
@@ -20,16 +20,17 @@
 }
 
 .top-btn img {
-  width: 42px;
+  width: 26px;
 }
 
 .icon-text {
-  font-size: 10px;
+  font-size: 11px;
   color: black;
   border-radius: 50%;
   position: fixed;
   bottom: 3.5rem;
   right: 1.4rem;
+  font-family: sans-serif;
   top: 1re;
   z-index: 999;
   display: flex;
@@ -220,9 +221,10 @@
   padding: 10px;
   color: #333;
   text-align: left;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 20px;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  font-family: sans-serif;
 }
 
 .body-section5 center p {
@@ -1014,6 +1016,7 @@
 .body-section10-div h2 {
   padding-bottom: 20px;
   font-size: 36px;
+  font-family: sans-serif;
   color: #373435;
   text-align: center;
   font-weight: 400;
@@ -1053,9 +1056,10 @@
 .tweet-text a {
   border-color: #3953a4;
   color: #3953a4;
-  font-size: 24px;
-  padding: 8px 12px;
+  font-size: 22px;
+  padding: 8px 2px;
   font-weight: 700;
+  font-family: sans-serif;
   display: inherit;
   text-decoration-line: none;
   min-width: 170px;

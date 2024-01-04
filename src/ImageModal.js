@@ -1,7 +1,7 @@
 import React from 'react';
 import './ImageModal.css';
 
-function ImageModal({ imageUrl, onClose }) {
+function ImageModal({ imageUrl, onClose}) {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content">
@@ -10,6 +10,7 @@ function ImageModal({ imageUrl, onClose }) {
         </button>
         <div className="image-container1">
           <img src={imageUrl} alt="Image" />
+        
         </div>
       </div>
     </div>

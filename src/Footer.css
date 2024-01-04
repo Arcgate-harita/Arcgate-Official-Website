@@ -24,17 +24,18 @@ footer {
 }
 
 
-.back-to-top  img {
+.back-to-top img {
   width: 40px;
   color: #373435;
 }
 
 
 footer section {
-  max-width: 1150px;
+  max-width: 1047px;
   padding: 40px 10px;
   margin: 0 auto;
   overflow: hidden;
+  height: 91px;
   position: relative;
 }
 
@@ -62,7 +63,7 @@ footer section nav ul {
   list-style: none;
   display: grid;
   position: relative;
-  top: -56px;
+  top: -40px;
   float: left;
   left: 119px;
 }
@@ -74,6 +75,10 @@ footer section nav ul li {
 footer section nav ul li a {
   font-size: 14px;
   color: #fff;
+}
+
+footer section nav ul li a:hover {
+  color: white;
 }
 
 footer section nav ul .second-menu {
@@ -125,6 +130,8 @@ footer section nav ul .second-menu li a {
 
 .footer-social-links ul {
   float: right;
+  margin-top: -8px;
+  margin-right: 20px;
 }
 
 .footer-social-links li {
@@ -259,8 +266,8 @@ footer section nav ul .second-menu li a {
   left: 318px;
   float: right;
   top: 83px;
-  margin-top: -41px;
-  width: 266px;
+  margin-top: -80px;
+  width: 315px;
 }
 
 .footer-copyright p.copyright {

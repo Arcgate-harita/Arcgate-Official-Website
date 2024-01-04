@@ -47,7 +47,7 @@ function Zendesk() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp1} alt='' />
+                                    <img src={imagePaths.zendesk1} alt='' />
                                 </div>
                                 <h2>User and Profile Management</h2>
                                 <h3>We can set up new user accounts, deactivate users, unlock user accounts, reset passwords, and manage roles and permissions to ensure that users have the appropriate access levels and security settings based on their roles and responsibilities.</h3>
@@ -56,7 +56,7 @@ function Zendesk() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp2} alt='' />
+                                    <img src={imagePaths.zendesk2} alt='' />
                                 </div>
                                 <h2>Configuring and Customizing Zendesk</h2>
                                 <h3>We help you configure Zendesk to meet your business requirements, including creating custom fields, objects, and workflows. We can also create custom apps to automate repetitive tasks and simplify complex workflows.</h3>
@@ -67,7 +67,7 @@ function Zendesk() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp3} alt='' />
+                                    <img src={imagePaths.zendesk3} alt='' />
                                 </div>
                                 <h2>Ticket Management</h2>
                                 <h3>We help you streamline your customer support process by managing and organizing tickets efficiently. This includes setting up custom ticket fields, automating ticket routing, and creating macros to handle common issues quickly.</h3>
@@ -76,7 +76,7 @@ function Zendesk() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp4} alt='' />
+                                    <img src={imagePaths.zendesk4} alt='' />
                                 </div>
                                 <h2>Reporting and Advanced Analytics</h2>
                                 <h3>We build custom reports and dashboards in Zendesk to help you track key metrics and make data-driven decisions. Our team can help you manage your Zendesk data efficiently. We can import and export data, create custom reports and dashboards, and ensure data accuracy and integrity.</h3>
@@ -87,7 +87,7 @@ function Zendesk() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp5} alt='' />
+                                    <img src={imagePaths.zendesk5} alt='' />
                                 </div>
                                 <h2>Maintaining and Monitoring Zendesk</h2>
                                 <h3>We provide ongoing support to ensure that your Zendesk instance is running smoothly. This includes performing regular system updates and backups, monitoring system performance, and troubleshooting issues.</h3>
@@ -96,7 +96,7 @@ function Zendesk() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp6} alt='' />
+                                    <img src={imagePaths.zendesk8} alt='' />
                                 </div>
                                 <h2>Training and Support
                                 </h2>
@@ -108,7 +108,7 @@ function Zendesk() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp5} alt='' />
+                                    <img src={imagePaths.zendesk6} alt='' />
                                 </div>
                                 <h2>Collaborating with Teams</h2>
                                 <h3>We work with your organization's departments and teams to configure Zendesk's collaborative features, such as team views, internal notes, and shared ticket views. Our aim is to improve communication and streamline workflows, resulting in increased productivity and customer satisfaction. We are committed to providing personalized support to help you maximize the benefits of Zendesk.</h3>
@@ -117,7 +117,7 @@ function Zendesk() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp6} alt='' />
+                                    <img src={imagePaths.zendesk7} alt='' />
                                 </div>
                                 <h2>Zendesk Integrations
                                 </h2>

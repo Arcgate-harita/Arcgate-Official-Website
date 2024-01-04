@@ -14,25 +14,25 @@ function Industry5() {
     const goToBtn = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     };
-  
+
     const listenToScroll = () => {
         let heightToHidden = 20;
         const winScroll =
             document.body.scrollTop || document.documentElement.scrollTop;
-  
+
         if (winScroll > heightToHidden) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
         }
     };
-  
+
     useEffect(() => {
         window.addEventListener("scroll", listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
-    
+
     return (
         <div className='industry-container'>
             <article>
@@ -68,12 +68,12 @@ function Industry5() {
                                     <br></br>
                                     <span className='industry-image'>
                                         <br></br>
-                                        <img src={imagePaths.reporting1} alt='' />
+                                        <img src={imagePaths.reporting17} alt='' />
                                         <br></br>
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                    Application Verification
+                                        Application Verification
                                     </span>
                                     <br></br>
                                 </a>
@@ -88,7 +88,7 @@ function Industry5() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                    Payment Verification
+                                        Payment Verification
                                     </span>
                                     <br></br>
                                 </a>
@@ -103,7 +103,7 @@ function Industry5() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                    Reporting & Analytics 
+                                        Reporting & Analytics
                                     </span>
                                     <br></br>
                                 </a>
@@ -119,7 +119,7 @@ function Industry5() {
                                     </span>
                                     <br></br>
                                     <span className='industry-text'>
-                                    Fraud Management 
+                                        Fraud Management
                                     </span>
                                     <br></br>
                                 </a>

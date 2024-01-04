@@ -102,81 +102,103 @@ function Industry2() {
 
 
 
-                <section className='blogView-section2'>
-                    <div className='blogView-div2'>
-                        <h6>INSIGHTS</h6>
-                        <div className='blogView'>
-                            <div className='blogView-container1'>
-                                <div className='blogView-content2'>
-                                    <Link to='/blog11'>
-                                        <div className='blogView-div'>
-                                            <img src={imagePaths.blog10} alt='' />
-                                        </div>
-                                        <div className='thumb-blogView'>
-                                            <p>Retail in India and Future Trends</p>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='blogView-container1'>
-                                <div className='blogView-content2'>
-                                    <Link to='/blog27'>
-                                        <div className='blogView-div'>
-                                            <img src={imagePaths.blog26} alt='' />
-                                        </div>
-                                        <div className='thumb-blogView'>
-                                            <p>
-                                                Artificial Intelligence – The Exciting Future </p>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='blogView-container1'>
-                                <div className='blogView-content2'>
-                                    <Link to='/blog4'>
-                                        <div className='blogView-div'>
-                                            <img src={imagePaths.blog3} alt='' />
-                                        </div>
-                                        <div className='thumb-blogView'>
-                                            <p>
-                                                Big Data, IoT and AI – Creating new possibilities in Real Estate and Smart City Development </p>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='blogView-container1'>
-                                <div className='blogView-content2'>
-                                    <Link to='/blog5'>
-                                        <div className='blogView-div'>
-                                            <img src={imagePaths.blog4} alt='' />
-                                        </div>
-                                        <div className='thumb-blogView'>
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='blogView-container1'>
-                                <div className='blogView-content2'>
-                                    <Link to='/blog5'>
-                                        <div className='blogView-div'>
-                                            <img src={imagePaths.blog4} alt='' />
-                                        </div>
-                                        <div className='thumb-blogView'>
-                                            <p>
-                                            </p>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-
+                <section className='data-section-blog-2'>
+          <div className='data-content-blog-1'>
+            <h6>INSIGHTS</h6>
+            <div className='data-body-blog'>
+              <div className='data-blogs1'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.blogLogo} alt='' />
                     </div>
-                </section>
+                    <p>
+                      <Link to='/blog11'></Link>
+                    </p>
+                    <Link to='/blog11'>
+                      <h2>Food startups build an appetite for artificial intelligence</h2>
+                    </Link>
+                    <p>
+                      <Link to='/blog11'></Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='data-blogs2'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.blogLogo} alt='' />
+                    </div>
+                    <p>
+                      <Link to='/blog27'></Link>
+                    </p>
+                    <Link to='/blog27'>
+                      <h2>Think food, think tech</h2>
+                    </Link>
+                    <p>
+                      <Link to='/blog27'></Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='data-blogs3'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.podcastLogo} alt='' />
+                    </div>
+                    <p>
+                      <Link to='/podcast17'></Link>
+                    </p>
+                    <Link to='/podcast17'>
+                      <h2>Food industry needs to adapt to big data analytics and technology</h2>
+                    </Link>
+                    <p>
+                      <Link to='/podcast17'></Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='data-blogs4'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.podcastLogo} alt='' />
+                    </div>
+                    <p>
+                      <Link to='/podcast1'></Link>
+                    </p>
+                    <Link to='/podcast1'>
+                      <h2>Food tech startups are leveraging artificial intelligence and image recoginition</h2>
+                    </Link>
+                    <p>
+                      <Link to='/podcast1'></Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='data-blogs5'>
+                <div data-aos="fade-up">
+                  <div className='data-blog-card'>
+                    <div className='data-blog-image'>
+                      <img src={imagePaths.podcastLogo} alt='' />
+                    </div>
+                    <p>
+                      <Link to='/podcast15'></Link>
+                    </p>
+                    <Link to='/podcast15'>
+                      <h2>Adapt technology to move forward or leave money on the table </h2>
+                    </Link>
+                    <p>
+                      <Link to='/podcast15'></Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
 
             </article>

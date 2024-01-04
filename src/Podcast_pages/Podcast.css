@@ -39,9 +39,10 @@
 
 
 .podcast-content2 p {
-    font-size: 18px;
+    font-size: 19px;
     line-height: normal;
     margin: 20px 0 0;
+    text-align: justify;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
 }
 

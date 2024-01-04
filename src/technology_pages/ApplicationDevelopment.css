@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap');
+
+body {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+
 .app-container {
     width: 100%;
     position: relative;
@@ -18,7 +25,7 @@
 
 .app-content1 h1 {
     font-size: 36px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
@@ -28,7 +35,7 @@
 
 .app-content1 h2 {
     text-align: center;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     margin: 0 auto;
     font-size: 24px;
@@ -54,7 +61,7 @@
     line-height: normal;
     padding: 0 20px 20px;
     text-align: center;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     margin: 0 auto;
 }
@@ -63,7 +70,7 @@
     line-height: 24px;
     font-size: 18px;
     color: #393435;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
@@ -124,7 +131,8 @@
 .app-content2 .app-body2 .app-left .app-element h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
+    /* font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif"; */
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
@@ -134,7 +142,7 @@
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -143,10 +151,10 @@
     text-align: center;
     font-weight: 400;
     margin: 10px auto;
-    width: 362px;
+    width: 498px;
     font-size: 18px;
     color: #393435;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 24px;
 }
 
@@ -154,7 +162,7 @@
     text-align: center;
     width: 447px;
     font-weight: 400;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin: 0 auto;
     font-size: 18px;
     color: #393435;
@@ -184,14 +192,14 @@
     margin-bottom: 10px;
     text-align: center;
     font-weight: 400;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin: 0 auto;
 }
 
 .app-content2 .app-body2 .app-element h3 {
     line-height: 24px;
     font-size: 18px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     color: #393435;
     text-align: center;
     font-weight: 400;
@@ -317,7 +325,7 @@
     background: rgba(0, 0, 0, 0.20);
     color: #ffffff;
     font-size: 17px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     text-align: left;
@@ -337,7 +345,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     padding: 12px;
@@ -355,7 +363,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     padding: 12px;
@@ -373,7 +381,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     padding: 12px;
@@ -393,7 +401,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     text-align: left;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     padding: 12px;
     margin: 0 20px 0 0;
     min-width: 280px;
@@ -409,7 +417,7 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     letter-spacing: 1px;
     text-align: left;
     padding: 12px;
@@ -426,7 +434,7 @@
 .app-content3 .app-div3 .app-color1 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -435,7 +443,7 @@
 .app-content3 .app-div3 .app-color2 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -444,7 +452,7 @@
 .app-content3 .app-div3 .app-color3 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -453,7 +461,7 @@
 .app-content3 .app-div3 .app-color4 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -462,7 +470,7 @@
 .app-content3 .app-div3 .app-color5 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -471,7 +479,7 @@
 .app-content3 .app-div3 .app-color6 ul {
     list-style: none;
     font-size: 16px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 20px;
     color: #000000;
 }
@@ -516,7 +524,7 @@
     align-items: center;
     border: 1px solid #ced8d6;
     margin: 0;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 600;
     width: 100%;
     line-height: 20px;
@@ -783,6 +791,107 @@
     max-width: 93px;
 }
 
+.app-section3 .app-div3 .app-color1:after {
+    content: '';
+    -webkit-mask: url('../images/arrow-icon.svg') no-repeat center;
+    mask: url('../images/arrow-icon.svg') no-repeat center;
+    background: url('../images/arrow-icon.svg');
+    width: 52px;
+    height: 32px;
+    position: absolute;
+    top: 40%;
+    right: 102px;
+    /* z-index: -1; */
+    margin-top: -16px;
+    background: orange;
+}
+
+.quality-section3-1 {
+    background: #f0ebe3;
+    padding: 50px 0;
+}
+
+.quality-section3-1 .quality-content3 .quality-body3 .quality-left .quality-element3 .quality-icon {
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-section3-1 .quality-content3 .quality-body3 .quality-right .quality-element3 .quality-icon {
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-section3-1 .quality-left .quality-list {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 26px 76px;
+    border-radius: 4px;
+    min-height: 443px;
+    width: 323px;
+}
+
+.quality-section3-1  .quality-right .quality-list {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 20px 64px;
+    border-radius: 4px;
+    min-height: 443px;
+    width: 323px;
+}
+
+.quality-section3-1 .quality-left .quality-list ul li:before {
+    content: '';
+    position: absolute;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAydpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMC1jMDAxIDc5LjE0ZWNiNDJmMmMsIDIwMjMvMDEvMTMtMTI6MjU6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCAyNC4yIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDQTkyNkUyNkUwMDAxMUVEOEU5NkNDM0E4RTI5MTc1OCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDQTkyNkUyN0UwMDAxMUVEOEU5NkNDM0E4RTI5MTc1OCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkNBOTI2RTI0RTAwMDExRUQ4RTk2Q0MzQThFMjkxNzU4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkNBOTI2RTI1RTAwMDExRUQ4RTk2Q0MzQThFMjkxNzU4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+cwEIdAAAAbFJREFUeNq0lr9Lw0AUx5uQShfXij+wNIjSQVHbLo7ujjrWRXDyDyhoUTt0cuviINJOOgqCqy5dkro4dHaTDs6FFvX74BsJRy5JE/3Ch9DL3fdd3r27q/FxsJUJUR5UQQWU+RS5oM+nA4Y6AyukvQ7OQDbg/R4RjUETtMBE7WgGDC6BHrjUmKvKsm+PY0MD1MAr0zKtqhxb0wWQ6Ncgl0muHD1KagDJeSeluT9Ix1tfL0A9YVo8SRWNlHTVvQB5VktS3YJFsAm+fe3imbcYLZvC/Ah8aaqravo2TxrzefAADKVPxeQOVfUJ3mOaS3qewVpAv3LQF8igdWCDdoT5Es1XNROpBO1kaVugwQm40JgvgxewEpZHkweWqkfgnYLnDHTjMy9w5nbEOrkmT0VVc5zdLn+3feZFvivGKIS+7gtEs+AJ7PvabJoXYlaaa/E8H2v2wgy4AxvgDVxxYeNIPB2T27wZsU6n4H4K8ww9h14VtfglfyWHnr+HndxEh8qBlVQjek3U+2AAjlMGGdFjoLvRumA7Ybocju1G3ckSfQc0WAlxqqXBMQP1pfHff1t+BBgA1hFjp6h+WEQAAAAASUVORK5CYII=);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 24px;
+    top: 0;
+    left: -30px;
+    height: 35px;
+}
+
+.quality-section3-1 .quality-right .quality-list ul li:before {
+    content: '';
+    position: absolute;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAydpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMC1jMDAxIDc5LjE0ZWNiNDJmMmMsIDIwMjMvMDEvMTMtMTI6MjU6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCAyNC4yIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDQTkyNkUyNkUwMDAxMUVEOEU5NkNDM0E4RTI5MTc1OCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDQTkyNkUyN0UwMDAxMUVEOEU5NkNDM0E4RTI5MTc1OCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkNBOTI2RTI0RTAwMDExRUQ4RTk2Q0MzQThFMjkxNzU4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkNBOTI2RTI1RTAwMDExRUQ4RTk2Q0MzQThFMjkxNzU4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+cwEIdAAAAbFJREFUeNq0lr9Lw0AUx5uQShfXij+wNIjSQVHbLo7ujjrWRXDyDyhoUTt0cuviINJOOgqCqy5dkro4dHaTDs6FFvX74BsJRy5JE/3Ch9DL3fdd3r27q/FxsJUJUR5UQQWU+RS5oM+nA4Y6AyukvQ7OQDbg/R4RjUETtMBE7WgGDC6BHrjUmKvKsm+PY0MD1MAr0zKtqhxb0wWQ6Ncgl0muHD1KagDJeSeluT9Ix1tfL0A9YVo8SRWNlHTVvQB5VktS3YJFsAm+fe3imbcYLZvC/Ah8aaqravo2TxrzefAADKVPxeQOVfUJ3mOaS3qewVpAv3LQF8igdWCDdoT5Es1XNROpBO1kaVugwQm40JgvgxewEpZHkweWqkfgnYLnDHTjMy9w5nbEOrkmT0VVc5zdLn+3feZFvivGKIS+7gtEs+AJ7PvabJoXYlaaa/E8H2v2wgy4AxvgDVxxYeNIPB2T27wZsU6n4H4K8ww9h14VtfglfyWHnr+HndxEh8qBlVQjek3U+2AAjlMGGdFjoLvRumA7Ybocju1G3ckSfQc0WAlxqqXBMQP1pfHff1t+BBgA1hFjp6h+WEQAAAAASUVORK5CYII=);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 24px;
+    top: 0;
+    left: -30px;
+    height: 35px;
+}
+
+.quality-section3-1  .quality-left .quality-list ul li {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    position: relative;
+    padding-left: 13px;
+}
+
+.quality-section3-1  .quality-right .quality-list ul li {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    position: relative;
+    padding-left: 13px;
+}
 
 @media only screen and (max-width: 768px) {
     .app-content1 h2 {

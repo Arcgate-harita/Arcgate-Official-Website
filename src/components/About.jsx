@@ -10,24 +10,11 @@ import 'aos/dist/aos.css';
 AOS.init();
 
 AOS.init({
-  disable: false,
-  startEvent: 'DOMContentLoaded',
-  initClassName: 'aos-init',
-  animatedClassName: 'aos-animate',
-  useClassNames: false,
-  disableMutationObserver: false,
-  debounceDelay: 50,
-  throttleDelay: 99,
-
-
   offset: 120,
-  delay: 0,
-  duration: 50,
-  easing: 'ease',
+  duration: 500,
+  easing: 'ease-in-out',
   once: false,
-  mirror: false,
-  anchorPlacement: 'top-bottom',
-
+  anchorPlacement: 'top-bottom bottom-top',
 });
 
 
@@ -593,7 +580,7 @@ const About = () => {
                 <div className="table-button">
                   <div className="table-button-link">
                     <a href="https://www.arcgatefoundation.org/" target="_blank" rel="noopener noreferrer">
-                      Our Work
+                      OUR WORK
                     </a>
                   </div>
                 </div>

@@ -54,7 +54,7 @@ function Contact() {
             alert('Message is required');
             return false;
         }
- if (!recaptchaValue) {
+        if (!recaptchaValue) {
             alert('Please complete the reCAPTCHA challenge.');
             return false;
         }
@@ -107,14 +107,14 @@ function Contact() {
                                             <img src={imagePaths.name} alt='' />
                                             <input
                                                 type='text'
-                                                name='name'
+                                                name='number'
                                                 placeholder='Name'
-                                                value={formData.name}
+                                                value={formData.number}
                                                 onChange={handleChange}
                                             ></input>
-                                            <span className='error-message'></span>
+                                            <p className='error-message'></p>
                                         </span>
-                                        <br></br>
+
                                         <span className='relative'>
                                             <img src={imagePaths.number} alt='' />
                                             <input
@@ -126,7 +126,7 @@ function Contact() {
                                             ></input>
                                             <p className='error-message'></p>
                                         </span>
-                                        <br></br>
+
                                         <span className='relative'>
                                             <img src={imagePaths.email} alt='' />
                                             <input
@@ -138,7 +138,7 @@ function Contact() {
                                             ></input>
                                             <p className='error-message'></p>
                                         </span>
-                                        <br></br>
+
                                         <span className='relative'>
                                             <img src={imagePaths.textArea} alt='' />
                                             <input
@@ -153,10 +153,10 @@ function Contact() {
                                     </p>
 
                                     <ReCAPTCHA
-                                sitekey="6Lf-MjcpAAAAAJQKQkI7JUSYfhWvYGl0pdULqPVv"
-                                onChange={handleRecaptchaChange}
-                            />
-                            
+                                        sitekey="6Lf-MjcpAAAAAJQKQkI7JUSYfhWvYGl0pdULqPVv"
+                                        onChange={handleRecaptchaChange}
+                                    />
+
                                     <div className='contact-button'>
                                         <div className='contact-button-link'>
                                             <div className='submit-btn'>
@@ -167,18 +167,18 @@ function Contact() {
                                     {formSubmitted && <p className='success-message'>Great! We will be in touch with you shortly.</p>}
                                 </form>
                                 <p></p>
-                               
+
                             </div>
                         </div>
                         <div className='address'>
                             <h4>
                                 Arcgate Technologies LLP
                                 <br></br>
-                                G1-11, I.T. Park, M.T.A. (Extn.)
+                                G1-11, I.T.Park, M.I.A. (Extn.)
                                 <br></br>
-                                Udaipur - 313003
+                                Udaipur – 313003
                                 <br></br>
-                                Rjasthan, India
+                                Rajasthan, India
                                 <br></br>
                                 +91 77420 92382
                             </h4>
