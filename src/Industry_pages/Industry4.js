@@ -31,6 +31,9 @@ function Industry4() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     
 
     return (

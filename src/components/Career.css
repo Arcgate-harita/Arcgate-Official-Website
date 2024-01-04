@@ -146,13 +146,12 @@
 
 .career-div2 .career-body2 .career-round-data p {
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-  font-size: 18px;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 400;
   text-align: left;
   display: inline-block;
   margin-left: 120px;
-  margin-bottom: 0;
+  margin-bottom: 21px;
   width: 86%;
   font-weight: bolder;
 }
@@ -204,8 +203,8 @@
 
 
 .career-section3 {
-  background: #ffffff;
-  padding: 30px 0;
+  background: #E4E8E8; 
+    padding: 30px 0;
 }
 
 .career-content3 {

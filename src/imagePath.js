@@ -361,7 +361,6 @@ import LibraryLogo34 from "./images/rest-assured.svg";
 import LibraryLogo35 from "./images/swagger.svg";
 import LibraryLogo36 from "./images/loadimpact.svg";
 import LibraryLogo37 from "./images/Gatling.svg";
-
 import LibraryLogo38 from "./images/tpgi-logo.svg";
 import LibraryLogo39 from "./images/wavelogo.svg";
 import LibraryLogo40 from "./images/nv-access-logo.png";
@@ -370,8 +369,6 @@ import LibraryLogo42 from "./images/evinced-logo.png";
 import LibraryLogo43 from "./images/insights-blue.svg";
 import LibraryLogo44 from "./images/voiceover-logo.png";
 import LibraryLogo45 from "./images/talkback-logo.png";
-
-
 import TickLogo from "./images/tick-icon (1).png";
 import icons1 from "./images/keyboard-icon.png";
 import icons2 from "./images/images-icon.png";
@@ -428,12 +425,10 @@ import zendesk5 from "./images/zendesk5.png";
 import zendesk6 from "./images/zendesk-collaborating-icon.png";
 import zendesk7 from "./images/zendesk-integrations-icon.png";
 import zendesk8 from "./images/zendesk-training-icon.png";
-
 import salesIcon1 from "./images/sales-cloud-icon.png";
 import salesIcon2 from "./images/service-cloud-icon.png";
 import salesIcon3 from "./images/salesforce-billing-icon.png";
 import salesIcon4 from "./images/salesforce-integrations-icon.png";
-
 import adminIcon1 from "./images/user-profile-icon.png";
 import adminIcon2 from "./images/configuring-customizing-salesforce-icon.png";
 import adminIcon3 from "./images/account-manage-icon (1).png";
@@ -442,11 +437,10 @@ import adminIcon5 from "./images/monitoring-salesforce-icon.png";
 import adminIcon6 from "./images/training-support-icon.png";
 import adminIcon7 from "./images/collaborating-icon (1).png";
 import adminIcon8 from "./images/salesforce-iIntegrations-icon.png";
-
 import tableuIcon from "./images/teablu-icon.png";
 import powerBiIcon from "./images/powerbi-icon.png";
-
 import podcastLogo from "./images/logo_podcasts.png";
+import clip from "./images/clip.png";
 
 const imagePath = {
     postman,
@@ -457,6 +451,7 @@ const imagePath = {
     icons5,
     icons6,
     aiImage,
+    clip,
     podcastLogo,
     customerImage,
     textArea,

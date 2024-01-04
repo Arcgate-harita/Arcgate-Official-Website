@@ -507,14 +507,14 @@ const About = () => {
             <p></p>
             <div className="list-items">
               <p>Trusted by industry leaders since
-                <span>2005</span>
+                <span> 2005</span>
               </p>
 
               <p>ISO 9001:2015
-                <span>certified.</span>Stringent quality controls.
+                <span> certified. </span>Stringent quality controls.
               </p>
               <p>
-                <span>SOC2 </span>security compliant. Fanatical data protection.
+                <span> SOC2 </span>security compliant. Fanatical data protection.
               </p>
               <p>
                 <span className="list-content">
