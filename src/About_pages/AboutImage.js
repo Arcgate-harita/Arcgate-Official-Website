@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../About_pages/AboutImage.css";
+import Lightbox from 'react-images';
 import data from "../About_pages/data";
 import { aboutImage1, aboutImage2, aboutImage3, aboutImage4, aboutImage5, aboutImage6, aboutImage7,aboutImage8,aboutImage9,aboutImage10,aboutImage11,aboutImage12,aboutImage13,aboutImage14, aboutImage15,aboutImage16,aboutImage17,aboutImage18,aboutImage19,aboutImage20,aboutImage21,aboutImage22,aboutImage23,aboutImage24,aboutImage25,aboutImage26,aboutImage27, } from '../About_pages/data';
 import Component from '../About_pages/Component';
@@ -7,6 +8,24 @@ import VideoSection from "../About_pages/AboutVideo";
 import "../About_pages/Component.css";
 
 function AboutImage(images) {
+
+    const [lightboxIsOpen, setLightboxIsOpen] = useState(false);
+    const [currentImage, setCurrentImage] = useState(0);
+  
+    // Function to open the lightbox
+    const openLightbox = (index) => {
+      setCurrentImage(index);
+      setLightboxIsOpen(true);
+    };
+  
+    // Function to close the lightbox
+    const closeLightbox = () => {
+      setCurrentImage(0);
+      setLightboxIsOpen(false);
+    };
+
+    
+
 
     const [showPhotos, setShowPhotos] = useState(true);
     const [showSelectImageModal, setShowSelectImageModal] = useState(false);
@@ -555,8 +574,7 @@ function AboutImage(images) {
 
             </article>
 
-
-            {selectedImage && <div className="modal fixed inset-0 flex items-center justify-center z-10">
+            {/* {selectedImage && <div className="modal fixed inset-0 flex items-center justify-center z-10">
                 <div className="modal-overlay fixed inset-0 bg-black opacity-50"></div>
                 <div className="modal-container mx-auto rounded-lg p-4 md:p-8 overflow-hidden shadow-lg z-50">
                     <span
@@ -570,16 +588,20 @@ function AboutImage(images) {
                         alt="Full Screen"
                         className="full-screen-image max-h-screen mx-auto"
                     />
-                      <div className="next-prev-buttons">
-                        <button className="prev-button" >
-                            Previous
-                        </button>
-                        <button className="next-button" >
-                            Next
-                        </button>
-                    </div>
                 </div>
-            </div>}
+            </div>
+            } */}
+
+        {selectedImage && (
+        <Lightbox
+          images={images.map((image) => ({ src: image }))}
+          isOpen={lightboxIsOpen}
+          currentImage={currentImage}
+          onClose={closeLightbox}
+          onClickPrev={() => setCurrentImage((prev) => (prev - 1 + images.length) % images.length)}
+          onClickNext={() => setCurrentImage((prev) => (prev + 1) % images.length)}
+        />
+      )}
 
 
         </div >

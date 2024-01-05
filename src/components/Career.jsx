@@ -31,18 +31,8 @@ AOS.init({
 });
 
 function Career() {
-    const [isPopupOpen, setPopupOpen] = useState(false);
-    const [selectedJob, setSelectedJob] = useState('');
-  
-    const openPopup = (job) => {
-      setSelectedJob(job);
-      setPopupOpen(true);
-    };
-  
-    const closePopup = () => {
-      setPopupOpen(false);
-    };
 
+    
 
     const [isVisible, setIsVisible] = useState(false);
 
@@ -253,21 +243,19 @@ function Career() {
                                         <h4>BPO</h4>
                                         <ul>
                                             <li>
-                                            <a href='career/research-analyst' onClick={() => openPopup('Research Analyst')}>
-                      Research Analyst
-                    </a>
+                                                <Link to="/research">Research Analyst</Link>
                                             </li>
                                             <li>
-                                                <a href='career/quality-analyst'>Quality Analyst</a>
+                                            <Link to="/qualityAnalyst">Quality Analyst</Link>
                                             </li>
                                             <li>
-                                                <a href='career/accounts-executive'>Accounts Executive</a>
+                                            <Link to="/accountExecutive">Accounts Executive</Link>
                                             </li>
                                             <li>
-                                                <a href='career/senior-accounts-executive'>Senior Accounts Executive</a>
+                                            <Link to="/seniorAccountExecutive">Senior Accounts Executive</Link>
                                             </li>
                                             <li>
-                                                <a href='career/non-voice-customer-support'>N0n-Voice Customer Support</a>
+                                            <Link to="/nonVoiceCustomer">Non-Voice Customer Support</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -275,22 +263,22 @@ function Career() {
                                         <h4>Technology</h4>
                                         <ul>
                                             <li>
-                                                <a href='career/python-database'>Python with Database</a>
+                                            <Link to="/pythonDatabase">Python with Database</Link>
                                             </li>
                                             <li>
-                                                <a href='career/java-database'>Java Database</a>
+                                            <Link to="/javaDatabase">Java Database</Link>
                                             </li>
                                             <li>
-                                                <a href='career/dotnet-developers'>.Net Developer</a>
+                                            <Link to="/netDatabase">.Net Developer</Link>
                                             </li>
                                             <li>
-                                                <a href='career/software-testing-automation'>Software QA Testing - Automation</a>
+                                            <Link to="/softwareTesting">Software QA Testing - Automation</Link>
                                             </li>
                                             <li>
-                                                <a href='career/devops-engineer'>DevOps Engineer</a>
+                                            <Link to="/devopsEngineer">DevOps Engineer</Link>
                                             </li>
                                             <li>
-                                                <a href='career/power-bi-engineer'>Power BI Engineer</a>
+                                            <Link to="/powerbiEngineer">Power BI Engineer</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -304,19 +292,6 @@ function Career() {
                             </div>
                         </div>
                     </div>
-
-                    {isPopupOpen && (
-        <div className="popup-overlay">
-          <div className="popup">
-            <button className="cancel-icon" onClick={closePopup}>
-              Cancel
-            </button>
-            <h2>{selectedJob}</h2>
-            {/* Add more details or content here */}
-          </div>
-        </div>
-      )}
-
                 </section>
 
             </article>
