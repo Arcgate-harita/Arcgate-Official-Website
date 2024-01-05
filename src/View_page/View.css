@@ -38,7 +38,7 @@
     font-weight: 400;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     color: #1a171b !important;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     font-size: 30px;
 }
 
@@ -46,6 +46,7 @@
     font-size: 24px;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     text-align: center;
+    margin-bottom: 22px;
 }
 
 .view-content1 p span {

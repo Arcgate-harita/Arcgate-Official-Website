@@ -4,6 +4,7 @@ import imagePaths from '../imagePath';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import goToTop from "../images/goto_top.png";
+import { Link } from "react-router-dom";
 
 
 AOS.init();
@@ -31,6 +32,7 @@ AOS.init({
 
 function Career() {
 
+    
 
     const [isVisible, setIsVisible] = useState(false);
 
@@ -92,7 +94,7 @@ function Career() {
                             <div className='career-table'>
                                 <p>We are hungry for talented individuals who believe in teamwork, dedication, discipline and growth.</p>
                                 <p>We’re extremely selective, with an emphasis on the right skills, experience, attitude and ethics.</p>
-                                <p>If you’re looking to make an impact and work with a great team, please <a href='/contact'>apply now</a>. We’d love to have you join our team.</p>
+                                <p>If you’re looking to make an impact and work with a great team, please <a href='/apply'> apply now</a>. We’d love to have you join our team.</p>
                             </div>
                         </div>
                     </div>
@@ -223,7 +225,7 @@ function Career() {
 
                                 <div className='career-button-div'>
                                     <div className='career-link-button'>
-                                        <a href='careers'>VIEW</a>
+                                    <Link to="/aboutVideo">VEIW </Link>
                                     </div>
                                 </div>
                             </div>
@@ -241,19 +243,19 @@ function Career() {
                                         <h4>BPO</h4>
                                         <ul>
                                             <li>
-                                                <a href='career/research-analyst'>Research Analyst</a>
+                                                <Link to="/research">Research Analyst</Link>
                                             </li>
                                             <li>
-                                                <a href='career/quality-analyst'>Quality Analyst</a>
+                                            <Link to="/qualityAnalyst">Quality Analyst</Link>
                                             </li>
                                             <li>
-                                                <a href='career/accounts-executive'>Accounts Executive</a>
+                                            <Link to="/accountExecutive">Accounts Executive</Link>
                                             </li>
                                             <li>
-                                                <a href='career/senior-accounts-executive'>Senior Accounts Executive</a>
+                                            <Link to="/seniorAccountExecutive">Senior Accounts Executive</Link>
                                             </li>
                                             <li>
-                                                <a href='career/non-voice-customer-support'>N0n-Voice Customer Support</a>
+                                            <Link to="/nonVoiceCustomer">Non-Voice Customer Support</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -261,22 +263,22 @@ function Career() {
                                         <h4>Technology</h4>
                                         <ul>
                                             <li>
-                                                <a href='career/python-database'>Python with Database</a>
+                                            <Link to="/pythonDatabase">Python with Database</Link>
                                             </li>
                                             <li>
-                                                <a href='career/java-database'>Java Database</a>
+                                            <Link to="/javaDatabase">Java Database</Link>
                                             </li>
                                             <li>
-                                                <a href='career/dotnet-developers'>.Net Developer</a>
+                                            <Link to="/netDatabase">.Net Developer</Link>
                                             </li>
                                             <li>
-                                                <a href='career/software-testing-automation'>Software QA Testing - Automation</a>
+                                            <Link to="/softwareTesting">Software QA Testing - Automation</Link>
                                             </li>
                                             <li>
-                                                <a href='career/devops-engineer'>DevOps Engineer</a>
+                                            <Link to="/devopsEngineer">DevOps Engineer</Link>
                                             </li>
                                             <li>
-                                                <a href='career/power-bi-engineer'>Power BI Engineer</a>
+                                            <Link to="/powerbiEngineer">Power BI Engineer</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -284,7 +286,7 @@ function Career() {
                                 </div>
                                 <div className='career-button-div'>
                                     <div className='career-button-link'>
-                                        <a href='/contact'>APPLY</a>
+                                    <Link to="/apply">APPLY</Link>
                                     </div>
                                 </div>
                             </div>

@@ -42,7 +42,7 @@
 
 .image-section2 {
     background-color: #fff;
-    padding: 15px 0;
+    height: 206rem;
 }
 
 .image-div2 {
@@ -63,18 +63,15 @@
     left: 0px;
     top: 0px;
     display: inline-block;
-    margin: 20px 0 0 25px;
-    max-width: 330px;
-    padding: 0;
+    margin: 39px 0 -83px -53px;
+    max-width: 429px;
     vertical-align: top;
     width: 100%;
 }
 
 .image .image-container1 .image-content2 {
-    box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .35);
     margin: 0;
     overflow: hidden;
-    background: #fff;
 }
 
 .image-container1 .image-content2 a {
