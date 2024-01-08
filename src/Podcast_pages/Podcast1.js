@@ -3,6 +3,7 @@ import "../Podcast_pages/Podcast.css";
 import paragraphs from '../blog_pages/Paragraph';
 
 function Podcast1() {
+    
     return (
         <div className='podcast-container'>
             <article>

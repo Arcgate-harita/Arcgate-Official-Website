@@ -1,0 +1,108 @@
+.research-container {
+    margin: 105px auto 0;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+
+.research-container section{
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 100;
+    display: none;
+    padding-bottom: 20px;
+}
+
+
+.header-logo {
+    display: flex;
+    padding: 10px 20px;
+    position: fixed;
+    border-bottom: 1px solid #e5e5e5;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #fff;
+}
+
+
+.close {
+    width: 42px;
+    height: 40px;
+    background: #333;
+    right: 28px;
+    top: 14px;
+    position: absolute;
+    padding: -5px;
+    border-radius: 57%;
+    cursor: pointer;
+}
+
+.close img {
+    width: 26px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.research-content {
+    align-items: flex-start;
+    padding-top: 156px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+.research-content h1 {
+    margin: 10px 0;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 40px;
+}
+
+.research-content h4 {
+    font-size: 22px;
+    text-align: left;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.research-content ol {
+    padding-left: 15px;
+    list-style: decimal;
+}
+
+.research-content ul {
+padding-left: 15px;
+list-style: disc;
+}
+
+.research-content li {
+    line-height: 25px;
+}
+.research-content p {
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.research-button {
+    color: #e85631;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.research-button a{
+    color: inherit;
+    font-size: 24px;
+    padding: 3px;
+    display: inherit;
+    min-width: 151px;
+    border-radius: 10px;
+    border: 4px solid #e85631;
+}

@@ -715,6 +715,50 @@
 }
 
 
+
+.app-content4 .app-div4 .app-logs .app-images img.image1-a {
+    max-height: 90px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+
+.app-content4 .app-div4 .app-logs .app-images img.image2-b {
+    max-height: 74px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 137px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image3-c {
+    max-height: 78px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 161px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image4-d {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 166px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image5-e {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 18px 30px;
+    max-width: 129px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image6-f {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 15px 30px;
+    max-width: 159px;
+}
+
 @media only screen and (max-width: 768px) {
     .quality-content1 p {
         font-size: 20px;

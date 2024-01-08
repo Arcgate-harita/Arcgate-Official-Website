@@ -55,6 +55,11 @@ function QualityTesting() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      
     return (
         <div className='quality-container'>
             <article>
@@ -231,13 +236,13 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.MysqlLogo} alt='' className='image1' />
+                                        <img src={imagePaths.MysqlLogo} alt='' className='image1-1' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.RedisLogo} alt='' className='image2' />
+                                        <img src={imagePaths.RedisLogo} alt='' className='image2-2' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.PostLogo} alt='' className='image3' />
+                                        <img src={imagePaths.PostLogo} alt='' className='image3-3' />
                                     </div>
                                 </div>
                             </div>
@@ -250,13 +255,13 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.JenkinsLogo} alt='' className='image9' />
+                                        <img src={imagePaths.JenkinsLogo} alt='' className='image9-9' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.GItLogo} alt='' className='image10' />
+                                        <img src={imagePaths.GItLogo} alt='' className='image10-10' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.BitbucketLogo} alt='' className='image11' />
+                                        <img src={imagePaths.BitbucketLogo} alt='' className='image11-11' />
                                     </div>
                                 </div>
                             </div>
@@ -269,16 +274,16 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.JavaLogo} alt='' className='image16' />
+                                        <img src={imagePaths.JavaLogo} alt='' className='image16-16' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.PyhtonLogo} alt='' className='image17' />
+                                        <img src={imagePaths.PyhtonLogo} alt='' className='image17-17' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.NodeLogo} alt='' className='image18' />
+                                        <img src={imagePaths.NodeLogo} alt='' className='image18-18' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.jsLogo} alt='' className='image19' />
+                                        <img src={imagePaths.jsLogo} alt='' className='image19-19' />
                                     </div>
                                 </div>
                             </div>
@@ -291,10 +296,10 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo18} alt='' className='image20' />
+                                        <img src={imagePaths.LibraryLogo18} alt='' className='image20-20' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo19} alt='' className='image21' />
+                                        <img src={imagePaths.LibraryLogo19} alt='' className='image21-21' />
                                     </div>
                                 </div>
                             </div>
@@ -307,13 +312,13 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo15} alt='' className='image23' />
+                                        <img src={imagePaths.LibraryLogo15} alt='' className='image23-23' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo16} alt='' className='image24' />
+                                        <img src={imagePaths.LibraryLogo16} alt='' className='image24-24' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo17} alt='' className='image25' />
+                                        <img src={imagePaths.LibraryLogo17} alt='' className='image25-25' />
                                     </div>
                                 </div>
                             </div>
@@ -326,10 +331,10 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo13} alt='' className='image27' />
+                                        <img src={imagePaths.LibraryLogo13} alt='' className='image27-27' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo14} alt='' className='image28' />
+                                        <img src={imagePaths.LibraryLogo14} alt='' className='image28-28' />
                                     </div>
                                 </div>
                             </div>
@@ -342,10 +347,10 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo20} alt='' className='image31' />
+                                        <img src={imagePaths.LibraryLogo20} alt='' className='image31-31' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo13} alt='' className='image32' />
+                                        <img src={imagePaths.LibraryLogo13} alt='' className='image32-32' />
                                     </div>
                                 </div>
                             </div>
@@ -359,13 +364,13 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.postman} alt='' className='image31' />
+                                        <img src={imagePaths.postman} alt='' className='image31-31' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.SoapuiLogo} alt='' className='image32' />
+                                        <img src={imagePaths.SoapuiLogo} alt='' className='image32-32' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.JmeterLogo} alt='' className='image33' />
+                                        <img src={imagePaths.JmeterLogo} alt='' className='image33-33' />
                                     </div>
                                 </div>
                             </div>
@@ -378,19 +383,19 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo21} alt='' className='image31' />
+                                        <img src={imagePaths.LibraryLogo21} alt='' className='image31-31' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo22} alt='' className='image32' />
+                                        <img src={imagePaths.LibraryLogo22} alt='' className='image32-32' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo23} alt='' className='image33' />
+                                        <img src={imagePaths.LibraryLogo23} alt='' className='image33-33' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo24} alt='' className='image34' />
+                                        <img src={imagePaths.LibraryLogo24} alt='' className='image34-34' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo25} alt='' className='image34' />
+                                        <img src={imagePaths.LibraryLogo25} alt='' className='image34-34' />
                                     </div>
                                 </div>
                             </div>
@@ -404,16 +409,16 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo26} alt='' className='image27' />
+                                        <img src={imagePaths.LibraryLogo26} alt='' className='image27-27' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo27} alt='' className='image28' />
+                                        <img src={imagePaths.LibraryLogo27} alt='' className='image28-28' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo28} alt='' className='image29' />
+                                        <img src={imagePaths.LibraryLogo28} alt='' className='image29-29' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo25} alt='' className='image30' />
+                                        <img src={imagePaths.LibraryLogo25} alt='' className='image30-30' />
                                     </div>
                                     <div>
                                         <img src={imagePaths.LibraryLogo29} alt='' className='image30' />
@@ -429,16 +434,16 @@ function QualityTesting() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo30} alt='' className='image31' />
+                                        <img src={imagePaths.LibraryLogo30} alt='' className='image31-31' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.JmeterLogo} alt='' className='image32' />
+                                        <img src={imagePaths.JmeterLogo} alt='' className='image32-32' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo31} alt='' className='image33' />
+                                        <img src={imagePaths.LibraryLogo31} alt='' className='image33-33' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo32} alt='' className='image34' />
+                                        <img src={imagePaths.LibraryLogo32} alt='' className='image34-34' />
                                     </div>
                                 </div>
                             </div>

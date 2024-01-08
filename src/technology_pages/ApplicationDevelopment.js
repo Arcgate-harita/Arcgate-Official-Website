@@ -56,7 +56,11 @@ function ApplicationDevelopment() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
+      
     return (
         <div className='app-container'>
             <section className='app-section1'>
@@ -498,6 +502,9 @@ function ApplicationDevelopment() {
                                 </div>
                                 <div>
                                     <img src={imagePaths.terraForm} alt='' className='image30' />
+                                </div>
+                                <div>
+                                    <img src={imagePaths.KuberLogo} alt='' className='image30' />
                                 </div>
                             </div>
                         </div>

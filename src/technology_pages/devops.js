@@ -53,6 +53,11 @@ function Devops() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      
     return (
         <div className='app-container'>
             <section className='app-section1'>

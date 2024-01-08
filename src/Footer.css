@@ -31,11 +31,11 @@ footer {
 
 
 footer section {
-  max-width: 1047px;
+  width: 100%;
+  max-width: 1150px;
   padding: 40px 10px;
   margin: 0 auto;
   overflow: hidden;
-  height: 91px;
   position: relative;
 }
 
@@ -63,9 +63,10 @@ footer section nav ul {
   list-style: none;
   display: grid;
   position: relative;
-  top: -40px;
+  top: -34px;
   float: left;
-  left: 119px;
+  left: 168px;
+  line-height: 19px;
 }
 
 footer section nav ul li {
@@ -131,7 +132,7 @@ footer section nav ul .second-menu li a {
 .footer-social-links ul {
   float: right;
   margin-top: -8px;
-  margin-right: 20px;
+  margin-right: 110px
 }
 
 .footer-social-links li {
@@ -266,8 +267,9 @@ footer section nav ul .second-menu li a {
   left: 318px;
   float: right;
   top: 83px;
-  margin-top: -80px;
-  width: 315px;
+  margin-top: -43px;
+  width: 345px;
+  margin-right: 43px;
 }
 
 .footer-copyright p.copyright {

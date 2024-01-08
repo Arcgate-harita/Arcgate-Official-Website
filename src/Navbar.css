@@ -73,7 +73,9 @@ header {
   position: absolute;
   top: 10px;
   right: 10px;
+  background: none;
   cursor: pointer;
+  border: none;
 }
 
 #cancelButton img {
@@ -243,7 +245,7 @@ header>section {
   box-shadow: 10px 0px 15px 10px rgba(0, 0, 0, .24);
   z-index: 1;
   height: 325px;
-  width: 538px;
+  width: 587px;
 
 }
 
@@ -264,7 +266,7 @@ header>section {
   box-shadow: 10px 0px 15px 10px rgba(0, 0, 0, .24);
   z-index: 1;
   width: 516px;
-  height: 271px;
+  height: 287px;
 }
 
 .insight-dropdown {
@@ -301,7 +303,7 @@ header>section {
 
 .bpo-dropdown .nav-button button {
   position: absolute;
-  top: 273px;
+  top: 283px;
   border: none;
   background: white;
   left: 41px;
@@ -329,7 +331,7 @@ header>section {
   height: 59px;
   max-width: 63px;
   margin: 10px;
-  margin-left: -18px;
+  margin-left: 5px;
 }
 
 .bpo-dropdown .data-process-image1 {
@@ -343,7 +345,7 @@ header>section {
   max-width: 63px;
   margin-top: -26px;
   /* margin: 10px; */
-  margin-left: -16px;
+  margin-left: 3px;
 }
 .bpo-dropdown .data-process-image2 {
   background: #fff;
@@ -356,7 +358,7 @@ header>section {
   max-width: 63px;
   margin-top: -23px;
   /* margin: 10px; */
-  margin-left: -17px;
+  margin-left: 6px;
 }
 .bpo-dropdown .data-process-image3 {
   background: #fff;
@@ -369,7 +371,7 @@ header>section {
   max-width: 63px;
   margin-top: -24px;
   /* margin: 10px; */
-  margin-left: -18px;
+  margin-left: 5px;
 
 }
 
@@ -454,15 +456,15 @@ header>section {
   font-family: sans-serif;
   color: #0000009c;
   font-weight: 100;
-  margin-left: -73px;
+  margin-left: -38px;
 }
 
 .industries-dropdown .nav-button button {
   position: absolute;
-  top: 259px;
+  top: 243px;
   border: none;
   background: white;
-  left: 26px;
+  left: 4px;
   border-top: 1px solid #80808061;
   font-size: 15px;
   line-height: 40px;
@@ -646,10 +648,10 @@ header>section {
 
 .insight-dropdown .nav-button button {
   position: absolute;
-  top: 160px;
+  top: 131px;
   border: none;
   background: white;
-  left: 23px;
+  left: 10px;
   border-top: 1px solid #80808061;
   font-size: 15px;
   line-height: 40px;
