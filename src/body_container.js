@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import goToTop from "./images/goto_top.png";
-
+import arrowIcon from "./images/arrow-right.svg"
 
 AOS.init();
 
@@ -58,8 +58,9 @@ function BodyContainer() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, []);
-    
+      }, []);
+
+      
     return (
         <div className='body-container'>
             <article className='body-content'>
@@ -551,6 +552,7 @@ function BodyContainer() {
                     <div className='icon-text'>
                         BACK TO TOP
                     </div>
+
                 </>
             )}
         </div>

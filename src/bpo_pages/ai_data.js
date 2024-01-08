@@ -64,9 +64,11 @@ function Data() {
           <div className="data-content1">
             <div className="data-left">
               <h1>Big Data and Artificial Intelligence (AI) Challenge</h1>
+              <br></br>
               <h2>The harsh reality of Big Data and AI is that
                 <span className="orange"> 90% of time is spent preparing data </span>
                 before it can be useful. Data extraction, annotation, cleansing and enrichment is difficult, time consuming and repetitive.</h2>
+                <br></br>
               <h2>Engineering and data scientist experts spend time doing
                 <span className="orange"> data cleansing.</span></h2>
               <p></p>

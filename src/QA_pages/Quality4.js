@@ -31,6 +31,11 @@ function Quality4() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      
     return (
         <div className='quality-container'>
             <article>
@@ -246,22 +251,22 @@ function Quality4() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.JmeterLogo} alt='' className='image1' />
+                                        <img src={imagePaths.JmeterLogo} alt='' className='image1-a' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo31} alt='' className='image2' />
+                                        <img src={imagePaths.LibraryLogo31} alt='' className='image2-b' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo32} alt='' className='image4' />
+                                        <img src={imagePaths.LibraryLogo32} alt='' className='image3-c' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo36} alt='' className='image4' />
+                                        <img src={imagePaths.LibraryLogo36} alt='' className='image4-d' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo37} alt='' className='image4' />
+                                        <img src={imagePaths.LibraryLogo37} alt='' className='image5-e' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo30} alt='' className='image4' />
+                                        <img src={imagePaths.LibraryLogo30} alt='' className='image6-f' />
                                     </div>
                                 </div>
 

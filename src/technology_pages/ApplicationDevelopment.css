@@ -539,7 +539,7 @@ body {
 }
 
 .app-content4 .app-div4 .app-logs .app-images {
-    padding: 10px 0px;
+    padding: 0px 0px;
     width: 100%;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -639,15 +639,16 @@ body {
 .app-content4 .app-div4 .app-logs .app-images img.image13 {
     max-height: 44px;
     object-fit: contain;
-    max-width: 93px;
+    max-width: 137px;
     margin-left: 35px;
     margin-top: 11px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image14 {
-    max-height: 98px;
     object-fit: contain;
     margin-top: -28px;
+    margin-left: -18px;
+
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image15 {
@@ -676,42 +677,42 @@ body {
     max-height: 50px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 157px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image19 {
     max-height: 53px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 136px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image20 {
     max-height: 63px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 121px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image21 {
     max-height: 44px;
     object-fit: contain;
-    margin: 0px 30px;
-    max-width: 93px;
+    margin: 9px 33px 10px;
+    max-width: 112px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image22 {
     max-height: 61px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 133px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image23 {
     max-height: 44px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 117px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image24 {
@@ -725,7 +726,7 @@ body {
     max-height: 100px;
     object-fit: contain;
     margin: -26px 30px;
-    max-width: 93px;
+    max-width: 137px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image26 {
@@ -746,64 +747,49 @@ body {
     max-height: 96px;
     object-fit: contain;
     margin: -27px 30px;
-    max-width: 93px;
+    max-width: 135px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image29 {
     max-height: 60px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 107px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image30 {
     max-height: 62px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 138px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image31 {
     max-height: 60px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 126px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image32 {
     max-height: 60px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 117px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image33 {
     max-height: 44px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
+    max-width: 119px;
 }
 
 .app-content4 .app-div4 .app-logs .app-images img.image34 {
     max-height: 44px;
     object-fit: contain;
     margin: 0px 30px;
-    max-width: 93px;
-}
-
-.app-section3 .app-div3 .app-color1:after {
-    content: '';
-    -webkit-mask: url('../images/arrow-icon.svg') no-repeat center;
-    mask: url('../images/arrow-icon.svg') no-repeat center;
-    background: url('../images/arrow-icon.svg');
-    width: 52px;
-    height: 32px;
-    position: absolute;
-    top: 40%;
-    right: 102px;
-    /* z-index: -1; */
-    margin-top: -16px;
-    background: orange;
+    max-width: 119px;
 }
 
 .quality-section3-1 {

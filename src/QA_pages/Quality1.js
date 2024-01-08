@@ -30,6 +30,10 @@ function Quality1() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+    
 
     return (
         <div className='quality-container'>
