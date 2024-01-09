@@ -394,7 +394,7 @@
   background-repeat: no-repeat;
   padding-left: 0;
   padding-right: 46px;
-  margin-left: -3.85%;
+  margin-left: 1.15%;
 }
 
 .awards-body-row .heading1 {
@@ -441,8 +441,6 @@
   word-spacing: 5px;
   margin-bottom: 5px;
   font-weight: 400;
-  /* margin: 0 auto; */
-
 }
 
 .awards-body-row p {

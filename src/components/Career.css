@@ -146,9 +146,10 @@
 
 .career-div2 .career-body2 .career-round-data p {
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-  font-size: 22px;
+  font-size: 23px;
   font-style: normal;
   text-align: left;
+  line-height: 10px;
   display: inline-block;
   margin-left: 120px;
   margin-bottom: 21px;
@@ -157,7 +158,7 @@
 }
 
 .career-div2 .career-body2 .career-round-data .red {
-  margin-top: 82px;
+  margin-top: 102px;
   color: #c03234;
 }
 

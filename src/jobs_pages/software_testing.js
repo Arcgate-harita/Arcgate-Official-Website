@@ -17,7 +17,7 @@ function SoftwareTesting() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>Software QA Testing - Automation</h1>
                     <ol>
@@ -52,7 +52,7 @@ function SoftwareTesting() {
                       <li>Working Experience with Agile development process.</li>
 
                       <li>Working knowledge of Java application development and Windows/UNIX/Linux systems</li>
-                      
+
                     </ol>
                 </div>
 

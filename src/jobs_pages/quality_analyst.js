@@ -17,7 +17,7 @@ function QualityAnalyst() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>Quality Analyst</h1>
                     <h4>Key Responsibility Areas</h4>

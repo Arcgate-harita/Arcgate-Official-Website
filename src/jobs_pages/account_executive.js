@@ -17,7 +17,7 @@ function AccountExecutive() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>Accounts Executive</h1>
                     <ol>

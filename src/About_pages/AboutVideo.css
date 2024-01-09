@@ -86,7 +86,8 @@
   background: #f6f6f6;
   position: relative;
   min-height: 85px;
-  margin-top: -66px;
+  margin-top: 1px;
+  border-bottom: 1px solid #8080804d;
 }
 
 .body-section5 .video-text p {
@@ -180,6 +181,7 @@
   border-radius: 33px;
   padding: 12px;
 }
+
 
 @media only screen and (max-width: 768px) {
 .video-section7 .video-section-content1 .video-list{

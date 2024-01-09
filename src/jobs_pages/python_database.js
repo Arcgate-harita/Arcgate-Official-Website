@@ -17,7 +17,7 @@ function PythonDatabase() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>Python with Database</h1>
                     <ol>
