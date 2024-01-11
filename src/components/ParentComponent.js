@@ -22,5 +22,4 @@ const ParentComponent = () => {
     </div>
   );
 };
-
 export default ParentComponent;
