@@ -1,19 +1,27 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import imagePaths from "./imagePath";
 import toggle1 from "./images/align-justify.svg";
 import toggle2 from "./images/x.svg";
+
+import cancelIcon from "./images/cancleIccon.png";
+
 import podcastLogo from "./images/logo_podcasts.png";
-import cancelIcon from "./images/cancle.png";
+
 
 import blogLogo from "./images/logo_arcgate_blog.png";
+
+
 
 
 function Navbar() {
 
   const location = useLocation();
+  const navigate = useNavigate();
+
+
   const [isBpoMenuOpen, setIsBpoMenuOpen] = useState(false);
   const [isIndustriesMenuOpen, setIsIndustriesMenuOpen] = useState(false);
   const [isInsightMenuOpen, setIsInsightMenuOpen] = useState(false);
@@ -74,28 +82,19 @@ function Navbar() {
     }
   }, [location.pathname]);
 
-
-  // Function to set the podcast logo
-  const setPodcastLogo = () => {
-    setLogo("podcast");
-  };
-
-  // Function to set the blog logo
-  const setBlogLogo = () => {
-    setLogo("blog");
-  };
-
-  useEffect(() => {
-    if (location.pathname.includes("/podcast")) {
-      setPodcastLogo();
-    } else if (location.pathname.includes("/blog")) {
-      setBlogLogo();
+  const handleLogoClick = () => {
+    if (location.pathname === '/') {
+      window.location.reload();
     } else {
-      setLogo("arcgate");
+      setActiveDropdown(null);
+      setIsOpen(false);
+      setIsBpoMenuOpen(false);
+      setIsIndustriesMenuOpen(false);
+      setIsInsightMenuOpen(false);
+      handleLinkClick();
+      navigate('/');
     }
-  }, [location.pathname]);
-
-
+  };
   return (
     <header>
       <div className="header-container">
@@ -117,7 +116,8 @@ function Navbar() {
         )}
         <section className={`navbar ${isOpen ? 'open' : ''}`} >
 
-        <div className="arcgate-logo" style={{ display: logo === "arcgate" ? 'block' : 'none' }}>
+          <div className="arcgate-logo"  onClick={handleLogoClick} style={{ display: logo === "arcgate" ? 'block' : 'none' }}>
+
             <Link to="/"></Link>
           </div>
           <div className="podcast-logo" style={{ display: logo === "podcast" ? 'block' : 'none' }}>

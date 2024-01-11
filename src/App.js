@@ -151,6 +151,20 @@ import {
 import Nutsuite from "./technology_pages/Nutsuite";
 import Apply from "./components/apply";
 
+import {
+ResearchAnalyst,
+QualityAnalyst, 
+AccountExecutive,
+SeniorAccountExecutive,
+NonVoice,
+PythonDatabase,
+JavaDatabase,
+NetDatabase,
+SoftwareTesting,
+DevopsEngineer,
+PowerbiEngineer,
+} from "./jobs_pages";
+
 function App() {
   return (
     <Router>
@@ -267,6 +281,17 @@ function App() {
         <Route path="/quality5" element={<Quality5 />} />
         <Route path="/quality6" element={<Quality6 />} />
         <Route path="/apply" element={<Apply />} />
+        <Route path="/research" element={<ResearchAnalyst />} />
+        <Route path="/qualityAnalyst" element={<QualityAnalyst />} />
+        <Route path="/accountExecutive" element={<AccountExecutive />} />
+        <Route path="/seniorAccountExecutive" element={<SeniorAccountExecutive />} />
+        <Route path="/nonVoiceCustomer" element={<NonVoice />} />
+        <Route path="/pythonDatabase" element={<PythonDatabase />} />
+        <Route path="/javaDatabase" element={<JavaDatabase />} />
+        <Route path="/netDatabase" element={<NetDatabase />} />
+        <Route path="/softwareTesting" element={<SoftwareTesting />} />
+        <Route path="/devopsEngineer" element={<DevopsEngineer />} />
+        <Route path="/powerbiEngineer" element={<PowerbiEngineer />} />
 
       </Routes>
       <Footer />
