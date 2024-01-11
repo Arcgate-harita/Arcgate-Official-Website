@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Podcast_pages/Podcast.css";
-import paragraphs from '../blog_pages/Paragraph';
+import PodcastPara from './Podcast_para';
 
 function Podcast1() {
     return (
@@ -9,7 +9,7 @@ function Podcast1() {
                 <section className='podcast-section1'>
                     <div className='podcast-content1'>
                         <center>
-                            <h2>The Arcgate Podcast: Food Tech Startups are Leveraging Artificial Intelligence and Image Recognition</h2>
+                            <h2>The Arcgate Podcast: Retail Technology has Changed the Experience of Shopping Enormously</h2>
                         </center>
                     </div>
                 </section>
@@ -18,11 +18,11 @@ function Podcast1() {
                     <div className='podcast-content2'>
                         <p></p>
                         <center>
-                            {paragraphs.map((section, index) => (
+                            {PodcastPara.map((section, index) => (
                                 <div key={index}>
-                                    <p>{section.paragraph8C}</p>
+                                    <p>{section.paragraph1}</p>
                                     <p></p>
-                                    <p>{section.paragraph8D}</p>
+                                    <p>{section.paragraph2}</p>
                                     <p></p>
                                 </div>
                             ))}

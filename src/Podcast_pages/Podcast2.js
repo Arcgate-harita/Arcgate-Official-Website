@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Podcast_pages/Podcast.css";
-import paragraphs from '../blog_pages/Paragraph';
+import PodcastPara from './Podcast_para';
 
 function Podcast2() {
     return (
@@ -18,11 +18,11 @@ function Podcast2() {
                     <div className='podcast-content2'>
                         <p></p>
                         <center>
-                            {paragraphs.map((section, index) => (
+                        {PodcastPara.map((section, index) => (
                                 <div key={index}>
-                                    <p>{section.paragraph8E}</p>
+                                    <p>{section.paragraph3}</p>
                                     <p></p>
-                                    <p>{section.paragraph8D}</p>
+                                    <p>{section.paragraph2}</p>
                                     <p></p>
                                 </div>
                             ))}
