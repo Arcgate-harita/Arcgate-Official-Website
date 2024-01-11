@@ -1,8 +1,13 @@
 import React from 'react';
 import "../Data_solution_pages/Data.css";
+import { useEffect } from 'react';
 import data from "../Data_solution_pages/data_para";
 
 function Data6() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='data-solution-container'>
             <article>

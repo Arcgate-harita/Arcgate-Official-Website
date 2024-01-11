@@ -6,6 +6,7 @@ import image3 from "./images/customer-onboard.svg";
 import image4 from "./images/order-management.svg";
 import image5 from "./images/transcription.svg";
 import image6 from "./images/appdev.svg";
+import appium from "./images/Appium.svg";
 import image7 from "./images/qatesting.svg";
 import image8 from "./images/teamaug.svg";
 import image9 from "./images/y-speed.png";
@@ -344,6 +345,7 @@ import LibraryLogo17 from "./images/junit.svg";
 import LibraryLogo18 from "./images/maven.svg";
 import LibraryLogo19 from "./images/cucumber.svg";
 import LibraryLogo20 from "./images/Appium.svg";
+import puppeteer from "./images/puppeteer.svg";
 import LibraryLogo21 from "./images/testrail-logo.svg";
 import LibraryLogo22 from "./images/spiraTest-logo.svg";
 import LibraryLogo23 from "./images/testlink-logo.svg";
@@ -455,6 +457,8 @@ const imagePath = {
     podcastLogo,
     customerImage,
     textArea,
+    puppeteer,
+    appium,
     ica1,
     ica2,
     ica3,

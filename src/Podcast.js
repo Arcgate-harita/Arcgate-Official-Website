@@ -2,8 +2,12 @@ import React from 'react'
 import imagePaths from './imagePath';
 import { Link } from "react-router-dom";
 import "./Blog_view.css";
+import { useEffect } from 'react';
 
 function Podcast() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className='blogView-container' data-testid="blogView-container">
             <article>

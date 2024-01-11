@@ -23,7 +23,7 @@ AOS.init({
     delay: 0,
     duration: 1000,
     easing: 'ease-in-out',
-    once: true, 
+    once: true,
     mirror: false,
     anchorPlacement: 'top-bottom',
 
@@ -55,6 +55,9 @@ function Technology() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
 
     return (
@@ -233,98 +236,98 @@ function Technology() {
                         </center>
                         <p></p>
                         <div className='technology-div3'>
-                        <div className='technology-body' data-aos='fade-up'>
-                               
-                                    <div className='rounded-box1'>
-                                        <p>
-                                            We
-                                            <br></br>
-                                            dream and
-                                            <br></br>
-                                            discuss the
-                                            <br></br>
-                                            next big
-                                            <br></br>
-                                            thing.
-                                        </p>
-                                        <p></p>
-                                    </div>
-                                    <br></br>
-                                    <p>Ideation</p>
-                                    <p></p>
-                               
-                            </div>
-                            <div className='technology-body' data-aos='fade-up' data-aos-delay='200'>
-                               
-                                    <div className='rounded-box2'>
-                                        <p>
-                                            We
-                                            <br></br>
-                                            provide the
-                                            <br></br>
-                                            funding,
-                                            <br></br>
-                                            infrastructure
-                                            <br></br>
-                                            and resources
-                                            <br></br>
-                                            to make it.
-                                            <br></br>
-                                            happen.
-                                        </p>
-                                        <p></p>
-                                    </div>
-                                    <br></br>
-                                    <p>Resources</p>
-                                    <p></p>
-                              
-                            </div>
-                            <div className='technology-body' data-aos='fade-up' data-aos-delay='400'>
-                             
-                                    <div className='rounded-box3'>
-                                        <p>
-                                            We
-                                            <br></br>
-                                            put together
-                                            <br></br>
-                                            the best cross-
-                                            <br></br>
-                                            functional
-                                            <br></br>
-                                            team to make
-                                            <br></br>
-                                            the idea come
-                                            <br></br>
-                                            alive.
-                                        </p>
-                                        <p></p>
-                                    </div>
-                                    <br></br>
-                                    <p>Build</p>
-                                    <p></p>
-                               
-                            </div>
-                            <div className='technology-body' data-aos='fade-up' data-aos-delay='600'>
-                               
-                                    <div className='rounded-box4'>
-                                        <p>
-                                            We
-                                            <br></br>
-                                            invest to
-                                            <br></br>
-                                            scale and
-                                            <br></br>
-                                            move as fast
-                                            <br></br>
-                                            as we can.
-                                        </p>
-                                        <p></p>
-                                    </div>
-                                    <br></br>
-                                    <p>Grow</p>
+                            <div className='technology-body' data-aos='fade-up'>
+
+                                <div className='rounded-box1'>
+                                    <p>
+                                        We
+                                        <br></br>
+                                        dream and
+                                        <br></br>
+                                        discuss the
+                                        <br></br>
+                                        next big
+                                        <br></br>
+                                        thing.
+                                    </p>
                                     <p></p>
                                 </div>
-                            
+                                <br></br>
+                                <p>Ideation</p>
+                                <p></p>
+
+                            </div>
+                            <div className='technology-body' data-aos='fade-up' data-aos-delay='200'>
+
+                                <div className='rounded-box2'>
+                                    <p>
+                                        We
+                                        <br></br>
+                                        provide the
+                                        <br></br>
+                                        funding,
+                                        <br></br>
+                                        infrastructure
+                                        <br></br>
+                                        and resources
+                                        <br></br>
+                                        to make it.
+                                        <br></br>
+                                        happen.
+                                    </p>
+                                    <p></p>
+                                </div>
+                                <br></br>
+                                <p>Resources</p>
+                                <p></p>
+
+                            </div>
+                            <div className='technology-body' data-aos='fade-up' data-aos-delay='400'>
+
+                                <div className='rounded-box3'>
+                                    <p>
+                                        We
+                                        <br></br>
+                                        put together
+                                        <br></br>
+                                        the best cross-
+                                        <br></br>
+                                        functional
+                                        <br></br>
+                                        team to make
+                                        <br></br>
+                                        the idea come
+                                        <br></br>
+                                        alive.
+                                    </p>
+                                    <p></p>
+                                </div>
+                                <br></br>
+                                <p>Build</p>
+                                <p></p>
+
+                            </div>
+                            <div className='technology-body' data-aos='fade-up' data-aos-delay='600'>
+
+                                <div className='rounded-box4'>
+                                    <p>
+                                        We
+                                        <br></br>
+                                        invest to
+                                        <br></br>
+                                        scale and
+                                        <br></br>
+                                        move as fast
+                                        <br></br>
+                                        as we can.
+                                    </p>
+                                    <p></p>
+                                </div>
+                                <br></br>
+                                <p>Grow</p>
+                                <p></p>
+                            </div>
+
                         </div>
                         <p></p>
                         <center>

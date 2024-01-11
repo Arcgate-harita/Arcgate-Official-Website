@@ -219,7 +219,7 @@ header>section {
 }
 
 .bpo-dropdown {
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 54px;
   background-color: #fff;
@@ -329,6 +329,7 @@ header>section {
   /* margin: 10px; */
   margin-left: 3px;
 }
+
 .bpo-dropdown .data-process-image2 {
   background: #fff;
   border-radius: 50%;
@@ -341,6 +342,7 @@ header>section {
   margin-top: -23px;
   margin-left: 6px;
 }
+
 .bpo-dropdown .data-process-image3 {
   background: #fff;
   border-radius: 50%;
@@ -390,6 +392,7 @@ header>section {
   width: 35px;
   height: 95px;
 }
+
 .bpo-dropdown .data-process-image2 img {
   margin: 7px auto;
   max-width: 55px;
@@ -407,6 +410,7 @@ header>section {
   width: 35px;
   height: 95px;
 }
+
 .bpo-dropdown .data-process-image3 img {
   margin: 7px auto;
   max-width: 55px;
@@ -424,6 +428,7 @@ header>section {
   width: 35px;
   height: 95px;
 }
+
 .bpo-dropdown span {
   line-height: normal;
   font-size: 15px;

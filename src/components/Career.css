@@ -54,11 +54,9 @@
 
 .career-content1 .career-div1 .orange {
   color: #f15e3a;
-  transition-delay: 100ms;
   top: 4.5%;
   left: 54.25%;
   max-width: 183px;
-  transform: translateX(0);
 }
 
 .career-content1 .career-div1 .lightGreen {
@@ -204,8 +202,8 @@
 
 
 .career-section3 {
-  background: #E4E8E8; 
-    padding: 30px 0;
+  background: #E4E8E8;
+  padding: 30px 0;
 }
 
 .career-content3 {

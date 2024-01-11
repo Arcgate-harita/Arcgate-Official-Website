@@ -1,7 +1,8 @@
-.App {
+.Image-App {
     width: 100%;
     position: relative;
     padding: 0;
+    margin: 105px auto 0;
 }
 
 
@@ -11,7 +12,7 @@
 }
 
 .image-content1 {
-    padding: 128px 0 50px;
+    padding: 74px 0 50px;
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90));
 }
 
@@ -118,28 +119,21 @@
     background-color: #fff;
     color: #000;
     border-bottom: 3px solid #f00;
-  }
-  
-  .image-content-button .button2.active {
+}
+
+.image-content-button .button2.active {
     background-color: #fff;
     color: #000;
     border-bottom: 3px solid #f00;
-  }
+}
 
 
 .tags {
-	text-align: center;
-	/* padding: 20px 0px; */
+    text-align: center;
     background-color: rgb(209, 209, 209);
 }
 
 .tag {
-	/* outline: none;
-	border: none;
-	color: #000000;
-	margin: 0px 10px;
-	background-color: transparent;
-	cursor: pointer; */
     padding: 16px;
     font-size: 15px;
     font-weight: 700px;
@@ -151,13 +145,6 @@
     padding-right: 16px;
 }
 
-/* .active {
-	font-weight: bold;
-    background-color: #fff;
-    color: #000;
-    border-bottom: 3px solid #f00;
-} */
-
 .container {
     width: 61%;
     margin: 42px 355px;
@@ -167,11 +154,11 @@
 }
 
 .image-card {
-	padding: 5px;
-	margin: 5px;
-	border-radius: 2px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
 }
 
 .image {
-	width: 100%;
+    width: 100%;
 }
