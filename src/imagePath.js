@@ -145,7 +145,7 @@ import FastapiLogo from "./images/FastAPI-removebg-preview.png";
 import FlaskLogo from "./images/flask-removebg-preview.png";
 import GItLogo from "./images/GitLab-removebg-preview.png";
 import HtmlLogo from "./images/html-removebg-preview.png";
-import JavaLogo from "./images/java-removebg-preview.png";
+import JavaLogo from "./images/java.svg";
 import JenkinsLogo from "./images/Jenkins-removebg-preview.png";
 import JmeterLogo from "./images/jmeter-removebg-preview.png";
 import KuberLogo from "./images/kubernetes-removebg-preview.png";

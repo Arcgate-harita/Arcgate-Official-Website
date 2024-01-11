@@ -97,7 +97,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 69px;
+    height: 104px;
     max-width: 132px;
     margin: 13px;
     padding: 20px;
@@ -440,7 +440,7 @@
 
 
 .app-content3-1 .app-div3 .app-color5 {
-    background: #d8ddaf;
+    background: #ceacf1;
     border-radius: 10px;
     max-width: 16%;
     flex-basis: 17%;
@@ -568,6 +568,251 @@
 }
 .app-content3-1 .app-div3 .app-color6 ul {
     margin-bottom: 10px;
+}
+
+
+.app-content4 .app-div4 .app-logs .app-images img.image1-1 {
+    max-height: 90px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+
+.app-content4 .app-div4 .app-logs .app-images img.image2-2 {
+    max-height: 74px;
+    object-fit: contain;
+    margin: 12px 30px;
+    max-width: 99px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image3-3 {
+    max-height: 78px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 129px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image4-4 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image5-5 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image6-6 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image7-7 {
+    max-height: 58px;
+    object-fit: contain;
+    margin: -16px 30px;
+    max-width: 74px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image8-8 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image9-9 {
+    max-height: 68px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 126px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image10-10 {
+ 
+    max-height: 58px;
+    object-fit: contain;
+    margin: 9px 30px;
+    max-width: 105px;
+
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image11-11 {
+    max-height: 61px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image12-12 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image13-13 {
+    max-height: 44px;
+    object-fit: contain;
+    max-width: 137px;
+    margin-left: 35px;
+    margin-top: 11px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image14-14 {
+    object-fit: contain;
+    margin-top: -28px;
+    margin-left: -18px;
+
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image15-15 {
+    max-height: 44px;
+    object-fit: contain;
+    margin-left: 68px;
+    margin-top: -5px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image16-16 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 18px 30px;
+    max-width: 98px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image17-17 {
+    max-height: 61px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 122px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image18-18 {
+    max-height: 50px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 130px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image19-19 {
+    max-height: 53px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 136px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image20-20 {
+    max-height: 63px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 121px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image21-21 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 9px 33px 10px;
+    max-width: 112px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image22-22 {
+    max-height: 61px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 133px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image23-23 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 117px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image24-24 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image25-25 {
+    max-height: 100px;
+    object-fit: contain;
+    /* margin: -26px 30px; */
+    max-width: 96px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image26-26 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image27-27 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 19px 30px;
+    max-width: 135px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image28-28 {
+    max-height: 96px;
+    object-fit: contain;
+    margin: 0px 30px;
+    padding: 18px;
+    max-width: 143px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image29-29 {
+    max-height: 60px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 107px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image30-30 {
+    max-height: 62px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 138px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image31-31 {
+    max-height: 60px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 126px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image32-32 {
+    max-height: 60px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 117px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image33-33 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 93px;
+}
+
+.app-content4 .app-div4 .app-logs .app-images img.image34-34 {
+    max-height: 44px;
+    object-fit: contain;
+    margin: 0px 30px;
+    max-width: 119px;
 }
 
 

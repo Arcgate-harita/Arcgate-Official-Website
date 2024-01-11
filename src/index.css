@@ -1,13 +1,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap');
+
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  font-family: 'Proxima Nova', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  font-family: 'Proxima Nova', sans-serif;
 }

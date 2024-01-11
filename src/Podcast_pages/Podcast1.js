@@ -3,6 +3,7 @@ import "../Podcast_pages/Podcast.css";
 import PodcastPara from './Podcast_para';
 
 function Podcast1() {
+    
     return (
         <div className='podcast-container'>
             <article>

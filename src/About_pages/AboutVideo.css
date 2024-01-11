@@ -1,3 +1,111 @@
+
+
+.body-section5 {
+  padding: 48px 0;
+}
+
+.body-section5 .arcgate-content {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.body-section5 .video-content {
+  position: relative;
+  min-height: 100px;
+  width: 100%;
+  max-width: 1050px;
+}
+
+.body-section5 .video-content h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+  margin: 0 auto;
+  margin-bottom: 23px;
+}
+
+.body-section5 .video-list {
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  display: grid;
+}
+
+.body-section5 .video-list .video-div {
+  transition-delay: 100ms;
+  opacity: 1;
+  max-width: 340px;
+}
+
+.body-section5 .video-list .video-div .video-body {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  box-shadow: 0 1px 1px 0 rgba(50, 50, 50, .3);
+}
+
+.body-section5.video-body a {
+  display: inline-block;
+  vertical-align: top;
+  width: inherit;
+}
+
+.body-section5 .video-image {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.body-section5 .video-image img {
+  width: 100%;
+}
+
+.body-section5 .video-div .video-image .btn-video img {
+  /* width: 24px;
+  height: 22px;
+  position: absolute;
+  top: 31%;
+  left: 43%;
+  background-color: rgba(249, 99, 50, .9);
+  border-radius: 33px;
+  padding: 12px; */
+
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  top: 31%;
+  left: 43%;
+  background-color: rgba(249, 99, 50, .9);
+  border-radius: 33px;
+  padding: 12px;
+}
+
+.body-section5 .video-text {
+  background: #f6f6f6;
+  position: relative;
+  min-height: 85px;
+  margin-top: -66px;
+}
+
+.body-section5 .video-text p {
+  padding: 10px;
+  color: #333;
+  text-align: left;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: sans-serif;
+}
+
+.body-section5 center p {
+  width: 90%;
+  line-height: normal;
+  font-size: 24px;
+  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+}
+
 .video-section7 {
   padding: 100px;
 }
@@ -81,5 +189,4 @@
 .video-section7{
   padding: 23px;
 }
-
 }

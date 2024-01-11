@@ -2,8 +2,14 @@ import React from 'react';
 import TermPara from './Term_para';
 import "../Term_page/Term.css";
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function Terms() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      
     return (
         <div className='term-container'>
             <article>
