@@ -46,7 +46,7 @@ function Salesforce() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp1} alt='' />
+                                    <img src={imagePaths.adminIcon1} alt='' />
                                 </div>
                                 <h2>User and Profile Management</h2>
                                 <h3>We can set up new user accounts, deactivate users, unlock user accounts, reset passwords, and manage roles and permissions to ensure that users have the appropriate access levels and security settings based on their roles and responsibilities.</h3>
@@ -55,9 +55,9 @@ function Salesforce() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp2} alt='' />
+                                    <img src={imagePaths.adminIcon2} alt='' />
                                 </div>
-                                <h2>Configuring and Customizing Zendesk</h2>
+                                <h2>Configuring and Customizing Salesforce</h2>
                                 <h3>Help set up Salesforce to meet the specific needs of your organization including creating custom fields, objects, and workflows to automate business processes.</h3>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function Salesforce() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp3} alt='' />
+                                    <img src={imagePaths.adminIcon3} alt='' />
                                 </div>
                                 <h2>Account Management</h2>
                                 <h3>We ensure that users have the appropriate permissions, access levels, and security settings based on their roles and responsibilities. Help identify and merge duplicate Accounts, Contacts and Leads.</h3>
@@ -75,9 +75,9 @@ function Salesforce() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp4} alt='' />
+                                    <img src={imagePaths.adminIcon4} alt='' />
                                 </div>
-                                <h2>Reporting and Advanced Analytics</h2>
+                                <h2>Data Management</h2>
                                 <h3>Our Admins can handle data management in Salesforce including importing and exporting data, creating reports and dashboards, and ensuring data accuracy and integrity.</h3>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ function Salesforce() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp5} alt='' />
+                                    <img src={imagePaths.adminIcon5} alt='' />
                                 </div>
                                 <h2>Maintaining and Monitoring Salesforce</h2>
                                 <h3>Help ensure that your Salesforce instance is running smoothly. This includes performing regular system updates and backups, monitoring system performance, and troubleshooting issues.</h3>
@@ -95,7 +95,7 @@ function Salesforce() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp6} alt='' />
+                                    <img src={imagePaths.adminIcon6} alt='' />
                                 </div>
                                 <h2>Training and Support
                                 </h2>
@@ -107,7 +107,7 @@ function Salesforce() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp5} alt='' />
+                                    <img src={imagePaths.adminIcon7} alt='' />
                                 </div>
                                 <h2>Collaborating with Teams</h2>
                                 <h3>Help coordinate with different departments and teams within your organization to ensure that Salesforce is meeting business needs.</h3>
@@ -116,7 +116,7 @@ function Salesforce() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp6} alt='' />
+                                    <img src={imagePaths.adminIcon8} alt='' />
                                 </div>
                                 <h2>Salesforce Integrations
                                 </h2>

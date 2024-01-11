@@ -24,7 +24,6 @@
     font-weight: 400;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     color: #1a171b !important;
-    margin-bottom: 0;
     font-size: 30px;
 }
 
@@ -34,7 +33,7 @@
     text-align: center;
 }
 
-.account-content2 {
+.account-section2 .account-content2 {
     width: 100%;
     max-width: 1050px;
     margin: 0 auto;
@@ -42,38 +41,300 @@
 
 .account-content2 .account-div {
     text-align: center;
+    max-width: 1000px;
     width: 100%;
     display: inline-block;
     margin-top: 20px;
 }
 
-.account-content2 .account-div .account-body {
+.account-content2 .account-div .account-body1 {
+    margin: 0 45px 45px;
     display: inline-block;
     max-width: 262px;
-    margin: 0 45px 45px;
     vertical-align: top;
+    position: relative;
 }
 
-.account-body .span-image {
+.account-content2 .account-div .account-body2 {
+    margin: 0 45px 45px;
+    display: inline-block;
+    max-width: 262px;
+    vertical-align: top;
+    position: relative;
+}
+
+.account-content2 .account-div .account-body3 {
+    margin: 0 45px 45px;
+    display: inline-block;
+    max-width: 262px;
+    vertical-align: top;
+    position: relative;
+}
+
+.account-content2 .account-div .account-body4 {
+    margin: 0 45px 45px;
+    display: inline-block;
+    max-width: 262px;
+    vertical-align: top;
+    position: relative;
+}
+
+.account-content2 .account-div .account-body5 {
+    margin: 0 45px 45px;
+    display: inline-block;
+    max-width: 262px;
+    vertical-align: top;
+    position: relative;
+}
+
+.account-content2 .account-div .account-body6 {
+    margin: 0 45px 45px;
+    display: inline-block;
+    max-width: 262px;
+    vertical-align: top;
+    position: relative;
+}
+
+.account-content2 .account-div .account-body7 {
+    margin: 0 45px 45px;
+    display: inline-block;
+    max-width: 262px;
+    vertical-align: top;
+    position: relative;
+}
+
+.account-content2 .account-div a {
+    text-align: center;
+    display: table;
+    color: #1a171b;
+}
+
+.account-body1 .span-image {
     max-width: 100%;
     width: 100%;
     min-height: 120px;
-
+    display: table-cell;
+    clear: both;
+    float: left;
+    text-align: center;
 }
 
 
-.account-body .span-image img {
+
+.account-body1 .span-image img {
+    max-width: 150px;
     display: block;
     width: 100%;
     margin: 0 auto;
-    max-width: 133px;
 }
 
-.account-body .span-text {
+.account-body1 .span-text {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     max-width: 190px;
     width: 190px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     line-height: normal;
-    font-size: 19px;
+    font-size: 17px;
+    clear: both;
+    float: left;
+    text-align: center;
+    display: table-cell;
     font-weight: 700;
+}
+
+
+.account-body2 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+    display: table-cell;
+    clear: both;
+    float: left;
+    text-align: center;
+}
+
+
+.account-body2 .span-image img {
+    max-width: 150px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.account-body2 .span-text {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    max-width: 190px;
+    width: 190px;
+    line-height: normal;
+    font-size: 17px;
+    clear: both;
+    float: left;
+    text-align: center;
+    display: table-cell;
+    font-weight: 700;
+}
+
+.account-body3 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+    display: table-cell;
+    clear: both;
+    float: left;
+    text-align: center;
+}
+
+
+.account-body3 .span-image img {
+    max-width: 150px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.account-body3 .span-text {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    max-width: 190px;
+    width: 190px;
+    line-height: normal;
+    font-size: 17px;
+    clear: both;
+    float: left;
+    text-align: center;
+    display: table-cell;
+    font-weight: 700;
+}
+
+.account-body4 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+    display: table-cell;
+    clear: both;
+    float: left;
+    text-align: center;
+}
+
+
+.account-body4 .span-image img {
+    max-width: 150px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.account-body4 .span-text {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    max-width: 190px;
+    width: 190px;
+    line-height: normal;
+    font-size: 17px;
+    clear: both;
+    float: left;
+    text-align: center;
+    display: table-cell;
+    font-weight: 700;
+}
+
+.account-body5 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+    display: table-cell;
+    clear: both;
+    float: left;
+    text-align: center;
+}
+
+
+.account-body5 .span-image img {
+    max-width: 150px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.account-body5 .span-text {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    max-width: 190px;
+    width: 190px;
+    line-height: normal;
+    font-size: 17px;
+    clear: both;
+    float: left;
+    text-align: center;
+    display: table-cell;
+    font-weight: 700;
+}
+
+.account-body6 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+    display: table-cell;
+    clear: both;
+    float: left;
+    text-align: center;
+}
+
+
+.account-body6 .span-image img {
+    max-width: 150px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.account-body6 .span-text {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    max-width: 190px;
+    width: 190px;
+    line-height: normal;
+    font-size: 17px;
+    clear: both;
+    float: left;
+    text-align: center;
+    display: table-cell;
+    font-weight: 700;
+}
+
+.account-body7 .span-image {
+    max-width: 100%;
+    width: 100%;
+    min-height: 120px;
+    display: table-cell;
+    clear: both;
+    float: left;
+    text-align: center;
+
+}
+
+
+.account-body7 .span-image img {
+    max-width: 150px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.account-body7 .span-text {
+    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    max-width: 190px;
+    width: 190px;
+    line-height: normal;
+    font-size: 17px;
+    clear: both;
+    float: left;
+    text-align: center;
+    display: table-cell;
+    font-weight: 700;
+}
+
+.account-body1 .span-image:hover img,
+.account-body2 .span-image:hover img,
+.account-body3 .span-image:hover img,
+.account-body4 .span-image:hover img,
+.account-body5 .span-image:hover img,
+.account-body6 .span-image:hover img,
+.account-body7 .span-image:hover img {
+    filter: grayscale(100%);
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap');
+
 .quality-container {
     width: 100%;
     position: relative;
@@ -23,12 +25,12 @@
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 .quality-content1 p {
     font-size: 24px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 32px;
     text-align: center;
 }
@@ -50,7 +52,7 @@
     color: #373435;
     text-align: center;
     font-weight: 400;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 .quality-content2 p {
@@ -58,7 +60,7 @@
     line-height: 24px;
     text-align: center;
     margin-bottom: 40px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     margin: 0 auto;
 }
@@ -98,7 +100,7 @@
     height: 69px;
     max-width: 132px;
     margin: 13px;
-    padding: 28px;
+    padding: 20px;
 }
 
 .quality-content2 .quality-div2 .quality-body2 .quality-image img {
@@ -113,7 +115,7 @@
     width: 100%;
     max-width: 172px;
     clear: both;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     float: left;
     text-align: center;
     font-weight: 700;
@@ -143,7 +145,7 @@
     line-height: normal;
     padding: 0 20px 20px;
     text-align: center;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     margin: 0 auto;
 }
@@ -152,7 +154,7 @@
     line-height: 24px;
     font-size: 18px;
     color: #393435;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
@@ -215,7 +217,7 @@
 .quality-content3 .quality-body3 .quality-left .quality-element3 h2 {
     font-size: 20px;
     margin-bottom: 10px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
@@ -225,7 +227,7 @@
     text-align: center;
     font-weight: 400;
     margin: 0 auto;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin-bottom: 10px;
     font-size: 20px;
 }
@@ -236,14 +238,14 @@
     margin: 10px auto;
     font-size: 18px;
     color: #393435;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     line-height: 24px;
 }
 
 .quality-content3 .quality-body3 .quality-right .quality-element3 h3 {
     text-align: center;
     font-weight: 400;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin: 0 auto;
     font-size: 18px;
     color: #393435;
@@ -273,14 +275,14 @@
     margin-bottom: 10px;
     text-align: center;
     font-weight: 400;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     margin: 0 auto;
 }
 
 .quality-content3 .quality-body3 .quality-element3 h3 {
     line-height: 24px;
     font-size: 18px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     color: #393435;
     text-align: center;
     font-weight: 400;
@@ -290,7 +292,7 @@
 .quality-content3 .quality-body3 .quality-element3 p {
     line-height: 24px;
     font-size: 18px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     color: #393435;
     text-align: center;
     font-weight: 400;
@@ -300,7 +302,7 @@
 .quality-content3 p {
     line-height: 24px;
     font-size: 18px;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: 'Proxima Nova', sans-serif;
     color: #393435;
     text-align: center;
     font-weight: 400;
@@ -321,6 +323,251 @@
     margin-left: 101px;
     margin-top: -212px;
     grid-template-columns: repeat(3, 1fr);
+}
+
+
+.app-section3-1 {
+    padding: 80px 0;
+}
+
+.app-content3-1 {
+    max-width: 1280px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.app-content3-1 h1 {
+    font-size: 36px;
+    color: #373435;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.app-content3-1 .app-div3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    gap: 40px;
+}
+
+.app-content3-1 .app-div3 .app-color1 {
+    background: #f19168;
+    border-radius: 10px;
+    max-width: 16%;
+    flex-basis: 17%;
+    height: 257px;
+    padding: 15px;
+    position: relative;
+}
+
+
+.app-content3-1 .app-div3 .app-color1 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 20px;
+    min-height: 55px;
+    color: #393435;
+    margin: 0 auto;
+}
+
+.app-content3-1 .app-div3 .app-color2 {
+    background: #82c5bc;
+    border-radius: 10px;
+    max-width: 16%;
+    flex-basis: 17%;
+    height: 257px;
+    padding: 15px;
+    position: relative;
+}
+
+.app-content3-1 .app-div3 .app-color2 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 20px;
+    min-height: 55px;
+    color: #393435;
+    margin: 0 auto;
+}
+
+.app-content3-1 .app-div3 .app-color3 {
+    background: #fbc861;
+    border-radius: 10px;
+    max-width: 16%;
+    flex-basis: 17%;
+    height: 257px;
+    padding: 15px;
+    position: relative;
+}
+
+
+.app-content3-1 .app-div3 .app-color3 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 20px;
+    min-height: 55px;
+    color: #393435;
+    margin: 0 auto;
+}
+
+.app-content3-1 .app-div3 .app-color4 {
+    background: #a4a397;
+    border-radius: 10px;
+    max-width: 16%;
+    flex-basis: 17%;
+    height: 257px;
+    padding: 15px;
+    position: relative;
+}
+
+
+.app-content3-1 .app-div3 .app-color4 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 20px;
+    min-height: 55px;
+    color: #393435;
+    margin: 0 auto;
+}
+
+
+.app-content3-1 .app-div3 .app-color5 {
+    background: #d8ddaf;
+    border-radius: 10px;
+    max-width: 16%;
+    flex-basis: 17%;
+    height: 257px;
+    padding: 15px;
+    position: relative;
+}
+
+.app-content3-1 .app-div3 .app-color5 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 20px;
+    min-height: 55px;
+    color: #393435;
+    margin: 0 auto;
+}
+
+
+.app-content3-1 .app-div3 .app-color6 {
+    background: #ceacf1;
+    border-radius: 10px;
+    max-width: 16%;
+    flex-basis: 17%;
+    height: 257px;
+    padding: 15px;
+    position: relative;
+}
+
+
+.app-content3-1 .app-div3 .app-color6 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 20px;
+    min-height: 55px;
+    color: #393435;
+    margin: 0 auto;
+}
+
+
+.app-content3-1 .app-div3 .app-color1 ul {
+    list-style: none;
+    padding: 10px;
+    background: rgba(0,0,0,.2);
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    min-height: 160px
+}
+
+
+.app-content3-1 .app-div3 .app-color2 ul {
+    list-style: none;
+    padding: 10px;
+    background: rgba(0,0,0,.2);
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    min-height: 160px
+}
+
+
+.app-content3-1 .app-div3 .app-color3 ul {
+    list-style: none;
+    padding: 10px;
+    background: rgba(0,0,0,.2);
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    min-height: 160px
+}
+
+
+.app-content3-1 .app-div3 .app-color4 ul {
+    list-style: none;
+    padding: 10px;
+    background: rgba(0,0,0,.2);
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    min-height: 160px
+}
+
+
+.app-content3-1 .app-div3 .app-color5 ul {
+    list-style: none;
+    padding: 10px;
+    background: rgba(0,0,0,.2);
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    min-height: 160px
+}
+
+
+.app-content3-1 .app-div3 .app-color6 ul {
+    list-style: none;
+    padding: 10px;
+    background: rgba(0,0,0,.2);
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    min-height: 160px
+}
+
+.app-content3-1 .app-div3 .app-color1 ul {
+    margin-bottom: 10px;
+}
+
+.app-content3-1 .app-div3 .app-color2 ul {
+    margin-bottom: 10px;
+}
+
+.app-content3-1 .app-div3 .app-color3 ul {
+    margin-bottom: 10px;
+}
+
+.app-content3-1 .app-div3 .app-color4 ul {
+    margin-bottom: 10px;
+}
+
+.app-content3-1 .app-div3 .app-color5 ul {
+    margin-bottom: 10px;
+}
+.app-content3-1 .app-div3 .app-color6 ul {
+    margin-bottom: 10px;
 }
 
 

@@ -47,7 +47,7 @@ function DataVisual() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp1} alt='' />
+                                    <img src={imagePaths.zendesk1} alt='' />
                                 </div>
                                 <h2>Data Analysis</h2>
                                 <h3>We begin by understanding the business needs and the data available. We analyze the data to find trends, patterns, and insights that can be used to make informed business decisions.</h3>
@@ -56,7 +56,7 @@ function DataVisual() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp2} alt='' />
+                                    <img src={imagePaths.zendesk2} alt='' />
                                 </div>
                                 <h2>Dashboard and Report Design</h2>
                                 <h3>We design custom dashboards and reports that meet the client's specific requirements. We use a variety of visualizations such as bar charts, pie charts, line charts, heat maps, and geographic maps to present the data in a clear and intuitive way.</h3>
@@ -67,7 +67,7 @@ function DataVisual() {
                         <div className='app-left'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp3} alt='' />
+                                    <img src={imagePaths.zendesk3} alt='' />
                                 </div>
                                 <h2>Interactive Data Visualization
                                 </h2>
@@ -77,7 +77,7 @@ function DataVisual() {
                         <div className='app-right'>
                             <div className='app-element'>
                                 <div className='app-icon'>
-                                    <img src={imagePaths.webApp4} alt='' />
+                                    <img src={imagePaths.zendesk4} alt='' />
                                 </div>
                                 <h2>Data Sources Integration</h2>
                                 <h3>We can integrate data from multiple sources, such as Excel, SQL Server, Oracle, and cloud-based services, into a single dashboard or report. This helps to create a unified view of the data, making it easier to analyze and draw insights.</h3>
@@ -87,7 +87,7 @@ function DataVisual() {
                 </div>
             </section>
 
-            <section className='quality-section3'>
+            <section className='quality-section3-1'>
                 <div className='quality-content3'>
                     <div className='quality-div3'>
                         <h1>Technology Expertise</h1>
@@ -96,7 +96,7 @@ function DataVisual() {
                         <div className='quality-left'>
                             <div className='quality-element3'>
                                 <div className='quality-icon'>
-                                    <img src={imagePaths.function14} alt='' />
+                                    <img src={imagePaths.tableuIcon} alt='' />
                                 </div>
                                 <h2>Tableau
                                 </h2>
@@ -108,11 +108,10 @@ function DataVisual() {
                                     <li>Perform field actions like renaming, removing, modifying, splitting, and creating calculated fields to refine the data.</li>
                                     <li>Aggregate and join additional data to enhance analysis.</li>
                                     <li>Union additional data to create a comprehensive dataset for analysis.</li>
-                                    <li>Meaningful sequence of content</li>
                                     <li>Work with live and in-memory data to enable real-time analysis.</li>
                                     <li>Create advanced visualizations, especially with map data, to enhance data analysis and improve data insights.</li>
                                     <li>Optimize mobile view to ensure the data is easily accessible on mobile devices.</li>
-                                    <li>Optimize mobile view to ensure the data is easily accessible on mobile devices.</li>
+                                    <li>Work with revision history of workbooks to track changes and ensure data accuracy.</li>
                                     <li>Refresh ETL (extract, transform, load) processes to ensure that the data is up-to-date and ready for analysis.</li>
                                 </ul>
                             </div>
@@ -120,7 +119,7 @@ function DataVisual() {
                         <div className='quality-right'>
                             <div className='quality-element3'>
                                 <div className='quality-icon'>
-                                    <img src={imagePaths.function15} alt='' />
+                                    <img src={imagePaths.powerBiIcon} alt='' />
                                 </div>
                                 <h2>Power BI</h2>
                             </div>
@@ -135,7 +134,7 @@ function DataVisual() {
                                     <li>Design interactive dashboards with advanced slicers/filters and KPI cards implementation.</li>
                                     <li>Utilize complex DAX queries and extensive functions to analyze and manipulate data</li>
                                     <li>Implement Row Level Security to restrict report view and ensure data privacy and confidentiality</li>
-                                    <li>Implement Row Level Security to restrict report view and ensure data privacy and confidentiality</li>
+                                    <li>Create and manage Power BI Apps for better collaboration and sharing of data insights.</li>
                                 </ul>
                             </div>
                         </div>

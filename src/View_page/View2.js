@@ -11,24 +11,24 @@ function View2() {
   const [isVisible, setIsVisible] = useState(false);
 
   const goToBtn = () => {
-      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
   const listenToScroll = () => {
-      let heightToHidden = 20;
-      const winScroll =
-          document.body.scrollTop || document.documentElement.scrollTop;
+    let heightToHidden = 20;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
 
-      if (winScroll > heightToHidden) {
-          setIsVisible(true);
-      } else {
-          setIsVisible(false);
-      }
+    if (winScroll > heightToHidden) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
   };
 
   useEffect(() => {
-      window.addEventListener("scroll", listenToScroll);
-      return () => window.removeEventListener("scroll", listenToScroll);
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
 
 
@@ -68,17 +68,17 @@ function View2() {
               <div className='view-row1'>
                 <div className='view-body'>
                   <br></br>
-                  <Link to="/testing1">
+                  <Link to="/Industry1">
                     <span className='span-image'>
                       <img src={imagePaths.clientLogo3} />
                     </span>
                   </Link>
                   <br></br>
-                  <span className='span-text'>ADTECH</span>
+                  <span className='span-text'>Adtech</span>
                   <br></br>
                 </div>
                 <div className='view-body'>
-                  <Link to="/testing2">
+                  <Link to="/Industry2">
                     <span className='span-image'>
                       <br></br>
                       <img src={imagePaths.clientLogo4} />
@@ -89,7 +89,7 @@ function View2() {
                   <br></br>
                 </div>
                 <div className='view-body'>
-                  <Link to="/testing3">
+                  <Link to="/Industry3">
                     <span className='span-image'>
                       <br></br>
                       <img src={imagePaths.clientLogo5} />
@@ -102,7 +102,7 @@ function View2() {
               </div>
               <div className='view-row2'>
                 <div className='view-body'>
-                  <Link to="/testing4">
+                  <Link to="/Industry4">
                     <span className='span-image'>
                       <br></br>
                       <img src={imagePaths.clientLogo1} />
@@ -113,7 +113,7 @@ function View2() {
                   <br></br>
                 </div>
                 <div className='view-body'>
-                  <Link to="/testing5">
+                  <Link to="/Industry5">
                     <span className='span-image'>
                       <br></br>
                       <img src={imagePaths.clientLogo6} />
@@ -124,14 +124,14 @@ function View2() {
                   <br></br>
                 </div>
                 <div className='view-body'>
-                  <Link to="/testing6">
+                  <Link to="/Industry6">
                     <span className='span-image'>
                       <br></br>
                       <img src={imagePaths.clientLogo7} />
                       <br></br>
                     </span >
                   </Link>
-                  <span className='span-text'>Marketplace & Ecommerce</span>
+                  <span className='span-text'>Marketplace & eCommerce</span>
                   <br></br>
                 </div>
               </div>
@@ -143,15 +143,15 @@ function View2() {
       </article>
 
       {isVisible && (
-                <>
-                    <div className="top-btn" onClick={goToBtn}>
-                        <img src={goToTop} className="top-btn--icon" />
-                    </div>
-                    <div className='icon-text'>
-                        BACK TO TOP
-                    </div>
-                </>
-            )}
+        <>
+          <div className="top-btn" onClick={goToBtn}>
+            <img src={goToTop} className="top-btn--icon" />
+          </div>
+          <div className='icon-text'>
+            BACK TO TOP
+          </div>
+        </>
+      )}
 
     </div>
   )

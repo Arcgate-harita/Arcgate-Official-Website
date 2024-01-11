@@ -39,13 +39,9 @@
   max-width: 382px;
 }
 
-.blogView .blogView-container1 .blogView-content2 {
-  max-height: 321px;
-  margin: 20px 0 0;
-  width: 100%;
-  overflow: hidden;
-  background: #fff;
 
+.blogView-content2 {
+  overflow: hidden;
 }
 
 .blogView .blogView-container1 .blogView-content2 a {

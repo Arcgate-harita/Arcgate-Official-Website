@@ -32,28 +32,28 @@ AOS.init({
 function Career() {
 
 
-  const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
 
-  const goToBtn = () => {
-      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
 
-  const listenToScroll = () => {
-      let heightToHidden = 20;
-      const winScroll =
-          document.body.scrollTop || document.documentElement.scrollTop;
+    const listenToScroll = () => {
+        let heightToHidden = 20;
+        const winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop;
 
-      if (winScroll > heightToHidden) {
-          setIsVisible(true);
-      } else {
-          setIsVisible(false);
-      }
-  };
+        if (winScroll > heightToHidden) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
 
-  useEffect(() => {
-      window.addEventListener("scroll", listenToScroll);
-      return () => window.removeEventListener("scroll", listenToScroll);
-  }, []);
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
 
 
 
@@ -64,14 +64,15 @@ function Career() {
                     <div className='career-content1'>
                         <h1 id='arcgatian'>Become an Arcgatian</h1>
                         <div className='career-div1'>
-              <p data-aos="fade-right" className='orange'>WE THRIVE ON EXPERIENCE</p>
-              <p data-aos="fade-left" className='lightBlue'>WE CRAVE FOR INNOVATION</p>
-              <p data-aos="fade-right" className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
-              <p data-aos="fade-left" className='red'>WE WORK HARD AND LAUGH A LOT</p>
-              <p data-aos="fade-right" className='pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
-              <p data-aos="fade-left" className='darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
-              <p data-aos="fade-right" className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
-            </div>
+
+                            <div data-aos="fade-left"><p className='orange'>WE THRIVE ON EXPERIENCE</p></div>
+                            <p data-aos="fade-left" className='lightBlue'>WE CRAVE FOR INNOVATION</p>
+                            <p data-aos="fade-right" className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
+                            <p data-aos="fade-left" className='red'>WE WORK HARD AND LAUGH A LOT</p>
+                            <p data-aos="fade-right" className='pink'>WE ENSURE A GREAT WORK ENVIRONMENT FOR WOMEN</p>
+                            <p data-aos="fade-left" className='darkGreen'>WE’RE AT THE FOREFRONT OF THE OUTSOURCING REVOLUTION FOR STARTUPS</p>
+                            <p data-aos="fade-right" className='darkBlue'>WE TAKE PRIDE IN BEING PART OF OUR CLIENTS’ SUCCESS; NO MATTER HOW BIG OR SMALL OUR CONTRIBUTION</p>
+                        </div>
                     </div>
                 </section>
 
@@ -107,7 +108,7 @@ function Career() {
                             <div className='video-list'>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                    <a href='https://www.youtube.com/watch?v=9JF7rnMgKKg&t=446s' target='_blank'>
+                                        <a href='https://www.youtube.com/watch?v=9JF7rnMgKKg&t=446s' target='_blank'>
                                             <div className='video-image'>
                                                 <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo3} alt='' />
@@ -124,7 +125,7 @@ function Career() {
                                 </div>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                    <a href='https://www.youtube.com/watch?v=rEJ1V48lrc0' target='_blank'>
+                                        <a href='https://www.youtube.com/watch?v=rEJ1V48lrc0' target='_blank'>
                                             <div className='video-image'>
                                                 <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo2} alt='' />
@@ -141,7 +142,7 @@ function Career() {
                                 </div>
                                 <div className='video-div'>
                                     <div className='video-body'>
-                                    <a href='https://www.youtube.com/watch?v=bxVOaa7FZVM' target='_blank'>
+                                        <a href='https://www.youtube.com/watch?v=bxVOaa7FZVM' target='_blank'>
                                             <div className='video-image'>
                                                 <div data-aos="fade-up">
                                                     <img src={imagePaths.imageVideo01} alt='' />
@@ -177,7 +178,7 @@ function Career() {
                                     <div className='video-list'>
                                         <div className='video-blog1'>
                                             <div className='blog-pic'>
-                                                <a className='blog-text'>
+                                                <a href='https://www.youtube.com/watch?v=4l36HmlPrUU' target='_blank'>
                                                     <div data-aos="fade-up">
                                                         <div className='thumb'>
                                                             <img src={imagePaths.videoImage1} alt='' />
@@ -191,7 +192,7 @@ function Career() {
                                         </div>
                                         <div className='video-blog1'>
                                             <div className='blog-pic'>
-                                                <a className='blog-text'>
+                                                <a href='https://www.youtube.com/watch?v=SDN1cLIJlCo' target='_blank'>
                                                     <div data-aos="fade-up">
                                                         <div className='thumb'>
                                                             <img src={imagePaths.videoImage2} alt='' />
@@ -205,7 +206,7 @@ function Career() {
                                         </div>
                                         <div className='video-blog1'>
                                             <div className='blog-pic'>
-                                                <a className='blog-text'>
+                                                <a href='https://www.youtube.com/watch?v=B_wmuOK9NZ0' target='_blank'>
                                                     <div data-aos="fade-up">
                                                         <div className='thumb'>
                                                             <img src={imagePaths.videoImage3} alt='' />

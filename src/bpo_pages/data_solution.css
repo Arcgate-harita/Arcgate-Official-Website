@@ -9,7 +9,6 @@
 .solution-section1 {
   background-color: #D6D9BB;
   padding: 40px 0;
-
 }
 
 .solution-section2 {
@@ -65,7 +64,7 @@
 }
 
 .data-solution-type1 .data-solution-image img {
-  max-width: 177px;
+  max-width: 151px;
 }
 
 .data-solution-type1 a {
@@ -194,4 +193,9 @@
 
 .solution-div4 .solution-body4 .insight .tag img {
   height: 15px;
+}
+
+.data-section1-blog {
+  padding-top: 0;
+  margin-top: -3px;
 }

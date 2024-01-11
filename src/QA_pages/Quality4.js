@@ -60,7 +60,7 @@ function Quality4() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function14} alt='' />
+                                        <img src={imagePaths.ApiIcon2} alt='' />
                                     </div>
                                     <h2>Load testing
                                     </h2>
@@ -75,7 +75,7 @@ function Quality4() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function15} alt='' />
+                                        <img src={imagePaths.function4} alt='' />
                                     </div>
                                     <h2>Stress testing</h2>
                                     {QualityPara.map((section, index) => (
@@ -91,7 +91,7 @@ function Quality4() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function3} alt='' />
+                                        <img src={imagePaths.function20} alt='' />
                                     </div>
                                     <h2>Soak testing</h2>
                                     {QualityPara.map((section, index) => (
@@ -105,7 +105,7 @@ function Quality4() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function16} alt='' />
+                                        <img src={imagePaths.teamIcon8} alt='' />
                                     </div>
                                     <h2>Scalability testing</h2>
                                     {QualityPara.map((section, index) => (
@@ -122,7 +122,7 @@ function Quality4() {
                             <div className='quality-left'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function17} alt='' />
+                                        <img src={imagePaths.function21} alt='' />
                                     </div>
                                     <h2>Volume testing
                                     </h2>
@@ -137,7 +137,7 @@ function Quality4() {
                             <div className='quality-right'>
                                 <div className='quality-element3'>
                                     <div className='quality-icon'>
-                                        <img src={imagePaths.function18} alt='' />
+                                        <img src={imagePaths.function22} alt='' />
                                     </div>
                                     <h2>Performance Analysis and Reporting</h2>
                                     {QualityPara.map((section, index) => (
@@ -162,11 +162,11 @@ function Quality4() {
                             <div className='team-left'>
                                 <div className='team-element'>
                                     <div className='team-icon'>
-                                        <img src={imagePaths.teamIcon1} alt='' />
+                                        <img src={imagePaths.teamIcon2} alt='' />
                                     </div>
                                     <h2>Cost Savings</h2>
                                     {QualityPara.map((section, index) => (
-                                        <div key={index}>
+                                        <div key={index} className='team-para'>
                                             <p>{section.paragraph39}</p>
                                         </div>
                                     ))}
@@ -175,12 +175,12 @@ function Quality4() {
                             <div className='team-right'>
                                 <div className='team-element'>
                                     <div className='team-icon'>
-                                        <img src={imagePaths.teamIcon2} alt='' />
+                                        <img src={imagePaths.teamIcon3} alt='' />
                                     </div>
                                     <h2>Expertise and Experience
                                     </h2>
                                     {QualityPara.map((section, index) => (
-                                        <div key={index}>
+                                        <div key={index} className='team-para'>
                                             <p>{section.paragraph40}</p>
                                         </div>
                                     ))}
@@ -191,12 +191,12 @@ function Quality4() {
                             <div className='team-left'>
                                 <div className='team-element'>
                                     <div className='team-icon'>
-                                        <img src={imagePaths.teamIcon3} alt='' />
+                                        <img src={imagePaths.teamIcon4} alt='' />
                                     </div>
                                     <h2>Improved Time-to-Market
                                     </h2>
                                     {QualityPara.map((section, index) => (
-                                        <div key={index}>
+                                        <div key={index}className='team-para'>
                                             <p>{section.paragraph41}</p>
                                         </div>
                                     ))}
@@ -205,12 +205,12 @@ function Quality4() {
                             <div className='team-right'>
                                 <div className='team-element'>
                                     <div className='team-icon'>
-                                        <img src={imagePaths.teamIcon4} alt='' />
+                                        <img src={imagePaths.teamIcon6} alt='' />
                                     </div>
                                     <h2>Quality Assurance
                                     </h2>
                                     {QualityPara.map((section, index) => (
-                                        <div key={index}>
+                                        <div key={index}className='team-para'>
                                             <p>{section.paragraph42}</p>
                                         </div>
                                     ))}
@@ -220,11 +220,11 @@ function Quality4() {
                         <div className='team-body2'>
                             <div className='team-element'>
                                 <div className='team-icon'>
-                                    <img src={imagePaths.teamIcon5} alt='' />
+                                    <img src={imagePaths.teamIcon8} alt='' />
                                 </div>
                                 <h2>Scalability</h2>
                                 {QualityPara.map((section, index) => (
-                                    <div key={index}>
+                                    <div key={index}className='team-para'>
                                         <p>{section.paragraph43}</p>
                                     </div>
                                 ))}
@@ -246,13 +246,22 @@ function Quality4() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo7} alt='' className='image1' />
+                                        <img src={imagePaths.JmeterLogo} alt='' className='image1' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo8} alt='' className='image2' />
+                                        <img src={imagePaths.LibraryLogo31} alt='' className='image2' />
                                     </div>
                                     <div>
-                                        <img src={imagePaths.LibraryLogo9} alt='' className='image4' />
+                                        <img src={imagePaths.LibraryLogo32} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo36} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo37} alt='' className='image4' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.LibraryLogo30} alt='' className='image4' />
                                     </div>
                                 </div>
 

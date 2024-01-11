@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+
+.solution-section1-2 {
+    background-color: #FFFBD7;
+    padding: 40px 0;
+}
+
 .view-section1 {
     background: #FFFBD7;
     background-position: top center;
@@ -127,11 +133,11 @@
     width: 100%;
     margin: 0 auto;
     max-width: 133px;
-    transition: filter 0.3s ease; 
+    transition: filter 0.3s ease;
 }
 
 .view-body .span-image img:hover {
-    filter: grayscale(100%); 
+    filter: grayscale(100%);
 }
 
 .view-body .span-text {

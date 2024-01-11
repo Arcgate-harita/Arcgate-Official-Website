@@ -7,6 +7,7 @@ import toggle1 from "./images/align-justify.svg";
 import toggle2 from "./images/x.svg";
 import podcastLogo from "./images/logo_podcasts.png";
 import cancelIcon from "./images/cancle.png";
+
 import blogLogo from "./images/logo_arcgate_blog.png";
 
 
@@ -20,7 +21,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [logo, setLogo] = useState("arcgate"); 
-  
+ 
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -74,26 +75,48 @@ function Navbar() {
   }, [location.pathname]);
 
 
+  // Function to set the podcast logo
+  const setPodcastLogo = () => {
+    setLogo("podcast");
+  };
+
+  // Function to set the blog logo
+  const setBlogLogo = () => {
+    setLogo("blog");
+  };
+
+  useEffect(() => {
+    if (location.pathname.includes("/podcast")) {
+      setPodcastLogo();
+    } else if (location.pathname.includes("/blog")) {
+      setBlogLogo();
+    } else {
+      setLogo("arcgate");
+    }
+  }, [location.pathname]);
+
+
   return (
     <header>
       <div className="header-container">
-      {isHeaderContentVisible && (
-        <div className="header-content">
-          <p>
-            <strong className="strong-word">We are hiring!</strong>
-            <span>
-              Become an Arcgatian. Join our team and deliver outsourcing services to the most innovative companies in the world.
-            </span>
-          </p>
-          <a className="current-link" href="#current-openings">
-            See Current Openings
-          </a>
-          <button id="cancelButton" onClick={handleCancelClick}>
-            <img src={cancelIcon} alt="Cancel Icon" />
-          </button>
-        </div>
-)}
+        {isHeaderContentVisible && (
+          <div className="header-content">
+            <p>
+              <strong className="strong-word">We are hiring!</strong>
+              <span>
+                Become an Arcgatian. Join our team and deliver outsourcing services to the most innovative companies in the world.
+              </span>
+            </p>
+            <a className="current-link" href="#current-openings">
+              See Current Openings
+            </a>
+            <button id="cancelButton" onClick={handleCancelClick}>
+              <img src={cancelIcon} alt="Cancel Icon" />
+            </button>
+          </div>
+        )}
         <section className={`navbar ${isOpen ? 'open' : ''}`} >
+
         <div className="arcgate-logo" style={{ display: logo === "arcgate" ? 'block' : 'none' }}>
             <Link to="/"></Link>
           </div>
@@ -104,7 +127,7 @@ function Navbar() {
             <img src={blogLogo} alt="Blog Logo" onClick={handleLinkClick} />
           </div>
           
-          <button className="toggle-button"
+                  <button className="toggle-button"
             onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <img src={toggle2} alt="Times Icon" /> : <img src={toggle1} alt="Bars Icon" />}
           </button>
@@ -112,20 +135,31 @@ function Navbar() {
 
           <nav className={`nav ${isOpen ? 'open' : ''}`}>
             <ul>
-            <li className={location.pathname === '/' ? 'active' : ''}>
+              <li className={location.pathname === '/' ? 'active' : ''}>
                 <NavLink to='/'></NavLink>
               </li>
+
+              {logo === "podcast" && (
+                <div className="home-logo">
+                  <NavLink to='/'>HOME</NavLink>
+                </div>
+              )}
+              {logo === "blog" && (
+                <div className="home-logo">
+                  <NavLink to='/'>HOME</NavLink>
+                </div>
+              )}
 
               <li className={location.pathname === '/about' ? 'active' : ''}>
                 <NavLink to='/about'>ABOUT</NavLink>
               </li>
 
               <li
-                className={`bpo-item ${location.pathname === '/view1'  ? 'active' : ''
-                }`}
+                className={`bpo-item ${location.pathname === '/view1' ? 'active' : ''
+                  }`}
                 onMouseEnter={() => handleMouseEnter('bpo')}
               >
-                  <NavLink to="/view1">
+                <NavLink to="/view1">
                   BPO
                   <span className="down-arrow"></span>
                   {activeDropdown === 'bpo' && (
@@ -167,9 +201,10 @@ function Navbar() {
                       <li>
                         <Link to='/customer-onboarding-support'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image1'>
                             <img src={imagePaths.customerImage} alt='' />
                           </span>
+                          <br></br>
                           <span className='data-process-text'>
                             CUSTOMER ONBOARDING & SUPPORT
                           </span>
@@ -178,7 +213,7 @@ function Navbar() {
                       <li>
                         <Link to='/order-management'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image2'>
                             <img src={imagePaths.reporting21} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -189,7 +224,7 @@ function Navbar() {
                       <li>
                         <Link to='/transcription'
                           onClick={handleLinkClick}>
-                          <span className='data-process-image'>
+                          <span className='data-process-image3'>
                             <img src={imagePaths.transImage} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -199,7 +234,8 @@ function Navbar() {
                       </li>
                       <div className="nav-button">
                         <center>
-                          <Link to="/view1" >
+                          <Link to="/view1"
+                            onClick={handleLinkClick}>
                             <button>View More</button>
                           </Link>
                         </center>
@@ -218,20 +254,20 @@ function Navbar() {
               </li>
 
 
-                <li
-                className={`industries-item ${location.pathname === '/view2'  ? 'active' : ''
-                }`}
+              <li
+                className={`industries-item ${location.pathname === '/view2' ? 'active' : ''
+                  }`}
                 onMouseEnter={() => handleMouseEnter('industries')}
               >
-                  <NavLink to="/view2">
+                <NavLink to="/view2">
                   INDUSTRIES
                   <span className="down-arrow"></span>
                   {activeDropdown === 'industries' && (
-                    <ul className="industries-dropdown" 
-                     onMouseLeave={handleMouseLeave}>
+                    <ul className="industries-dropdown"
+                      onMouseLeave={handleMouseLeave}>
                       <li>
-                      <Link to='/Industry1' 
-                       onClick={handleLinkClick}>
+                        <Link to='/Industry1'
+                          onClick={handleLinkClick}>
                           <span className='data-process-image'>
                             <img src={imagePaths.tech1} alt='' />
                           </span>
@@ -241,8 +277,8 @@ function Navbar() {
                         </Link>
                       </li>
                       <li>
-                      <Link to='/Industry2'
-                       onClick={handleLinkClick}>
+                        <Link to='/Industry2'
+                          onClick={handleLinkClick}>
                           <span className='data-process-image'>
                             <img src={imagePaths.tech2} alt='' />
                           </span>
@@ -252,9 +288,9 @@ function Navbar() {
                         </Link>
                       </li>
                       <li>
-                      <Link to='/Industry3'
-                        onClick={handleLinkClick}>
-                           <span className='data-process-image'>
+                        <Link to='/Industry3'
+                          onClick={handleLinkClick}>
+                          <span className='data-process-image'>
                             <img src={imagePaths.tech3} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -263,20 +299,21 @@ function Navbar() {
                         </Link>
                       </li>
                       <li>
-                      <Link to='/Industry4'
-                         onClick={handleLinkClick}>
-                         <span className='data-process-image'>
+                        <Link to='/Industry4'
+                          onClick={handleLinkClick}>
+                          <span className='data-process-image1'>
                             <img src={imagePaths.tech4} alt='' />
                           </span>
+                          <p></p>
                           <span className='data-process-text'>
                             OIL & ENERGY
                           </span>
                         </Link>
                       </li>
                       <li>
-                      <Link to='/Industry5'
-                        onClick={handleLinkClick}>
-                           <span className='data-process-image'>
+                        <Link to='/Industry5'
+                          onClick={handleLinkClick}>
+                          <span className='data-process-image2'>
                             <img src={imagePaths.tech5} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -285,9 +322,9 @@ function Navbar() {
                         </Link>
                       </li>
                       <li>
-                      <Link to='/Industry6'
+                        <Link to='/Industry6'
                           onClick={handleLinkClick}>
-                        <span className='data-process-image'>
+                          <span className='data-process-image3'>
                             <img src={imagePaths.tech6} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -297,7 +334,8 @@ function Navbar() {
                       </li>
                       <div className="nav-button">
                         <center>
-                          <Link to="/view2" >
+                          <Link to="/view2"
+                            onClick={handleLinkClick} >
                             <button>View More</button>
                           </Link>
                         </center>
@@ -307,7 +345,7 @@ function Navbar() {
                 </NavLink>
               </li>
 
-               <li className={location.pathname === '/clients' ? 'active' : ''}>
+              <li className={location.pathname === '/clients' ? 'active' : ''}>
                 <NavLink to="/clients">CLIENTS</NavLink>
               </li>
 
@@ -320,19 +358,21 @@ function Navbar() {
               </li>
 
               <li
-                className={`insight-item ${location.pathname === '/view3'  ? 'active' : ''
-                }`}
+                className={`insight-item ${location.pathname === '/view3' ? 'active' : ''
+                  }`}
                 onMouseEnter={() => handleMouseEnter('insight')}
               >
-                  <NavLink to="/view3">
+                <NavLink to="/view3">
                   INSIGHT
                   <span className="down-arrow"></span>
                   {activeDropdown === 'insight' && (
                     <ul className="insight-dropdown"
-                    onMouseLeave={handleMouseLeave}>
+                      onMouseLeave={handleMouseLeave}>
                       <li>
+
                       <Link to='/blogView' onClick={() => { handleLinkClick(); setBlogLogo(); }}>
                          <span className='data-process-image' >
+
                             <img src={imagePaths.blogIcon} alt='' />
                           </span>
                           <span className='data-process-text1'>
@@ -341,8 +381,10 @@ function Navbar() {
                         </Link>
                       </li>
                       <li>
+
                       <Link to='/podcast' onClick={() => { handleLinkClick(); setPodcastLogo(); }}>
                             <span className='data-process-image' >
+
                             <img src={imagePaths.Podcast} alt='' />
                           </span>
                           <span className='data-process-text'>
@@ -354,7 +396,8 @@ function Navbar() {
                       </li>
                       <div className="nav-button">
                         <center>
-                          <Link to="/view3" >
+                          <Link to="/view3"
+                            onClick={handleLinkClick} >
                             <button>View More</button>
                           </Link>
                         </center>

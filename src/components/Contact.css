@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap');
+
 .contact-container {
     width: 100%;
     margin: 105px auto 0;
@@ -56,30 +58,71 @@
     position: relative;
 }
 
-.contact-div1 .contact-body1 .relative {
+
+.relative {
     position: relative;
+    font-family: proximanovaregularwebfont_0,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
 }
 
-.contact-div1 .contact-body1 img {
+.contact-body1 .relative img {
     position: absolute;
-    top: -3px;
-    left: 2px;
+    top: -7px;
+
+    padding-bottom: 10px;
+    left: 6px;
+    border-bottom: 1px solid #80808070;
 }
 
-.contact-div1 .contact-body1 input[type=text] {
-    width: 100%;
+p{
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.contact-section2 input[type=text] {
     background-position: 2px 6px;
+    padding-left: 35px;
+}
+
+
+.contact-section2 input[type=text] {
+    /* background-image: url(../images/name.png); */
+    background-position: 2px 6px;
+    /* background-repeat: no-repeat; */
+    padding-left: 35px;
+}
+
+.contact-section2 input[type=text] {
+    width: 100%;
     max-width: 500px;
     border: solid #ccc;
     border-width: 0 0 1px;
     color: #e85631;
     font-size: 16px;
-   margin-bottom: 34px;
-    margin-left: 34px;
-    line-height: 53px;
+    padding: 10px;
+    margin: 20px 28px;
+    -moz-appearance: none;
     -webkit-appearance: none;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
+    font-family: proximanovasemibold_0, Arial, Helvetica, sans-serif;
 }
+
+
 
 .contact-div1 .contact-body1 textarea {
     width: 100%;
@@ -159,11 +202,11 @@ input[type=submit] {
 }
 
 .success-message {
-border: 2px solid green;
-position: absolute;
-top: -55px;
-padding: 6px;
-left: 100px;
+    border: 2px solid green;
+    position: absolute;
+    top: -55px;
+    padding: 6px;
+    left: 100px;
 }
 
 

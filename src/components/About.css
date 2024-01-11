@@ -412,10 +412,8 @@
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   text-align: inherit;
   word-spacing: 5px;
-  margin-bottom: 5px;
+  margin-bottom: -16px;
   font-weight: 400;
-  margin: 0 auto;
-
 }
 
 .awards-body-row p {
@@ -423,6 +421,7 @@
   color: #231f20;
   text-align: inherit;
   line-height: 1.2em;
+  margin-top: 7px;
 }
 
 
@@ -442,7 +441,7 @@
   word-spacing: 5px;
   margin-bottom: 5px;
   font-weight: 400;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 
 }
 
@@ -452,6 +451,7 @@
   color: #231f20;
   text-align: inherit;
   line-height: 1.2em;
+  margin-top: 7px;
 }
 
 .timeline-image {
@@ -783,17 +783,22 @@
 .table-button .table-button-link a {
   border-color: #fff;
   color: inherit;
-  font-size: 35px;
+  font-size: 25px;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   padding: 3px -6px;
   display: inherit;
   min-width: 170px;
+  padding: 3px;
   border-radius: 10px;
   border: 3px solid white;
   text-align: center;
   text-decoration-line: none;
 }
 
+.table-button .table-button-link a:hover {
+  color: #27a590;
+  background-color: white;
+}
 
 @media only screen and (max-width: 768px) {
 

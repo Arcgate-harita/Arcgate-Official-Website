@@ -27,7 +27,7 @@
 .technology-content1 img {
   position: absolute;
   left: -15%;
-  top: -14%;
+  top: -26%;
   width: 317px;
 }
 
@@ -39,6 +39,8 @@
   position: relative;
   padding: 0 10px;
 }
+
+
 
 .technology-content1 .technology-div1 h2 {
   text-align: inherit;
@@ -148,10 +150,11 @@
 
 .technology-div3 {
   text-align: center;
+  width: 1200px;
 }
 
 .technology-div3 .technology-body {
-  margin: 0 4px 50px;
+  margin: 0 9px 50px;
   text-align: center;
   display: inline-block;
 }
@@ -166,12 +169,16 @@
 }
 
 .technology-div3 .technology-body .rounded-box1 p {
-  font-size: 150%;
+  font-size: 142%;
   line-height: 120%;
   text-align: center;
   width: 70%;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   margin: 0 auto;
+}
+
+.technology-div3 .technology-body p {
+  font-size: 1.3rem;
 }
 
 .technology-div3 .technology-body .rounded-box2 {
@@ -184,7 +191,7 @@
 }
 
 .technology-div3 .technology-body .rounded-box2 p {
-  font-size: 150%;
+  font-size: 142%;
   line-height: 120%;
   text-align: center;
   width: 70%;
@@ -202,7 +209,7 @@
 }
 
 .technology-div3 .technology-body .rounded-box3 p {
-  font-size: 150%;
+  font-size: 142%;
   line-height: 120%;
   text-align: center;
   width: 70%;
@@ -220,7 +227,7 @@
 }
 
 .technology-div3 .technology-body .rounded-box4 p {
-  font-size: 150%;
+  font-size: 142%;
   line-height: 120%;
   text-align: center;
   font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
@@ -475,6 +482,8 @@
   line-height: normal;
   font-size: 17px;
   font-weight: 700;
+  width: 204px;
+
 }
 
 .technology-div2 .data-process-text1 {
@@ -495,12 +504,13 @@
 }
 
 .technology-div2 .data-process-type1 img {
-  margin: 7px auto;
+  /* margin: 7px auto; */
   background: #fff;
   border-radius: 50%;
   display: inline-block;
-  margin: 10px;
-  padding: 5px
+  /* margin: 10px; */
+  /* padding: 5px; */
+  max-width: 86px;
 }
 
 .technology-div2 .data-process1 {
