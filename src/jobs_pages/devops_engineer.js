@@ -17,7 +17,7 @@ function DevopsEngineer() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>DevOps Engineer</h1>
                     <ol>
@@ -52,9 +52,9 @@ function DevopsEngineer() {
                       <li>Active monitoring of alerts & operational dashboards for availability, latency, performance, and capacity</li>
 
                       <li>Researching, diagnosing, troubleshooting, and identifying solutions to resolve issues.</li>
-                      
+
                       <li>Take proactive measurements to mitigate the risk of data mis-loads.</li>
-                      
+
                       <li>Proven work experience as a DevOps Engineer, or demonstrated academic background</li>
 
                       <li>Hands-on experience with Python, SQL and Bash scripting</li>
@@ -66,7 +66,7 @@ function DevopsEngineer() {
                       <li>Excellent problem-solving and communication skills both verbal and written.</li>
 
                       <li>Experience building and maintaining production systems.</li>
-                      
+
                     </ol>
                 </div>
 

@@ -17,7 +17,7 @@ function SeniorAccountExecutive() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>Senior Accounts Executive</h1>
                     <ol>

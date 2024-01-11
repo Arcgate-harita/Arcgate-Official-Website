@@ -17,7 +17,7 @@ function ResearchAnalyst() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>Research Analyst</h1>
                     <h4>Key Responsibility Areas</h4>

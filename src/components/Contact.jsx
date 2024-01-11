@@ -2,26 +2,43 @@ import React from 'react'
 import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from 'react';
 import "../components/Contact.css";
-import imagePaths from '../imagePath';
+import imagePath from '../imagePath';
 function Contact() {
-
     const [formData, setFormData] = useState({
-        name: '',
-        number: '',
-        email: '',
-        message: '',
+      name: '',
+      mobile: '',
+      email: '',
+      message: '',
     });
-
+  
     const [formSubmitted, setFormSubmitted] = useState(false);
     const [recaptchaValue, setRecaptchaValue] = useState(null);
-
+  
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prevData) => ({ ...prevData, [name]: value }));
+      const { name, value } = e.target;
+      setFormData((prevData) => ({ ...prevData, [name]: value }));
     };
-
+  
     const handleRecaptchaChange = (value) => {
-        setRecaptchaValue(value);
+      setRecaptchaValue(value);
+    };
+    
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      if (validateForm()) {
+        setFormData({
+          name: '',
+          mobile: '',
+          email: '',
+          message: '',
+        });
+  
+        setFormSubmitted(true);
+  
+        setTimeout(() => {
+          setFormSubmitted(false);
+        }, 5000);
+      }
     };
 
     const validateForm = () => {
@@ -33,10 +50,10 @@ function Contact() {
             return false;
         }
 
-        if (!formData.number.trim()) {
+        if (!formData.mobile.trim()) {
             alert('Number is required');
             return false;
-        } else if (!/^\d+$/.test(formData.number)) {
+        } else if (!/^\d+$/.test(formData.mobile)) {
             alert('Invalid Number');
             return false;
         }
@@ -62,23 +79,7 @@ function Contact() {
         return true;
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (validateForm()) {
-            setFormData({
-                name: '',
-                number: '',
-                email: '',
-                message: '',
-            });
 
-            setFormSubmitted(true);
-
-            setTimeout(() => {
-                setFormSubmitted(false);
-            }, 5000);
-        }
-    };
 
 
     return (
@@ -97,60 +98,68 @@ function Contact() {
                 </section>
 
                 <section className='contact-section2'>
-                    <div className='contact-content2'>
+                    <div className='contact-content2'>       
                         <div className='contact-div1'>
                             <div className='contact-body1'>
                                 <div className='contact-form'></div>
-                                <form name='contact-form' onSubmit={handleSubmit}>
-                                    <p>
-                                        <span className='relative'>
-                                            <img src={imagePaths.name} alt='' />
-                                            <input
-                                                type='text'
-                                                name='number'
-                                                placeholder='Name'
-                                                value={formData.number}
-                                                onChange={handleChange}
-                                            ></input>
-                                            <p className='error-message'></p>
-                                        </span>
+                                <form name="contact-form" onSubmit={handleSubmit}>
+                  <p>
+                    <span className="relative">
+                      <input
+                        type="text"
+                        name="name"
+                        size="40"
+                        id="name"
+                        aria-invalid="false"
+                        placeholder="Name"
+                        value={formData.name}
+                        onChange={handleChange}
+                      ></input>
+                      <p className="error-message"></p>
+                    </span>
 
-                                        <span className='relative'>
-                                            <img src={imagePaths.number} alt='' />
-                                            <input
-                                                type='text'
-                                                name='number'
-                                                placeholder='Phone'
-                                                value={formData.number}
-                                                onChange={handleChange}
-                                            ></input>
-                                            <p className='error-message'></p>
-                                        </span>
+                    <span className="relative">
+                      <input
+                        type="tel"
+                        name="mobile" 
+                        size="40"
+                        id="mobile"
+                        aria-invalid="false"
+                        placeholder="Phone"
+                        value={formData.mobile}
+                        onChange={handleChange}
+                      ></input>
+                      <p className="error-message"></p>
+                    </span>
 
-                                        <span className='relative'>
-                                            <img src={imagePaths.email} alt='' />
-                                            <input
-                                                type='text'
-                                                name='email'
-                                                placeholder='Email'
-                                                value={formData.email}
-                                                onChange={handleChange}
-                                            ></input>
-                                            <p className='error-message'></p>
-                                        </span>
+                    <span className="relative">
+                      <input
+                        type="email"
+                        name="email" 
+                        size="40"
+                        id="email"
+                        aria-invalid="false"
+                        placeholder="Email"
+                        value={formData.email}
+                        onChange={handleChange}
+                      ></input>
+                      <p className="error-message"></p>
+                    </span>
 
-                                        <span className='relative'>
-                                            <img src={imagePaths.textArea} alt='' />
-                                            <input
-                                                type='text'
-                                                name='message'
-                                                placeholder='Message'
-                                                value={formData.message}
-                                                onChange={handleChange}
-                                            ></input>
-                                            <p className='error-message'></p>
-                                        </span>
-                                    </p>
+                    <span className="relative">
+                      <textarea
+                        name="message" 
+                        cols="40"
+                        rows="10"
+                        id="message"
+                        aria-invalid="false"
+                        placeholder="Message"
+                        value={formData.message}
+                        onChange={handleChange}
+                      ></textarea>
+                      <p className="error-message"></p>
+                    </span>
+                  </p>
 
                                     <ReCAPTCHA
                                         sitekey="6Lf-MjcpAAAAAJQKQkI7JUSYfhWvYGl0pdULqPVv"

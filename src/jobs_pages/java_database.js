@@ -17,7 +17,7 @@ function JavaDatabase() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>Java with Database</h1>
                     <ol>

@@ -17,7 +17,7 @@ function PowerbiEngineer() {
                 </a>
               </div>
               </div>
-              
+
                 <div className='research-content'>
                     <h1>Power BI Engineer</h1>
                     <ol>
