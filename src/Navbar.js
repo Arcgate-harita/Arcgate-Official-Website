@@ -272,7 +272,7 @@ function Navbar() {
                             <img src={imagePaths.tech1} alt='' />
                           </span>
                           <span className='data-process-text'>
-                            AD TECH
+                            ADTECH
                           </span>
                         </Link>
                       </li>

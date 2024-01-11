@@ -63,7 +63,7 @@ function Clients() {
                             </div>
                             <div className='clients-body3'>
                                 <p>Helped a large Oil & Energy Analytics company
-                                    <span>collect, standardize and map data from 2 million public filings</span>
+                                    <span> collect, standardize and map data from 2 million public filings </span>
                                     to enable making real-time trading decisions.
                                 </p>
                                 <p></p>
@@ -85,7 +85,7 @@ function Clients() {
                             <div className='clients-body3'>
                                 <p>
                                     Classified and analyzed top
-                                    <span>5 million websites for spam, viruses and malware</span>for a publicly traded Security Software Vendor using proprietary algorithms.
+                                    <span> 5 million websites for spam, viruses and malware </span>for a publicly traded Security Software Vendor using proprietary algorithms.
                                 </p>
                                 <p></p>
                             </div>
@@ -102,7 +102,7 @@ function Clients() {
                             </div>
                             <div className='clients-body3'>
                                 <p>Trained photo, video and content matching algorithms for a large media company using
-                                    <span>human scoring, tagging and categorization.</span>
+                                    <span> human scoring, tagging and categorization.</span>
                                 </p>
                                 <p></p>
                             </div>
@@ -122,7 +122,7 @@ function Clients() {
                             </div>
                             <div className='clients-body3'>
                                 <p>Collected and annotated business listings,
-                                    <span>photos and food menu data </span>for a market leader in the on-demand delivery space.
+                                    <span> photos and food menu data </span>for a market leader in the on-demand delivery space.
                                 </p>
                                 <p></p>
                             </div>

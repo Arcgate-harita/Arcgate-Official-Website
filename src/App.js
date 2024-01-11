@@ -116,6 +116,7 @@ import {
 } from "./Data_solution_pages";
 
 import AboutImage from "./About_pages/AboutImage";
+import AboutVideo from "./About_pages/AboutVideo";
 
 
 import {
@@ -146,8 +147,9 @@ import {
   Quality5,
   Quality6,
 } from "./QA_pages";
-import Nutsuite from "./technology_pages/Nutsuite";
 
+import Nutsuite from "./technology_pages/Nutsuite";
+import Apply from "./components/apply";
 
 function App() {
   return (
@@ -246,6 +248,7 @@ function App() {
         <Route path="/Data7" element={<Data7 />} />
         <Route path="/Data8" element={<Data8 />} />
         <Route path="/aboutImage" element={<AboutImage />} />
+        <Route path="/aboutVideo" element={<AboutVideo />} />
         <Route path="/view1" element={<View1 />} />
         <Route path="/view2" element={<View2 />} />
         <Route path="/view3" element={<View3 />} />
@@ -263,7 +266,7 @@ function App() {
         <Route path="/quality4" element={<Quality4 />} />
         <Route path="/quality5" element={<Quality5 />} />
         <Route path="/quality6" element={<Quality6 />} />
-
+        <Route path="/apply" element={<Apply />} />
 
       </Routes>
       <Footer />

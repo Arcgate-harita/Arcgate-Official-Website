@@ -209,6 +209,52 @@ input[type=submit] {
     left: 100px;
 }
 
+.custom-file-upload {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .custom-file-upload input[type="file"] {
+    display: none;
+  }
+  
+  .upload-icon-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 4px;
+    gap: 12px;
+  }
+  
+  .upload-icon {
+    margin-right: 8px;
+    display: none;
+  }
+  
+  .uploaded-file-name {
+    margin-top: 8px;
+  }
+  
+  .upload-icon-container img {
+  width: 29px;
+    transform: scaleX(-1);
+  }
+
+  .upload-icon-container p {
+   font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 700;
+    outline: 0;
+    color: #8080809c;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+  }
 
 @media only screen and (max-width: 767px) {
     .contact-content1 h1 {
