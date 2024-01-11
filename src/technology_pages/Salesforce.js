@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import goToTop from "../images/goto_top.png";
 
 function Salesforce() {
-    const [isVisible, setIsVisible] = useState(false);
+      const [isVisible, setIsVisible] = useState(false);
 
     const goToBtn = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -27,12 +27,11 @@ function Salesforce() {
         window.addEventListener("scroll", listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
-    
+  
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
-
-      
+  
     return (
         <div className='app-container'>
             <section className='app-section1'>
