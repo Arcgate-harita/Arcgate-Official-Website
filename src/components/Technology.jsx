@@ -91,6 +91,7 @@ function Technology() {
                         <div className='technology-div2'>
 
                             <div className='data-process-type1'>
+
                                 <div data-aos="fade-in">
                                     <Link to="/application-development">
 
@@ -121,6 +122,7 @@ function Technology() {
                                         </span>
                                     </Link>
                                 </div>
+
                             </div>
                             <div className='data-process-type1'>
                                 <div data-aos="fade-in">
