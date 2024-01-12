@@ -9,3 +9,4 @@ export { default as NetDatabase } from "./net_developer";
 export { default as SoftwareTesting } from "./SoftwareTesting";
 export { default as DevopsEngineer } from "./devops_engineer";
 export { default as PowerbiEngineer } from "./powerBI";
+export { default as Form } from "./form";

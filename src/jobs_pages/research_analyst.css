@@ -6,7 +6,7 @@
 }
 
 
-.research-container section {
+.research-container .research-section {
     display: block !important;
     position: fixed;
     bottom: 0;
@@ -121,3 +121,315 @@
     color: white;
     background: #e85631;
 }
+
+.form-section2 {
+width: 30%;
+float: right;
+height: 100%;
+border-left: 1px solid #e5e5e5;
+padding: 20px;
+display: flex;
+align-items: flex-start;
+padding-top: 80px;
+overflow-y: scroll;
+}
+
+
+.form-section2 .form-content2 h1{
+margin: 10px 0;
+font-weight: bolder;
+text-align: left;
+font-size: 28px;
+}
+
+
+.form-div1 {
+height: 100%;
+    float: none;
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.form-section2 input[type=text] {
+    background-position: 2px 6px;
+    background-image: url("../images/name.png");
+    padding-left: 35px;
+}
+
+.form-section2 input[type=tel] {
+    background-position: 2px 6px;
+    padding-left: 35px;
+}
+
+.form-section2 input[type=email] {
+    background-position: 2px 6px;
+    padding-left: 35px;
+}
+
+.form-section2 input[type=text],
+.form-section2 input[type=tel],
+.form-section2 input[type=email] {
+    width: 100%;
+    max-width: 500px;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+    color: #e85631;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-family: proximanovasemibold_0, Arial, Helvetica, sans-serif;
+}
+
+
+input {
+    vertical-align: middle;
+}
+
+
+.form-section2 textarea {
+    width: 100%;
+    max-width: 500px;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+    color: #e85631;
+    font-size: 16px;
+    padding: 10px;
+    overflow-y: hidden;
+    margin: 20px 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-family: proximanovasemibold_0, Arial, Helvetica, sans-serif;
+    resize: none;
+    background-image: url(../images/textarea.png);
+    background-position: 2px 9px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-color: transparent;
+    height: 40px;
+}
+
+
+.form-section2 input[type=text] {
+    width: 100%;
+    max-width: 500px;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+    color: #e85631;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-family: proximanovasemibold_0, Arial, Helvetica, sans-serif;
+    resize: none;
+    background-image: url(../images/name.png);
+    background-position: 2px 9px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-color: transparent;
+    height: 40px;
+}
+
+.form-section2 input[type=tel] {
+    width: 100%;
+    max-width: 500px;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+    color: #e85631;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-family: proximanovasemibold_0, Arial, Helvetica, sans-serif;
+    resize: none;
+    background-image: url(../images/tel.png);
+    background-position: 2px 9px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-color: transparent;
+    height: 40px;
+}
+
+.form-section2 input[type=email] {
+    width: 100%;
+    max-width: 500px;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+    color: #e85631;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-family: proximanovasemibold_0, Arial, Helvetica, sans-serif;
+    resize: none;
+    background-image: url(../images/email.png);
+    background-position: 2px 9px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    height: 40px;
+}
+
+.form-section2 input[type=text],
+.form-section2 input[type=tel],
+.form-section2 input[type=email],
+.form-section2 textarea {
+    width: 100%;
+    max-width: 500px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #e85631;
+    font-size: 16px;
+    margin: 20px 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-family: proximanovasemibold_0, Arial, Helvetica, sans-serif;
+    resize: none;
+    background-color: transparent;
+    height: 40px;
+    transition: border-bottom-color 0.3s;
+}
+
+
+.form-section2 input[type=text]:focus,
+.form-section2 input[type=tel]:focus,
+.form-section2 input[type=email]:focus,
+.form-section2 textarea:focus {
+    border-bottom-color: #e85631;
+    outline: none;
+}
+
+.form-section2 input[type=text],
+.form-section2 input[type=tel],
+.form-section2 input[type=email],
+.form-section2 textarea {
+    position: relative;
+    z-index: 1;
+}
+
+
+.image-container {
+    position: relative;
+    z-index: 0;
+}
+
+.form-button {
+    position: fixed;
+    bottom: -15px;
+    width: 30%;
+    margin: 0 -21px;
+    z-index: 1;
+}
+
+
+.submit-btn {
+    position: absolute;
+    z-index: 999;
+    background: #000000a8;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 20px;
+    bottom: 14px;
+}
+
+.form-button-link {
+    display: none;
+}
+
+input[type=submit] {
+    max-width: 100%;
+    text-transform: capitalize;
+    border-radius: 0;
+    display: inline-block;
+    margin: 15px 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e85631;
+    background: #e85631;
+}
+
+.form-section2 .address {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+}
+
+.form-section2 .address h4 {
+    font-size: 24px;
+    text-align: left;
+    font-family: sans-serif;
+    line-height: 35px;
+    color: #000;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.form-div1 .form-body1 input[type=text]:focus,
+.form-div1 .form-body1 input[type=tel]:focus,
+.form-div1 .form-body1 input[type=email]:focus,
+.form-div1 .form-body1 textarea:focus {
+    border-color: #e85631;
+}
+
+.success-message {
+    border: 2px solid green;
+    position: absolute;
+    top: -55px;
+    padding: 6px;
+    left: 100px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    position: relative;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.becomeagian-left {
+    width: 70%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.becom-in {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.becom-in h1 {
+    margin: 10px 0;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 40px;
+}
+
+.becom-in h2 {
+    margin: 0 0 40px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+
