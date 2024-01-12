@@ -12,19 +12,19 @@ function Quality2() {
     const goToBtn = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     };
-  
+
     const listenToScroll = () => {
         let heightToHidden = 20;
         const winScroll =
             document.body.scrollTop || document.documentElement.scrollTop;
-  
+
         if (winScroll > heightToHidden) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
         }
     };
-  
+
     useEffect(() => {
         window.addEventListener("scroll", listenToScroll);
         return () => window.removeEventListener("scroll", listenToScroll);
@@ -32,9 +32,9 @@ function Quality2() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
-    
-      
+    }, []);
+
+
     return (
         <div className='quality-container'>
             <article>
@@ -192,6 +192,9 @@ function Quality2() {
                                         <img src={imagePaths.LibraryLogo8} alt='' className='image2' />
                                     </div>
                                     <div>
+                                        <img src={imagePaths.jsLogo} alt='' className='image4' />
+                                    </div>
+                                    <div>
                                         <img src={imagePaths.LibraryLogo9} alt='' className='image4' />
                                     </div>
                                 </div>
@@ -206,10 +209,13 @@ function Quality2() {
                             <div className='app-logs'>
                                 <div className='app-images'>
                                     <div>
-                                        <img src={imagePaths.xamarinLOgo} alt='' className='image9' />
+                                        <img src={imagePaths.appium} alt='' className='image9' />
                                     </div>
                                     <div>
                                         <img src={imagePaths.LibraryLogo13} alt='' className='image10' />
+                                    </div>
+                                    <div>
+                                        <img src={imagePaths.puppeteer} alt='' className='image10' />
                                     </div>
                                     <div>
                                         <img src={imagePaths.LibraryLogo14} alt='' className='image11' />

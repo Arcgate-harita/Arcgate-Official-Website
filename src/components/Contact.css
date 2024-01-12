@@ -80,7 +80,9 @@
     padding-left: 35px;
 }
 
-.contact-section2 input[type=text], .contact-section2 input[type=tel], .contact-section2 input[type=email] {
+.contact-section2 input[type=text],
+.contact-section2 input[type=tel],
+.contact-section2 input[type=email] {
     width: 100%;
     max-width: 500px;
     border: solid #ccc;
@@ -191,8 +193,8 @@ input {
 .contact-section2 textarea {
     width: 100%;
     max-width: 500px;
-    border: none; 
-    border-bottom: 1px solid #ccc; 
+    border: none;
+    border-bottom: 1px solid #ccc;
     color: #e85631;
     font-size: 16px;
     margin: 20px 0;
@@ -202,7 +204,7 @@ input {
     resize: none;
     background-color: transparent;
     height: 40px;
-    transition: border-bottom-color 0.3s; 
+    transition: border-bottom-color 0.3s;
 }
 
 
@@ -210,22 +212,22 @@ input {
 .contact-section2 input[type=tel]:focus,
 .contact-section2 input[type=email]:focus,
 .contact-section2 textarea:focus {
-    border-bottom-color: #e85631; 
-    outline: none; 
+    border-bottom-color: #e85631;
+    outline: none;
 }
 
 .contact-section2 input[type=text],
 .contact-section2 input[type=tel],
 .contact-section2 input[type=email],
 .contact-section2 textarea {
-    position: relative; 
-    z-index: 1; 
+    position: relative;
+    z-index: 1;
 }
 
 
 .image-container {
     position: relative;
-    z-index: 0; 
+    z-index: 0;
 }
 
 
@@ -299,37 +301,43 @@ input[type=submit] {
 .custom-file-upload {
     display: inline-block;
     position: relative;
-  }
-  
-  .custom-file-upload input[type="file"] {
+}
+
+.custom-file-upload input[type="file"] {
     display: none;
-  }
-  
-  .upload-icon-container {
+}
+
+.upload-icon-container {
     display: flex;
     align-items: center;
     cursor: pointer;
     padding: 8px 12px;
     border-radius: 4px;
     gap: 12px;
-  }
-  
-  .upload-icon {
+}
+
+.upload-icon {
     margin-right: 8px;
     display: none;
-  }
-  
-  .uploaded-file-name {
-    margin-top: 8px;
-  }
-  
-  .upload-icon-container img {
-  width: 29px;
-    transform: scaleX(-1);
-  }
+}
 
-  .upload-icon-container p {
-   font-family: 'Proxima Nova', sans-serif;
+.uploaded-file-name {
+    margin-top: -51px;
+    font-weight: 700;
+    line-height: 54px;
+    cursor: pointer;
+    color: #a0a0a0;
+    font-size: 18px;
+    margin-left: 53px;
+}
+
+.upload-icon-container img {
+    width: 29px;
+    transform: scaleX(-1);
+}
+
+.upload-icon-container p {
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 0;
@@ -341,7 +349,7 @@ input[type=submit] {
     font-size: 100%;
     vertical-align: baseline;
     background: 0 0;
-  }
+}
 
 @media only screen and (max-width: 767px) {
     .contact-content1 h1 {

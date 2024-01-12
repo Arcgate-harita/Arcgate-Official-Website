@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "../Data_solution_pages/Data.css";
 import data from "../Data_solution_pages/data_para";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 AOS.init();
 
 AOS.init({
@@ -26,7 +27,12 @@ AOS.init({
 
 });
 
+
+
 function Data5() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='data-solution-container'>
       <article>

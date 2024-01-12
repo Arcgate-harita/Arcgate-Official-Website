@@ -32,7 +32,7 @@ AOS.init({
 
 function Career() {
 
-    
+
 
     const [isVisible, setIsVisible] = useState(false);
 
@@ -57,6 +57,9 @@ function Career() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
 
     return (
@@ -67,7 +70,7 @@ function Career() {
                         <h1 id='arcgatian'>Become an Arcgatian</h1>
                         <div className='career-div1'>
 
-                            <div data-aos="fade-left"><p className='orange'>WE THRIVE ON EXPERIENCE</p></div>
+                            <p data-aos="fade-left" className='orange'>WE THRIVE ON EXPERIENCE</p>
                             <p data-aos="fade-left" className='lightBlue'>WE CRAVE FOR INNOVATION</p>
                             <p data-aos="fade-right" className='lightGreen'>WE WORK TOWARDS SETTING AN EXAMPLE FOR OUR CLIENTS WITH OUR CONDUCT, WORK AND PROFESSIONALISM</p>
                             <p data-aos="fade-left" className='red'>WE WORK HARD AND LAUGH A LOT</p>
@@ -225,7 +228,7 @@ function Career() {
 
                                 <div className='career-button-div'>
                                     <div className='career-link-button'>
-                                    <Link to="/aboutVideo">VEIW </Link>
+                                        <Link to="/video">VEIW </Link>
                                     </div>
                                 </div>
                             </div>
@@ -246,16 +249,16 @@ function Career() {
                                                 <Link to="/research">Research Analyst</Link>
                                             </li>
                                             <li>
-                                            <Link to="/qualityAnalyst">Quality Analyst</Link>
+                                                <Link to="/qualityAnalyst">Quality Analyst</Link>
                                             </li>
                                             <li>
-                                            <Link to="/accountExecutive">Accounts Executive</Link>
+                                                <Link to="/accountExecutive">Accounts Executive</Link>
                                             </li>
                                             <li>
-                                            <Link to="/seniorAccountExecutive">Senior Accounts Executive</Link>
+                                                <Link to="/seniorAccountExecutive">Senior Accounts Executive</Link>
                                             </li>
                                             <li>
-                                            <Link to="/nonVoiceCustomer">Non-Voice Customer Support</Link>
+                                                <Link to="/nonVoiceCustomer">Non-Voice Customer Support</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -263,22 +266,22 @@ function Career() {
                                         <h4>Technology</h4>
                                         <ul>
                                             <li>
-                                            <Link to="/pythonDatabase">Python with Database</Link>
+                                                <Link to="/pythonDatabase">Python with Database</Link>
                                             </li>
                                             <li>
-                                            <Link to="/javaDatabase">Java Database</Link>
+                                                <Link to="/javaDatabase">Java Database</Link>
                                             </li>
                                             <li>
-                                            <Link to="/netDatabase">.Net Developer</Link>
+                                                <Link to="/netDatabase">.Net Developer</Link>
                                             </li>
                                             <li>
-                                            <Link to="/softwareTesting">Software QA Testing - Automation</Link>
+                                                <Link to="/softwareTesting">Software QA Testing - Automation</Link>
                                             </li>
                                             <li>
-                                            <Link to="/devopsEngineer">DevOps Engineer</Link>
+                                                <Link to="/devopsEngineer">DevOps Engineer</Link>
                                             </li>
                                             <li>
-                                            <Link to="/powerbiEngineer">Power BI Engineer</Link>
+                                                <Link to="/powerbiEngineer">Power BI Engineer</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -286,7 +289,7 @@ function Career() {
                                 </div>
                                 <div className='career-button-div'>
                                     <div className='career-button-link'>
-                                    <Link to="/apply">APPLY</Link>
+                                        <Link to="/apply">APPLY</Link>
                                     </div>
                                 </div>
                             </div>

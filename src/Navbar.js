@@ -82,6 +82,7 @@ function Navbar() {
     }
   }, [location.pathname]);
 
+
   const handleLogoClick = () => {
     if (location.pathname === '/') {
       window.location.reload();
@@ -95,6 +96,9 @@ function Navbar() {
       navigate('/');
     }
   };
+
+
+
   return (
     <header>
       <div className="header-container">
@@ -116,8 +120,7 @@ function Navbar() {
         )}
         <section className={`navbar ${isOpen ? 'open' : ''}`} >
 
-          <div className="arcgate-logo"  onClick={handleLogoClick} style={{ display: logo === "arcgate" ? 'block' : 'none' }}>
-
+          <div className="arcgate-logo" onClick={handleLogoClick} style={{ display: logo === "arcgate" ? 'block' : 'none' }}>
             <Link to="/"></Link>
           </div>
           <div className="podcast-logo" style={{ display: logo === "podcast" ? 'block' : 'none' }}>

@@ -29,7 +29,10 @@ function Podcast() {
         return () => window.removeEventListener("scroll", listenToScroll);
     }, []);
 
-    
+      useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='blogView-container' data-testid="blogView-container">
             <article>

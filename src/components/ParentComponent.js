@@ -11,13 +11,15 @@ const ParentComponent = () => {
     }
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
-      {/* ... other content ... */}
       <BodyContainer onLearnMoreClick={handleLearnMoreClick} />
       <About ref={aboutRef} />
     </div>
   );
 };
-
 export default ParentComponent;
