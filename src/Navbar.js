@@ -13,9 +13,6 @@ import podcastLogo from "./images/logo_podcasts.png";
 
 import blogLogo from "./images/logo_arcgate_blog.png";
 
-
-
-
 function Navbar() {
 
   const location = useLocation();
@@ -55,7 +52,7 @@ function Navbar() {
     setIsBpoMenuOpen(false);
     setIsIndustriesMenuOpen(false);
     setIsInsightMenuOpen(false);
-  };
+  }
 
   const handleCancelClick = () => {
     setIsOpen(false);
@@ -86,7 +83,29 @@ function Navbar() {
   const handleLogoClick = () => {
     if (location.pathname === '/') {
       window.location.reload();
-    } else {
+    } 
+
+    else if (location.pathname === '/about') {
+      window.location.reload();
+    }
+
+    else if (location.pathname === '/technology') {
+      window.location.reload();
+    }
+
+    else if (location.pathname === '/clients') {
+      window.location.reload();
+    }
+
+    else if (location.pathname === '/career') {
+      window.location.reload();
+    }
+
+    else if (location.pathname === '/contact') {
+      window.location.reload();
+    }
+    
+     else {
       setActiveDropdown(null);
       setIsOpen(false);
       setIsBpoMenuOpen(false);
@@ -96,7 +115,6 @@ function Navbar() {
       navigate('/');
     }
   };
-
 
 
   return (
@@ -153,7 +171,7 @@ function Navbar() {
                 </div>
               )}
 
-              <li className={location.pathname === '/about' ? 'active' : ''}>
+              <li className={location.pathname === '/about' ? 'active' : ''} onClick={handleLogoClick} >
                 <NavLink to='/about'>ABOUT</NavLink>
               </li>
 
@@ -162,7 +180,7 @@ function Navbar() {
                   }`}
                 onMouseEnter={() => handleMouseEnter('bpo')}
               >
-                <NavLink to="/view1">
+                <a>
                   BPO
                   <span className="down-arrow"></span>
                   {activeDropdown === 'bpo' && (
@@ -247,12 +265,12 @@ function Navbar() {
                     </ul>
 
                   )}
-                </NavLink>
+                </a>
 
               </li>
 
 
-              <li className={location.pathname === '/technology' ? 'active' : ''}>
+              <li className={location.pathname === '/technology' ? 'active' : ''} onClick={handleLogoClick}>
                 <NavLink to='/technology'>TECHNOLOGY</NavLink>
               </li>
 
@@ -262,7 +280,7 @@ function Navbar() {
                   }`}
                 onMouseEnter={() => handleMouseEnter('industries')}
               >
-                <NavLink to="/view2">
+                <a>
                   INDUSTRIES
                   <span className="down-arrow"></span>
                   {activeDropdown === 'industries' && (
@@ -345,18 +363,18 @@ function Navbar() {
                       </div>
                     </ul>
                   )}
-                </NavLink>
+                </a>
               </li>
 
-              <li className={location.pathname === '/clients' ? 'active' : ''}>
+              <li className={location.pathname === '/clients' ? 'active' : ''} onClick={handleLogoClick}>
                 <NavLink to="/clients">CLIENTS</NavLink>
               </li>
 
-              <li className={location.pathname === '/career' ? 'active' : ''}>
+              <li className={location.pathname === '/career' ? 'active' : ''} onClick={handleLogoClick}>
                 <Link to="/career">CAREERS</Link>
               </li>
 
-              <li className={location.pathname === '/contact' ? 'active' : ''}>
+              <li className={location.pathname === '/contact' ? 'active' : ''} onClick={handleLogoClick}>
                 <Link to="/contact">CONTACT</Link>
               </li>
 
@@ -365,7 +383,7 @@ function Navbar() {
                   }`}
                 onMouseEnter={() => handleMouseEnter('insight')}
               >
-                <NavLink to="/view3">
+               <a>
                   INSIGHT
                   <span className="down-arrow"></span>
                   {activeDropdown === 'insight' && (
@@ -407,7 +425,7 @@ function Navbar() {
                       </div>
                     </ul>
                   )}
-                </NavLink>
+                </a>
               </li>
 
             </ul>

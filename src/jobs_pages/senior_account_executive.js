@@ -12,7 +12,7 @@ function SeniorAccountExecutive() {
   return (
     <div className='research-container'>
       <article>
-        <section>
+        <section className='research-section'>
           <div className='header-logo'>
             <img src={ArcgateLogo}></img>
             <p></p>

@@ -505,7 +505,7 @@ const About = () => {
             </div>
             <p></p>
           </div>
-        </section>
+        </section>+
 
         <section id="why-arcgate" className="about-section7">
           <div className="about-content5">

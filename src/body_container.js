@@ -6,7 +6,8 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import goToTop from "./images/goto_top.png";
-import arrowIcon from "./images/arrow-right.svg"
+import ScrollSection from './scroll_section';
+
 
 AOS.init();
 
@@ -543,9 +544,14 @@ function BodyContainer() {
                         </div>
                     </div>
                 </section>
+
+             
             </article>
+
+          
             {isVisible && (
                 <>
+                <ScrollSection />
                     <div className="top-btn" onClick={goToBtn}>
                         <img src={goToTop} className="top-btn--icon" />
                     </div>

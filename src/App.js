@@ -164,9 +164,10 @@ import {
   SoftwareTesting,
   DevopsEngineer,
   PowerbiEngineer,
+  Form,
 } from "./jobs_pages";
 
-
+import TalkPage from "./talk_page";
 
 function App() {
   return (
@@ -296,6 +297,8 @@ function App() {
         <Route path="/softwareTesting" element={<SoftwareTesting />} />
         <Route path="/devopsEngineer" element={<DevopsEngineer />} />
         <Route path="/powerbiEngineer" element={<PowerbiEngineer />} />
+        <Route path="/talkPage" element={<TalkPage />} />
+        <Route path="/form" element={<Form />} />
 
       </Routes>
       <Footer />
