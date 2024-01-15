@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import imagePaths from '../imagePath';
 import ModalVideo from 'react-modal-video';
-import 'react-modal-video/css/modal-video.min.css'; // Import the CSS directly
+import 'react-modal-video/css/modal-video.min.css'; 
 import '../About_pages/AboutVideo.css';
 import { useEffect } from 'react';
 

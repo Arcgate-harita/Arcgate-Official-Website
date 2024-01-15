@@ -43,7 +43,6 @@
   text-align: inherit;
   color: #1a171b;
   width: 82%;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   line-height: 2.09em;
   float: left;
   font-size: 36px;
@@ -55,7 +54,6 @@
   font-size: 24px;
   line-height: 1.25em;
   width: 86%;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   margin-bottom: 26px;
 }
 
@@ -105,7 +103,6 @@
 
 .about-list1-item ul li h6 {
   text-align: center;
-  font-family: "Montserrat,Cinzel ";
   color: #868e90;
   font-weight: 400;
   font-style: normal;
@@ -157,7 +154,6 @@
 }
 
 .about-list2-item ul li h6 {
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   color: #868e90;
   font-weight: 400;
   font-style: normal;
@@ -189,7 +185,6 @@
 .about-content1 h1 {
   font-size: 36px;
   text-align: center;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   font-weight: 400;
   color: #000;
   margin-bottom: 22px;
@@ -203,7 +198,6 @@
 .about-content1 center p {
   color: #000;
   width: 90%;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   line-height: normal;
   font-size: 24px;
 }
@@ -264,7 +258,6 @@
   text-align: center;
   font-size: 36px;
   font-weight: 400;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   margin: 0 auto;
   margin-bottom: 23px;
 }
@@ -327,7 +320,6 @@
   text-align: left;
   font-size: 16px;
   line-height: 20px;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
 }
 
 .about-section5 {
@@ -445,7 +437,6 @@
 
 .awards-body-row p {
   font-size: 24px;
-  font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
   color: #231f20;
   text-align: inherit;
   line-height: 1.2em;
