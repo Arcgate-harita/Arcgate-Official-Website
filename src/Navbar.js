@@ -18,7 +18,6 @@ function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
 
-
   const [isBpoMenuOpen, setIsBpoMenuOpen] = useState(false);
   const [isIndustriesMenuOpen, setIsIndustriesMenuOpen] = useState(false);
   const [isInsightMenuOpen, setIsInsightMenuOpen] = useState(false);
@@ -128,7 +127,7 @@ function Navbar() {
                 Become an Arcgatian. Join our team and deliver outsourcing services to the most innovative companies in the world.
               </span>
             </p>
-            <a className="current-link" href="#current-openings">
+            <a className="current-link" href="/about">
               See Current Openings
             </a>
             <button id="cancelButton" onClick={handleCancelClick}>

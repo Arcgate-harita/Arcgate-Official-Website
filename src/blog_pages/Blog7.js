@@ -4,7 +4,6 @@ import imagePaths from '../imagePath';
 import paragraphs from '../blog_pages/Paragraph';
 import "../blog_pages/Blog_comman.css";
 import { useEffect , useState} from 'react';
-import goToTop from "../images/goto_top.png";
 
 function Blog7() {
     useEffect(() => {

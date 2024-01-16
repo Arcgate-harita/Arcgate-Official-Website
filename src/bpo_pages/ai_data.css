@@ -157,13 +157,6 @@
     font-weight: 600;
     font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
     text-align: left;
-    /* margin: 30px 0;
-    padding: 0 40px;
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "proxima, nova, regular, web font_0,Arial,Helvetica,sans-serif";
-    line-height: 26px;
-    text-align: left; */
 }
 
 .data-section3 {
@@ -183,7 +176,6 @@
 .data-section3 .data-content3 .data-right2 {
     width: 26%;
     margin-top: -639px;
-    /* float: right; */
     margin-left: 942px;
 }
 

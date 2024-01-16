@@ -3,13 +3,10 @@ import { Link } from "react-router-dom";
 import imagePaths from '../imagePath';
 import paragraphs from '../blog_pages/Paragraph';
 import { useEffect , useState} from 'react';
-import goToTop from "../images/goto_top.png";
-
 
 function Blog9() {
 
     useEffect(() => {
-
         window.scrollTo(0, 0);
     }, []);
 
